@@ -1,0 +1,60 @@
+rank,company,industry,revenue,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,288189.0,,WMT
+2,Exxon Mobil Corporation,Petroleum Refining,270772.0,,XOM
+4,Ford Motor Company,Motor Vehicles & Parts,172233.0,,F
+5,General Electric Company,Diversified Financials,152363.0,,GE
+7,ConocoPhillips,Petroleum Refining,121663.0,,COP
+8,"Citigroup, Inc.",Commercial Banks,108276.0,,C
+9,"American International Group,Inc.",Insurance: Property and Casualty (Stock),98610.0,,AIG
+10,International Business Machines Corporation,"Computers, Office Equipment",96293.0,,IBM
+14,Verizon Communications Inc.,Telecommunications,71563.3,,VZ
+15,McKesson Corporation,Wholesalers: Health Care,69506.1,,MCK
+16,"Cardinal Health, Inc.",Wholesalers: Health Care,65130.6,,CAH
+17,"Altria Group, Inc.",Tobacco,64440.0,,MO
+18,Bank of America Corporation,Commercial Banks,63324.0,,BAC
+20,J.P. Morgan Chase & Co.,Commercial Banks,56931.0,,JPM
+21,The Kroger Company,Food & Drug Stores,56434.4,,KR
+22,Valero Energy Corporation,Petroleum Refining,53918.6,,VLO
+24,Pfizer Inc.,Pharmaceuticals,52921.0,,PFIZER.NS
+25,Boeing,Aerospace & Defense,52553.0,,BA
+27,Target Corporation,General Merchandisers,49934.0,,TGT
+29,Costco Wholesale Corporation,Specialty Retailers,48107.0,,COST
+30,Johnson & Johnson,Pharmaceuticals,47348.0,,JNJ
+32,Time Warner Inc.,Entertainment,42869.0,,T
+36,Morgan Stanley,Securities,39549.0,,MS
+37,"MetLife, Inc.","Insurance: Life, Health (Stock)",39535.0,,MET
+40,"UnitedHealth Group, Incorporated",Health Care: Insurance and Managed Care,37218.0,,UNH
+41,Microsoft Corporation,Computer Software,36835.0,,MSFT
+42,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",36582.0,,UPS
+47,Lockheed Martin Corporation,Aerospace & Defense,35526.0,,LMT
+49,"Motorola, Inc.",Network and Other Communications Equipment,35349.0,,MSI
+50,Intel Corporation,Semiconductors and Other Electronic Components,34209.0,,INTC
+51,The Allstate Corporation,Insurance: Property and Casualty (Stock),33936.0,,ALL
+52,Wells Fargo & Company,Commercial Banks,33876.0,,WFC
+54,The Walt Disney Company,Entertainment,30752.0,,DIS
+55,CVS Corporation,Food & Drug Stores,30594.3,,CVS
+56,AT&T Corp.,Telecommunications,30537.0,,ATT.L
+57,"Caterpillar, Inc.",Industrial and Farm Equipment,30251.0,,CAT
+58,Northrop Grumman Corporation,Aerospace & Defense,29868.0,,NOC
+59,"The Goldman Sachs Group, Inc.",Securities,29839.0,,TGS
+60,Sysco Corporation,Wholesalers: Food and Grocery,29335.4,,SYY
+61,"PepsiCo, Inc.",Food Consumer Products,29261.0,,PEP
+62,American Express Company,Diversified Financials,29115.0,,AXP
+64,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",28348.0,,PRU
+70,International Paper Company,Forest and Paper Products,26722.0,,IP
+71,"Johnson Controls, Inc.",Motor Vehicles & Parts,26553.4,,JCI
+72,"Tyson Foods, Inc.",Food Production,26441.0,,TSN
+75,Honeywell International Inc.,Aerospace & Defense,25601.0,,HON
+77,Best Buy Co. Inc.,Specialty Retailers,24901.0,,BBY
+78,FedEx Corporation,"Mail, Package, and Freight Delivery",24710.0,,FDX
+79,"Alcoa, Inc.",Metals,23960.0,,AA
+84,"Merck & Co., Inc.",Pharmaceuticals,22938.6,,MRK
+86,Duke Energy,Energy,22779.0,,DUK
+88,The Hartford Financial Services Group Inc.,Insurance: Property and Casualty (Stock),22693.0,,HFF.BE
+89,Weyerhaeuser Company,Forest and Paper Products,22665.0,,WY
+91,"Cisco Systems, Inc.",Network and Other Communications Equipment,22045.0,,CSCO
+94,"Lehman Brothers Holdings, Inc.",Securities,21250.0,,LEHNQ
+95,Electronic Data Systems,Computer And Data Services,21033.0,,EA
+96,"Plains All American Pipeline, L.P.",Pipelines,20975.5,,PAA
+100,Abbott Laboratories,Pharmaceuticals,20473.1,,ABT
+101,Halliburton Company,"Oil and Gas Equipment, Services",20466.0,,HAL

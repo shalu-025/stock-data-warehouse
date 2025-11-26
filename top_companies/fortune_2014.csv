@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,Wal-Mart Stores,General Merchandisers,476294.0,16022.0,,2014,,WMT
+2,Exxon Mobil,Petroleum Refining,407666.0,32580.0,,2014,,XOM
+3,Chevron,Petroleum Refining,220356.0,21423.0,,2014,,CVX
+4,Berkshire Hathaway,Insurance: Property and Casualty (Stock),182150.0,19476.0,,2014,,BRK.A
+5,Apple,"Computers, Office Equipment",170910.0,37037.0,,2014,,APLE
+6,Phillips 66,Petroleum Refining,161175.0,3726.0,,2014,,PSX
+7,General Motors,Motor Vehicles & Parts,155427.0,5346.0,,2014,,GM
+8,Ford Motor,Motor Vehicles & Parts,146917.0,7155.0,,2014,,F
+9,General Electric,Diversified Financials,146231.0,13057.0,,2014,,GE
+10,Valero Energy,Petroleum Refining,137758.0,2720.0,,2014,,VLO
+11,AT&T,Telecommunications,128752.0,18249.0,,2014,,ATT.L
+12,CVS Caremark,Food & Drug Stores,126761.0,4592.0,,2014,,CVS
+13,Fannie Mae,Diversified Financials,125696.0,83963.0,,2014,,FNMA
+14,UnitedHealth Group,Health Care: Insurance and Managed Care,122489.0,5625.0,,2014,,UNH
+15,McKesson,Wholesalers: Health Care,122455.0,1338.0,,2014,,MCK
+16,Verizon Communications,Telecommunications,120550.0,11497.0,,2014,,VZ
+17,Hewlett-Packard,"Computers, Office Equipment",112298.0,5113.0,,2014,,
+18,J.P. Morgan Chase & Co.,Commercial Banks,106283.0,17923.0,,2014,,JPM
+19,Costco Wholesale,Specialty Retailers: Other,105156.0,2039.0,,2014,,COST
+20,Express Scripts Holding,Health Care: Pharmacy and Other Services,104620.0,1845.0,,2014,,ESH.BE
+21,Bank of America,Commercial Banks,101697.0,11431.0,,2014,,BAC
+22,Cardinal Health,Wholesalers: Health Care,101093.0,334.0,,2014,,CAH
+23,International Business Machines,Information Technology Services,99751.0,16483.0,,2014,,IBM
+24,Kroger,Food & Drug Stores,98375.0,1519.0,,2014,,KR
+25,Marathon Petroleum,Petroleum Refining,93991.0,2112.0,,2014,,MPC
+26,Citigroup,Commercial Banks,93629.0,13673.0,,2014,,C
+27,Archer Daniels Midland,Food Production,89804.0,1342.0,,2014,,ADM
+28,AmerisourceBergen,Wholesalers: Health Care,89140.0,434.0,,2014,,ABC.VI
+29,Wells Fargo,Commercial Banks,88069.0,21878.0,,2014,,WFC
+30,Boeing,Aerospace & Defense,86623.0,4585.0,,2014,,BA
+31,Procter & Gamble,Household and Personal Products,84167.0,11312.0,,2014,,PG
+32,Freddie Mac,Diversified Financials,81221.0,48668.0,,2014,,FMCC
+33,Home Depot,Specialty Retailers: Other,78812.0,5385.0,,2014,,HD
+34,Microsoft,Computer Software,77849.0,21863.0,,2014,,MSFT
+35,Amazon.com,Internet Services and Retailing,74452.0,274.0,,2014,,
+36,Target,General Merchandisers,72596.0,1971.0,,2014,,TGT
+37,Walgreen Co.,Food & Drug Stores,72217.0,2450.0,,2014,,
+38,WellPoint,Health Care: Insurance and Managed Care,71458.0,2490.0,,2014,,
+39,Johnson & Johnson,Pharmaceuticals,71312.0,13831.0,,2014,,JNJ
+40,American International Group,Insurance: Property and Casualty (Stock),68678.0,9085.0,,2014,,AIG
+41,State Farm Insurance Cos.,Insurance: Property and Casualty (Mutual),68291.0,5189.0,,2014,,
+42,MetLife,"Insurance: Life, Health (Stock)",68202.0,3368.0,,2014,,MET
+43,PepsiCo,Food Consumer Products,66415.0,6740.0,,2014,,PEP
+44,Comcast,Telecommunications,64657.0,6816.0,,2014,,CMCSA
+45,United Technologies,Aerospace & Defense,62935.0,5721.0,,2014,,
+46,Google,Internet Services and Retailing,60629.0,12920.0,,2014,,^VXGOG
+47,ConocoPhillips,"Mining, Crude-Oil Production",59433.0,9156.0,,2014,,COP
+48,Dow Chemical,Chemicals,57080.0,4787.0,,2014,,Dow
+49,Caterpillar,Construction and Farm Machinery,55656.0,3789.0,,2014,,CAT
+50,United Parcel Service,"Mail, Package, and Freight Delivery",55438.0,4372.0,,2014,,UPS
+51,Pfizer,Pharmaceuticals,53785.0,22003.0,,2014,,PFIZER.NS
+52,Lowe's Companies,Specialty Retailers: Other,53417.0,2286.0,,2014,,LOW
+53,Intel Corporation,Semiconductors and Other Electronic Components,52708.0,9620.0,,2014,,INTC
+54,"Energy Transfer Equity, L.P.",Pipelines,48750.0,196.0,,2014,,ET
+55,"Cisco Systems, Inc.",Network and Other Communications Equipment,48607.0,9983.0,,2014,,CSCO
+56,Enterprise Products Partners L.P.,Pipelines,47727.0,2597.0,,2014,,EPD
+57,Aetna Inc.,Health Care: Insurance and Managed Care,47295.0,1914.0,,2014,,
+58,The Coca-Cola Company,Beverages,46854.0,8584.0,,2014,,
+59,Lockheed Martin Corporation,Aerospace & Defense,45358.0,2981.0,,2014,,LMT
+60,"Best Buy Co., Inc.",Specialty Retailers: Other,45225.0,532.0,,2014,,BBY
+61,The Walt Disney Company,Entertainment,45041.0,6136.0,,2014,,DIS
+62,CHS Inc.,Wholesalers: Food and Grocery,44480.0,992.0,,2014,,CHS.V
+63,Sysco Corporation,Wholesalers: Food and Grocery,44411.0,992.0,,2014,,SYY
+64,FedEx Corporation,"Mail, Package, and Freight Delivery",44287.0,1561.0,,2014,,FDX
+65,"Merck & Co., Inc.",Pharmaceuticals,44033.0,4404.0,,2014,,MRK
+66,INTL FCStone Inc.,Diversified Financials,43768.0,19.0,,2014,,INTL.WA
+67,Safeway Inc.,Food & Drug Stores,42982.0,3508.0,,2014,,301559.SZ
+68,"Johnson Controls, Inc.",Motor Vehicles & Parts,42730.0,1178.0,,2014,,JCI
+69,Ingram Micro Inc.,Wholesalers: Electronics and Office Equipment,42554.0,311.0,,2014,,INGM
+70,"Plains GP Holdings, L.P.",Pipelines,42249.0,15.0,,2014,,PAGP
+71,World Fuel Services Corporation,Wholesalers: Diversified,41562.0,203.0,,2014,,WFK.BE
+72,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",41471.0,-667.0,,2014,,PRU
+73,Humana Inc.,Health Care: Insurance and Managed Care,41313.0,1231.0,,2014,,HUM.ST
+74,"The Goldman Sachs Group, Inc.",Commercial Banks,40874.0,8040.0,,2014,,TGS
+75,Tesoro Corporation,Petroleum Refining,39193.0,412.0,,2014,,5D7.F
+76,Liberty Mutual Holding Company Inc.,Insurance: Property and Casualty (Stock),39133.0,1743.0,,2014,,LBTYA
+77,Honeywell International Inc.,"Electronics, Electrical Equipment",39055.0,3924.0,,2014,,HON
+78,"United Continental Holdings, Inc.",Airlines,38279.0,571.0,,2014,,UAL
+79,"HCA Holdings, Inc.",Health Care: Medical Facilities,38040.0,1556.0,,2014,,HH.AD
+80,Deere & Company,Construction and Farm Machinery,37795.0,3537.0,,2014,,DE
+81,"Delta Air Lines, Inc.",Airlines,37773.0,10540.0,,2014,,DAL
+82,Oracle Corporation,Computer Software,37180.0,10925.0,,2014,,ORCL
+83,Morgan Stanley,Commercial Banks,36848.0,2932.0,,2014,,MS
+84,Hess Corporation,Petroleum Refining,36694.0,5052.0,,2014,,HES
+85,"Twenty-First Century Fox, Inc.",Entertainment,36566.0,7097.0,,2014,,21STCENMGM.NS
+86,E.I. du Pont de Nemours and Company,Chemicals,36475.0,4848.0,,2014,,
+87,Sears Holdings Corporation,General Merchandisers,36188.0,-1365.0,,2014,,SRSCQ
+88,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",36026.0,1326.0,,2014,,601336.SS
+89,"Mondelez International, Inc.",Food Consumer Products,35299.0,3915.0,,2014,,MDLZ
+90,American Express Company,Commercial Banks,34932.0,5359.0,,2014,,AXP
+91,Nationwide Mutual Insurance Co.,Insurance: Property and Casualty (Mutual),34542.0,797.0,,2014,,NBS.L
+92,The Allstate Corporation,Insurance: Property and Casualty (Stock),34507.0,2280.0,,2014,,ALL
+93,"Tyson Foods, Inc.",Food Production,34482.0,778.0,,2014,,TSN
+94,Supervalu Inc.,Food & Drug Stores,34327.0,-1466.0,,2014,,
+95,TIAA-CREF,"Insurance: Life, Health (Mutual)",33817.0,1722.0,,2014,,
+96,Massachusetts Mutual Life Insurance Company,"Insurance: Life, Health (Mutual)",33350.0,193.0,,2014,,
+97,CIGNA Corporation,Health Care: Insurance and Managed Care,32380.0,1476.0,,2014,,CI
+98,DIRECTV,Telecommunications,31754.0,2859.0,,2014,,
+99,General Dynamics Corporation,Aerospace & Defense,31218.0,2357.0,,2014,,GD
+100,Philip Morris International Inc.,Tobacco,31217.0,8576.0,,2014,,PM

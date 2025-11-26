@@ -1,0 +1,31 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 19:56:31,467 - INFO - -> started running the process <-
+2025-11-24 19:56:31,496 - INFO - 
+============================================================
+2025-11-24 19:56:31,496 - INFO - Fetching LIVE data for 2025
+2025-11-24 19:56:31,496 - INFO - Date: 2025-11-24
+2025-11-24 19:56:31,496 - INFO - ============================================================
+2025-11-24 19:56:31,498 - INFO - Total companies with tickers: 96
+2025-11-24 19:56:31,498 - INFO - Today's data already exists — skipping
+2025-11-24 19:56:31,498 - INFO - 
+============================================================
+2025-11-24 19:56:31,498 - INFO - Creating LIVE company metadata for 2025
+2025-11-24 19:56:31,498 - INFO - ============================================================
+2025-11-24 19:56:31,498 - INFO - Metadata already exists — skipping
+2025-11-24 19:56:31,498 - INFO - 
+============================================================
+2025-11-24 19:56:31,498 - INFO - Creating LIVE macro data for 2025
+2025-11-24 19:56:31,498 - INFO - ============================================================
+2025-11-24 19:56:31,498 - INFO - Current year data already exists — skipping
+2025-11-24 19:56:31,498 - INFO - Sentiment already exists — skipping
+2025-11-24 19:56:31,498 - INFO - 
+============================================================
+2025-11-24 19:56:31,498 - INFO - Fetching LIVE exchange rates (USD-INR) from FRED for 2025
+2025-11-24 19:56:31,498 - INFO - ============================================================
+2025-11-24 19:56:31,499 - INFO - Current year data already exists — skipping

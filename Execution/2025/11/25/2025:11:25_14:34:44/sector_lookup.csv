@@ -1,0 +1,45 @@
+sector_id,sector_name,sector_code
+1,Insurance: Property and Casualty (Stock),INSU
+2,Pharmaceuticals,PHAR
+3,"Mining, Crude-Oil Production",MINI
+4,Motor Vehicles & Parts,MOTO
+5,Health Care: Insurance and Managed Care,HEAL
+6,Telecommunications,TELE
+7,Specialty Retailers: Other,SPEC
+8,Petroleum Refining,PETR
+9,Commercial Banks,COMM
+10,Food Consumer Products,FOOD
+11,General Merchandisers,GENE
+12,Internet Services and Retailing,INTE
+13,"Mail, Package, and Freight Delivery",MAIL
+14,"Insurance: Life, Health (Stock)",INSU
+15,Chemicals,CHEM
+16,"Insurance: Life, Health (Mutual)",INSU
+17,Specialty Retailers: Apparel,SPEC
+18,Diversified Financials,DIVE
+19,Wholesalers: Health Care,WHOL
+20,Insurance: Property and Casualty (Mutual),INSU
+21,Aerospace & Defense,AERO
+22,Health Care,HEAL
+23,"Mail, Package, And Freight Delivery",MAIL
+24,Information Technology Services,INFO
+25,Wholesalers,WHOL
+26,Pharmaceutical,PHAR
+27,Energy,ENER
+28,Pipelines,PIPE
+29,"Electronics, Electrical Equipment",ELEC
+30,Securities,SECU
+31,Entertainment,ENTE
+32,Industrial and Farm Equipment,INDU
+33,Network and Other Communications Equipment,NETW
+34,Specialty Retailers,SPEC
+35,Tobacco,TOBA
+36,Forest and Paper Products,FORE
+37,"Automotive Retailing, Services",AUTO
+38,Food,FOOD
+39,"Computers, Office Equipment",COMP
+40,Wholesalers: Electronics and Office Equipment,WHOL
+41,Food & Drug Stores,FOOD
+42,"Scientific, Photographic and Control Equipment",SCIE
+43,Metals,META
+44,Computer And Data Services,COMP

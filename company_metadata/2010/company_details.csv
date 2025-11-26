@@ -1,0 +1,67 @@
+rank,company,industry,revenue,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,408214.0,,WMT
+2,Exxon Mobil Corporation,Petroleum Refining,284650.0,,XOM
+3,Chevron Corporation,Petroleum Refining,163527.0,,CVX
+4,General Electric Company,Diversified Financials,156779.0,,GE
+5,Bank of America Corporation,Commercial Banks,150450.0,,BAC
+6,ConocoPhillips,Petroleum Refining,139515.0,,COP
+7,AT&T Inc.,Telecommunications,123018.0,,ATT.L
+8,Ford Motor Company,Motor Vehicles & Parts,118308.0,,F
+9,J.P. Morgan Chase & Co.,Commercial Banks,115632.0,,JPM
+12,"Citigroup, Inc.",Commercial Banks,108785.0,,C
+13,Verizon Communications Inc.,Telecommunications,107808.0,,VZ
+14,McKesson Corporation,Wholesalers: Health Care,106632.0,,MCK
+15,General Motors Corporation,Motor Vehicles & Parts,104589.0,,GM
+16,"American International Group,Inc.",Insurance: Property and Casualty (Stock),103189.0,,AIG
+17,"Cardinal Health, Inc.",Wholesalers: Health Care,99612.9,,CAH
+18,CVS Caremark Corporation,Food & Drug Stores,98729.0,,CVS
+19,Wells Fargo & Company,Commercial Banks,98636.0,,WFC
+20,International Business Machines Corporation,Information Technology Services,95758.0,,IBM
+21,UnitedHealth Group Incorporated,Health Care: Insurance and Managed Care,87138.0,,UNH
+23,The Kroger Company,Food & Drug Stores,76733.2,,KR
+25,Costco Wholesale Corporation,Specialty Retailers,71422.0,,COST
+26,Valero Energy Corporation,Petroleum Refining,70035.0,,VLO
+28,The Boeing Company,Aerospace & Defense,68281.0,,BA
+29,"The Home Depot, Inc.",Specialty Retailers,66176.0,,THD
+30,Target Corporation,General Merchandisers,65357.0,,TGT
+33,Johnson & Johnson,Pharmaceuticals,61897.0,,JNJ
+36,Microsoft Corporation,Computer Software,58437.0,,MSFT
+39,"The Goldman Sachs Group, Inc.",Commercial Banks,51673.0,,TGS
+40,Pfizer Inc.,Pharmaceuticals,50009.0,,PFIZER.NS
+42,"Lowe's Companies, Inc.",Specialty Retailers,47220.0,,LOW
+43,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",45297.0,,UPS
+44,Lockheed Martin Corporation,Aerospace & Defense,45189.0,,LMT
+45,Best Buy Co. Inc.,Specialty Retailers,45015.0,,BBY
+46,The Dow Chemical Company,Chemicals,44945.0,,TDC
+48,Sears Holdings Corporation,General Merchandisers,44043.0,,SRSCQ
+50,"PepsiCo, Inc.",Food Consumer Products,43232.0,,PEP
+51,"MetLife, Inc.","Insurance: Life, Health (Stock)",41098.0,,MET
+53,Kraft Foods Inc.,Food Consumer Products,40386.0,,1959.T
+54,Freddie Mac,Diversified Financials,37614.0,,FMCC
+55,Sysco Corporation,Wholesalers: Food and Grocery,36853.3,,SYY
+57,The Walt Disney Company,Entertainment,36149.0,,DIS
+58,"Cisco Systems, Inc.",Network and Other Communications Equipment,36117.0,,CSCO
+59,Comcast Corporation,Telecommunications,35756.0,,CMCSA
+60,FedEx Corporation,"Mail, Package, and Freight Delivery",35497.0,,FDX
+61,Northrop Grumman Corporation,Aerospace & Defense,35291.0,,NOC
+62,Intel Corporation,Semiconductors and Other Electronic Components,35127.0,,INTC
+65,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",32688.0,,PRU
+66,Caterpillar Inc.,Construction and Farm Machinery,32396.0,,CAT
+67,Sprint Nextel Corporation,Telecommunications,32260.0,,SIX.AX
+68,The Allstate Corporation,Insurance: Property and Casualty (Stock),32013.0,,ALL
+69,General Dynamics Corporation,Aerospace & Defense,31981.0,,GD
+70,Morgan Stanley,Commercial Banks,31515.0,,MS
+71,Liberty Mutual Holding Company Inc.,Insurance: Property and Casualty (Stock),31094.0,,LBTYA
+74,Honeywell International Inc.,Aerospace & Defense,30908.0,,HON
+75,Abbott Laboratories,Pharmaceuticals,30764.7,,ABT
+81,Fannie Mae,Diversified Financials,29065.0,,FNMA
+82,Time Warner Inc.,Entertainment,28842.0,,T
+83,"Johnson Controls, Inc.",Motor Vehicles & Parts,28497.0,,JCI
+84,"Delta Air Lines, Inc.",Airlines,28063.0,,DAL
+85,"Merck & Co., Inc.",Pharmaceuticals,27428.3,,MRK
+87,"Tyson Foods, Inc.",Food Production,27165.0,,TSN
+88,American Express Company,Commercial Banks,26730.0,,AXP
+93,Massachusetts Financial Group,"Insurance: Life, Health (Mutual)",25423.6,,MFG.AX
+94,Philip Morris International Inc.,Tobacco,25035.0,,PM
+97,The Hartford Financial Services Group Inc.,Insurance: Property and Casualty (Stock),24701.0,,HFF.BE
+98,"The Travelers Companies, Inc.",Insurance: Property and Casualty (Stock),24680.0,,TTC

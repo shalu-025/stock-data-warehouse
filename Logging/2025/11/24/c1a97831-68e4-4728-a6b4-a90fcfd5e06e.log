@@ -1,0 +1,929 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 15:47:33,749 - INFO - -> started running the process <-
+2025-11-24 15:47:33,760 - INFO - 
+============================================================
+2025-11-24 15:47:33,760 - INFO - Fetching HISTORICAL data for 2024
+2025-11-24 15:47:33,760 - INFO - Period: 2024-01-31 to 2024-12-31
+2025-11-24 15:47:33,760 - INFO - ============================================================
+2025-11-24 15:47:33,762 - INFO - Total companies with tickers: 95
+2025-11-24 15:47:33,767 - INFO - Found 261 days already saved
+2025-11-24 15:47:33,767 - INFO - 
+[1/95] Walmart (WMT)
+2025-11-24 15:47:34,494 - INFO -   Got 231 days of data
+2025-11-24 15:47:34,599 - INFO - 
+[2/95] Amazon (AMZN)
+2025-11-24 15:47:34,695 - INFO -   Got 231 days of data
+2025-11-24 15:47:34,800 - INFO - 
+[3/95] Apple (AAPL)
+2025-11-24 15:47:34,953 - INFO -   Got 231 days of data
+2025-11-24 15:47:35,056 - INFO - 
+[4/95] Unitedhealth Group (UNH)
+2025-11-24 15:47:35,295 - INFO -   Got 231 days of data
+2025-11-24 15:47:35,397 - INFO - 
+[5/95] Berkshire Hathaway (BRK.A)
+2025-11-24 15:47:36,269 - INFO -   No data available
+2025-11-24 15:47:36,270 - INFO - 
+[6/95] Cvs (CVS)
+2025-11-24 15:47:36,415 - INFO -   Got 231 days of data
+2025-11-24 15:47:36,521 - INFO - 
+[7/95] Exxon Mobil (XOM)
+2025-11-24 15:47:36,678 - INFO -   Got 231 days of data
+2025-11-24 15:47:36,783 - INFO - 
+[8/95] Alphabet (GOOGL)
+2025-11-24 15:47:36,889 - INFO -   Got 231 days of data
+2025-11-24 15:47:36,992 - INFO - 
+[9/95] Mckesson (MCK)
+2025-11-24 15:47:37,146 - INFO -   Got 231 days of data
+2025-11-24 15:47:37,251 - INFO - 
+[10/95] Cencora (COR)
+2025-11-24 15:47:37,359 - INFO -   Got 231 days of data
+2025-11-24 15:47:37,463 - INFO - 
+[11/95] Costco (COST)
+2025-11-24 15:47:37,582 - INFO -   Got 231 days of data
+2025-11-24 15:47:37,684 - INFO - 
+[12/95] Jp Morgan Chase (JPM)
+2025-11-24 15:47:37,886 - INFO -   Got 231 days of data
+2025-11-24 15:47:37,987 - INFO - 
+[13/95] Microsoft (MSFT)
+2025-11-24 15:47:38,130 - INFO -   Got 231 days of data
+2025-11-24 15:47:38,235 - INFO - 
+[14/95] Cardinal Health (CAH)
+2025-11-24 15:47:38,387 - INFO -   Got 231 days of data
+2025-11-24 15:47:38,492 - INFO - 
+[15/95] Chevron (CVX)
+2025-11-24 15:47:38,785 - INFO -   Got 231 days of data
+2025-11-24 15:47:38,889 - INFO - 
+[16/95] Cigna (CI)
+2025-11-24 15:47:39,054 - INFO -   Got 231 days of data
+2025-11-24 15:47:39,159 - INFO - 
+[17/95] Ford Motor (F)
+2025-11-24 15:47:39,345 - INFO -   Got 231 days of data
+2025-11-24 15:47:39,450 - INFO - 
+[18/95] Bank Of America (BAC)
+2025-11-24 15:47:39,572 - INFO -   Got 231 days of data
+2025-11-24 15:47:39,677 - INFO - 
+[19/95] General Motors (GM)
+2025-11-24 15:47:39,768 - INFO -   Got 231 days of data
+2025-11-24 15:47:39,873 - INFO - 
+[20/95] Elevance Health (ELV)
+2025-11-24 15:47:39,972 - INFO -   Got 231 days of data
+2025-11-24 15:47:40,072 - INFO - 
+[21/95] Citigroup (C)
+2025-11-24 15:47:40,206 - INFO -   Got 231 days of data
+2025-11-24 15:47:40,312 - INFO - 
+[22/95] Centene (CNC)
+2025-11-24 15:47:40,404 - INFO -   Got 231 days of data
+2025-11-24 15:47:40,509 - INFO - 
+[23/95] Home Depot (HD)
+2025-11-24 15:47:40,755 - INFO -   Got 231 days of data
+2025-11-24 15:47:40,860 - INFO - 
+[24/95] Marathon Petroleum (MPC)
+2025-11-24 15:47:41,041 - INFO -   Got 231 days of data
+2025-11-24 15:47:41,147 - INFO - 
+[25/95] Kroger (KR)
+2025-11-24 15:47:41,385 - INFO -   Got 231 days of data
+2025-11-24 15:47:41,490 - INFO - 
+[26/95] Phillips 66 (PSX)
+2025-11-24 15:47:41,627 - INFO -   Got 231 days of data
+2025-11-24 15:47:41,733 - INFO - 
+[27/95] Fannie Mae (FNMA)
+2025-11-24 15:47:41,888 - INFO -   Got 231 days of data
+2025-11-24 15:47:41,993 - INFO - 
+[29/95] Valero Energy (VLO)
+2025-11-24 15:47:42,152 - INFO -   Got 231 days of data
+2025-11-24 15:47:42,253 - INFO - 
+[30/95] Meta Platforms (META)
+2025-11-24 15:47:42,372 - INFO -   Got 231 days of data
+2025-11-24 15:47:42,474 - INFO - 
+[31/95] Verizon Communications (VZ)
+2025-11-24 15:47:42,617 - INFO -   Got 231 days of data
+2025-11-24 15:47:42,719 - INFO - 
+[32/95] At&T (ATT.L)
+2025-11-24 15:47:42,828 - INFO -   Got 232 days of data
+2025-11-24 15:47:42,932 - INFO - 
+[33/95] Comcast (CMCSA)
+2025-11-24 15:47:43,068 - INFO -   Got 231 days of data
+2025-11-24 15:47:43,174 - INFO - 
+[34/95] Wells Fargo (WFC)
+2025-11-24 15:47:43,352 - INFO -   Got 231 days of data
+2025-11-24 15:47:43,458 - INFO - 
+[35/95] Goldman Sachs Group (GS)
+2025-11-24 15:47:43,649 - INFO -   Got 231 days of data
+2025-11-24 15:47:43,752 - INFO - 
+[36/95] Freddie Mac (FMCC)
+2025-11-24 15:47:43,898 - INFO -   Got 231 days of data
+2025-11-24 15:47:44,003 - INFO - 
+[37/95] Target (TGT)
+2025-11-24 15:47:44,129 - INFO -   Got 231 days of data
+2025-11-24 15:47:44,233 - INFO - 
+[38/95] Humana (HUM.ST)
+2025-11-24 15:47:44,346 - INFO -   Got 230 days of data
+2025-11-24 15:47:44,449 - INFO - 
+[40/95] Tesla (TSLA)
+2025-11-24 15:47:44,546 - INFO -   Got 231 days of data
+2025-11-24 15:47:44,652 - INFO - 
+[41/95] Morgan Stanley (MS)
+2025-11-24 15:47:44,803 - INFO -   Got 231 days of data
+2025-11-24 15:47:44,908 - INFO - 
+[42/95] Johnson & Johnson (JNJ)
+2025-11-24 15:47:45,139 - INFO -   Got 231 days of data
+2025-11-24 15:47:45,244 - INFO - 
+[43/95] Archer Daniels Midland (ADM)
+2025-11-24 15:47:45,424 - INFO -   Got 231 days of data
+2025-11-24 15:47:45,530 - INFO - 
+[44/95] Pepsico (PEP)
+2025-11-24 15:47:45,709 - INFO -   Got 231 days of data
+2025-11-24 15:47:45,813 - INFO - 
+[45/95] United Parcel Service (UPS)
+2025-11-24 15:47:45,960 - INFO -   Got 231 days of data
+2025-11-24 15:47:46,066 - INFO - 
+[46/95] Fedex (FDX)
+2025-11-24 15:47:46,222 - INFO -   Got 231 days of data
+2025-11-24 15:47:46,328 - INFO - 
+[47/95] Walt Disney (DIS)
+2025-11-24 15:47:46,529 - INFO -   Got 231 days of data
+2025-11-24 15:47:46,634 - INFO - 
+[48/95] Dell Technologies (DELL)
+2025-11-24 15:47:46,734 - INFO -   Got 231 days of data
+2025-11-24 15:47:46,840 - INFO - 
+[49/95] Lowe'S (X1G.PA)
+2025-11-24 15:47:46,944 - INFO -   Got 234 days of data
+2025-11-24 15:47:47,050 - INFO - 
+[50/95] Procter & Gamble (PG)
+2025-11-24 15:47:47,245 - INFO -   Got 231 days of data
+2025-11-24 15:47:47,349 - INFO - 
+[51/95] Energy Transfer (ET)
+2025-11-24 15:47:47,464 - INFO -   Got 231 days of data
+2025-11-24 15:47:47,570 - INFO - 
+[52/95] Boeing (BA)
+2025-11-24 15:47:47,739 - INFO -   Got 231 days of data
+2025-11-24 15:47:47,844 - INFO - 
+[53/95] Albertsons (ACI)
+2025-11-24 15:47:47,942 - INFO -   Got 231 days of data
+2025-11-24 15:47:48,048 - INFO - 
+[54/95] Sysco (SYY)
+2025-11-24 15:47:48,274 - INFO -   Got 231 days of data
+2025-11-24 15:47:48,379 - INFO - 
+[55/95] Rtx (RTX)
+2025-11-24 15:47:48,627 - INFO -   Got 231 days of data
+2025-11-24 15:47:48,729 - INFO - 
+[56/95] General Electric (GE)
+2025-11-24 15:47:48,918 - INFO -   Got 231 days of data
+2025-11-24 15:47:49,024 - INFO - 
+[57/95] Lockheed Martin (LMT)
+2025-11-24 15:47:49,228 - INFO -   Got 231 days of data
+2025-11-24 15:47:49,333 - INFO - 
+[58/95] American Express (AXP)
+2025-11-24 15:47:49,485 - INFO -   Got 231 days of data
+2025-11-24 15:47:49,590 - INFO - 
+[59/95] Caterpillar (CAT)
+2025-11-24 15:47:49,740 - INFO -   Got 231 days of data
+2025-11-24 15:47:49,845 - INFO - 
+[60/95] Metlife (MET)
+2025-11-24 15:47:49,946 - INFO -   Got 231 days of data
+2025-11-24 15:47:50,051 - INFO - 
+[61/95] Hca Healthcare (HCA)
+2025-11-24 15:47:50,270 - INFO -   Got 231 days of data
+2025-11-24 15:47:50,375 - INFO - 
+[62/95] Progressive (PGR)
+2025-11-24 15:47:50,540 - INFO -   Got 231 days of data
+2025-11-24 15:47:50,646 - INFO - 
+[63/95] Ibm (IBM)
+2025-11-24 15:47:50,919 - INFO -   Got 231 days of data
+2025-11-24 15:47:51,023 - INFO - 
+[64/95] Deere (DE)
+2025-11-24 15:47:51,171 - INFO -   Got 231 days of data
+2025-11-24 15:47:51,275 - INFO - 
+[65/95] Nvidia (NVDA)
+2025-11-24 15:47:51,858 - INFO -   Got 231 days of data
+2025-11-24 15:47:51,964 - INFO - 
+[66/95] Stonex Group (SNEX)
+2025-11-24 15:47:52,227 - INFO -   Got 231 days of data
+2025-11-24 15:47:52,333 - INFO - 
+[67/95] Merck (MRK)
+2025-11-24 15:47:52,546 - INFO -   Got 231 days of data
+2025-11-24 15:47:52,651 - INFO - 
+[68/95] Conocophillips (COP)
+2025-11-24 15:47:52,819 - INFO -   Got 231 days of data
+2025-11-24 15:47:52,925 - INFO - 
+[69/95] Pfizer (PFIZER.NS)
+2025-11-24 15:47:53,062 - INFO -   Got 225 days of data
+2025-11-24 15:47:53,164 - INFO - 
+[70/95] Delta Air Lines (DAL)
+2025-11-24 15:47:53,275 - INFO -   Got 231 days of data
+2025-11-24 15:47:53,381 - INFO - 
+[71/95] Td Synnex (SNX)
+2025-11-24 15:47:53,491 - INFO -   Got 231 days of data
+2025-11-24 15:47:53,594 - INFO - 
+[73/95] Allstate (ALL)
+2025-11-24 15:47:53,736 - INFO -   Got 231 days of data
+2025-11-24 15:47:53,836 - INFO - 
+[74/95] Cisco Systems (CSCO)
+2025-11-24 15:47:53,960 - INFO -   Got 231 days of data
+2025-11-24 15:47:54,063 - INFO - 
+[75/95] Nationwide (NATWIDE.KL)
+2025-11-24 15:47:55,000 - INFO -   No data available
+2025-11-24 15:47:55,001 - INFO - 
+[76/95] Charter Communications (CHTR)
+2025-11-24 15:47:55,091 - INFO -   Got 231 days of data
+2025-11-24 15:47:55,194 - INFO - 
+[77/95] Abbvie (ABBV)
+2025-11-24 15:47:55,318 - INFO -   Got 231 days of data
+2025-11-24 15:47:55,423 - INFO - 
+[78/95] New York Life Insurance (601336.SS)
+2025-11-24 15:47:55,544 - INFO -   Got 220 days of data
+2025-11-24 15:47:55,647 - INFO - 
+[79/95] Intel (INTC)
+2025-11-24 15:47:55,798 - INFO -   Got 231 days of data
+2025-11-24 15:47:55,904 - INFO - 
+[80/95] Tjx (TJX)
+2025-11-24 15:47:56,056 - INFO -   Got 231 days of data
+2025-11-24 15:47:56,162 - INFO - 
+[81/95] Prudential Financial (PRU)
+2025-11-24 15:47:56,308 - INFO -   Got 231 days of data
+2025-11-24 15:47:56,412 - INFO - 
+[83/95] United Airlines Holdings (UAL)
+2025-11-24 15:47:56,503 - INFO -   Got 231 days of data
+2025-11-24 15:47:56,607 - INFO - 
+[84/95] Performance Food Group (PFGC)
+2025-11-24 15:47:56,725 - INFO -   Got 231 days of data
+2025-11-24 15:47:56,831 - INFO - 
+[85/95] Tyson Foods (TSN)
+2025-11-24 15:47:56,989 - INFO -   Got 231 days of data
+2025-11-24 15:47:57,092 - INFO - 
+[86/95] American Airlines Group (AAL)
+2025-11-24 15:47:57,225 - INFO -   Got 231 days of data
+2025-11-24 15:47:57,329 - INFO - 
+[87/95] Liberty Mutual Insurance Group (LFG.AX)
+2025-11-24 15:47:57,433 - INFO -   Got 233 days of data
+2025-11-24 15:47:57,536 - INFO - 
+[88/95] Nike (NKE)
+2025-11-24 15:47:57,752 - INFO -   Got 231 days of data
+2025-11-24 15:47:57,858 - INFO - 
+[89/95] Oracle (ORCL)
+2025-11-24 15:47:58,012 - INFO -   Got 231 days of data
+2025-11-24 15:47:58,117 - INFO - 
+[90/95] Enterprise Products Partners (EPD)
+2025-11-24 15:47:58,253 - INFO -   Got 231 days of data
+2025-11-24 15:47:58,357 - INFO - 
+[91/95] Capital One Financial (COF)
+2025-11-24 15:47:58,484 - INFO -   Got 231 days of data
+2025-11-24 15:47:58,587 - INFO - 
+[92/95] Plains Gp Holdings (PAGP)
+2025-11-24 15:47:58,710 - INFO -   Got 231 days of data
+2025-11-24 15:47:58,812 - INFO - 
+[93/95] World Kinect (WKC)
+2025-11-24 15:47:59,020 - INFO -   Got 231 days of data
+2025-11-24 15:47:59,122 - INFO - 
+[94/95] Aig (AIG)
+2025-11-24 15:47:59,293 - INFO -   Got 231 days of data
+2025-11-24 15:47:59,398 - INFO - 
+[95/95] Coca-Cola (COLA.WA)
+2025-11-24 15:47:59,575 - INFO -   Got 15 days of data
+2025-11-24 15:47:59,678 - INFO - 
+[96/95] Tiaa (TILIX)
+2025-11-24 15:47:59,873 - INFO -   Got 231 days of data
+2025-11-24 15:47:59,976 - INFO - 
+[97/95] Chs (CHS.V)
+2025-11-24 15:48:00,124 - INFO -   Got 230 days of data
+2025-11-24 15:48:00,230 - INFO - 
+[99/95] Dow (DOW)
+2025-11-24 15:48:00,347 - INFO -   Got 231 days of data
+2025-11-24 15:48:00,452 - INFO - 
+[100/95] Best Buy (BBY)
+2025-11-24 15:48:00,566 - INFO -   Got 231 days of data
+2025-11-24 15:48:00,670 - INFO - 
+============================================================
+2025-11-24 15:48:00,670 - INFO - Organizing data by date...
+2025-11-24 15:48:00,670 - INFO - ============================================================
+2025-11-24 15:48:00,670 - INFO - Date 2024-01-31 already exists — skipping
+2025-11-24 15:48:00,670 - INFO - Date 2024-02-01 already exists — skipping
+2025-11-24 15:48:00,670 - INFO - Date 2024-02-02 already exists — skipping
+2025-11-24 15:48:00,757 - INFO - Date 2024-02-05 already exists — skipping
+2025-11-24 15:48:00,757 - INFO - Date 2024-02-06 already exists — skipping
+2025-11-24 15:48:00,757 - INFO - Date 2024-02-07 already exists — skipping
+2025-11-24 15:48:00,757 - INFO - Date 2024-02-08 already exists — skipping
+2025-11-24 15:48:00,757 - INFO - Date 2024-02-09 already exists — skipping
+2025-11-24 15:48:00,840 - INFO - Date 2024-02-12 already exists — skipping
+2025-11-24 15:48:00,840 - INFO - Date 2024-02-13 already exists — skipping
+2025-11-24 15:48:00,840 - INFO - Date 2024-02-14 already exists — skipping
+2025-11-24 15:48:00,840 - INFO - Date 2024-02-15 already exists — skipping
+2025-11-24 15:48:00,840 - INFO - Date 2024-02-16 already exists — skipping
+2025-11-24 15:48:00,924 - INFO - Date 2024-02-19 already exists — skipping
+2025-11-24 15:48:00,924 - INFO - Date 2024-02-20 already exists — skipping
+2025-11-24 15:48:00,924 - INFO - Date 2024-02-21 already exists — skipping
+2025-11-24 15:48:00,924 - INFO - Date 2024-02-22 already exists — skipping
+2025-11-24 15:48:00,924 - INFO - Date 2024-02-23 already exists — skipping
+2025-11-24 15:48:01,006 - INFO - Date 2024-02-26 already exists — skipping
+2025-11-24 15:48:01,006 - INFO - Date 2024-02-27 already exists — skipping
+2025-11-24 15:48:01,006 - INFO - Date 2024-02-28 already exists — skipping
+2025-11-24 15:48:01,006 - INFO - Date 2024-02-29 already exists — skipping
+2025-11-24 15:48:01,006 - INFO - Date 2024-03-01 already exists — skipping
+2025-11-24 15:48:01,100 - INFO - Date 2024-03-04 already exists — skipping
+2025-11-24 15:48:01,100 - INFO - Date 2024-03-05 already exists — skipping
+2025-11-24 15:48:01,100 - INFO - Date 2024-03-06 already exists — skipping
+2025-11-24 15:48:01,100 - INFO - Date 2024-03-07 already exists — skipping
+2025-11-24 15:48:01,100 - INFO - Date 2024-03-08 already exists — skipping
+2025-11-24 15:48:01,184 - INFO - Date 2024-03-11 already exists — skipping
+2025-11-24 15:48:01,184 - INFO - Date 2024-03-12 already exists — skipping
+2025-11-24 15:48:01,184 - INFO - Date 2024-03-13 already exists — skipping
+2025-11-24 15:48:01,184 - INFO - Date 2024-03-14 already exists — skipping
+2025-11-24 15:48:01,184 - INFO - Date 2024-03-15 already exists — skipping
+2025-11-24 15:48:01,267 - INFO - Date 2024-03-18 already exists — skipping
+2025-11-24 15:48:01,267 - INFO - Date 2024-03-19 already exists — skipping
+2025-11-24 15:48:01,267 - INFO - Date 2024-03-20 already exists — skipping
+2025-11-24 15:48:01,267 - INFO - Date 2024-03-21 already exists — skipping
+2025-11-24 15:48:01,267 - INFO - Date 2024-03-22 already exists — skipping
+2025-11-24 15:48:01,349 - INFO - Date 2024-03-25 already exists — skipping
+2025-11-24 15:48:01,349 - INFO - Date 2024-03-26 already exists — skipping
+2025-11-24 15:48:01,349 - INFO - Date 2024-03-27 already exists — skipping
+2025-11-24 15:48:01,349 - INFO - Date 2024-03-28 already exists — skipping
+2025-11-24 15:48:01,349 - INFO - Date 2024-03-29 already exists — skipping
+2025-11-24 15:48:01,433 - INFO - Date 2024-04-01 already exists — skipping
+2025-11-24 15:48:01,433 - INFO - Date 2024-04-02 already exists — skipping
+2025-11-24 15:48:01,433 - INFO - Date 2024-04-03 already exists — skipping
+2025-11-24 15:48:01,433 - INFO - Date 2024-04-04 already exists — skipping
+2025-11-24 15:48:01,433 - INFO - Date 2024-04-05 already exists — skipping
+2025-11-24 15:48:01,515 - INFO - Date 2024-04-08 already exists — skipping
+2025-11-24 15:48:01,516 - INFO - Date 2024-04-09 already exists — skipping
+2025-11-24 15:48:01,516 - INFO - Date 2024-04-10 already exists — skipping
+2025-11-24 15:48:01,516 - INFO - Date 2024-04-11 already exists — skipping
+2025-11-24 15:48:01,516 - INFO - Date 2024-04-12 already exists — skipping
+2025-11-24 15:48:01,599 - INFO - Date 2024-04-15 already exists — skipping
+2025-11-24 15:48:01,599 - INFO - Date 2024-04-16 already exists — skipping
+2025-11-24 15:48:01,599 - INFO - Date 2024-04-17 already exists — skipping
+2025-11-24 15:48:01,599 - INFO - Date 2024-04-18 already exists — skipping
+2025-11-24 15:48:01,599 - INFO - Date 2024-04-19 already exists — skipping
+2025-11-24 15:48:01,682 - INFO - Date 2024-04-22 already exists — skipping
+2025-11-24 15:48:01,682 - INFO - Date 2024-04-23 already exists — skipping
+2025-11-24 15:48:01,682 - INFO - Date 2024-04-24 already exists — skipping
+2025-11-24 15:48:01,682 - INFO - Date 2024-04-25 already exists — skipping
+2025-11-24 15:48:01,682 - INFO - Date 2024-04-26 already exists — skipping
+2025-11-24 15:48:01,765 - INFO - Date 2024-04-29 already exists — skipping
+2025-11-24 15:48:01,765 - INFO - Date 2024-04-30 already exists — skipping
+2025-11-24 15:48:01,765 - INFO - Date 2024-05-01 already exists — skipping
+2025-11-24 15:48:01,765 - INFO - Date 2024-05-02 already exists — skipping
+2025-11-24 15:48:01,765 - INFO - Date 2024-05-03 already exists — skipping
+2025-11-24 15:48:01,847 - INFO - Date 2024-05-06 already exists — skipping
+2025-11-24 15:48:01,847 - INFO - Date 2024-05-07 already exists — skipping
+2025-11-24 15:48:01,847 - INFO - Date 2024-05-08 already exists — skipping
+2025-11-24 15:48:01,847 - INFO - Date 2024-05-09 already exists — skipping
+2025-11-24 15:48:01,847 - INFO - Date 2024-05-10 already exists — skipping
+2025-11-24 15:48:01,930 - INFO - Date 2024-05-13 already exists — skipping
+2025-11-24 15:48:01,930 - INFO - Date 2024-05-14 already exists — skipping
+2025-11-24 15:48:01,930 - INFO - Date 2024-05-15 already exists — skipping
+2025-11-24 15:48:01,930 - INFO - Date 2024-05-16 already exists — skipping
+2025-11-24 15:48:01,930 - INFO - Date 2024-05-17 already exists — skipping
+2025-11-24 15:48:02,012 - INFO - Date 2024-05-20 already exists — skipping
+2025-11-24 15:48:02,012 - INFO - Date 2024-05-21 already exists — skipping
+2025-11-24 15:48:02,012 - INFO - Date 2024-05-22 already exists — skipping
+2025-11-24 15:48:02,012 - INFO - Date 2024-05-23 already exists — skipping
+2025-11-24 15:48:02,012 - INFO - Date 2024-05-24 already exists — skipping
+2025-11-24 15:48:02,096 - INFO - Date 2024-05-27 already exists — skipping
+2025-11-24 15:48:02,096 - INFO - Date 2024-05-28 already exists — skipping
+2025-11-24 15:48:02,096 - INFO - Date 2024-05-29 already exists — skipping
+2025-11-24 15:48:02,096 - INFO - Date 2024-05-30 already exists — skipping
+2025-11-24 15:48:02,096 - INFO - Date 2024-05-31 already exists — skipping
+2025-11-24 15:48:02,179 - INFO - Date 2024-06-03 already exists — skipping
+2025-11-24 15:48:02,179 - INFO - Date 2024-06-04 already exists — skipping
+2025-11-24 15:48:02,179 - INFO - Date 2024-06-05 already exists — skipping
+2025-11-24 15:48:02,179 - INFO - Date 2024-06-06 already exists — skipping
+2025-11-24 15:48:02,179 - INFO - Date 2024-06-07 already exists — skipping
+2025-11-24 15:48:02,262 - INFO - Date 2024-06-10 already exists — skipping
+2025-11-24 15:48:02,262 - INFO - Date 2024-06-11 already exists — skipping
+2025-11-24 15:48:02,262 - INFO - Date 2024-06-12 already exists — skipping
+2025-11-24 15:48:02,262 - INFO - Date 2024-06-13 already exists — skipping
+2025-11-24 15:48:02,262 - INFO - Date 2024-06-14 already exists — skipping
+2025-11-24 15:48:02,345 - INFO - Date 2024-06-17 already exists — skipping
+2025-11-24 15:48:02,345 - INFO - Date 2024-06-18 already exists — skipping
+2025-11-24 15:48:02,345 - INFO - Date 2024-06-19 already exists — skipping
+2025-11-24 15:48:02,345 - INFO - Date 2024-06-20 already exists — skipping
+2025-11-24 15:48:02,345 - INFO - Date 2024-06-21 already exists — skipping
+2025-11-24 15:48:02,429 - INFO - Date 2024-06-24 already exists — skipping
+2025-11-24 15:48:02,429 - INFO - Date 2024-06-25 already exists — skipping
+2025-11-24 15:48:02,429 - INFO - Date 2024-06-26 already exists — skipping
+2025-11-24 15:48:02,429 - INFO - Date 2024-06-27 already exists — skipping
+2025-11-24 15:48:02,429 - INFO - Date 2024-06-28 already exists — skipping
+2025-11-24 15:48:02,510 - INFO - Date 2024-07-01 already exists — skipping
+2025-11-24 15:48:02,511 - INFO - Date 2024-07-02 already exists — skipping
+2025-11-24 15:48:02,511 - INFO - Date 2024-07-03 already exists — skipping
+2025-11-24 15:48:02,511 - INFO - Date 2024-07-04 already exists — skipping
+2025-11-24 15:48:02,511 - INFO - Date 2024-07-05 already exists — skipping
+2025-11-24 15:48:02,593 - INFO - Date 2024-07-08 already exists — skipping
+2025-11-24 15:48:02,593 - INFO - Date 2024-07-09 already exists — skipping
+2025-11-24 15:48:02,593 - INFO - Date 2024-07-10 already exists — skipping
+2025-11-24 15:48:02,593 - INFO - Date 2024-07-11 already exists — skipping
+2025-11-24 15:48:02,593 - INFO - Date 2024-07-12 already exists — skipping
+2025-11-24 15:48:02,675 - INFO - Date 2024-07-15 already exists — skipping
+2025-11-24 15:48:02,675 - INFO - Date 2024-07-16 already exists — skipping
+2025-11-24 15:48:02,675 - INFO - Date 2024-07-17 already exists — skipping
+2025-11-24 15:48:02,675 - INFO - Date 2024-07-18 already exists — skipping
+2025-11-24 15:48:02,675 - INFO - Date 2024-07-19 already exists — skipping
+2025-11-24 15:48:02,758 - INFO - Date 2024-07-22 already exists — skipping
+2025-11-24 15:48:02,758 - INFO - Date 2024-07-23 already exists — skipping
+2025-11-24 15:48:02,758 - INFO - Date 2024-07-24 already exists — skipping
+2025-11-24 15:48:02,758 - INFO - Date 2024-07-25 already exists — skipping
+2025-11-24 15:48:02,758 - INFO - Date 2024-07-26 already exists — skipping
+2025-11-24 15:48:02,840 - INFO - Date 2024-07-29 already exists — skipping
+2025-11-24 15:48:02,841 - INFO - Date 2024-07-30 already exists — skipping
+2025-11-24 15:48:02,841 - INFO - Date 2024-07-31 already exists — skipping
+2025-11-24 15:48:02,841 - INFO - Date 2024-08-01 already exists — skipping
+2025-11-24 15:48:02,841 - INFO - Date 2024-08-02 already exists — skipping
+2025-11-24 15:48:02,923 - INFO - Date 2024-08-05 already exists — skipping
+2025-11-24 15:48:02,923 - INFO - Date 2024-08-06 already exists — skipping
+2025-11-24 15:48:02,923 - INFO - Date 2024-08-07 already exists — skipping
+2025-11-24 15:48:02,923 - INFO - Date 2024-08-08 already exists — skipping
+2025-11-24 15:48:02,923 - INFO - Date 2024-08-09 already exists — skipping
+2025-11-24 15:48:03,006 - INFO - Date 2024-08-12 already exists — skipping
+2025-11-24 15:48:03,006 - INFO - Date 2024-08-13 already exists — skipping
+2025-11-24 15:48:03,006 - INFO - Date 2024-08-14 already exists — skipping
+2025-11-24 15:48:03,006 - INFO - Date 2024-08-15 already exists — skipping
+2025-11-24 15:48:03,006 - INFO - Date 2024-08-16 already exists — skipping
+2025-11-24 15:48:03,091 - INFO - Date 2024-08-19 already exists — skipping
+2025-11-24 15:48:03,091 - INFO - Date 2024-08-20 already exists — skipping
+2025-11-24 15:48:03,091 - INFO - Date 2024-08-21 already exists — skipping
+2025-11-24 15:48:03,091 - INFO - Date 2024-08-22 already exists — skipping
+2025-11-24 15:48:03,091 - INFO - Date 2024-08-23 already exists — skipping
+2025-11-24 15:48:03,174 - INFO - Date 2024-08-26 already exists — skipping
+2025-11-24 15:48:03,174 - INFO - Date 2024-08-27 already exists — skipping
+2025-11-24 15:48:03,174 - INFO - Date 2024-08-28 already exists — skipping
+2025-11-24 15:48:03,174 - INFO - Date 2024-08-29 already exists — skipping
+2025-11-24 15:48:03,174 - INFO - Date 2024-08-30 already exists — skipping
+2025-11-24 15:48:03,256 - INFO - Date 2024-09-02 already exists — skipping
+2025-11-24 15:48:03,256 - INFO - Date 2024-09-03 already exists — skipping
+2025-11-24 15:48:03,256 - INFO - Date 2024-09-04 already exists — skipping
+2025-11-24 15:48:03,256 - INFO - Date 2024-09-05 already exists — skipping
+2025-11-24 15:48:03,256 - INFO - Date 2024-09-06 already exists — skipping
+2025-11-24 15:48:03,338 - INFO - Date 2024-09-09 already exists — skipping
+2025-11-24 15:48:03,338 - INFO - Date 2024-09-10 already exists — skipping
+2025-11-24 15:48:03,338 - INFO - Date 2024-09-11 already exists — skipping
+2025-11-24 15:48:03,338 - INFO - Date 2024-09-12 already exists — skipping
+2025-11-24 15:48:03,338 - INFO - Date 2024-09-13 already exists — skipping
+2025-11-24 15:48:03,420 - INFO - Date 2024-09-16 already exists — skipping
+2025-11-24 15:48:03,420 - INFO - Date 2024-09-17 already exists — skipping
+2025-11-24 15:48:03,420 - INFO - Date 2024-09-18 already exists — skipping
+2025-11-24 15:48:03,420 - INFO - Date 2024-09-19 already exists — skipping
+2025-11-24 15:48:03,420 - INFO - Date 2024-09-20 already exists — skipping
+2025-11-24 15:48:03,503 - INFO - Date 2024-09-23 already exists — skipping
+2025-11-24 15:48:03,503 - INFO - Date 2024-09-24 already exists — skipping
+2025-11-24 15:48:03,503 - INFO - Date 2024-09-25 already exists — skipping
+2025-11-24 15:48:03,503 - INFO - Date 2024-09-26 already exists — skipping
+2025-11-24 15:48:03,503 - INFO - Date 2024-09-27 already exists — skipping
+2025-11-24 15:48:03,585 - INFO - Date 2024-09-30 already exists — skipping
+2025-11-24 15:48:03,585 - INFO - Date 2024-10-01 already exists — skipping
+2025-11-24 15:48:03,585 - INFO - Date 2024-10-02 already exists — skipping
+2025-11-24 15:48:03,585 - INFO - Date 2024-10-03 already exists — skipping
+2025-11-24 15:48:03,585 - INFO - Date 2024-10-04 already exists — skipping
+2025-11-24 15:48:03,668 - INFO - Date 2024-10-07 already exists — skipping
+2025-11-24 15:48:03,668 - INFO - Date 2024-10-08 already exists — skipping
+2025-11-24 15:48:03,668 - INFO - Date 2024-10-09 already exists — skipping
+2025-11-24 15:48:03,668 - INFO - Date 2024-10-10 already exists — skipping
+2025-11-24 15:48:03,668 - INFO - Date 2024-10-11 already exists — skipping
+2025-11-24 15:48:03,752 - INFO - Date 2024-10-14 already exists — skipping
+2025-11-24 15:48:03,752 - INFO - Date 2024-10-15 already exists — skipping
+2025-11-24 15:48:03,752 - INFO - Date 2024-10-16 already exists — skipping
+2025-11-24 15:48:03,752 - INFO - Date 2024-10-17 already exists — skipping
+2025-11-24 15:48:03,752 - INFO - Date 2024-10-18 already exists — skipping
+2025-11-24 15:48:03,835 - INFO - Date 2024-10-21 already exists — skipping
+2025-11-24 15:48:03,835 - INFO - Date 2024-10-22 already exists — skipping
+2025-11-24 15:48:03,835 - INFO - Date 2024-10-23 already exists — skipping
+2025-11-24 15:48:03,835 - INFO - Date 2024-10-24 already exists — skipping
+2025-11-24 15:48:03,835 - INFO - Date 2024-10-25 already exists — skipping
+2025-11-24 15:48:03,918 - INFO - Date 2024-10-28 already exists — skipping
+2025-11-24 15:48:03,918 - INFO - Date 2024-10-29 already exists — skipping
+2025-11-24 15:48:03,918 - INFO - Date 2024-10-30 already exists — skipping
+2025-11-24 15:48:03,918 - INFO - Date 2024-10-31 already exists — skipping
+2025-11-24 15:48:03,918 - INFO - Date 2024-11-01 already exists — skipping
+2025-11-24 15:48:04,000 - INFO - Date 2024-11-04 already exists — skipping
+2025-11-24 15:48:04,000 - INFO - Date 2024-11-05 already exists — skipping
+2025-11-24 15:48:04,000 - INFO - Date 2024-11-06 already exists — skipping
+2025-11-24 15:48:04,000 - INFO - Date 2024-11-07 already exists — skipping
+2025-11-24 15:48:04,000 - INFO - Date 2024-11-08 already exists — skipping
+2025-11-24 15:48:04,081 - INFO - Date 2024-11-11 already exists — skipping
+2025-11-24 15:48:04,081 - INFO - Date 2024-11-12 already exists — skipping
+2025-11-24 15:48:04,081 - INFO - Date 2024-11-13 already exists — skipping
+2025-11-24 15:48:04,081 - INFO - Date 2024-11-14 already exists — skipping
+2025-11-24 15:48:04,081 - INFO - Date 2024-11-15 already exists — skipping
+2025-11-24 15:48:04,163 - INFO - Date 2024-11-18 already exists — skipping
+2025-11-24 15:48:04,163 - INFO - Date 2024-11-19 already exists — skipping
+2025-11-24 15:48:04,163 - INFO - Date 2024-11-20 already exists — skipping
+2025-11-24 15:48:04,163 - INFO - Date 2024-11-21 already exists — skipping
+2025-11-24 15:48:04,163 - INFO - Date 2024-11-22 already exists — skipping
+2025-11-24 15:48:04,243 - INFO - Date 2024-11-25 already exists — skipping
+2025-11-24 15:48:04,243 - INFO - Date 2024-11-26 already exists — skipping
+2025-11-24 15:48:04,243 - INFO - Date 2024-11-27 already exists — skipping
+2025-11-24 15:48:04,243 - INFO - Date 2024-11-28 already exists — skipping
+2025-11-24 15:48:04,243 - INFO - Date 2024-11-29 already exists — skipping
+2025-11-24 15:48:04,325 - INFO - Date 2024-12-02 already exists — skipping
+2025-11-24 15:48:04,325 - INFO - Date 2024-12-03 already exists — skipping
+2025-11-24 15:48:04,325 - INFO - Date 2024-12-04 already exists — skipping
+2025-11-24 15:48:04,325 - INFO - Date 2024-12-05 already exists — skipping
+2025-11-24 15:48:04,325 - INFO - Date 2024-12-06 already exists — skipping
+2025-11-24 15:48:04,407 - INFO - Date 2024-12-09 already exists — skipping
+2025-11-24 15:48:04,407 - INFO - Date 2024-12-10 already exists — skipping
+2025-11-24 15:48:04,407 - INFO - Date 2024-12-11 already exists — skipping
+2025-11-24 15:48:04,407 - INFO - Date 2024-12-12 already exists — skipping
+2025-11-24 15:48:04,407 - INFO - Date 2024-12-13 already exists — skipping
+2025-11-24 15:48:04,488 - INFO - Date 2024-12-16 already exists — skipping
+2025-11-24 15:48:04,489 - INFO - Date 2024-12-17 already exists — skipping
+2025-11-24 15:48:04,489 - INFO - Date 2024-12-18 already exists — skipping
+2025-11-24 15:48:04,489 - INFO - Date 2024-12-19 already exists — skipping
+2025-11-24 15:48:04,489 - INFO - Date 2024-12-20 already exists — skipping
+2025-11-24 15:48:04,570 - INFO - Date 2024-12-23 already exists — skipping
+2025-11-24 15:48:04,570 - INFO - Date 2024-12-24 already exists — skipping
+2025-11-24 15:48:04,570 - INFO - Date 2024-12-25 already exists — skipping
+2025-11-24 15:48:04,570 - INFO - Date 2024-12-26 already exists — skipping
+2025-11-24 15:48:04,570 - INFO - Date 2024-12-27 already exists — skipping
+2025-11-24 15:48:04,651 - INFO - Date 2024-12-30 already exists — skipping
+2025-11-24 15:48:04,692 - INFO - 
+Total files saved: 0
+2025-11-24 15:48:04,692 - INFO - Total files skipped: 239
+2025-11-24 15:48:04,692 - INFO - 
+============================================================
+2025-11-24 15:48:04,692 - INFO - Creating HISTORICAL company metadata
+2025-11-24 15:48:04,692 - INFO - Years: 2024 to 2024
+2025-11-24 15:48:04,692 - INFO - ============================================================
+2025-11-24 15:48:04,692 - INFO - 
+2024: Metadata already exists — skipping
+2025-11-24 15:48:04,692 - INFO - 
+Metadata creation complete
+2025-11-24 15:48:04,692 - INFO - 
+============================================================
+2025-11-24 15:48:04,692 - INFO - Creating HISTORICAL macro data
+2025-11-24 15:48:04,692 - INFO - Years: 2024 to 2024
+2025-11-24 15:48:04,692 - INFO - ============================================================
+2025-11-24 15:48:04,692 - INFO - 
+2024: Already exists — skipping
+2025-11-24 15:48:04,692 - INFO - 
+Macro data creation complete
+2025-11-24 15:48:04,692 - INFO - 
+============================================================
+2025-11-24 15:48:04,692 - INFO - Fetching HISTORICAL exchange rates (USD-INR) from FRED
+2025-11-24 15:48:04,692 - INFO - Years: 2024 to 2024
+2025-11-24 15:48:04,692 - INFO - ============================================================
+2025-11-24 15:48:04,693 - INFO - 
+2024: Already exists — skipping
+2025-11-24 15:48:04,693 - INFO - 
+Exchange rate data complete
+2025-11-24 15:48:04,693 - INFO - ============================================================
+2025-11-24 15:48:04,693 - INFO - Starting merge process
+2025-11-24 15:48:04,693 - INFO - Mode: Historical
+2025-11-24 15:48:04,693 - INFO - Date range: 2024-01-31 to 2024-12-31
+2025-11-24 15:48:04,693 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_15:48:04
+2025-11-24 15:48:04,693 - INFO - ============================================================
+2025-11-24 15:48:04,693 - INFO - 
+============================================================
+2025-11-24 15:48:04,693 - INFO - STEP 1: Processing BASE TABLE (stocks_raw)
+2025-11-24 15:48:04,693 - INFO - ============================================================
+2025-11-24 15:48:04,693 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-24 15:48:04,694 - INFO - Read 92 rows from 2024/03/04/stocks.csv
+2025-11-24 15:48:04,695 - INFO - Read 92 rows from 2024/03/05/stocks.csv
+2025-11-24 15:48:04,695 - INFO - Read 92 rows from 2024/03/20/stocks.csv
+2025-11-24 15:48:04,696 - INFO - Read 92 rows from 2024/03/18/stocks.csv
+2025-11-24 15:48:04,696 - INFO - Read 92 rows from 2024/03/27/stocks.csv
+2025-11-24 15:48:04,697 - INFO - Read 92 rows from 2024/03/11/stocks.csv
+2025-11-24 15:48:04,697 - INFO - Read 1 rows from 2024/03/29/stocks.csv
+2025-11-24 15:48:04,698 - INFO - Read 92 rows from 2024/03/28/stocks.csv
+2025-11-24 15:48:04,698 - INFO - Read 92 rows from 2024/03/19/stocks.csv
+2025-11-24 15:48:04,698 - INFO - Read 92 rows from 2024/03/26/stocks.csv
+2025-11-24 15:48:04,699 - INFO - Read 92 rows from 2024/03/21/stocks.csv
+2025-11-24 15:48:04,699 - INFO - Read 92 rows from 2024/03/07/stocks.csv
+2025-11-24 15:48:04,699 - INFO - Read 91 rows from 2024/03/08/stocks.csv
+2025-11-24 15:48:04,700 - INFO - Read 92 rows from 2024/03/01/stocks.csv
+2025-11-24 15:48:04,700 - INFO - Read 92 rows from 2024/03/06/stocks.csv
+2025-11-24 15:48:04,700 - INFO - Read 92 rows from 2024/03/15/stocks.csv
+2025-11-24 15:48:04,701 - INFO - Read 92 rows from 2024/03/12/stocks.csv
+2025-11-24 15:48:04,701 - INFO - Read 92 rows from 2024/03/13/stocks.csv
+2025-11-24 15:48:04,701 - INFO - Read 92 rows from 2024/03/14/stocks.csv
+2025-11-24 15:48:04,702 - INFO - Read 92 rows from 2024/03/22/stocks.csv
+2025-11-24 15:48:04,702 - INFO - Read 91 rows from 2024/03/25/stocks.csv
+2025-11-24 15:48:04,703 - INFO - Read 92 rows from 2024/04/03/stocks.csv
+2025-11-24 15:48:04,703 - INFO - Read 91 rows from 2024/04/04/stocks.csv
+2025-11-24 15:48:04,704 - INFO - Read 91 rows from 2024/04/05/stocks.csv
+2025-11-24 15:48:04,704 - INFO - Read 92 rows from 2024/04/02/stocks.csv
+2025-11-24 15:48:04,705 - INFO - Read 92 rows from 2024/04/18/stocks.csv
+2025-11-24 15:48:04,705 - INFO - Read 91 rows from 2024/04/11/stocks.csv
+2025-11-24 15:48:04,706 - INFO - Read 92 rows from 2024/04/29/stocks.csv
+2025-11-24 15:48:04,706 - INFO - Read 92 rows from 2024/04/16/stocks.csv
+2025-11-24 15:48:04,707 - INFO - Read 91 rows from 2024/04/17/stocks.csv
+2025-11-24 15:48:04,707 - INFO - Read 92 rows from 2024/04/10/stocks.csv
+2025-11-24 15:48:04,707 - INFO - Read 92 rows from 2024/04/19/stocks.csv
+2025-11-24 15:48:04,708 - INFO - Read 92 rows from 2024/04/26/stocks.csv
+2025-11-24 15:48:04,708 - INFO - Read 92 rows from 2024/04/09/stocks.csv
+2025-11-24 15:48:04,708 - INFO - Read 92 rows from 2024/04/30/stocks.csv
+2025-11-24 15:48:04,709 - INFO - Read 92 rows from 2024/04/08/stocks.csv
+2025-11-24 15:48:04,709 - INFO - Read 88 rows from 2024/04/01/stocks.csv
+2025-11-24 15:48:04,709 - INFO - Read 92 rows from 2024/04/24/stocks.csv
+2025-11-24 15:48:04,710 - INFO - Read 92 rows from 2024/04/23/stocks.csv
+2025-11-24 15:48:04,710 - INFO - Read 92 rows from 2024/04/15/stocks.csv
+2025-11-24 15:48:04,711 - INFO - Read 92 rows from 2024/04/12/stocks.csv
+2025-11-24 15:48:04,711 - INFO - Read 92 rows from 2024/04/22/stocks.csv
+2025-11-24 15:48:04,711 - INFO - Read 91 rows from 2024/04/25/stocks.csv
+2025-11-24 15:48:04,712 - INFO - Read 91 rows from 2024/05/03/stocks.csv
+2025-11-24 15:48:04,712 - INFO - Read 91 rows from 2024/05/02/stocks.csv
+2025-11-24 15:48:04,713 - INFO - Read 90 rows from 2024/05/20/stocks.csv
+2025-11-24 15:48:04,713 - INFO - Read 6 rows from 2024/05/27/stocks.csv
+2025-11-24 15:48:04,714 - INFO - Read 92 rows from 2024/05/29/stocks.csv
+2025-11-24 15:48:04,714 - INFO - Read 92 rows from 2024/05/16/stocks.csv
+2025-11-24 15:48:04,714 - INFO - Read 92 rows from 2024/05/28/stocks.csv
+2025-11-24 15:48:04,715 - INFO - Read 92 rows from 2024/05/17/stocks.csv
+2025-11-24 15:48:04,715 - INFO - Read 92 rows from 2024/05/10/stocks.csv
+2025-11-24 15:48:04,715 - INFO - Read 92 rows from 2024/05/21/stocks.csv
+2025-11-24 15:48:04,716 - INFO - Read 92 rows from 2024/05/07/stocks.csv
+2025-11-24 15:48:04,716 - INFO - Read 91 rows from 2024/05/09/stocks.csv
+2025-11-24 15:48:04,716 - INFO - Read 92 rows from 2024/05/31/stocks.csv
+2025-11-24 15:48:04,717 - INFO - Read 92 rows from 2024/05/30/stocks.csv
+2025-11-24 15:48:04,717 - INFO - Read 92 rows from 2024/05/08/stocks.csv
+2025-11-24 15:48:04,718 - INFO - Read 88 rows from 2024/05/01/stocks.csv
+2025-11-24 15:48:04,718 - INFO - Read 91 rows from 2024/05/06/stocks.csv
+2025-11-24 15:48:04,718 - INFO - Read 92 rows from 2024/05/24/stocks.csv
+2025-11-24 15:48:04,719 - INFO - Read 92 rows from 2024/05/23/stocks.csv
+2025-11-24 15:48:04,719 - INFO - Read 92 rows from 2024/05/15/stocks.csv
+2025-11-24 15:48:04,720 - INFO - Read 92 rows from 2024/05/13/stocks.csv
+2025-11-24 15:48:04,720 - INFO - Read 92 rows from 2024/05/14/stocks.csv
+2025-11-24 15:48:04,720 - INFO - Read 92 rows from 2024/05/22/stocks.csv
+2025-11-24 15:48:04,721 - INFO - Read 92 rows from 2024/02/05/stocks.csv
+2025-11-24 15:48:04,721 - INFO - Read 92 rows from 2024/02/02/stocks.csv
+2025-11-24 15:48:04,722 - INFO - Read 92 rows from 2024/02/20/stocks.csv
+2025-11-24 15:48:04,722 - INFO - Read 92 rows from 2024/02/27/stocks.csv
+2025-11-24 15:48:04,723 - INFO - Read 92 rows from 2024/02/29/stocks.csv
+2025-11-24 15:48:04,723 - INFO - Read 91 rows from 2024/02/16/stocks.csv
+2025-11-24 15:48:04,723 - INFO - Read 92 rows from 2024/02/28/stocks.csv
+2025-11-24 15:48:04,724 - INFO - Read 6 rows from 2024/02/19/stocks.csv
+2025-11-24 15:48:04,724 - INFO - Read 92 rows from 2024/02/26/stocks.csv
+2025-11-24 15:48:04,724 - INFO - Read 92 rows from 2024/02/21/stocks.csv
+2025-11-24 15:48:04,725 - INFO - Read 92 rows from 2024/02/07/stocks.csv
+2025-11-24 15:48:04,725 - INFO - Read 91 rows from 2024/02/09/stocks.csv
+2025-11-24 15:48:04,725 - INFO - Read 92 rows from 2024/02/08/stocks.csv
+2025-11-24 15:48:04,726 - INFO - Read 92 rows from 2024/02/01/stocks.csv
+2025-11-24 15:48:04,726 - INFO - Read 92 rows from 2024/02/06/stocks.csv
+2025-11-24 15:48:04,726 - INFO - Read 92 rows from 2024/02/23/stocks.csv
+2025-11-24 15:48:04,727 - INFO - Read 91 rows from 2024/02/15/stocks.csv
+2025-11-24 15:48:04,727 - INFO - Read 91 rows from 2024/02/12/stocks.csv
+2025-11-24 15:48:04,727 - INFO - Read 91 rows from 2024/02/13/stocks.csv
+2025-11-24 15:48:04,728 - INFO - Read 91 rows from 2024/02/14/stocks.csv
+2025-11-24 15:48:04,728 - INFO - Read 92 rows from 2024/02/22/stocks.csv
+2025-11-24 15:48:04,729 - INFO - Read 92 rows from 2024/11/04/stocks.csv
+2025-11-24 15:48:04,729 - INFO - Read 92 rows from 2024/11/05/stocks.csv
+2025-11-24 15:48:04,730 - INFO - Read 91 rows from 2024/11/20/stocks.csv
+2025-11-24 15:48:04,730 - INFO - Read 92 rows from 2024/11/18/stocks.csv
+2025-11-24 15:48:04,730 - INFO - Read 92 rows from 2024/11/27/stocks.csv
+2025-11-24 15:48:04,731 - INFO - Read 92 rows from 2024/11/11/stocks.csv
+2025-11-24 15:48:04,731 - INFO - Read 92 rows from 2024/11/29/stocks.csv
+2025-11-24 15:48:04,732 - INFO - Read 7 rows from 2024/11/28/stocks.csv
+2025-11-24 15:48:04,732 - INFO - Read 92 rows from 2024/11/19/stocks.csv
+2025-11-24 15:48:04,732 - INFO - Read 92 rows from 2024/11/26/stocks.csv
+2025-11-24 15:48:04,733 - INFO - Read 92 rows from 2024/11/21/stocks.csv
+2025-11-24 15:48:04,733 - INFO - Read 92 rows from 2024/11/07/stocks.csv
+2025-11-24 15:48:04,733 - INFO - Read 92 rows from 2024/11/08/stocks.csv
+2025-11-24 15:48:04,734 - INFO - Read 92 rows from 2024/11/01/stocks.csv
+2025-11-24 15:48:04,734 - INFO - Read 92 rows from 2024/11/06/stocks.csv
+2025-11-24 15:48:04,734 - INFO - Read 91 rows from 2024/11/15/stocks.csv
+2025-11-24 15:48:04,735 - INFO - Read 92 rows from 2024/11/12/stocks.csv
+2025-11-24 15:48:04,735 - INFO - Read 92 rows from 2024/11/13/stocks.csv
+2025-11-24 15:48:04,735 - INFO - Read 92 rows from 2024/11/14/stocks.csv
+2025-11-24 15:48:04,736 - INFO - Read 92 rows from 2024/11/22/stocks.csv
+2025-11-24 15:48:04,736 - INFO - Read 92 rows from 2024/11/25/stocks.csv
+2025-11-24 15:48:04,736 - INFO - Read 91 rows from 2024/10/03/stocks.csv
+2025-11-24 15:48:04,737 - INFO - Read 91 rows from 2024/10/04/stocks.csv
+2025-11-24 15:48:04,737 - INFO - Read 90 rows from 2024/10/02/stocks.csv
+2025-11-24 15:48:04,738 - INFO - Read 92 rows from 2024/10/18/stocks.csv
+2025-11-24 15:48:04,738 - INFO - Read 92 rows from 2024/10/11/stocks.csv
+2025-11-24 15:48:04,738 - INFO - Read 92 rows from 2024/10/29/stocks.csv
+2025-11-24 15:48:04,739 - INFO - Read 92 rows from 2024/10/16/stocks.csv
+2025-11-24 15:48:04,739 - INFO - Read 92 rows from 2024/10/28/stocks.csv
+2025-11-24 15:48:04,739 - INFO - Read 92 rows from 2024/10/17/stocks.csv
+2025-11-24 15:48:04,739 - INFO - Read 92 rows from 2024/10/10/stocks.csv
+2025-11-24 15:48:04,740 - INFO - Read 92 rows from 2024/10/21/stocks.csv
+2025-11-24 15:48:04,740 - INFO - Read 91 rows from 2024/10/07/stocks.csv
+2025-11-24 15:48:04,740 - INFO - Read 92 rows from 2024/10/09/stocks.csv
+2025-11-24 15:48:04,741 - INFO - Read 92 rows from 2024/10/31/stocks.csv
+2025-11-24 15:48:04,741 - INFO - Read 92 rows from 2024/10/30/stocks.csv
+2025-11-24 15:48:04,741 - INFO - Read 92 rows from 2024/10/08/stocks.csv
+2025-11-24 15:48:04,742 - INFO - Read 91 rows from 2024/10/01/stocks.csv
+2025-11-24 15:48:04,742 - INFO - Read 92 rows from 2024/10/24/stocks.csv
+2025-11-24 15:48:04,743 - INFO - Read 92 rows from 2024/10/23/stocks.csv
+2025-11-24 15:48:04,743 - INFO - Read 92 rows from 2024/10/15/stocks.csv
+2025-11-24 15:48:04,743 - INFO - Read 91 rows from 2024/10/14/stocks.csv
+2025-11-24 15:48:04,744 - INFO - Read 92 rows from 2024/10/22/stocks.csv
+2025-11-24 15:48:04,744 - INFO - Read 92 rows from 2024/10/25/stocks.csv
+2025-11-24 15:48:04,744 - INFO - Read 92 rows from 2024/07/03/stocks.csv
+2025-11-24 15:48:04,745 - INFO - Read 7 rows from 2024/07/04/stocks.csv
+2025-11-24 15:48:04,745 - INFO - Read 92 rows from 2024/07/05/stocks.csv
+2025-11-24 15:48:04,746 - INFO - Read 92 rows from 2024/07/02/stocks.csv
+2025-11-24 15:48:04,746 - INFO - Read 92 rows from 2024/07/18/stocks.csv
+2025-11-24 15:48:04,746 - INFO - Read 92 rows from 2024/07/11/stocks.csv
+2025-11-24 15:48:04,747 - INFO - Read 92 rows from 2024/07/29/stocks.csv
+2025-11-24 15:48:04,747 - INFO - Read 92 rows from 2024/07/16/stocks.csv
+2025-11-24 15:48:04,747 - INFO - Read 91 rows from 2024/07/17/stocks.csv
+2025-11-24 15:48:04,748 - INFO - Read 92 rows from 2024/07/10/stocks.csv
+2025-11-24 15:48:04,748 - INFO - Read 92 rows from 2024/07/19/stocks.csv
+2025-11-24 15:48:04,748 - INFO - Read 92 rows from 2024/07/26/stocks.csv
+2025-11-24 15:48:04,749 - INFO - Read 92 rows from 2024/07/09/stocks.csv
+2025-11-24 15:48:04,749 - INFO - Read 92 rows from 2024/07/31/stocks.csv
+2025-11-24 15:48:04,750 - INFO - Read 92 rows from 2024/07/30/stocks.csv
+2025-11-24 15:48:04,750 - INFO - Read 92 rows from 2024/07/08/stocks.csv
+2025-11-24 15:48:04,750 - INFO - Read 91 rows from 2024/07/01/stocks.csv
+2025-11-24 15:48:04,751 - INFO - Read 92 rows from 2024/07/24/stocks.csv
+2025-11-24 15:48:04,751 - INFO - Read 92 rows from 2024/07/23/stocks.csv
+2025-11-24 15:48:04,751 - INFO - Read 92 rows from 2024/07/15/stocks.csv
+2025-11-24 15:48:04,752 - INFO - Read 92 rows from 2024/07/12/stocks.csv
+2025-11-24 15:48:04,752 - INFO - Read 92 rows from 2024/07/22/stocks.csv
+2025-11-24 15:48:04,752 - INFO - Read 92 rows from 2024/07/25/stocks.csv
+2025-11-24 15:48:04,753 - INFO - Read 92 rows from 2024/09/03/stocks.csv
+2025-11-24 15:48:04,753 - INFO - Read 92 rows from 2024/09/04/stocks.csv
+2025-11-24 15:48:04,753 - INFO - Read 92 rows from 2024/09/05/stocks.csv
+2025-11-24 15:48:04,754 - INFO - Read 6 rows from 2024/09/02/stocks.csv
+2025-11-24 15:48:04,754 - INFO - Read 92 rows from 2024/09/20/stocks.csv
+2025-11-24 15:48:04,754 - INFO - Read 92 rows from 2024/09/18/stocks.csv
+2025-11-24 15:48:04,755 - INFO - Read 92 rows from 2024/09/27/stocks.csv
+2025-11-24 15:48:04,755 - INFO - Read 92 rows from 2024/09/11/stocks.csv
+2025-11-24 15:48:04,755 - INFO - Read 91 rows from 2024/09/16/stocks.csv
+2025-11-24 15:48:04,756 - INFO - Read 91 rows from 2024/09/17/stocks.csv
+2025-11-24 15:48:04,756 - INFO - Read 92 rows from 2024/09/10/stocks.csv
+2025-11-24 15:48:04,756 - INFO - Read 92 rows from 2024/09/19/stocks.csv
+2025-11-24 15:48:04,757 - INFO - Read 92 rows from 2024/09/26/stocks.csv
+2025-11-24 15:48:04,757 - INFO - Read 92 rows from 2024/09/09/stocks.csv
+2025-11-24 15:48:04,757 - INFO - Read 92 rows from 2024/09/30/stocks.csv
+2025-11-24 15:48:04,758 - INFO - Read 92 rows from 2024/09/06/stocks.csv
+2025-11-24 15:48:04,758 - INFO - Read 92 rows from 2024/09/24/stocks.csv
+2025-11-24 15:48:04,759 - INFO - Read 92 rows from 2024/09/23/stocks.csv
+2025-11-24 15:48:04,759 - INFO - Read 92 rows from 2024/09/12/stocks.csv
+2025-11-24 15:48:04,759 - INFO - Read 92 rows from 2024/09/13/stocks.csv
+2025-11-24 15:48:04,760 - INFO - Read 92 rows from 2024/09/25/stocks.csv
+2025-11-24 15:48:04,760 - INFO - Read 91 rows from 2024/08/05/stocks.csv
+2025-11-24 15:48:04,760 - INFO - Read 92 rows from 2024/08/02/stocks.csv
+2025-11-24 15:48:04,761 - INFO - Read 92 rows from 2024/08/20/stocks.csv
+2025-11-24 15:48:04,761 - INFO - Read 92 rows from 2024/08/27/stocks.csv
+2025-11-24 15:48:04,761 - INFO - Read 92 rows from 2024/08/29/stocks.csv
+2025-11-24 15:48:04,762 - INFO - Read 92 rows from 2024/08/16/stocks.csv
+2025-11-24 15:48:04,762 - INFO - Read 92 rows from 2024/08/28/stocks.csv
+2025-11-24 15:48:04,762 - INFO - Read 92 rows from 2024/08/19/stocks.csv
+2025-11-24 15:48:04,763 - INFO - Read 91 rows from 2024/08/26/stocks.csv
+2025-11-24 15:48:04,763 - INFO - Read 92 rows from 2024/08/21/stocks.csv
+2025-11-24 15:48:04,763 - INFO - Read 92 rows from 2024/08/07/stocks.csv
+2025-11-24 15:48:04,764 - INFO - Read 92 rows from 2024/08/09/stocks.csv
+2025-11-24 15:48:04,764 - INFO - Read 92 rows from 2024/08/30/stocks.csv
+2025-11-24 15:48:04,764 - INFO - Read 92 rows from 2024/08/08/stocks.csv
+2025-11-24 15:48:04,764 - INFO - Read 92 rows from 2024/08/01/stocks.csv
+2025-11-24 15:48:04,765 - INFO - Read 92 rows from 2024/08/06/stocks.csv
+2025-11-24 15:48:04,765 - INFO - Read 92 rows from 2024/08/23/stocks.csv
+2025-11-24 15:48:04,765 - INFO - Read 91 rows from 2024/08/15/stocks.csv
+2025-11-24 15:48:04,766 - INFO - Read 92 rows from 2024/08/12/stocks.csv
+2025-11-24 15:48:04,766 - INFO - Read 92 rows from 2024/08/13/stocks.csv
+2025-11-24 15:48:04,766 - INFO - Read 92 rows from 2024/08/14/stocks.csv
+2025-11-24 15:48:04,767 - INFO - Read 92 rows from 2024/08/22/stocks.csv
+2025-11-24 15:48:04,767 - INFO - Read 92 rows from 2024/01/31/stocks.csv
+2025-11-24 15:48:04,768 - INFO - Read 92 rows from 2024/06/03/stocks.csv
+2025-11-24 15:48:04,768 - INFO - Read 92 rows from 2024/06/04/stocks.csv
+2025-11-24 15:48:04,769 - INFO - Read 92 rows from 2024/06/05/stocks.csv
+2025-11-24 15:48:04,769 - INFO - Read 92 rows from 2024/06/20/stocks.csv
+2025-11-24 15:48:04,769 - INFO - Read 92 rows from 2024/06/18/stocks.csv
+2025-11-24 15:48:04,770 - INFO - Read 92 rows from 2024/06/27/stocks.csv
+2025-11-24 15:48:04,770 - INFO - Read 92 rows from 2024/06/11/stocks.csv
+2025-11-24 15:48:04,770 - INFO - Read 92 rows from 2024/06/28/stocks.csv
+2025-11-24 15:48:04,770 - INFO - Read 91 rows from 2024/06/17/stocks.csv
+2025-11-24 15:48:04,771 - INFO - Read 90 rows from 2024/06/10/stocks.csv
+2025-11-24 15:48:04,771 - INFO - Read 7 rows from 2024/06/19/stocks.csv
+2025-11-24 15:48:04,772 - INFO - Read 92 rows from 2024/06/26/stocks.csv
+2025-11-24 15:48:04,772 - INFO - Read 91 rows from 2024/06/21/stocks.csv
+2025-11-24 15:48:04,772 - INFO - Read 92 rows from 2024/06/07/stocks.csv
+2025-11-24 15:48:04,773 - INFO - Read 91 rows from 2024/06/06/stocks.csv
+2025-11-24 15:48:04,773 - INFO - Read 92 rows from 2024/06/24/stocks.csv
+2025-11-24 15:48:04,773 - INFO - Read 92 rows from 2024/06/12/stocks.csv
+2025-11-24 15:48:04,774 - INFO - Read 92 rows from 2024/06/13/stocks.csv
+2025-11-24 15:48:04,774 - INFO - Read 92 rows from 2024/06/14/stocks.csv
+2025-11-24 15:48:04,774 - INFO - Read 92 rows from 2024/06/25/stocks.csv
+2025-11-24 15:48:04,775 - INFO - Read 93 rows from 2024/12/03/stocks.csv
+2025-11-24 15:48:04,775 - INFO - Read 93 rows from 2024/12/04/stocks.csv
+2025-11-24 15:48:04,775 - INFO - Read 93 rows from 2024/12/05/stocks.csv
+2025-11-24 15:48:04,776 - INFO - Read 92 rows from 2024/12/02/stocks.csv
+2025-11-24 15:48:04,776 - INFO - Read 92 rows from 2024/12/20/stocks.csv
+2025-11-24 15:48:04,777 - INFO - Read 93 rows from 2024/12/18/stocks.csv
+2025-11-24 15:48:04,777 - INFO - Read 93 rows from 2024/12/27/stocks.csv
+2025-11-24 15:48:04,777 - INFO - Read 92 rows from 2024/12/11/stocks.csv
+2025-11-24 15:48:04,777 - INFO - Read 93 rows from 2024/12/16/stocks.csv
+2025-11-24 15:48:04,778 - INFO - Read 93 rows from 2024/12/17/stocks.csv
+2025-11-24 15:48:04,778 - INFO - Read 93 rows from 2024/12/10/stocks.csv
+2025-11-24 15:48:04,778 - INFO - Read 93 rows from 2024/12/19/stocks.csv
+2025-11-24 15:48:04,779 - INFO - Read 87 rows from 2024/12/26/stocks.csv
+2025-11-24 15:48:04,779 - INFO - Read 93 rows from 2024/12/09/stocks.csv
+2025-11-24 15:48:04,779 - INFO - Read 93 rows from 2024/12/30/stocks.csv
+2025-11-24 15:48:04,780 - INFO - Read 93 rows from 2024/12/06/stocks.csv
+2025-11-24 15:48:04,780 - INFO - Read 91 rows from 2024/12/24/stocks.csv
+2025-11-24 15:48:04,780 - INFO - Read 93 rows from 2024/12/23/stocks.csv
+2025-11-24 15:48:04,781 - INFO - Read 93 rows from 2024/12/12/stocks.csv
+2025-11-24 15:48:04,781 - INFO - Read 93 rows from 2024/12/13/stocks.csv
+2025-11-24 15:48:04,781 - INFO - Read 1 rows from 2024/12/25/stocks.csv
+2025-11-24 15:48:04,816 - INFO - Merged 21254 rows for stocks_raw
+2025-11-24 15:48:07,713 - INFO - Validation complete for stocks_raw: valid=21254, invalid=0
+2025-11-24 15:48:07,886 - INFO - Valid: 21254, Invalid: 0
+2025-11-24 15:48:07,897 - INFO - Table stocks_raw created
+2025-11-24 15:48:09,340 - INFO - Inserted 21254 rows into stocks_raw
+2025-11-24 15:48:09,341 - INFO - Loaded 21254 rows to stocks_raw
+2025-11-24 15:48:09,342 - INFO - Base table established with 21254 records
+2025-11-24 15:48:09,342 - INFO - Found 93 unique tickers: 601336.SS, AAL, AAPL, ABBV, ACI, ADM, AIG, ALL, AMZN, ATT.L, AXP, BA, BAC, BBY, C, CAH, CAT, CHS.V, CHTR, CI, CMCSA, CNC, COF, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, DOW, ELV, EPD, ET, F, FDX, FMCC, FNMA, GE, GM, GOOGL, GS, HCA, HD, HUM.ST, IBM, INTC, JNJ, JPM, KR, LFG.AX, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TSLA, TSN, UAL, UNH, UPS, VLO, VZ, WFC, WKC, WMT, X1G.PA, XOM
+2025-11-24 15:48:09,342 - INFO - 
+============================================================
+2025-11-24 15:48:09,343 - INFO - STEP 2: Processing DEPENDENT TABLES
+2025-11-24 15:48:09,343 - INFO - ============================================================
+2025-11-24 15:48:09,343 - INFO - Processing company_metadata
+2025-11-24 15:48:09,344 - INFO - Read 93 rows from 2024/company_details.csv
+2025-11-24 15:48:09,344 - INFO - Merged 93 rows for company_metadata
+2025-11-24 15:48:09,351 - INFO - Validation complete for company_metadata: valid=93, invalid=0
+2025-11-24 15:48:09,353 - INFO - Valid: 93, Invalid: 0
+2025-11-24 15:48:09,355 - ERROR - Failed to load company_metadata: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank INT PRIMARY KEY,
+            company VARCHAR(255) NOT NULL UNIQUE,
+        ' at line 2
+2025-11-24 15:48:09,355 - INFO - Loaded 93 rows to company_metadata
+2025-11-24 15:48:09,355 - INFO - company_metadata processed and linked to stocks_raw
+2025-11-24 15:48:09,355 - INFO - 
+============================================================
+2025-11-24 15:48:09,355 - INFO - STEP 3: Processing INDEPENDENT TABLES
+2025-11-24 15:48:09,355 - INFO - ============================================================
+2025-11-24 15:48:09,355 - INFO - Processing exchange_rates
+2025-11-24 15:48:09,356 - INFO - Read 251 rows from 2024.csv
+2025-11-24 15:48:09,357 - INFO - Merged 251 rows for exchange_rates
+2025-11-24 15:48:09,388 - INFO - Validation complete for exchange_rates: valid=251, invalid=0
+2025-11-24 15:48:09,390 - INFO - Valid: 251, Invalid: 0
+2025-11-24 15:48:09,393 - INFO - Table exchange_rates created
+2025-11-24 15:48:09,408 - INFO - Inserted 251 rows into exchange_rates
+2025-11-24 15:48:09,409 - INFO - Loaded 251 rows to exchange_rates
+2025-11-24 15:48:09,409 - INFO - exchange_rates processed
+2025-11-24 15:48:09,409 - INFO - Processing macro_raw
+2025-11-24 15:48:09,409 - INFO - Read 4 rows from 2024.csv
+2025-11-24 15:48:09,410 - INFO - Merged 4 rows for macro_raw
+2025-11-24 15:48:09,410 - INFO - Validation complete for macro_raw: valid=4, invalid=0
+2025-11-24 15:48:09,411 - INFO - Valid: 4, Invalid: 0
+2025-11-24 15:48:09,413 - INFO - Table macro_raw created
+2025-11-24 15:48:09,416 - INFO - Inserted 4 rows into macro_raw
+2025-11-24 15:48:09,416 - INFO - Loaded 4 rows to macro_raw
+2025-11-24 15:48:09,416 - INFO - macro_raw processed
+2025-11-24 15:48:09,416 - INFO - 
+============================================================
+2025-11-24 15:48:09,416 - INFO - STEP 4: Processing SENTIMENT DATA
+2025-11-24 15:48:09,416 - INFO - ============================================================
+2025-11-24 15:48:09,416 - INFO - Processing sentiment
+2025-11-24 15:48:09,416 - WARNING - No historical data available for sentiment - only live data exists
+2025-11-24 15:48:09,416 - WARNING - sentiment not available
+2025-11-24 15:48:09,416 - INFO - 
+============================================================
+2025-11-24 15:48:09,416 - INFO - STEP 5: KPI CALCULATIONS AND FACT TABLE GENERATION
+2025-11-24 15:48:09,416 - INFO - ============================================================
+2025-11-24 15:48:09,416 - INFO - ============================================================
+2025-11-24 15:48:09,416 - INFO - Starting KPI calculations
+2025-11-24 15:48:09,416 - INFO - ============================================================
+2025-11-24 15:48:09,423 - INFO - Loaded stocks_raw: 21254 rows
+2025-11-24 15:48:09,423 - INFO - Loaded macro_raw: 4 rows
+2025-11-24 15:48:09,423 - INFO - Loaded company_metadata: 93 rows
+2025-11-24 15:48:09,423 - INFO - Loaded exchange_rates: 251 rows
+2025-11-24 15:48:09,425 - INFO - Calculating stock_facts metrics...
+2025-11-24 15:48:09,537 - INFO - Stock facts calculated: 21254 rows
+2025-11-24 15:48:09,537 - INFO - Calculating macro_facts metrics...
+2025-11-24 15:48:09,539 - INFO - Macro facts calculated: 4 rows
+2025-11-24 15:48:09,539 - INFO - Creating sector_lookup...
+2025-11-24 15:48:09,540 - INFO - Sector lookup created: 36 sectors
+2025-11-24 15:48:09,540 - INFO - Calculating analytics_summary metrics...
+2025-11-24 15:48:09,685 - INFO - Analytics summary calculated: 369 rows
+2025-11-24 15:48:09,685 - INFO - Creating pipeline log entry...
+2025-11-24 15:48:09,685 - INFO - Pipeline log created
+2025-11-24 15:48:09,685 - INFO - 
+============================================================
+2025-11-24 15:48:09,685 - INFO - KPI calculations completed successfully
+2025-11-24 15:48:09,685 - INFO - Generated files: stock_facts.csv, macro_facts.csv, sector_lookup.csv, analytics_summary.csv, pipeline_logs.csv
+2025-11-24 15:48:09,685 - INFO - ============================================================
+2025-11-24 15:48:09,686 - INFO - KPI calculations completed successfully
+2025-11-24 15:48:09,699 - INFO - Table stock_facts created
+2025-11-24 15:48:10,097 - ERROR - Failed to load stock_facts: 1054 (42S22): Unknown column 'inf' in 'field list'
+2025-11-24 15:48:10,099 - INFO - Loaded stock_facts to database
+2025-11-24 15:48:10,104 - INFO - Table macro_facts created
+2025-11-24 15:48:10,109 - INFO - Inserted 4 rows into macro_facts
+2025-11-24 15:48:10,109 - INFO - Loaded macro_facts to database
+2025-11-24 15:48:10,111 - INFO - Table sector_lookup created
+2025-11-24 15:48:10,117 - INFO - Inserted 36 rows into sector_lookup
+2025-11-24 15:48:10,117 - INFO - Loaded sector_lookup to database
+2025-11-24 15:48:10,132 - INFO - Table analytics_summary created
+2025-11-24 15:48:10,137 - ERROR - Failed to load analytics_summary: 1054 (42S22): Unknown column 'inf' in 'field list'
+2025-11-24 15:48:10,137 - INFO - Loaded analytics_summary to database
+2025-11-24 15:48:10,141 - INFO - Table pipeline_logs created
+2025-11-24 15:48:10,142 - INFO - Inserted 1 rows into pipeline_logs
+2025-11-24 15:48:10,142 - INFO - Loaded pipeline_logs to database
+2025-11-24 15:48:10,142 - INFO - 
+============================================================
+2025-11-24 15:48:10,142 - INFO - PIPELINE EXECUTION SUMMARY
+2025-11-24 15:48:10,142 - INFO - ============================================================
+2025-11-24 15:48:10,142 - INFO - Base table: stocks_raw (21254 records, 93 tickers)
+2025-11-24 15:48:10,142 - INFO - Dependent: company_metadata - Available
+2025-11-24 15:48:10,142 - INFO - Independent: exchange_rates - Available
+2025-11-24 15:48:10,142 - INFO - Independent: macro_raw - Available
+2025-11-24 15:48:10,142 - INFO - Dependent: sentiment - Not available
+2025-11-24 15:48:10,142 - INFO - ============================================================
+2025-11-24 15:48:10,142 - INFO - Merge process completed successfully
+2025-11-24 15:48:10,142 - INFO - All outputs saved in: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_15:48:04
+2025-11-24 15:48:10,142 - INFO - ============================================================

@@ -1,0 +1,16 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-26 13:33:07,963 - INFO - ===== started running the process ======
+2025-11-26 13:33:08,005 - INFO - ============================================================
+2025-11-26 13:33:08,005 - INFO - Start and end date are both today's date. Starting live scheduler.
+2025-11-26 13:33:08,005 - INFO - Date: 2025-11-26
+2025-11-26 13:33:08,005 - INFO - ============================================================
+2025-11-26 13:33:08,005 - INFO - ============================================================
+2025-11-26 13:33:08,005 - INFO - LIVE SCHEDULER STARTED
+2025-11-26 13:33:08,005 - INFO - ============================================================
+2025-11-26 13:33:08,005 - ERROR - Error processing config: 'sched_time'

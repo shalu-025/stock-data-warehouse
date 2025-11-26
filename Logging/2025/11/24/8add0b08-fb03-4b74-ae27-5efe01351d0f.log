@@ -1,0 +1,201 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 14:14:03,627 - INFO - -> started running the process <-
+2025-11-24 14:14:03,637 - INFO - 
+============================================================
+2025-11-24 14:14:03,637 - INFO - Fetching LIVE data for 2025
+2025-11-24 14:14:03,637 - INFO - Date: 2025-11-24
+2025-11-24 14:14:03,637 - INFO - ============================================================
+2025-11-24 14:14:03,639 - INFO - Total companies with tickers: 96
+2025-11-24 14:14:03,639 - INFO - Today's data already exists — skipping
+2025-11-24 14:14:03,639 - INFO - 
+============================================================
+2025-11-24 14:14:03,639 - INFO - Creating LIVE company metadata for 2025
+2025-11-24 14:14:03,639 - INFO - ============================================================
+2025-11-24 14:14:03,639 - INFO - Metadata already exists — skipping
+2025-11-24 14:14:03,639 - INFO - 
+============================================================
+2025-11-24 14:14:03,639 - INFO - Creating LIVE macro data for 2025
+2025-11-24 14:14:03,639 - INFO - ============================================================
+2025-11-24 14:14:03,639 - INFO - Current year data already exists — skipping
+2025-11-24 14:14:03,639 - INFO - Sentiment already exists — skipping
+2025-11-24 14:14:03,639 - INFO - 
+============================================================
+2025-11-24 14:14:03,639 - INFO - Fetching LIVE exchange rates (USD-INR) from FRED for 2025
+2025-11-24 14:14:03,639 - INFO - ============================================================
+2025-11-24 14:14:03,639 - INFO - Current year data already exists — skipping
+2025-11-24 14:14:03,639 - INFO - ============================================================
+2025-11-24 14:14:03,639 - INFO - Starting merge process
+2025-11-24 14:14:03,639 - INFO - Mode: Live
+2025-11-24 14:14:03,639 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/20251124_141403
+2025-11-24 14:14:03,639 - INFO - ============================================================
+2025-11-24 14:14:03,639 - INFO - 
+============================================================
+2025-11-24 14:14:03,639 - INFO - STEP 1: Processing BASE TABLE (stocks_raw)
+2025-11-24 14:14:03,639 - INFO - ============================================================
+2025-11-24 14:14:03,639 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-24 14:14:03,639 - INFO - Read 93 rows from stocks_raw
+2025-11-24 14:14:03,654 - INFO - Validation complete for stocks_raw: valid=93, invalid=0
+2025-11-24 14:14:03,658 - INFO - Valid: 93, Invalid: 0
+2025-11-24 14:14:03,670 - ERROR - Error connecting to MySQL: 1049 (42000): Unknown database 'stocks'
+2025-11-24 14:14:03,671 - INFO - Loaded 93 rows to stocks_raw
+2025-11-24 14:14:03,671 - INFO - Base table established with 93 records
+2025-11-24 14:14:03,671 - INFO - Found 92 unique tickers: 601336.SS, AAL, ABBV, ACI, ADM, ALL, AMZN, APLE, ATT.L, AVGO, AXP, BA, BAC, CAH, CAT, CHTR, CI, CITI.NE, CMCSA, CNC, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, ELV, EPD, ET, F, FDX, FMCC, FNMA, GD, GM, GOOGL, GSBD, HCA, HD, HP, HUM.ST, IBM, INGM, INTC, JNJ, JPM, KR, LLY, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TRV, TSLA, TSN, UAL, UIPMX, UNH, UPS, VLO, VZ, WFC, WMT, X1G.PA, XOM
+2025-11-24 14:14:03,671 - INFO - 
+============================================================
+2025-11-24 14:14:03,671 - INFO - STEP 2: Processing DEPENDENT TABLES
+2025-11-24 14:14:03,671 - INFO - ============================================================
+2025-11-24 14:14:03,671 - INFO - Processing company_metadata
+2025-11-24 14:14:03,672 - INFO - Read 93 rows from company_metadata
+2025-11-24 14:14:03,672 - ERROR - Row 0 col employees: string not integer (2,100,000)
+2025-11-24 14:14:03,672 - ERROR - Row 1 col employees: string not integer (1,556,000)
+2025-11-24 14:14:03,672 - ERROR - Row 2 col employees: string not integer (400,000)
+2025-11-24 14:14:03,672 - ERROR - Row 3 col employees: string not integer (164,000)
+2025-11-24 14:14:03,672 - ERROR - Row 4 col employees: string not integer (259,500)
+2025-11-24 14:14:03,672 - ERROR - Row 5 col employees: string not integer (183,300)
+2025-11-24 14:14:03,672 - ERROR - Row 6 col employees: string not integer (60,900)
+2025-11-24 14:14:03,673 - ERROR - Row 7 col employees: string not integer (48,000)
+2025-11-24 14:14:03,673 - ERROR - Row 8 col employees: string not integer (44,000)
+2025-11-24 14:14:03,673 - ERROR - Row 9 col employees: string not integer (317,200)
+2025-11-24 14:14:03,673 - ERROR - Row 10 col employees: string not integer (333,000)
+2025-11-24 14:14:03,673 - ERROR - Row 11 col employees: string not integer (72,400)
+2025-11-24 14:14:03,673 - ERROR - Row 12 col employees: string not integer (228,000)
+2025-11-24 14:14:03,673 - ERROR - Row 13 col employees: string not integer (48,400)
+2025-11-24 14:14:03,673 - ERROR - Row 14 col employees: string not integer (45,300)
+2025-11-24 14:14:03,673 - ERROR - Row 15 col employees: string not integer (213,200)
+2025-11-24 14:14:03,673 - ERROR - Row 16 col employees: string not integer (162,000)
+2025-11-24 14:14:03,673 - ERROR - Row 17 col employees: string not integer (171,000)
+2025-11-24 14:14:03,673 - ERROR - Row 18 col employees: string not integer (103,700)
+2025-11-24 14:14:03,673 - ERROR - Row 19 col employees: string not integer (227,900)
+2025-11-24 14:14:03,673 - ERROR - Row 20 col employees: string not integer (74,100)
+2025-11-24 14:14:03,673 - ERROR - Row 21 col employees: string not integer (60,500)
+2025-11-24 14:14:03,674 - ERROR - Row 22 col employees: string not integer (470,100)
+2025-11-24 14:14:03,674 - ERROR - Row 23 col employees: string not integer (8,200)
+2025-11-24 14:14:03,674 - ERROR - Row 24 col employees: string not integer (409,000)
+2025-11-24 14:14:03,674 - ERROR - Row 25 col employees: string not integer (13,200)
+2025-11-24 14:14:03,674 - ERROR - Row 26 col employees: string not integer (18,300)
+2025-11-24 14:14:03,674 - ERROR - Row 27 col employees: string not integer (99,600)
+2025-11-24 14:14:03,674 - ERROR - Row 28 col employees: string not integer (36,000)
+2025-11-24 14:14:03,674 - ERROR - Row 29 col employees: string not integer (46,500)
+2025-11-24 14:14:03,674 - ERROR - Row 30 col employees: string not integer (217,500)
+2025-11-24 14:14:03,674 - ERROR - Row 31 col employees: string not integer (9,900)
+2025-11-24 14:14:03,674 - ERROR - Row 32 col employees: string not integer (182,000)
+2025-11-24 14:14:03,674 - ERROR - Row 33 col employees: string not integer (67,400)
+2025-11-24 14:14:03,674 - ERROR - Row 34 col employees: string not integer (141,000)
+2025-11-24 14:14:03,674 - ERROR - Row 35 col employees: string not integer (8,100)
+2025-11-24 14:14:03,674 - ERROR - Row 36 col employees: string not integer (65,700)
+2025-11-24 14:14:03,674 - ERROR - Row 37 col employees: string not integer (80,500)
+2025-11-24 14:14:03,675 - ERROR - Row 38 col employees: string not integer (440,000)
+2025-11-24 14:14:03,675 - ERROR - Row 39 col employees: string not integer (4,500)
+2025-11-24 14:14:03,675 - ERROR - Row 40 col employees: string not integer (125,700)
+2025-11-24 14:14:03,675 - ERROR - Row 41 col employees: string not integer (108,000)
+2025-11-24 14:14:03,675 - ERROR - Row 42 col employees: string not integer (319,000)
+2025-11-24 14:14:03,675 - ERROR - Row 43 col employees: string not integer (205,000)
+2025-11-24 14:14:03,675 - ERROR - Row 44 col employees: string not integer (372,200)
+2025-11-24 14:14:03,675 - ERROR - Row 45 col employees: string not integer (138,100)
+2025-11-24 14:14:03,675 - ERROR - Row 46 col employees: string not integer (422,100)
+2025-11-24 14:14:03,675 - ERROR - Row 47 col employees: string not integer (43,200)
+2025-11-24 14:14:03,675 - ERROR - Row 48 col employees: string not integer (108,000)
+2025-11-24 14:14:03,675 - ERROR - Row 49 col employees: string not integer (215,500)
+2025-11-24 14:14:03,675 - ERROR - Row 50 col employees: string not integer (16,200)
+2025-11-24 14:14:03,675 - ERROR - Row 51 col employees: string not integer (186,000)
+2025-11-24 14:14:03,676 - ERROR - Row 52 col employees: string not integer (196,600)
+2025-11-24 14:14:03,676 - ERROR - Row 53 col employees: string not integer (76,000)
+2025-11-24 14:14:03,676 - ERROR - Row 54 col employees: string not integer (66,300)
+2025-11-24 14:14:03,676 - ERROR - Row 55 col employees: string not integer (75,100)
+2025-11-24 14:14:03,676 - ERROR - Row 56 col employees: string not integer (121,000)
+2025-11-24 14:14:03,676 - ERROR - Row 57 col employees: string not integer (45,000)
+2025-11-24 14:14:03,676 - ERROR - Row 58 col employees: string not integer (271,000)
+2025-11-24 14:14:03,676 - ERROR - Row 59 col employees: string not integer (37,900)
+2025-11-24 14:14:03,676 - ERROR - Row 60 col employees: string not integer (172,000)
+2025-11-24 14:14:03,676 - ERROR - Row 61 col employees: string not integer (112,900)
+2025-11-24 14:14:03,676 - ERROR - Row 62 col employees: string not integer (74,000)
+2025-11-24 14:14:03,676 - ERROR - Row 63 col employees: string not integer (55,200)
+2025-11-24 14:14:03,676 - ERROR - Row 64 col employees: string not integer (81,000)
+2025-11-24 14:14:03,676 - ERROR - Row 65 col employees: string not integer (284,500)
+2025-11-24 14:14:03,676 - ERROR - Row 66 col employees: string not integer (15,100)
+2025-11-24 14:14:03,676 - ERROR - Row 67 col employees: string not integer (103,000)
+2025-11-24 14:14:03,677 - ERROR - Row 68 col employees: string not integer (25,800)
+2025-11-24 14:14:03,677 - ERROR - Row 69 col employees: string not integer (107,300)
+2025-11-24 14:14:03,677 - ERROR - Row 70 col employees: string not integer (11,800)
+2025-11-24 14:14:03,677 - ERROR - Row 71 col employees: string not integer (364,000)
+2025-11-24 14:14:03,677 - ERROR - Row 72 col employees: string not integer (55,000)
+2025-11-24 14:14:03,677 - ERROR - Row 73 col employees: string not integer (7,800)
+2025-11-24 14:14:03,677 - ERROR - Row 74 col employees: string not integer (94,500)
+2025-11-24 14:14:03,677 - ERROR - Row 75 col employees: string not integer (36,800)
+2025-11-24 14:14:03,677 - ERROR - Row 76 col employees: string not integer (133,300)
+2025-11-24 14:14:03,677 - ERROR - Row 77 col employees: string not integer (90,400)
+2025-11-24 14:14:03,677 - ERROR - Row 78 col employees: string not integer (58,000)
+2025-11-24 14:14:03,677 - ERROR - Row 79 col employees: string not integer (138,000)
+2025-11-24 14:14:03,677 - ERROR - Row 80 col employees: string not integer (108,900)
+2025-11-24 14:14:03,677 - ERROR - Row 81 col employees: string not integer (159,000)
+2025-11-24 14:14:03,677 - ERROR - Row 82 col employees: string not integer (37,000)
+2025-11-24 14:14:03,677 - ERROR - Row 83 col employees: string not integer (55,500)
+2025-11-24 14:14:03,678 - ERROR - Row 84 col employees: string not integer (79,400)
+2025-11-24 14:14:03,678 - ERROR - Row 85 col employees: string not integer (4,200)
+2025-11-24 14:14:03,678 - ERROR - Row 86 col employees: string not integer (38,000)
+2025-11-24 14:14:03,678 - ERROR - Row 87 col employees: string not integer (26,100)
+2025-11-24 14:14:03,678 - ERROR - Row 88 col employees: string not integer (117,000)
+2025-11-24 14:14:03,678 - ERROR - Row 89 col employees: string not integer (69,700)
+2025-11-24 14:14:03,678 - ERROR - Row 90 col employees: string not integer (15,600)
+2025-11-24 14:14:03,678 - ERROR - Row 91 col employees: string not integer (34,000)
+2025-11-24 14:14:03,678 - ERROR - Row 92 col employees: string not integer (47,000)
+2025-11-24 14:14:03,678 - INFO - Validation complete for company_metadata: valid=0, invalid=93
+2025-11-24 14:14:03,680 - INFO - Valid: 0, Invalid: 93
+2025-11-24 14:14:03,680 - INFO - company_metadata processed and linked to stocks_raw
+2025-11-24 14:14:03,680 - INFO - 
+============================================================
+2025-11-24 14:14:03,680 - INFO - STEP 3: Processing INDEPENDENT TABLES
+2025-11-24 14:14:03,680 - INFO - ============================================================
+2025-11-24 14:14:03,680 - INFO - Processing exchange_rates
+2025-11-24 14:14:03,680 - INFO - Read 219 rows from exchange_rates
+2025-11-24 14:14:03,706 - INFO - Validation complete for exchange_rates: valid=219, invalid=0
+2025-11-24 14:14:03,708 - INFO - Valid: 219, Invalid: 0
+2025-11-24 14:14:03,714 - ERROR - Error connecting to MySQL: 1049 (42000): Unknown database 'stocks'
+2025-11-24 14:14:03,714 - INFO - Loaded 219 rows to exchange_rates
+2025-11-24 14:14:03,714 - INFO - exchange_rates processed
+2025-11-24 14:14:03,714 - INFO - Processing macro_raw
+2025-11-24 14:14:03,715 - INFO - Read 4 rows from macro_raw
+2025-11-24 14:14:03,715 - INFO - Validation complete for macro_raw: valid=4, invalid=0
+2025-11-24 14:14:03,716 - INFO - Valid: 4, Invalid: 0
+2025-11-24 14:14:03,720 - ERROR - Error connecting to MySQL: 1049 (42000): Unknown database 'stocks'
+2025-11-24 14:14:03,720 - INFO - Loaded 4 rows to macro_raw
+2025-11-24 14:14:03,720 - INFO - macro_raw processed
+2025-11-24 14:14:03,720 - INFO - 
+============================================================
+2025-11-24 14:14:03,720 - INFO - STEP 4: Processing SENTIMENT DATA
+2025-11-24 14:14:03,720 - INFO - ============================================================
+2025-11-24 14:14:03,720 - INFO - Processing sentiment
+2025-11-24 14:14:03,721 - INFO - Read 45 rows from sentiment
+2025-11-24 14:14:03,728 - INFO - Validation complete for sentiment: valid=45, invalid=0
+2025-11-24 14:14:03,729 - INFO - Valid: 45, Invalid: 0
+2025-11-24 14:14:03,734 - ERROR - Error connecting to MySQL: 1049 (42000): Unknown database 'stocks'
+2025-11-24 14:14:03,734 - INFO - Loaded 45 rows to sentiment
+2025-11-24 14:14:03,734 - INFO - sentiment processed and linked to stocks_raw
+2025-11-24 14:14:03,734 - INFO - 
+============================================================
+2025-11-24 14:14:03,734 - INFO - STEP 5: KPI CALCULATIONS AND FACT TABLE GENERATION
+2025-11-24 14:14:03,734 - INFO - ============================================================
+2025-11-24 14:14:03,734 - INFO - ============================================================
+2025-11-24 14:14:03,734 - INFO - Starting KPI calculations
+2025-11-24 14:14:03,734 - INFO - ============================================================
+2025-11-24 14:14:03,735 - ERROR - Failed to load valid data: No columns to parse from file
+2025-11-24 14:14:03,735 - WARNING - KPI calculation returned no data
+2025-11-24 14:14:03,735 - INFO - 
+============================================================
+2025-11-24 14:14:03,735 - INFO - PIPELINE EXECUTION SUMMARY
+2025-11-24 14:14:03,735 - INFO - ============================================================
+2025-11-24 14:14:03,735 - INFO - Base table: stocks_raw (93 records, 92 tickers)
+2025-11-24 14:14:03,735 - INFO - Dependent: company_metadata - Available
+2025-11-24 14:14:03,735 - INFO - Independent: exchange_rates - Available
+2025-11-24 14:14:03,735 - INFO - Independent: macro_raw - Available
+2025-11-24 14:14:03,735 - INFO - Dependent: sentiment - Available
+2025-11-24 14:14:03,735 - INFO - ============================================================
+2025-11-24 14:14:03,735 - INFO - Merge process completed successfully
+2025-11-24 14:14:03,735 - INFO - All outputs saved in: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/20251124_141403
+2025-11-24 14:14:03,735 - INFO - ============================================================

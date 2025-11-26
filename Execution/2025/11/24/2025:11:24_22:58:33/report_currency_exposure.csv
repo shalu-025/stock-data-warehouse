@@ -1,0 +1,94 @@
+ticker	company	sector_name	avg_currency_correlation	avg_annual_return	exposure_category	interpretation	analysis_type	generated_at
+601336.SS	New York Life Insurance	Insurance: Life, Health (Mutual)	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+MRK	Merck	Pharmaceuticals	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+PFIZER.NS	Pfizer	Pharmaceuticals	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+PFGC	Performance Food	Wholesalers: Food and Grocery	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+PEP	PepsiCo	Food Consumer Products	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+PAGP	Plains GP	Pipelines	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+ORCL	Oracle	Computer Software	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+NVDA	Nvidia	Semiconductors and Other Electronic Components	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+NKE	Nike	Apparel	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+MSFT	Microsoft	Computer Software	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+MS	Morgan Stanley	Commercial Banks	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+MPC	Marathon Petroleum	Petroleum Refining	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+IBM	IBM	Information Technology Services	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+META	Meta	Internet Services and Retailing	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+MET	MetLife	Insurance: Life, Health (Stock)	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+MCK	McKesson	Wholesalers: Health Care	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+LMT	Lockheed Martin	Aerospace & Defense	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+LLY	Eli Lilly	Pharmaceuticals	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+KR	Kroger	Food & Drug Stores	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+JPM	JPMorgan Chase	Commercial Banks	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+JNJ	Johnson & Johnson	Pharmaceuticals	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+INTC	Intel	Semiconductors and Other Electronic Components	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+PG	Procter & Gamble	Household and Personal Products	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+PGR	Progressive	Insurance: Property and Casualty (Stock)	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+PRU	Prudential Financial	Insurance: Life, Health (Stock)	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+PSX	Phillips 66	Petroleum Refining	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+X1G.PA	Lowe's	Specialty Retailers: Other	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+WMT	Walmart	General Merchandisers	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+WFC	Wells Fargo	Commercial Banks	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+VZ	Verizon	Telecommunications	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+VLO	Valero Energy	Petroleum Refining	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+UPS	UPS	Mail, Package and Freight Delivery	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+UNH	UnitedHealth	Health Care: Insurance and Managed Care	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+UIPMX	USAA	Insurance: Property and Casualty (Stock)	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+UAL	United Airlines	Airlines	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+TSN	Tyson Foods	Food Production	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+TSLA	Tesla	Motor Vehicles & Parts	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+TRV	Travelers	Insurance: Property and Casualty (Stock)	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+TJX	TJX	Specialty Retailers: Apparel	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+TILIX	TIAA	Insurance: Life, Health (Mutual)	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+TGT	Target	General Merchandisers	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+SYY	Sysco	Wholesalers: Food and Grocery	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+SNX	TD Synnex	Wholesalers: Electronics and Office Equipment	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+SNEX	StoneX	Diversified Financials	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+RTX	RTX	Aerospace & Defense	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+INGM	Ingram Micro	Wholesalers: Electronics and Office Equipment	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+HUM.ST	Humana	Health Care: Insurance and Managed Care	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+AAL	American Airlines	Airlines	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+BA	Boeing	Aerospace & Defense	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+COLA.WA	Coca-Cola	Beverages	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+CNC	Centene	Health Care: Insurance and Managed Care	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+CMCSA	Comcast	Telecommunications	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+CITI.NE	Citi	Commercial Banks	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+CI	Cigna	Health Care: Pharmacy and Other Services	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+CHTR	Charter Communications	Telecommunications	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+CAT	Caterpillar	Construction and Farm Machinery	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+CAH	Cardinal Health	Wholesalers: Health Care	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+BAC	Bank of America	Commercial Banks	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+AXP	American Express	Diversified Financials	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+HP	HP	Computers, Office Equipment	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+AVGO	Broadcom	Semiconductors and Other Electronic Components	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+ATT.L	AT&T	Telecommunications	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+APLE	Apple	Computers, Office Equipment	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+AMZN	Amazon	Internet Services and Retailing	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+ALL	Allstate	Insurance: Property and Casualty (Stock)	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+ALL	Allstate	Insurance: Property and Casualty (Mutual)	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+ADM	Archer Daniels Midland	Food Production	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+ACI	Albertsons	Food & Drug Stores	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+ABBV	AbbVie	Pharmaceuticals	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+COP	ConocoPhillips	Mining, Crude-Oil Production	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+COR	Cencora	Wholesalers: Health Care	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+COST	Costco	General Merchandisers	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+CSCO	Cisco Systems	Network and Other Communications Equipment	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+HD	Home Depot	Specialty Retailers: Other	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+HCA	HCA Healthcare	Health Care: Medical Facilities	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+GSBD	Goldman Sachs	Commercial Banks	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+GOOGL	Alphabet	Internet Services and Retailing	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+GM	General Motors	Motor Vehicles & Parts	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+GD	General Dynamics	Aerospace & Defense	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+FNMA	Fannie Mae	Diversified Financials	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+FMCC	Freddie Mac	Diversified Financials	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+FDX	FedEx	Mail, Package and Freight Delivery	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+F	Ford Motor	Motor Vehicles & Parts	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+ET	Energy Transfer	Pipelines	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+EPD	Enterprise Products Partners	Pipelines	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+ELV	Elevance Health	Health Care: Insurance and Managed Care	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+DIS	Walt Disney	Entertainment	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+DELL	Dell Technologies	Computers, Office Equipment	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+DE	Deere	Construction and Farm Machinery	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+DAL	Delta Airlines	Airlines	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+CVX	Chevron	Petroleum Refining	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+CVS	CVS Health	Health Care: Pharmacy and Other Services	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617
+XOM	Exxon Mobil	Petroleum Refining	0.0	0.0	Neutral	Minimal currency impact	currency_exposure	2025-11-24 22:58:33.600617

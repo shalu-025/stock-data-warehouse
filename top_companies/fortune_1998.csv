@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,General Motors Corporation,Motor Vehicles & Parts,178174.0,,,1998,,GM
+2,Ford Motor Company,Motor Vehicles & Parts,153627.0,,,1998,,F
+3,Exxon Corporation,Petroleum Refining,122379.0,,,1998,,XOM
+4,"Wal-Mart Stores, Inc.",General Merchandisers,119299.0,,,1998,,WMT
+5,General Electric Company,"Electronics, Electrical Equipment",90840.0,,,1998,,GE
+6,International Business Machines Corporation,"Computers, Office Equipment",78508.0,,,1998,,IBM
+7,Chrysler Corporation,Motor Vehicles & Parts,61147.0,,,1998,,
+8,Mobil Corporation,Petroleum Refining,59978.0,,,1998,,MBLY
+9,Philip Morris Companies Inc.,Tobacco,56114.0,,,1998,,TABAK.PR
+10,AT&T Corp.,Telecommunications,53261.0,,,1998,,ATT.L
+11,The Boeing Company,Aerospace & Defense,45800.0,,,1998,,BA
+12,Texaco Inc.,Petroleum Refining,45187.0,,,1998,,TEXC.NS
+13,State Farm Insurance Companies,Insurance: Property and Casualty (Mutual),43957.0,,,1998,,
+14,Hewlett-Packard Company,"Computers, Office Equipment",42895.0,,,1998,,
+15,"E.I. du Pont de Nemours and Company, Inc.",Chemicals,41304.0,,,1998,,
+16,"Sears, Roebuck and Co.",General Merchandisers,41296.0,,,1998,,SSRAP
+17,Travelers Group Inc.,Diversified Financials,37609.0,,,1998,,TRV
+18,Prudential Insurance Company of America,"Insurance: Life, Health (Stock)",37073.0,,,1998,,PRU
+19,Chevron Corporation,Petroleum Refining,36376.0,,,1998,,CVX
+20,The Procter & Gamble Company,"Soaps, Cosmetics",35764.0,,,1998,,TPG
+21,Citicorp,Commercial Banks,34697.0,,,1998,,
+22,Amoco,Petroleum Refining,32836.0,,,1998,,
+23,Kmart Corporation,General Merchandisers,32183.0,,,1998,,
+24,"Merrill Lynch & Co., Inc.",Securities,31731.0,,,1998,,DE000SLA1M99.SG
+25,"J.C. Penney Company, Inc.",General Merchandisers,30546.0,,,1998,,
+26,"American International Group,Inc.",Insurance: Property and Casualty (Stock),30519.5,,,1998,,AIG
+27,The Chase Manhattan Corporation,Commercial Banks,30381.0,,,1998,,
+28,Bell Atlantic Corporation,Telecommunications,30193.9,,,1998,,
+29,"Motorola, Inc.","Electronics, Electrical Equipment",29794.0,,,1998,,MSI
+30,Teachers Insurance and Annuity Association College Retiremen,"Insurance: Life, Health (Mutual)",29348.4,,,1998,,
+31,"PepsiCo, Inc.",Beverages,29292.0,,,1998,,PEP
+32,Lockheed Martin Corporation,Aerospace & Defense,28069.0,,,1998,,LMT
+33,Fannie Mae,Diversified Financials,27776.9,,,1998,,FNMA
+35,"Morgan Stanley, Dean Witter, Discover & Co.",Securities,27132.0,,,1998,,MSD
+36,The Kroger Company,Food & Drug Stores,26567.3,,,1998,,KR
+37,Lucent Technologies,"Electronics, Electrical Equipment",26360.0,,,1998,,
+38,Intel Corporation,Semiconductors,25070.0,,,1998,,INTC
+39,The Allstate Corporation,Insurance: Property and Casualty (Stock),24949.0,,,1998,,ALL
+40,"SBC Communications, Inc.",Telecommunications,24856.0,,,1998,,SBC
+41,United Technologies Corporation,Aerospace & Defense,24713.0,,,1998,,
+42,Compaq Computer Corporation,"Computers, Office Equipment",24584.0,,,1998,,
+43,Metropolitan Life Insurance Co.,"Insurance: Life, Health (Stock)",24374.0,,,1998,,MTLA.JK
+44,"The Home Depot, Inc.",Specialty Retailers,24155.7,,,1998,,THD
+45,"ConAgra, Inc.",Food,24002.1,,,1998,,CAG
+46,"Merck & Co., Inc.",Pharmaceuticals,23636.9,,,1998,,MRK
+47,BankAmerica Corporation,Commercial Banks,23585.0,,,1998,,
+48,GTE Corporation,Telecommunications,23260.0,,,1998,,GTE
+49,Johnson & Johnson,Pharmaceuticals,22629.0,,,1998,,JNJ
+50,Safeway Inc.,Food & Drug Stores,22483.8,,,1998,,301559.SZ
+51,The Walt Disney Company,Entertainment,22473.0,,,1998,,DIS
+52,"United Parcel Service of America, Inc.","Mail, Package, and Freight Delivery",22458.0,,,1998,,UPS
+53,"Costco Companies, Inc.",Specialty Retailers,21874.4,,,1998,,
+54,NationsBank Corporation,Commercial Banks,21734.0,,,1998,,
+55,USX Corporation,Petroleum Refining,21057.0,,,1998,,USXF
+56,BellSouth Corporation,Telecommunications,20561.0,,,1998,,KTBA
+57,Enron,Pipelines,20273.0,,,1998,,
+59,CIGNA Corporation,"Insurance: Life, Health (Stock)",20038.0,,,1998,,CI
+60,The Dow Chemical Company,Chemicals,20018.0,,,1998,,TDC
+61,Sara Lee Corporation,Food,19734.0,,,1998,,
+62,MCI Communications Corporation,Telecommunications,19653.0,,,1998,,
+63,Loews Corporation,Insurance: Property and Casualty (Stock),19647.8,,,1998,,L
+64,Atlantic Richfield Company,Petroleum Refining,19272.0,,,1998,,
+65,American Stores Company,Food & Drug Stores,19138.9,,,1998,,AXP
+66,"Caterpillar, Inc.",Industrial and Farm Equipment,18925.0,,,1998,,CAT
+67,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",18899.3,,,1998,,601336.SS
+68,The Coca-Cola Company,Beverages,18868.0,,,1998,,
+69,Columbia/HCA Healthcare Corp.,Health Care,18819.0,,,1998,,
+70,AMR Corporation,Airlines,18570.0,,,1998,,AMR
+71,"Aetna, Inc.","Insurance: Life, Health (Stock)",18540.2,,,1998,,
+72,Xerox Corporation,"Computers, Office Equipment",18166.0,,,1998,,XRX
+73,American Express Company,Diversified Financials,17760.0,,,1998,,AXP
+74,J.P. Morgan & Co. Incorporated,Commercial Banks,17701.0,,,1998,,JPM
+75,UAL Corporation,Airlines,17378.0,,,1998,,UAL
+76,RJR Nabisco Holdings Corporation,Food,17057.0,,,1998,,BURCA
+77,"Lehman Brothers Holdings, Inc.",Securities,16883.0,,,1998,,LEHNQ
+78,Bristol-Myers Squibb Company,Pharmaceuticals,16701.2,,,1998,,
+79,"Ingram Micro, Inc.",Wholesalers,16581.5,,,1998,,INGM
+80,"Supervalu, Inc.",Wholesalers,16551.9,,,1998,,
+81,Duke Energy Corporation,Utilities: Gas and Electric,16308.9,,,1998,,DUK
+82,Ameritech Corporation,Telecommunications,15998.0,,,1998,,
+83,"Federated Department Stores, Inc.",General Merchandisers,15668.3,,,1998,,FHI
+85,PG&E Corporation,Utilities: Gas and Electric,15399.9,,,1998,,PGE.V
+86,"Fleming Companies, Inc.",Wholesalers,15372.7,,,1998,,FLMNG.SL
+87,"U S WEST, Inc.",Telecommunications,15352.0,,,1998,,USWE.ST
+88,Electronic Data Systems Corporation,Computer And Data Services,15235.6,,,1998,,EA
+89,Minnesota Mining and Manufacturing Company,"Scientific, Photographic and Control Equipment",15070.0,,,1998,,MMa
+90,Sprint Corporation,Telecommunications,14873.9,,,1998,,SPRINT.ST
+91,Eastman Kodak Company,"Scientific, Photographic and Control Equipment",14713.0,,,1998,,KODK
+92,Phillips Petroleum Company,Food & Drug Stores,14689.5,,,1998,,PSX
+92,Di Giorgio Corporation,Food & Drug Stores,16005.1,,,1998,,
+93,AlliedSignal Inc.,Aerospace & Defense,14472.0,,,1998,,
+94,Sysco Corporation,Wholesalers,14454.6,,,1998,,SYY
+95,Federal Home Loan Mortgage Corp.,Diversified Financials,14399.0,,,1998,,FMCC
+96,First Union Corporation,Commercial Banks,14329.0,,,1998,,FHN
+97,Fluor Corporation,Engineering & Construction,14298.5,,,1998,,FLR
+98,American Home Products Corporation,Pharmaceuticals,14196.0,,,1998,,AMH
+99,Archer Daniels Midland Company,Food,13853.3,,,1998,,ADM
+100,Raytheon Company,"Electronics, Electrical Equipment",13673.5,,,1998,,^RTX
+101,"Delta Air Lines, Inc.",Airlines,13590.0,,,1998,,DAL
+102,Ashland Inc.,Petroleum Refining,13567.0,,,1998,,ASH

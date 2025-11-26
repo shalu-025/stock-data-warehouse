@@ -1,0 +1,68 @@
+rank,company,industry,revenue,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,378799.0,,WMT
+2,Exxon Mobil Corporation,Petroleum Refining,372824.0,,XOM
+3,Chevron Corporation,Petroleum Refining,210783.0,,CVX
+5,ConocoPhillips,Petroleum Refining,178558.0,,COP
+6,General Electric Company,Diversified Financials,176656.0,,GE
+7,Ford Motor Company,Motor Vehicles & Parts,172468.0,,F
+8,"Citigroup, Inc.",Commercial Banks,159229.0,,C
+9,Bank of America Corporation,Commercial Banks,119190.0,,BAC
+10,AT&T Inc.,Telecommunications,118928.0,,ATT.L
+12,J.P. Morgan Chase & Co.,Commercial Banks,116353.0,,JPM
+13,"American International Group,Inc.",Insurance: Property and Casualty (Stock),110064.0,,AIG
+15,International Business Machines Corporation,Information Technology Services,98786.0,,IBM
+16,Valero Energy Corporation,Petroleum Refining,96758.0,,VLO
+17,Verizon Communications Inc.,Telecommunications,93775.0,,VZ
+18,McKesson Corporation,Wholesalers: Health Care,93574.0,,MCK
+19,"Cardinal Health, Inc.",Wholesalers: Health Care,88363.9,,CAH
+20,"The Goldman Sachs Group, Inc.",Securities,87968.0,,TGS
+21,Morgan Stanley,Securities,87879.0,,MS
+22,"The Home Depot, Inc.",Specialty Retailers,84740.0,,THD
+24,CVS Caremark Corporation,Food & Drug Stores,76329.5,,CVS
+25,UnitedHealth Group Incorporated,Health Care: Insurance and Managed Care,75431.0,,UNH
+26,The Kroger Company,Food & Drug Stores,70234.7,,KR
+27,The Boeing Company,Aerospace & Defense,66387.0,,BA
+29,Costco Wholesale Corporation,Specialty Retailers,64400.2,,COST
+31,Target Corporation,General Merchandisers,63367.0,,TGT
+35,Johnson & Johnson,Pharmaceuticals,61095.0,,JNJ
+37,"Lehman Brothers Holdings, Inc.",Securities,59003.0,,LEHNQ
+41,Wells Fargo & Company,Commercial Banks,53593.0,,WFC
+42,The Dow Chemical Company,Chemicals,53513.0,,TDC
+43,"MetLife, Inc.","Insurance: Life, Health (Stock)",53150.0,,MET
+44,Microsoft Corporation,Computer Software,51122.0,,MSFT
+45,Sears Holdings Corporation,General Merchandisers,50703.0,,SRSCQ
+46,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",49692.0,,UPS
+47,Pfizer Inc.,Pharmaceuticals,48418.0,,PFIZER.NS
+48,"Lowe's Companies, Inc.",Specialty Retailers,48283.0,,LOW
+49,Time Warner Inc.,Entertainment,46615.0,,T
+50,"Caterpillar, Inc.",Industrial and Farm Equipment,44958.0,,CAT
+53,Fannie Mae,Diversified Financials,43355.0,,FNMA
+54,Freddie Mac,Diversified Financials,43104.0,,FMCC
+57,Lockheed Martin Corporation,Aerospace & Defense,41862.0,,LMT
+58,Sprint Nextel Corporation,Telecommunications,40146.0,,SIX.AX
+59,"PepsiCo, Inc.",Food Consumer Products,39474.0,,PEP
+60,Intel Corporation,Semiconductors and Other Electronic Components,38334.0,,INTC
+61,"Altria Group, Inc.",Tobacco,38051.0,,MO
+63,Kraft Foods Inc.,Food Consumer Products,37241.0,,1959.T
+64,The Allstate Corporation,Insurance: Property and Casualty (Stock),36769.0,,ALL
+65,"Motorola, Inc.",Network and Other Communications Equipment,36622.0,,MSI
+66,Best Buy Co. Inc.,Specialty Retailers,35934.0,,BBY
+67,The Walt Disney Company,Entertainment,35882.0,,DIS
+68,FedEx Corporation,"Mail, Package, and Freight Delivery",35214.0,,FDX
+70,Sysco Corporation,Wholesalers: Food and Grocery,35042.1,,SYY
+71,"Cisco Systems, Inc.",Network and Other Communications Equipment,34922.0,,CSCO
+72,"Johnson Controls, Inc.",Motor Vehicles & Parts,34678.0,,JCI
+73,Honeywell International Inc.,Aerospace & Defense,34589.0,,HON
+74,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",34401.0,,PRU
+75,American Express Company,Diversified Financials,32316.0,,AXP
+76,Northrop Grumman Corporation,Aerospace & Defense,32032.0,,NOC
+79,Comcast Corporation,Telecommunications,30895.0,,CMCSA
+80,"Alcoa, Inc.",Metals,30748.0,,AA
+87,General Dynamics Corporation,Aerospace & Defense,27294.0,,GD
+88,"Tyson Foods, Inc.",Food Production,26900.0,,TSN
+93,"The Travelers Companies, Inc.",Insurance: Property and Casualty (Stock),26017.0,,TTC
+94,Liberty Mutual Holding Company Inc.,Insurance: Property and Casualty (Stock),25961.0,,LBTYA
+95,The Hartford Financial Services Group Inc.,Insurance: Property and Casualty (Stock),25916.0,,HFF.BE
+96,Abbott Laboratories,Pharmaceuticals,25914.2,,ABT
+99,Massachusetts Financial Group,"Insurance: Life, Health (Mutual)",25268.2,,MFG
+100,3M Company,zMiscellaneous,24462.0,,MMM

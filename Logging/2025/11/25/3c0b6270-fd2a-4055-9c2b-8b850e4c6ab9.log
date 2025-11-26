@@ -1,0 +1,315 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 03:46:02,024 - INFO - ===== started running the process ======
+2025-11-25 03:46:02,106 - INFO - ============================================================
+2025-11-25 03:46:02,106 - INFO - Starting merge process
+2025-11-25 03:46:02,106 - INFO - Mode: Historical
+2025-11-25 03:46:02,107 - INFO - Date range: 2024-11-01 to 2024-12-31
+2025-11-25 03:46:02,107 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_03:46:02
+2025-11-25 03:46:02,107 - INFO - 
+============================================================
+2025-11-25 03:46:02,107 - INFO - Processing BASE TABLE (stocks_raw)
+2025-11-25 03:46:02,107 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-25 03:46:02,109 - INFO - Read 92 rows from 2024/11/04/stocks.csv
+2025-11-25 03:46:02,109 - INFO - Read 92 rows from 2024/11/05/stocks.csv
+2025-11-25 03:46:02,110 - INFO - Read 91 rows from 2024/11/20/stocks.csv
+2025-11-25 03:46:02,110 - INFO - Read 92 rows from 2024/11/18/stocks.csv
+2025-11-25 03:46:02,111 - INFO - Read 92 rows from 2024/11/27/stocks.csv
+2025-11-25 03:46:02,111 - INFO - Read 92 rows from 2024/11/11/stocks.csv
+2025-11-25 03:46:02,112 - INFO - Read 92 rows from 2024/11/29/stocks.csv
+2025-11-25 03:46:02,112 - INFO - Read 7 rows from 2024/11/28/stocks.csv
+2025-11-25 03:46:02,113 - INFO - Read 92 rows from 2024/11/19/stocks.csv
+2025-11-25 03:46:02,113 - INFO - Read 92 rows from 2024/11/26/stocks.csv
+2025-11-25 03:46:02,114 - INFO - Read 92 rows from 2024/11/21/stocks.csv
+2025-11-25 03:46:02,114 - INFO - Read 92 rows from 2024/11/07/stocks.csv
+2025-11-25 03:46:02,115 - INFO - Read 92 rows from 2024/11/08/stocks.csv
+2025-11-25 03:46:02,115 - INFO - Read 92 rows from 2024/11/01/stocks.csv
+2025-11-25 03:46:02,115 - INFO - Read 92 rows from 2024/11/06/stocks.csv
+2025-11-25 03:46:02,116 - INFO - Read 91 rows from 2024/11/15/stocks.csv
+2025-11-25 03:46:02,116 - INFO - Read 92 rows from 2024/11/12/stocks.csv
+2025-11-25 03:46:02,117 - INFO - Read 92 rows from 2024/11/13/stocks.csv
+2025-11-25 03:46:02,117 - INFO - Read 92 rows from 2024/11/14/stocks.csv
+2025-11-25 03:46:02,117 - INFO - Read 92 rows from 2024/11/22/stocks.csv
+2025-11-25 03:46:02,118 - INFO - Read 92 rows from 2024/11/25/stocks.csv
+2025-11-25 03:46:02,118 - INFO - Read 93 rows from 2024/12/03/stocks.csv
+2025-11-25 03:46:02,119 - INFO - Read 93 rows from 2024/12/04/stocks.csv
+2025-11-25 03:46:02,119 - INFO - Read 93 rows from 2024/12/05/stocks.csv
+2025-11-25 03:46:02,119 - INFO - Read 92 rows from 2024/12/02/stocks.csv
+2025-11-25 03:46:02,120 - INFO - Read 92 rows from 2024/12/20/stocks.csv
+2025-11-25 03:46:02,120 - INFO - Read 93 rows from 2024/12/18/stocks.csv
+2025-11-25 03:46:02,120 - INFO - Read 93 rows from 2024/12/27/stocks.csv
+2025-11-25 03:46:02,121 - INFO - Read 92 rows from 2024/12/11/stocks.csv
+2025-11-25 03:46:02,121 - INFO - Read 93 rows from 2024/12/16/stocks.csv
+2025-11-25 03:46:02,121 - INFO - Read 93 rows from 2024/12/17/stocks.csv
+2025-11-25 03:46:02,122 - INFO - Read 93 rows from 2024/12/10/stocks.csv
+2025-11-25 03:46:02,122 - INFO - Read 93 rows from 2024/12/19/stocks.csv
+2025-11-25 03:46:02,122 - INFO - Read 87 rows from 2024/12/26/stocks.csv
+2025-11-25 03:46:02,123 - INFO - Read 93 rows from 2024/12/09/stocks.csv
+2025-11-25 03:46:02,123 - INFO - Read 93 rows from 2024/12/30/stocks.csv
+2025-11-25 03:46:02,123 - INFO - Read 93 rows from 2024/12/06/stocks.csv
+2025-11-25 03:46:02,124 - INFO - Read 91 rows from 2024/12/24/stocks.csv
+2025-11-25 03:46:02,124 - INFO - Read 93 rows from 2024/12/23/stocks.csv
+2025-11-25 03:46:02,124 - INFO - Read 93 rows from 2024/12/12/stocks.csv
+2025-11-25 03:46:02,125 - INFO - Read 93 rows from 2024/12/13/stocks.csv
+2025-11-25 03:46:02,125 - INFO - Read 1 rows from 2024/12/25/stocks.csv
+2025-11-25 03:46:02,132 - INFO - Merged 3695 rows for stocks_raw
+2025-11-25 03:46:02,640 - INFO - Validation complete for stocks_raw: valid=3695, invalid=0
+2025-11-25 03:46:02,674 - INFO - Valid: 3695, Invalid: 0
+2025-11-25 03:46:02,695 - INFO - Table stocks_raw created
+2025-11-25 03:46:02,944 - INFO - Inserted 3695 rows into stocks_raw
+2025-11-25 03:46:02,945 - INFO - Loaded 3695 rows to stocks_raw
+2025-11-25 03:46:02,945 - INFO - Base table established with 3695 records
+2025-11-25 03:46:02,945 - INFO - Found 93 unique tickers: 601336.SS, AAL, AAPL, ABBV, ACI, ADM, AIG, ALL, AMZN, ATT.L, AXP, BA, BAC, BBY, C, CAH, CAT, CHS.V, CHTR, CI, CMCSA, CNC, COF, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, DOW, ELV, EPD, ET, F, FDX, FMCC, FNMA, GE, GM, GOOGL, GS, HCA, HD, HUM.ST, IBM, INTC, JNJ, JPM, KR, LFG.AX, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TSLA, TSN, UAL, UNH, UPS, VLO, VZ, WFC, WKC, WMT, X1G.PA, XOM
+2025-11-25 03:46:02,945 - INFO - 
+============================================================
+2025-11-25 03:46:02,945 - INFO - Processing DEPENDENT TABLES
+2025-11-25 03:46:02,945 - INFO - Processing company_metadata
+2025-11-25 03:46:02,946 - INFO - Read 93 rows from 2024/company_details.csv
+2025-11-25 03:46:02,946 - INFO - Merged 93 rows for company_metadata
+2025-11-25 03:46:02,951 - INFO - Validation complete for company_metadata: valid=93, invalid=0
+2025-11-25 03:46:02,953 - INFO - Valid: 93, Invalid: 0
+2025-11-25 03:46:02,961 - ERROR - Failed to load company_metadata: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank INT PRIMARY KEY,
+            company VARCHAR(255) NOT NULL UNIQUE,
+        ' at line 2
+2025-11-25 03:46:02,961 - INFO - Loaded 93 rows to company_metadata
+2025-11-25 03:46:02,961 - INFO - company_metadata processed and linked to stocks_raw
+2025-11-25 03:46:02,961 - INFO - 
+============================================================
+2025-11-25 03:46:02,961 - INFO - Processing INDEPENDENT TABLES
+2025-11-25 03:46:02,961 - INFO - Processing exchange_rates
+2025-11-25 03:46:02,962 - INFO - Read 251 rows from 2024.csv
+2025-11-25 03:46:02,963 - INFO - Merged 251 rows for exchange_rates
+2025-11-25 03:46:02,993 - INFO - Validation complete for exchange_rates: valid=251, invalid=0
+2025-11-25 03:46:02,996 - INFO - Valid: 251, Invalid: 0
+2025-11-25 03:46:03,003 - INFO - Table exchange_rates created
+2025-11-25 03:46:03,020 - INFO - Inserted 251 rows into exchange_rates
+2025-11-25 03:46:03,020 - INFO - Loaded 251 rows to exchange_rates
+2025-11-25 03:46:03,020 - INFO - exchange_rates processed
+2025-11-25 03:46:03,020 - INFO - Processing macro_raw
+2025-11-25 03:46:03,021 - INFO - Read 4 rows from 2024.csv
+2025-11-25 03:46:03,022 - INFO - Merged 4 rows for macro_raw
+2025-11-25 03:46:03,022 - INFO - Validation complete for macro_raw: valid=4, invalid=0
+2025-11-25 03:46:03,023 - INFO - Valid: 4, Invalid: 0
+2025-11-25 03:46:03,025 - INFO - Table macro_raw created
+2025-11-25 03:46:03,028 - INFO - Inserted 4 rows into macro_raw
+2025-11-25 03:46:03,028 - INFO - Loaded 4 rows to macro_raw
+2025-11-25 03:46:03,028 - INFO - macro_raw processed
+2025-11-25 03:46:03,028 - INFO - 
+============================================================
+2025-11-25 03:46:03,028 - INFO - Processing SENTIMENT DATA
+2025-11-25 03:46:03,028 - INFO - Processing sentiment
+2025-11-25 03:46:03,028 - WARNING - No historical data available for sentiment - only live data exists
+2025-11-25 03:46:03,028 - WARNING - sentiment not available
+2025-11-25 03:46:03,028 - INFO - 
+============================================================
+2025-11-25 03:46:03,028 - INFO - KPI CALCULATIONS AND FACT TABLE GENERATION
+2025-11-25 03:46:03,029 - INFO - ============================================================
+2025-11-25 03:46:03,029 - INFO - Starting KPI calculations
+2025-11-25 03:46:03,031 - INFO - Loaded stocks_raw: 3695 rows
+2025-11-25 03:46:03,031 - INFO - Loaded macro_raw: 4 rows
+2025-11-25 03:46:03,031 - INFO - Loaded company_metadata: 93 rows
+2025-11-25 03:46:03,031 - INFO - Loaded exchange_rates: 251 rows
+2025-11-25 03:46:03,033 - INFO - Calculating stock_facts metrics...
+2025-11-25 03:46:03,072 - INFO - Stock facts calculated: 3695 rows
+2025-11-25 03:46:03,072 - INFO - Calculating macro_facts metrics...
+2025-11-25 03:46:03,073 - ERROR - Failed to calculate macro_facts: cannot access local variable 'ip_year' where it is not associated with a value
+2025-11-25 03:46:03,073 - WARNING - KPI calculation returned no data
+2025-11-25 03:46:03,073 - INFO - 
+============================================================
+2025-11-25 03:46:03,073 - INFO -  ANALYTICS LAYER
+2025-11-25 03:46:03,073 - INFO - 
+================================================================================
+2025-11-25 03:46:03,073 - INFO - REPORT GENERATION STARTED
+2025-11-25 03:46:03,073 - INFO - ================================================================================
+2025-11-25 03:46:03,073 - INFO - Execution Directory (for intermediate CSVs): /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_03:46:02
+2025-11-25 03:46:03,073 - INFO - Reports Directory (for final PDFs/Excel): /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_03:46:02/reports
+2025-11-25 03:46:03,073 - INFO - ================================================================================
+2025-11-25 03:46:03,073 - INFO - Created directory: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_03:46:02/reports
+2025-11-25 03:46:03,073 - INFO - 
+============================================================
+2025-11-25 03:46:03,073 - INFO - Generating Report 1: Annual Market Intelligence Report
+2025-11-25 03:46:03,073 - INFO - ============================================================
+2025-11-25 03:46:03,075 - ERROR - Failed to generate annual market intelligence report: 1146 (42S02): Table 'stocks_new.stock_facts' doesn't exist
+2025-11-25 03:46:03,077 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/connection_cext.py", line 772, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Table 'stocks_new.stock_facts' doesn't exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 122, in annual_market_intelligence_report
+    cursor.execute(query_yearly_performance)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/opentelemetry/context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'stocks_new.stock_facts' doesn't exist
+
+2025-11-25 03:46:03,077 - INFO - 
+============================================================
+2025-11-25 03:46:03,077 - INFO - Generating Report 2: Sector Stability & Volatility Report
+2025-11-25 03:46:03,077 - INFO - ============================================================
+2025-11-25 03:46:03,079 - ERROR - Failed to generate sector stability report: 1146 (42S02): Table 'stocks_new.analytics_summary' doesn't exist
+2025-11-25 03:46:03,080 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/connection_cext.py", line 772, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Table 'stocks_new.analytics_summary' doesn't exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 249, in sector_stability_volatility_report
+    cursor.execute(query_sector_metrics)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/opentelemetry/context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'stocks_new.analytics_summary' doesn't exist
+
+2025-11-25 03:46:03,080 - INFO - 
+============================================================
+2025-11-25 03:46:03,080 - INFO - Generating Report 3: Cross-Market Analysis Report
+2025-11-25 03:46:03,080 - INFO - ============================================================
+2025-11-25 03:46:03,082 - ERROR - Failed to generate cross-market analysis report: 1146 (42S02): Table 'stocks_new.stock_facts' doesn't exist
+2025-11-25 03:46:03,082 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/connection_cext.py", line 772, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Table 'stocks_new.stock_facts' doesn't exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 334, in cross_market_analysis_report
+    cursor.execute(query_currency_impact)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/opentelemetry/context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'stocks_new.stock_facts' doesn't exist
+
+2025-11-25 03:46:03,082 - INFO - 
+============================================================
+2025-11-25 03:46:03,082 - INFO - Generating Report 4: Forecasting & Prediction Summary
+2025-11-25 03:46:03,082 - INFO - ============================================================
+2025-11-25 03:46:03,085 - ERROR - Failed to generate forecasting summary: 1146 (42S02): Table 'stocks_new.analytics_summary' doesn't exist
+2025-11-25 03:46:03,086 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/connection_cext.py", line 772, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Table 'stocks_new.analytics_summary' doesn't exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 466, in forecasting_prediction_summary
+    cursor.execute(query_quarterly_trends)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/opentelemetry/context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/mysql/connector/connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'stocks_new.analytics_summary' doesn't exist
+
+2025-11-25 03:46:03,086 - INFO - 
+================================================================================
+2025-11-25 03:46:03,086 - INFO - REPORT GENERATION COMPLETED SUCCESSFULLY
+2025-11-25 03:46:03,086 - INFO - ================================================================================
+2025-11-25 03:46:03,086 - INFO - 
+Generated Reports:
+2025-11-25 03:46:03,086 - INFO - 1. Annual Market Intelligence Report
+2025-11-25 03:46:03,086 - INFO - 2. Sector Stability & Volatility Report
+2025-11-25 03:46:03,086 - INFO - 3. Cross-Market Analysis Report
+2025-11-25 03:46:03,086 - INFO - 4. Forecasting & Prediction Summary
+2025-11-25 03:46:03,086 - INFO - 
+Intermediate CSVs saved in: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_03:46:02
+2025-11-25 03:46:03,086 - INFO - Final reports (PDF/Excel) saved in: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_03:46:02/reports
+2025-11-25 03:46:03,086 - INFO - ================================================================================
+2025-11-25 03:46:03,086 - INFO - Report generation completed successfully

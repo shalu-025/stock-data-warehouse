@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,Walmart,General Merchandisers,572754.0,13673.0,,2022,2300000.0,WMT
+2,Amazon,Internet Services and Retailing,469822.0,33364.0,,2022,1608000.0,AMZN
+3,Apple,"Computers, Office Equipment",365817.0,94680.0,,2022,154000.0,APLE
+4,CVS Health,Health Care: Pharmacy and Other Services,292111.0,7910.0,,2022,258000.0,CVS
+5,UnitedHealth Group,Health Care: Insurance and Managed Care,287597.0,17285.0,,2022,350000.0,UNH
+6,Exxon Mobil,Petroleum Refining,285640.0,23040.0,,2022,63000.0,XOM
+7,Berkshire Hathaway,Insurance: Property and Casualty (Stock),276094.0,89795.0,,2022,372000.0,BRK.A
+8,Alphabet,Internet Services and Retailing,257637.0,76033.0,,2022,156500.0,GOOGL
+9,McKesson,Wholesalers: Health Care,238228.0,4539.0,,2022,67500.0,MCK
+10,AmerisourceBergen,Wholesalers: Health Care,213989.0,1540.0,,2022,40000.0,ABC.VI
+11,Costco Wholesale,General Merchandisers,195929.0,5007.0,,2022,288000.0,COST
+12,Cigna,Health Care: Pharmacy and Other Services,174078.0,5365.0,,2022,72963.0,CI
+13,AT&T,Telecommunications,168864.0,20081.0,,2022,202600.0,ATT.L
+14,Microsoft,Computer Software,168088.0,61271.0,,2022,181000.0,MSFT
+15,Cardinal Health,Wholesalers: Health Care,162467.0,611.0,,2022,46827.0,CAH
+16,Chevron,Petroleum Refining,162465.0,15625.0,,2022,42595.0,CVX
+17,Home Depot,Specialty Retailers: Other,151157.0,16433.0,,2022,490600.0,HD
+18,Walgreens Boots Alliance,Food & Drug Stores,148579.0,2542.0,,2022,258500.0,WBA
+19,Marathon Petroleum,Petroleum Refining,141032.0,9738.0,,2022,17700.0,MPC
+20,Elevance Health,Health Care: Insurance and Managed Care,138639.0,6104.0,,2022,98200.0,ELV
+21,Kroger,Food & Drug Stores,137888.0,1655.0,,2022,420000.0,KR
+22,Ford Motor,Motor Vehicles & Parts,136341.0,17937.0,,2022,183000.0,F
+23,Verizon Communications,Telecommunications,133613.0,22065.0,,2022,118400.0,VZ
+24,JPMorgan Chase,Commercial Banks,127202.0,48334.0,,2022,271025.0,JPM
+25,General Motors,Motor Vehicles & Parts,127004.0,10019.0,,2022,157000.0,GM
+26,Centene,Health Care: Insurance and Managed Care,125982.0,1347.0,,2022,72500.0,CNC
+27,Meta Platforms,Internet Services and Retailing,117929.0,39370.0,,2022,71970.0,META
+28,Comcast,Telecommunications,116385.0,14159.0,,2022,189000.0,CMCSA
+29,Phillips 66,Petroleum Refining,114852.0,1317.0,,2022,14000.0,PSX
+30,Valero Energy,Petroleum Refining,108332.0,930.0,,2022,9804.0,VLO
+31,Dell Technologies,"Computers, Office Equipment",106995.0,5563.0,,2022,133000.0,DELL
+32,Target,General Merchandisers,106005.0,6946.0,,2022,450000.0,TGT
+33,Fannie Mae,Diversified Financials,101543.0,22176.0,,2022,7400.0,FNMA
+34,UPS,"Mail, Package, and Freight Delivery",97287.0,12890.0,,2022,400945.0,UPS
+35,Lowe's,Specialty Retailers: Other,96250.0,8442.0,,2022,270000.0,X1G.PA
+36,Bank of America,Commercial Banks,93851.0,31978.0,,2022,208248.0,BAC
+37,Johnson & Johnson,Pharmaceuticals,93775.0,20878.0,,2022,141700.0,JNJ
+38,Archer Daniels Midland,Food Production,85249.0,2709.0,,2022,39979.0,ADM
+39,FedEx,"Mail, Package, and Freight Delivery",83959.0,5231.0,,2022,484000.0,FDX
+40,Humana,Health Care: Insurance and Managed Care,83064.0,2933.0,,2022,95500.0,HUM.ST
+41,Wells Fargo,Commercial Banks,82407.0,21548.0,,2022,247848.0,WFC
+42,State Farm Insurance,Insurance: Property and Casualty (Mutual),82225.0,1281.0,,2022,53586.0,
+43,Pfizer,Pharmaceuticals,81288.0,21979.0,,2022,79000.0,PFIZER.NS
+44,Citigroup,Commercial Banks,79865.0,21952.0,,2022,221768.0,C
+45,PepsiCo,Food Consumer Products,79474.0,7618.0,,2022,309000.0,PEP
+46,Intel,Semiconductors and Other Electronic Components,79024.0,19868.0,,2022,121100.0,INTC
+47,Procter & Gamble,Household and Personal Products,76118.0,14306.0,,2022,101000.0,PG
+48,General Electric,Industrial Machinery,74196.0,6520.0,,2022,168000.0,GE
+49,IBM,Information Technology Services,72344.0,5743.0,,2022,297800.0,IBM
+50,MetLife,"Insurance: Life, Health (Stock)",71080.0,6554.0,,2022,43000.0,MET
+51,Prudential Financial,"Insurance: Life, Health (Stock)",70934.0,7724.0,,2022,40916.0,PRU
+52,Albertsons,Food & Drug Stores,69690.0,850.0,,2022,300000.0,ACI
+53,Walt Disney,Entertainment,67418.0,1995.0,,2022,171000.0,DIS
+54,Energy Transfer,Pipelines,67417.0,5470.0,,2022,12558.0,ET
+55,Lockheed Martin,Aerospace & Defense,67044.0,6315.0,,2022,114000.0,LMT
+56,Freddie Mac,Diversified Financials,65898.0,12109.0,,2022,7301.0,FMCC
+57,Goldman Sachs Group,Commercial Banks,64989.0,21635.0,,2022,43900.0,GS
+58,Raytheon Technologies,Aerospace & Defense,64388.0,3864.0,,2022,174000.0,^RTX
+59,HP,"Computers, Office Equipment",63487.0,6503.0,,2022,51000.0,HP
+60,Boeing,Aerospace & Defense,62286.0,4202.0,,2022,142000.0,BA
+61,Morgan Stanley,Commercial Banks,61121.0,15034.0,,2022,74814.0,MS
+62,HCA Healthcare,Health Care: Medical Facilities,58752.0,6956.0,,2022,244000.0,HCA
+63,AbbVie,Pharmaceuticals,56197.0,11542.0,,2022,50000.0,ABBV
+64,Dow,Chemicals,54968.0,6311.0,,2022,35700.0,DOW
+65,Tesla,Motor Vehicles & Parts,53823.0,5519.0,,2022,99290.0,TSLA
+66,Allstate,Insurance: Property and Casualty (Stock),53228.0,1599.0,,2022,54500.0,ALL
+67,AIG,Insurance: Property and Casualty (Stock),52057.0,9388.0,,2022,36600.0,AIG
+68,Best Buy,Specialty Retailers: Other,51761.0,2454.0,,2022,81375.0,BBY
+69,Charter Communications,Telecommunications,51682.0,4654.0,,2022,93700.0,CHTR
+70,Sysco,Wholesalers: Food and Grocery,51298.0,524.0,,2022,57710.0,SYY
+71,Merck,Pharmaceuticals,51216.0,13049.0,,2022,67500.0,MRK
+72,New York Life Insurance,"Insurance: Life, Health (Mutual)",51199.0,277.0,,2022,14344.0,601336.SS
+73,Caterpillar,Construction and Farm Machinery,50971.0,6489.0,,2022,107700.0,CAT
+74,Cisco Systems,Network and Other Communications Equipment,49818.0,10591.0,,2022,79500.0,CSCO
+75,TJX,Specialty Retailers: Apparel,48550.0,3283.0,,2022,340000.0,TJX
+76,Publix Super Markets,Food & Drug Stores,48394.0,4412.0,,2022,232000.0,
+77,ConocoPhillips,"Mining, Crude-Oil Production",48349.0,8079.0,,2022,9900.0,COP
+78,Liberty Mutual Insurance Group,Insurance: Property and Casualty (Stock),48200.0,3068.0,,2022,45000.0,LFG.AX
+79,Progressive,Insurance: Property and Casualty (Stock),47702.0,3351.0,,2022,49077.0,PGR
+80,Nationwide,Insurance: Property and Casualty (Mutual),47376.0,1617.0,,2022,24134.0,NATWIDE.KL
+81,Tyson Foods,Food Production,47049.0,3047.0,,2022,137000.0,TSN
+82,Bristol-Myers Squibb,Pharmaceuticals,46385.0,6994.0,,2022,32200.0,
+83,Nike,Apparel,44538.0,5727.0,,2022,73300.0,NKE
+84,Deere,Construction and Farm Machinery,44024.0,5963.0,,2022,75550.0,DE
+85,American Express,Diversified Financials,43663.0,8060.0,,2022,64000.0,AXP
+86,Abbott Laboratories,Medical Products and Equipment,43075.0,7071.0,,2022,113000.0,ABT
+87,StoneX Group,Diversified Financials,42534.0,116.0,,2022,3242.0,SNEX
+88,Plains GP Holdings,Pipelines,42078.0,60.0,,2022,4100.0,PAGP
+89,Enterprise Products Partners,Pipelines,40807.0,4638.0,,2022,6911.0,EPD
+90,TIAA,"Insurance: Life, Health (Mutual)",40526.0,4061.0,,2022,15065.0,TILIX
+91,Oracle,Computer Software,40479.0,13746.0,,2022,132000.0,ORCL
+92,Thermo Fisher Scientific,"Scientific, Photographic and Control Equipment",39211.0,7725.0,,2022,129000.0,TMO
+93,Coca-Cola,Beverages,38655.0,9771.0,,2022,79000.0,COLA.WA
+94,General Dynamics,Aerospace & Defense,38469.0,3257.0,,2022,103100.0,GD
+95,CHS,Food Production,38448.0,554.0,,2022,9941.0,CHS.V
+96,USAA,Insurance: Property and Casualty (Stock),37470.0,3300.0,,2022,37335.0,UIPMX
+97,Northwestern Mutual,"Insurance: Life, Health (Mutual)",36751.0,978.0,,2022,7585.0,NWE
+98,Nucor,Metals,36484.0,6828.0,,2022,28800.0,NUE
+99,Exelon,Utilities: Gas and Electric,36347.0,1706.0,,2022,31518.0,EXC
+100,Massachusetts Mutual Life Insurance,"Insurance: Life, Health (Mutual)",35900.0,319.0,,2022,10052.0,

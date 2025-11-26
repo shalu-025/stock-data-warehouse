@@ -1,0 +1,39 @@
+rank,company,industry,revenue,employees,ticker
+2,Ford Motor Company,Motor Vehicles & Parts,146991.0,,F
+3,Exxon Corporation,Petroleum Refining,119434.0,,XOM
+4,"Wal-Mart Stores, Inc.",General Merchandisers,106147.0,,WMT
+5,General Electric Company,"Electronics, Electrical Equipment",79179.0,,GE
+6,International Business Machines Corporation,"Computers, Office Equipment",75947.0,,IBM
+7,AT&T Corp.,Telecommunications,74525.0,,ATT.L
+15,Chevron Corporation,Petroleum Refining,38691.0,,CVX
+21,"PepsiCo, Inc.",Food Services,31645.0,,PEP
+23,"American International Group,Inc.",Insurance: Property and Casualty (Stock),28205.3,,AIG
+24,"Motorola, Inc.","Electronics, Electrical Equipment",27973.0,,MSI
+26,Lockheed Martin Corporation,Aerospace & Defense,26875.0,,LMT
+28,The Kroger Company,Food & Drug Stores,25170.9,,KR
+29,Fannie Mae,Diversified Financials,25054.0,,FNMA
+31,"ConAgra, Inc.",Food,24821.6,,CAG
+32,The Allstate Corporation,Insurance: Property and Casualty (Stock),24299.0,,ALL
+36,The Boeing Company,Aerospace & Defense,22681.0,,BA
+39,Johnson & Johnson,Pharmaceuticals,21620.0,,JNJ
+40,Travelers Group Inc.,Insurance: Property and Casualty (Stock),21345.4,,TRV
+43,Intel Corporation,Semiconductors,20847.0,,INTC
+44,International Paper Company,Forest and Paper Products,20143.0,,IP
+46,Loews Corporation,Insurance: Property and Casualty (Stock),19964.8,,L
+48,"Merck & Co., Inc.",Pharmaceuticals,19828.7,,MRK
+51,Xerox Corporation,"Computers, Office Equipment",19521.0,,XRX
+54,CIGNA Corporation,"Insurance: Life, Health (Stock)",18950.0,,CI
+55,The Walt Disney Company,Entertainment,18739.0,,DIS
+56,American Stores Company,Food & Drug Stores,18678.1,,AXP
+64,American Express Company,Diversified Financials,17280.0,,AXP
+68,"Caterpillar, Inc.",Industrial and Farm Equipment,16522.0,,CAT
+73,J.P. Morgan & Co. Incorporated,Commercial Banks,15866.0,,JPM
+78,Digital Equipment Corporation,"Computers, Office Equipment",14562.8,,GEN
+79,Rockwell International Corporation,"Electronics, Electrical Equipment",14343.0,,ROK
+81,Minnesota Mining & Manufacturing Company,"Scientific, Photographic and Control Equipment",14236.0,,MMM
+90,McKesson Corporation,Wholesalers,13718.8,,MCK
+92,SYSCO Corporation,Wholesalers,13395.1,,SYY
+93,Archer Daniels Midland Company,Food,13314.0,,ADM
+96,Morgan Stanley Group,Securities,13144.0,,MS
+97,Alcoa,Metals,13128.4,,AA
+98,The Goodyear Tire & Rubber Company,Rubber and Plastic Products,13112.8,,TGT

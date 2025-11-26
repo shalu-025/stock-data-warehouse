@@ -1,0 +1,6 @@
+company,ticker,date,open,high,low,close,volume
+AmerisourceBergen,ABC.VI,2023-01-02,150.8,150.8,150.8,150.8,0
+Pfizer,PFIZER.NS,2023-01-02,4242.9,4245.73,4209.43,4215.12,3311
+Lowe's,X1G.PA,2023-01-02,207.49,207.49,207.49,207.49,0
+Humana,HUM.ST,2023-01-02,38.77,38.87,37.5,37.99,23652
+World Fuel Services,WFK.BE,2023-01-02,23.7,23.88,23.7,23.88,0

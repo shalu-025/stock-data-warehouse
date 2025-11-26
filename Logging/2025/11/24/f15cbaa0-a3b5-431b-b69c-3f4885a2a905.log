@@ -1,0 +1,336 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-24 23:47:57,620 - INFO - ===== started running the process ======
+2025-11-24 23:47:57,668 - INFO - 
+============================================================
+2025-11-24 23:47:57,668 - INFO - Fetching HISTORICAL data for 2024
+2025-11-24 23:47:57,668 - INFO - Period: 2024-12-30 to 2024-12-30
+2025-11-24 23:47:57,668 - INFO - ============================================================
+2025-11-24 23:47:57,670 - INFO - Total companies with tickers: 95
+2025-11-24 23:47:57,676 - INFO - Found 261 days already saved
+2025-11-24 23:47:57,676 - INFO - 
+[1/95] Walmart (WMT)
+2025-11-24 23:47:58,474 - INFO -   Got 1 days of data
+2025-11-24 23:47:58,579 - INFO - 
+[2/95] Amazon (AMZN)
+2025-11-24 23:47:58,649 - INFO -   Got 1 days of data
+2025-11-24 23:47:58,750 - INFO - 
+[3/95] Apple (AAPL)
+2025-11-24 23:47:58,893 - INFO -   Got 1 days of data
+2025-11-24 23:47:58,998 - INFO - 
+[4/95] Unitedhealth Group (UNH)
+2025-11-24 23:47:59,192 - INFO -   Got 1 days of data
+2025-11-24 23:47:59,295 - INFO - 
+[5/95] Berkshire Hathaway (BRK.A)
+2025-11-24 23:47:59,949 - INFO -   No data available
+2025-11-24 23:47:59,950 - INFO - 
+[6/95] Cvs (CVS)
+2025-11-24 23:48:00,074 - INFO -   Got 1 days of data
+2025-11-24 23:48:00,176 - INFO - 
+[7/95] Exxon Mobil (XOM)
+2025-11-24 23:48:00,363 - INFO -   Got 1 days of data
+2025-11-24 23:48:00,466 - INFO - 
+[8/95] Alphabet (GOOGL)
+2025-11-24 23:48:00,548 - INFO -   Got 1 days of data
+2025-11-24 23:48:00,650 - INFO - 
+[9/95] Mckesson (MCK)
+2025-11-24 23:48:00,769 - INFO -   Got 1 days of data
+2025-11-24 23:48:00,875 - INFO - 
+[10/95] Cencora (COR)
+2025-11-24 23:48:00,981 - INFO -   Got 1 days of data
+2025-11-24 23:48:01,085 - INFO - 
+[11/95] Costco (COST)
+2025-11-24 23:48:01,188 - INFO -   Got 1 days of data
+2025-11-24 23:48:01,294 - INFO - 
+[12/95] Jp Morgan Chase (JPM)
+2025-11-24 23:48:01,476 - INFO -   Got 1 days of data
+2025-11-24 23:48:01,579 - INFO - 
+[13/95] Microsoft (MSFT)
+2025-11-24 23:48:01,691 - INFO -   Got 1 days of data
+2025-11-24 23:48:01,796 - INFO - 
+[14/95] Cardinal Health (CAH)
+2025-11-24 23:48:01,909 - INFO -   Got 1 days of data
+2025-11-24 23:48:02,014 - INFO - 
+[15/95] Chevron (CVX)
+2025-11-24 23:48:02,189 - INFO -   Got 1 days of data
+2025-11-24 23:48:02,294 - INFO - 
+[16/95] Cigna (CI)
+2025-11-24 23:48:02,415 - INFO -   Got 1 days of data
+2025-11-24 23:48:02,520 - INFO - 
+[17/95] Ford Motor (F)
+2025-11-24 23:48:02,663 - INFO -   Got 1 days of data
+2025-11-24 23:48:02,766 - INFO - 
+[18/95] Bank Of America (BAC)
+2025-11-24 23:48:02,896 - INFO -   Got 1 days of data
+2025-11-24 23:48:03,001 - INFO - 
+[19/95] General Motors (GM)
+2025-11-24 23:48:03,112 - INFO -   Got 1 days of data
+2025-11-24 23:48:03,217 - INFO - 
+[20/95] Elevance Health (ELV)
+2025-11-24 23:48:03,312 - INFO -   Got 1 days of data
+2025-11-24 23:48:03,417 - INFO - 
+[21/95] Citigroup (C)
+2025-11-24 23:48:03,529 - INFO -   Got 1 days of data
+2025-11-24 23:48:03,630 - INFO - 
+[22/95] Centene (CNC)
+2025-11-24 23:48:03,707 - INFO -   Got 1 days of data
+2025-11-24 23:48:03,811 - INFO - 
+[23/95] Home Depot (HD)
+2025-11-24 23:48:03,927 - INFO -   Got 1 days of data
+2025-11-24 23:48:04,030 - INFO - 
+[24/95] Marathon Petroleum (MPC)
+2025-11-24 23:48:04,132 - INFO -   Got 1 days of data
+2025-11-24 23:48:04,238 - INFO - 
+[25/95] Kroger (KR)
+2025-11-24 23:48:04,409 - INFO -   Got 1 days of data
+2025-11-24 23:48:04,514 - INFO - 
+[26/95] Phillips 66 (PSX)
+2025-11-24 23:48:04,607 - INFO -   Got 1 days of data
+2025-11-24 23:48:04,710 - INFO - 
+[27/95] Fannie Mae (FNMA)
+2025-11-24 23:48:04,816 - INFO -   Got 1 days of data
+2025-11-24 23:48:04,922 - INFO - 
+[29/95] Valero Energy (VLO)
+2025-11-24 23:48:05,047 - INFO -   Got 1 days of data
+2025-11-24 23:48:05,148 - INFO - 
+[30/95] Meta Platforms (META)
+2025-11-24 23:48:05,230 - INFO -   Got 1 days of data
+2025-11-24 23:48:05,336 - INFO - 
+[31/95] Verizon Communications (VZ)
+2025-11-24 23:48:05,462 - INFO -   Got 1 days of data
+2025-11-24 23:48:05,565 - INFO - 
+[32/95] At&T (ATT.L)
+2025-11-24 23:48:05,649 - INFO -   Got 1 days of data
+2025-11-24 23:48:05,750 - INFO - 
+[33/95] Comcast (CMCSA)
+2025-11-24 23:48:05,879 - INFO -   Got 1 days of data
+2025-11-24 23:48:05,985 - INFO - 
+[34/95] Wells Fargo (WFC)
+2025-11-24 23:48:06,133 - INFO -   Got 1 days of data
+2025-11-24 23:48:06,238 - INFO - 
+[35/95] Goldman Sachs Group (GS)
+2025-11-24 23:48:06,355 - INFO -   Got 1 days of data
+2025-11-24 23:48:06,461 - INFO - 
+[36/95] Freddie Mac (FMCC)
+2025-11-24 23:48:06,559 - INFO -   Got 1 days of data
+2025-11-24 23:48:06,661 - INFO - 
+[37/95] Target (TGT)
+2025-11-24 23:48:06,836 - INFO -   Got 1 days of data
+2025-11-24 23:48:06,942 - INFO - 
+[38/95] Humana (HUM.ST)
+2025-11-24 23:48:07,033 - INFO -   Got 1 days of data
+2025-11-24 23:48:07,139 - INFO - 
+[40/95] Tesla (TSLA)
+2025-11-24 23:48:07,219 - INFO -   Got 1 days of data
+2025-11-24 23:48:07,324 - INFO - 
+[41/95] Morgan Stanley (MS)
+2025-11-24 23:48:07,451 - INFO -   Got 1 days of data
+2025-11-24 23:48:07,555 - INFO - 
+[42/95] Johnson & Johnson (JNJ)
+2025-11-24 23:48:07,767 - INFO -   Got 1 days of data
+2025-11-24 23:48:07,871 - INFO - 
+[43/95] Archer Daniels Midland (ADM)
+2025-11-24 23:48:08,012 - INFO -   Got 1 days of data
+2025-11-24 23:48:08,116 - INFO - 
+[44/95] Pepsico (PEP)
+2025-11-24 23:48:08,351 - INFO -   Got 1 days of data
+2025-11-24 23:48:08,455 - INFO - 
+[45/95] United Parcel Service (UPS)
+2025-11-24 23:48:08,579 - INFO -   Got 1 days of data
+2025-11-24 23:48:08,680 - INFO - 
+[46/95] Fedex (FDX)
+2025-11-24 23:48:08,797 - INFO -   Got 1 days of data
+2025-11-24 23:48:08,901 - INFO - 
+[47/95] Walt Disney (DIS)
+2025-11-24 23:48:09,067 - INFO -   Got 1 days of data
+2025-11-24 23:48:09,172 - INFO - 
+[48/95] Dell Technologies (DELL)
+2025-11-24 23:48:09,256 - INFO -   Got 1 days of data
+2025-11-24 23:48:09,360 - INFO - 
+[49/95] Lowe'S (X1G.PA)
+2025-11-24 23:48:09,444 - INFO -   Got 1 days of data
+2025-11-24 23:48:09,545 - INFO - 
+[50/95] Procter & Gamble (PG)
+2025-11-24 23:48:09,684 - INFO -   Got 1 days of data
+2025-11-24 23:48:09,790 - INFO - 
+[51/95] Energy Transfer (ET)
+2025-11-24 23:48:09,891 - INFO -   Got 1 days of data
+2025-11-24 23:48:09,996 - INFO - 
+[52/95] Boeing (BA)
+2025-11-24 23:48:10,174 - INFO -   Got 1 days of data
+2025-11-24 23:48:10,276 - INFO - 
+[53/95] Albertsons (ACI)
+2025-11-24 23:48:10,364 - INFO -   Got 1 days of data
+2025-11-24 23:48:10,468 - INFO - 
+[54/95] Sysco (SYY)
+2025-11-24 23:48:10,609 - INFO -   Got 1 days of data
+2025-11-24 23:48:10,714 - INFO - 
+[55/95] Rtx (RTX)
+2025-11-24 23:48:10,875 - INFO -   Got 1 days of data
+2025-11-24 23:48:10,979 - INFO - 
+[56/95] General Electric (GE)
+2025-11-24 23:48:11,129 - INFO -   Got 1 days of data
+2025-11-24 23:48:11,235 - INFO - 
+[57/95] Lockheed Martin (LMT)
+2025-11-24 23:48:11,388 - INFO -   Got 1 days of data
+2025-11-24 23:48:11,491 - INFO - 
+[58/95] American Express (AXP)
+2025-11-24 23:48:11,632 - INFO -   Got 1 days of data
+2025-11-24 23:48:11,737 - INFO - 
+[59/95] Caterpillar (CAT)
+2025-11-24 23:48:11,888 - INFO -   Got 1 days of data
+2025-11-24 23:48:11,992 - INFO - 
+[60/95] Metlife (MET)
+2025-11-24 23:48:12,120 - INFO -   Got 1 days of data
+2025-11-24 23:48:12,224 - INFO - 
+[61/95] Hca Healthcare (HCA)
+2025-11-24 23:48:12,323 - INFO -   Got 1 days of data
+2025-11-24 23:48:12,426 - INFO - 
+[62/95] Progressive (PGR)
+2025-11-24 23:48:12,541 - INFO -   Got 1 days of data
+2025-11-24 23:48:12,643 - INFO - 
+[63/95] Ibm (IBM)
+2025-11-24 23:48:12,811 - INFO -   Got 1 days of data
+2025-11-24 23:48:12,917 - INFO - 
+[64/95] Deere (DE)
+2025-11-24 23:48:13,056 - INFO -   Got 1 days of data
+2025-11-24 23:48:13,160 - INFO - 
+[65/95] Nvidia (NVDA)
+2025-11-24 23:48:13,263 - INFO -   Got 1 days of data
+2025-11-24 23:48:13,364 - INFO - 
+[66/95] Stonex Group (SNEX)
+2025-11-24 23:48:13,445 - INFO -   Got 1 days of data
+2025-11-24 23:48:13,548 - INFO - 
+[67/95] Merck (MRK)
+2025-11-24 23:48:13,699 - INFO -   Got 1 days of data
+2025-11-24 23:48:13,804 - INFO - 
+[68/95] Conocophillips (COP)
+2025-11-24 23:48:13,926 - INFO -   Got 1 days of data
+2025-11-24 23:48:14,026 - INFO - 
+[69/95] Pfizer (PFIZER.NS)
+2025-11-24 23:48:14,130 - INFO -   Got 1 days of data
+2025-11-24 23:48:14,235 - INFO - 
+[70/95] Delta Air Lines (DAL)
+2025-11-24 23:48:14,325 - INFO -   Got 1 days of data
+2025-11-24 23:48:14,431 - INFO - 
+[71/95] Td Synnex (SNX)
+2025-11-24 23:48:14,522 - INFO -   Got 1 days of data
+2025-11-24 23:48:14,628 - INFO - 
+[73/95] Allstate (ALL)
+2025-11-24 23:48:14,744 - INFO -   Got 1 days of data
+2025-11-24 23:48:14,848 - INFO - 
+[74/95] Cisco Systems (CSCO)
+2025-11-24 23:48:14,950 - INFO -   Got 1 days of data
+2025-11-24 23:48:15,056 - INFO - 
+[75/95] Nationwide (NATWIDE.KL)
+2025-11-24 23:48:15,925 - INFO -   No data available
+2025-11-24 23:48:15,926 - INFO - 
+[76/95] Charter Communications (CHTR)
+2025-11-24 23:48:16,002 - INFO -   Got 1 days of data
+2025-11-24 23:48:16,106 - INFO - 
+[77/95] Abbvie (ABBV)
+2025-11-24 23:48:16,205 - INFO -   Got 1 days of data
+2025-11-24 23:48:16,310 - INFO - 
+[78/95] New York Life Insurance (601336.SS)
+2025-11-24 23:48:16,420 - INFO -   Got 1 days of data
+2025-11-24 23:48:16,525 - INFO - 
+[79/95] Intel (INTC)
+2025-11-24 23:48:16,652 - INFO -   Got 1 days of data
+2025-11-24 23:48:16,755 - INFO - 
+[80/95] Tjx (TJX)
+2025-11-24 23:48:16,884 - INFO -   Got 1 days of data
+2025-11-24 23:48:16,988 - INFO - 
+[81/95] Prudential Financial (PRU)
+2025-11-24 23:48:17,092 - INFO -   Got 1 days of data
+2025-11-24 23:48:17,195 - INFO - 
+[83/95] United Airlines Holdings (UAL)
+2025-11-24 23:48:17,275 - INFO -   Got 1 days of data
+2025-11-24 23:48:17,380 - INFO - 
+[84/95] Performance Food Group (PFGC)
+2025-11-24 23:48:17,463 - INFO -   Got 1 days of data
+2025-11-24 23:48:17,565 - INFO - 
+[85/95] Tyson Foods (TSN)
+2025-11-24 23:48:17,954 - INFO -   Got 1 days of data
+2025-11-24 23:48:18,060 - INFO - 
+[86/95] American Airlines Group (AAL)
+2025-11-24 23:48:18,140 - INFO -   Got 1 days of data
+2025-11-24 23:48:18,246 - INFO - 
+[87/95] Liberty Mutual Insurance Group (LFG.AX)
+2025-11-24 23:48:18,333 - INFO -   Got 1 days of data
+2025-11-24 23:48:18,435 - INFO - 
+[88/95] Nike (NKE)
+2025-11-24 23:48:18,568 - INFO -   Got 1 days of data
+2025-11-24 23:48:18,670 - INFO - 
+[89/95] Oracle (ORCL)
+2025-11-24 23:48:18,774 - INFO -   Got 1 days of data
+2025-11-24 23:48:18,877 - INFO - 
+[90/95] Enterprise Products Partners (EPD)
+2025-11-24 23:48:19,129 - INFO -   Got 1 days of data
+2025-11-24 23:48:19,235 - INFO - 
+[91/95] Capital One Financial (COF)
+2025-11-24 23:48:19,383 - INFO -   Got 1 days of data
+2025-11-24 23:48:19,489 - INFO - 
+[92/95] Plains Gp Holdings (PAGP)
+2025-11-24 23:48:19,590 - INFO -   Got 1 days of data
+2025-11-24 23:48:19,695 - INFO - 
+[93/95] World Kinect (WKC)
+2025-11-24 23:48:19,839 - INFO -   Got 1 days of data
+2025-11-24 23:48:19,945 - INFO - 
+[94/95] Aig (AIG)
+2025-11-24 23:48:20,153 - INFO -   Got 1 days of data
+2025-11-24 23:48:20,256 - INFO - 
+[95/95] Coca-Cola (COLA.WA)
+2025-11-24 23:48:20,340 - INFO -   Got 1 days of data
+2025-11-24 23:48:20,440 - INFO - 
+[96/95] Tiaa (TILIX)
+2025-11-24 23:48:20,550 - INFO -   Got 1 days of data
+2025-11-24 23:48:20,656 - INFO - 
+[97/95] Chs (CHS.V)
+2025-11-24 23:48:20,738 - INFO -   Got 1 days of data
+2025-11-24 23:48:20,842 - INFO - 
+[99/95] Dow (DOW)
+2025-11-24 23:48:20,930 - INFO -   Got 1 days of data
+2025-11-24 23:48:21,036 - INFO - 
+[100/95] Best Buy (BBY)
+2025-11-24 23:48:21,141 - INFO -   Got 1 days of data
+2025-11-24 23:48:21,246 - INFO - 
+============================================================
+2025-11-24 23:48:21,247 - INFO - Organizing data by date...
+2025-11-24 23:48:21,247 - INFO - ============================================================
+2025-11-24 23:48:21,250 - INFO - Date 2024-12-30 already exists with full data — skipping
+2025-11-24 23:48:21,251 - INFO - 
+Total files saved: 0
+2025-11-24 23:48:21,251 - INFO - Total files appended: 0
+2025-11-24 23:48:21,251 - INFO - Total files skipped: 1
+2025-11-24 23:48:21,253 - INFO - 
+============================================================
+2025-11-24 23:48:21,253 - INFO - Creating HISTORICAL company metadata
+2025-11-24 23:48:21,253 - INFO - Years: 2024 to 2024
+2025-11-24 23:48:21,253 - INFO - ============================================================
+2025-11-24 23:48:21,254 - INFO - 
+2024: Metadata already exists — skipping
+2025-11-24 23:48:21,254 - INFO - 
+Metadata creation complete
+2025-11-24 23:48:21,254 - INFO - 
+============================================================
+2025-11-24 23:48:21,254 - INFO - Creating HISTORICAL macro data
+2025-11-24 23:48:21,254 - INFO - Years: 2024 to 2024
+2025-11-24 23:48:21,254 - INFO - ============================================================
+2025-11-24 23:48:21,254 - INFO - 
+2024: Already exists — skipping
+2025-11-24 23:48:21,254 - INFO - 
+Macro data creation complete
+2025-11-24 23:48:21,254 - INFO - 
+============================================================
+2025-11-24 23:48:21,254 - INFO - Fetching HISTORICAL exchange rates (USD-INR) from FRED
+2025-11-24 23:48:21,254 - INFO - Years: 2024 to 2024
+2025-11-24 23:48:21,254 - INFO - ============================================================
+2025-11-24 23:48:21,254 - INFO - 
+2024: Already exists — skipping
+2025-11-24 23:48:21,254 - INFO - 
+Exchange rate data complete

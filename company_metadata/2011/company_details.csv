@@ -1,0 +1,69 @@
+rank,company,industry,revenue,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,421849.0,,WMT
+2,Exxon Mobil Corporation,Petroleum Refining,354674.0,,XOM
+3,Chevron Corporation,Petroleum Refining,196337.0,,CVX
+4,ConocoPhillips,Petroleum Refining,184966.0,,COP
+5,Fannie Mae,Diversified Financials,153825.0,,FNMA
+6,General Electric Company,Diversified Financials,151628.0,,GE
+8,General Motors Corporation,Motor Vehicles & Parts,135592.0,,GM
+9,Bank of America Corporation,Commercial Banks,134194.0,,BAC
+10,Ford Motor Company,Motor Vehicles & Parts,128954.0,,F
+12,AT&T Inc.,Telecommunications,124629.0,,ATT.L
+13,J.P. Morgan Chase & Co.,Commercial Banks,115475.0,,JPM
+14,"Citigroup, Inc.",Commercial Banks,111055.0,,C
+15,McKesson Corporation,Wholesalers: Health Care,108702.0,,MCK
+16,Verizon Communications Inc.,Telecommunications,106565.0,,VZ
+17,"American International Group,Inc.",Insurance: Property and Casualty (Stock),104417.0,,AIG
+18,International Business Machines Corporation,Information Technology Services,99870.0,,IBM
+19,"Cardinal Health, Inc.",Wholesalers: Health Care,98601.9,,CAH
+20,Freddie Mac,Diversified Financials,98368.0,,FMCC
+21,CVS Caremark Corporation,Food & Drug Stores,96413.0,,CVS
+22,UnitedHealth Group Incorporated,Health Care: Insurance and Managed Care,94155.0,,UNH
+23,Wells Fargo & Company,Commercial Banks,93249.0,,WFC
+24,Valero Energy Corporation,Petroleum Refining,86034.0,,VLO
+25,The Kroger Company,Food & Drug Stores,82189.4,,KR
+28,Costco Wholesale Corporation,Specialty Retailers: Other,77946.0,,COST
+30,"The Home Depot, Inc.",Specialty Retailers: Other,67997.0,,THD
+31,Pfizer Inc.,Pharmaceuticals,67809.0,,PFIZER.NS
+33,Target Corporation,General Merchandisers,67390.0,,TGT
+36,The Boeing Company,Aerospace & Defense,64306.0,,BA
+38,Microsoft Corporation,Computer Software,62484.0,,MSFT
+40,Johnson & Johnson,Pharmaceuticals,61587.0,,JNJ
+43,"PepsiCo, Inc.",Food Consumer Products,57838.0,,PEP
+45,The Dow Chemical Company,Chemicals,53674.0,,TDC
+46,"MetLife, Inc.","Insurance: Life, Health (Stock)",52717.0,,MET
+47,Best Buy Co. Inc.,Specialty Retailers: Other,49694.0,,BBY
+48,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",49545.0,,UPS
+49,Kraft Foods Inc.,Food Consumer Products,49542.0,,1959.T
+50,"Lowe's Companies, Inc.",Specialty Retailers: Other,48815.0,,LOW
+52,Lockheed Martin Corporation,Aerospace & Defense,46890.0,,LMT
+53,"Merck & Co., Inc.",Pharmaceuticals,45987.0,,MRK
+54,"The Goldman Sachs Group, Inc.",Commercial Banks,45967.0,,TGS
+56,Intel Corporation,Semiconductors and Other Electronic Components,43623.0,,INTC
+57,Sears Holdings Corporation,General Merchandisers,43326.0,,SRSCQ
+58,Caterpillar Inc.,Construction and Farm Machinery,42588.0,,CAT
+62,"Cisco Systems, Inc.",Network and Other Communications Equipment,40040.0,,CSCO
+63,Morgan Stanley,Commercial Banks,39320.0,,MS
+64,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",38414.0,,PRU
+65,The Walt Disney Company,Entertainment,38063.0,,DIS
+66,Comcast Corporation,Telecommunications,37937.0,,CMCSA
+67,Sysco Corporation,Wholesalers: Food and Grocery,37243.5,,SYY
+69,Abbott Laboratories,Pharmaceuticals,35166.7,,ABT
+72,Northrop Grumman Corporation,Aerospace & Defense,34757.0,,NOC
+73,FedEx Corporation,"Mail, Package, and Freight Delivery",34734.0,,FDX
+76,"Johnson Controls, Inc.",Motor Vehicles & Parts,34305.0,,JCI
+80,"Enterprise Products Partners, L.P.",Pipelines,33739.3,,EPD
+81,Honeywell International Inc.,Aerospace & Defense,33370.0,,HON
+82,Liberty Mutual Holding Company Inc.,Insurance: Property and Casualty (Stock),33193.0,,LBTYA
+85,Sprint Nextel Corporation,Telecommunications,32563.0,,SIX.AX
+86,General Dynamics Corporation,Aerospace & Defense,32466.0,,GD
+88,"Delta Air Lines, Inc.",Airlines,31755.0,,DAL
+89,The Allstate Corporation,Insurance: Property and Casualty (Stock),31400.0,,ALL
+91,American Express Company,Commercial Banks,30242.0,,AXP
+93,"Tyson Foods, Inc.",Food Production,28430.0,,TSN
+94,Philip Morris International Inc.,Tobacco,27208.0,,PM
+95,Time Warner Inc.,Entertainment,26888.0,,T
+96,Oracle Corporation,Computer Software,26820.0,,ORCL
+97,3M Company,zMiscellaneous,26662.0,,MMM
+98,Deere & Company,Construction and Farm Machinery,26004.6,,DE
+99,"Plains All American Pipeline, L.P.",Pipelines,25893.0,,PAA

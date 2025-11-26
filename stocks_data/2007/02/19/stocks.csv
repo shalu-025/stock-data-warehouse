@@ -1,0 +1,5 @@
+company,ticker,date,open,high,low,close,volume
+AT&T Inc.,ATT.L,2007-02-19,22.67,22.67,22.67,22.67,0
+Pfizer Inc.,PFIZER.NS,2007-02-19,430.84,437.61,428.01,434.18,5282
+The Hartford Financial Services Group Inc.,HFF.BE,2007-02-19,51.99,51.99,51.99,51.99,0
+Massachusetts Financial Group,MFG.AX,2007-02-19,0.87,0.88,0.87,0.88,40201

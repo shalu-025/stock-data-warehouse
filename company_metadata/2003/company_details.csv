@@ -1,0 +1,61 @@
+rank,company,industry,revenue,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,246525.0,,WMT
+3,Exxon Mobil Corporation,Petroleum Refining,182466.0,,XOM
+4,Ford Motor Company,Motor Vehicles & Parts,163630.0,,F
+5,General Electric Company,Diversified Financials,131698.0,,GE
+6,"Citigroup, Inc.",Commercial Banks,100789.0,,C
+8,International Business Machines Corporation,"Computers, Office Equipment",83132.0,,IBM
+9,"American International Group,Inc.",Insurance: Property and Casualty (Stock),67722.8,,AIG
+10,Verizon Communications Inc.,Telecommunications,67625.0,,VZ
+11,"Altria Group, Inc.",Tobacco,62182.0,,MO
+12,ConocoPhillips,Petroleum Refining,58394.0,,COP
+15,The Boeing Company,Aerospace & Defense,54069.0,,BA
+16,Fannie Mae,Diversified Financials,52901.1,,FNMA
+17,"Merck & Co., Inc.",Pharmaceuticals,51790.3,,MRK
+18,The Kroger Company,Food & Drug Stores,51759.5,,KR
+19,"Cardinal Health, Inc.",Wholesalers: Health Care,51135.7,,CAH
+20,McKesson Corporation,Wholesalers: Health Care,50006.0,,MCK
+22,AT&T,Telecommunications,46727.0,,ATT.L
+23,Bank of America Corporation,Commercial Banks,45732.0,,BAC
+25,Target Corporation,General Merchandisers,43917.0,,TGT
+26,J.P. Morgan Chase & Co.,Commercial Banks,43372.0,,JPM
+32,Freddie Mac,Diversified Financials,39663.0,,FMCC
+33,Costco Wholesale Corporation,Specialty Retailers,38762.5,,COST
+34,Johnson & Johnson,Pharmaceuticals,36298.0,,JNJ
+37,Pfizer Inc.,Pharmaceuticals,35281.0,,PFIZER.NS
+38,MetLife Inc.,"Insurance: Life, Health (Stock)",34055.0,,MET
+40,Morgan Stanley,Securities,32415.0,,MS
+43,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",31272.0,,UPS
+44,The Allstate Corporation,Insurance: Property and Casualty (Stock),29579.0,,ALL
+46,Wells Fargo & Co.,Commercial Banks,28473.0,,WFC
+47,Microsoft Corporation,Computer Software,28365.0,,MSFT
+50,"ConAgra Foods, Incorporated",Food Consumer Products,27629.6,,CAG
+55,Valero Energy Corp,Petroleum Refining,26976.3,,VLO
+56,Lockheed Martin Corporation,Aerospace & Defense,26806.0,,LMT
+57,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",26797.0,,PRU
+58,Intel,Semiconductors and Other Electronic Components,26764.0,,INTC
+59,"Motorola, Inc.",Network and Other Communications Equipment,26679.0,,MSI
+60,"Lowe's Companies, Inc.",Specialty Retailers,26490.9,,LOW
+61,The Walt Disney Company,Entertainment,25329.0,,DIS
+62,"PepsiCo, Inc.",Food Consumer Products,25112.0,,PEP
+63,"UnitedHealth Group, Incorporated",Health Care,25020.0,,UNH
+64,International Paper Company,Forest and Paper Products,24976.0,,IP
+68,CVS Corporation,Food & Drug Stores,24181.5,,CVS
+69,American Express Company,Diversified Financials,23807.0,,AXP
+71,Archer Daniels Midland Company,Food Production,23453.6,,ADM
+72,"Tyson Foods, Inc.",Food Production,23367.0,,TSN
+73,Sysco Corporation,Wholesalers: Food and Grocery,23350.5,,SYY
+75,"Goldman Sachs Group, Inc.",Securities,22854.0,,GS
+78,Honeywell International Inc.,Aerospace & Defense,22274.0,,HON
+80,Electronic Data Systems Corporation,Computer And Data Services,21782.0,,EA
+82,"Alcoa, Inc.",Metals,20618.0,,AA
+83,FedEx Corporation,"Mail, Package, and Freight Delivery",20607.0,,FDX
+85,"Caterpillar, Inc.",Industrial and Farm Equipment,20152.0,,CAT
+86,"Johnson Controls, Inc.",Motor Vehicles & Parts,20103.4,,JCI
+87,CIGNA Corporation,Health Care,19915.0,,CI
+91,Best Buy Co. Inc.,Specialty Retailers,19597.0,,BBY
+93,"AutoNation, Inc.","Automotive Retailing, Services",19478.5,,AN
+95,"Cisco Systems, Inc.",Network and Other Communications Equipment,18915.0,,CSCO
+96,Weyerhaeuser Company,Forest and Paper Products,18521.0,,WY
+99,Northrop Grumman Corporation,Aerospace & Defense,17837.0,,NOC
+100,Abbott Laboratories,Pharmaceuticals,17684.7,,ABT

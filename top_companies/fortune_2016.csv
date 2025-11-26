@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,Walmart,General Merchandisers,482130.0,14694.0,,2016,2300000.0,WMT
+2,Exxon Mobil,Petroleum Refining,246204.0,16150.0,,2016,75600.0,XOM
+3,Apple,"Computers, Office Equipment",233715.0,53394.0,,2016,110000.0,APLE
+4,Berkshire Hathaway,Insurance: Property and Casualty (Stock),210821.0,24083.0,,2016,331000.0,BRK.A
+5,McKesson,Wholesalers: Health Care,181241.0,1476.0,,2016,70400.0,MCK
+6,UnitedHealth Group,Health Care: Insurance and Managed Care,157107.0,5813.0,,2016,200000.0,UNH
+7,CVS Health,Food & Drug Stores,153290.0,5237.0,,2016,199000.0,CVS
+8,General Motors,Motor Vehicles & Parts,152356.0,9687.0,,2016,215000.0,GM
+9,Ford Motor,Motor Vehicles & Parts,149558.0,7373.0,,2016,199000.0,F
+10,AT&T,Telecommunications,146801.0,13345.0,,2016,281450.0,ATT.L
+11,General Electric,Industrial Machinery,140389.0,6126.0,,2016,333000.0,GE
+12,AmerisourceBergen,Wholesalers: Health Care,135962.0,135.0,,2016,17000.0,ABC.VI
+13,Verizon,Telecommunications,131620.0,17879.0,,2016,177700.0,VZ
+14,Chevron,Petroleum Refining,131118.0,4587.0,,2016,61500.0,CVX
+15,Costco,Specialty Retailers: Other,116199.0,2377.0,,2016,161000.0,COST
+16,Fannie Mae,Diversified Financials,110359.0,10954.0,,2016,7300.0,FNMA
+17,Kroger,Food & Drug Stores,109830.0,2039.0,,2016,431000.0,KR
+18,Amazon.com,Internet Services and Retailing,107006.0,596.0,,2016,230800.0,
+19,Walgreens Boots Alliance,Food & Drug Stores,103444.0,4220.0,,2016,302500.0,WBA
+20,HP,"Computers, Office Equipment",103355.0,4554.0,,2016,287000.0,HP
+21,Cardinal Health,Wholesalers: Health Care,102531.0,1215.0,,2016,34500.0,CAH
+22,Express Scripts Holding,Health Care: Pharmacy and Other Services,101752.0,2476.0,,2016,25900.0,ESH.BE
+23,J.P. Morgan Chase,Commercial Banks,101006.0,24442.0,,2016,234598.0,JPM
+24,Boeing,Aerospace & Defense,96114.0,5176.0,,2016,161400.0,BA
+25,Microsoft,Computer Software,93580.0,12193.0,,2016,118000.0,MSFT
+26,Bank of America Corp.,Commercial Banks,93056.0,15888.0,,2016,213280.0,BAC
+27,Wells Fargo,Commercial Banks,90033.0,22894.0,,2016,264700.0,WFC
+28,Home Depot,Specialty Retailers: Other,88519.0,7009.0,,2016,385000.0,HD
+29,Citigroup,Commercial Banks,88275.0,17242.0,,2016,231000.0,C
+30,Phillips 66,Petroleum Refining,87169.0,4227.0,,2016,14000.0,PSX
+31,IBM,Information Technology Services,82461.0,13190.0,,2016,411798.0,IBM
+32,Valero Energy,Petroleum Refining,81824.0,3990.0,,2016,10103.0,VLO
+33,Anthem,Health Care: Insurance and Managed Care,79157.0,2560.0,,2016,53000.0,ANTHEM.NS
+34,Procter & Gamble,Household and Personal Products,78756.0,7036.0,,2016,110000.0,PG
+35,State Farm Insurance Cos.,Insurance: Property and Casualty (Mutual),75697.0,6229.0,,2016,70425.0,
+36,Alphabet,Internet Services and Retailing,74989.0,16348.0,,2016,61814.0,GOOGL
+37,Comcast,Telecommunications,74510.0,8163.0,,2016,153000.0,CMCSA
+38,Target,General Merchandisers,73785.0,3363.0,,2016,341000.0,TGT
+39,Johnson & Johnson,Pharmaceuticals,70074.0,15409.0,,2016,127100.0,JNJ
+40,MetLife,"Insurance: Life, Health (Stock)",69951.0,5310.0,,2016,69000.0,MET
+41,Archer Daniels Midland,Food Production,67702.0,1849.0,,2016,32300.0,ADM
+42,Marathon Petroleum,Petroleum Refining,64566.0,2852.0,,2016,45440.0,MPC
+43,Freddie Mac,Diversified Financials,63491.0,6376.0,,2016,5439.0,FMCC
+44,PepsiCo,Food Consumer Products,63056.0,5452.0,,2016,263000.0,PEP
+45,United Technologies,Aerospace & Defense,61047.0,7608.0,,2016,197200.0,
+46,Aetna,Health Care: Insurance and Managed Care,60337.0,2390.0,,2016,50100.0,
+47,Lowe's,Specialty Retailers: Other,59074.0,2546.0,,2016,225000.0,X1G.PA
+48,UPS,"Mail, Package, and Freight Delivery",58363.0,4844.0,,2016,341240.0,UPS
+49,AIG,Insurance: Property and Casualty (Stock),58327.0,2196.0,,2016,66400.0,AIG
+50,Prudential Financial,"Insurance: Life, Health (Stock)",57119.0,5642.0,,2016,49384.0,PRU
+51,Intel,Semiconductors and Other Electronic Components,55355.0,11420.0,,2016,107300.0,INTC
+52,Humana,Health Care: Insurance and Managed Care,54289.0,1276.0,,2016,50100.0,HUM.ST
+53,Disney,Entertainment,52465.0,8382.0,,2016,185000.0,DIS
+54,Cisco Systems,Network and Other Communications Equipment,49161.0,8981.0,,2016,71833.0,CSCO
+55,Pfizer,Pharmaceuticals,48851.0,6960.0,,2016,97900.0,PFIZER.NS
+56,Dow Chemical,Chemicals,48778.0,7685.0,,2016,49495.0,Dow
+57,Sysco,Wholesalers: Food and Grocery,48681.0,687.0,,2016,51700.0,SYY
+58,FedEx,"Mail, Package, and Freight Delivery",47453.0,1050.0,,2016,323035.0,FDX
+59,Caterpillar,Construction and Farm Machinery,47011.0,2102.0,,2016,112200.0,CAT
+60,Lockheed Martin,Aerospace & Defense,46132.0,3605.0,,2016,126000.0,LMT
+61,New York Life Insurance,"Insurance: Life, Health (Mutual)",45891.0,257.0,,2016,11463.0,601336.SS
+62,Coca-Cola,Beverages,44294.0,7351.0,,2016,123200.0,COLA.WA
+63,HCA Holdings,Health Care: Medical Facilities,43591.0,2129.0,,2016,203500.0,HH.AD
+64,Ingram Micro,Wholesalers: Electronics and Office Equipment,43026.0,215.0,,2016,27700.0,INGM
+65,Energy Transfer Equity,Pipelines,42126.0,1189.0,,2016,30078.0,ET
+66,Tyson Foods,Food Production,41373.0,1220.0,,2016,113000.0,TSN
+67,American Airlines Group,Airlines,40990.0,7610.0,,2016,118500.0,AAL
+68,Delta Air Lines,Airlines,40704.0,4526.0,,2016,82949.0,DAL
+69,Nationwide,Insurance: Property and Casualty (Mutual),40222.0,581.0,,2016,34032.0,NATWIDE.KL
+70,Johnson Controls,Motor Vehicles & Parts,40204.0,1563.0,,2016,139000.0,JCI
+71,Best Buy,Specialty Retailers: Other,39745.0,897.0,,2016,125000.0,BBY
+72,Merck,Pharmaceuticals,39498.0,4442.0,,2016,68000.0,MRK
+73,Liberty Mutual Insurance Group,Insurance: Property and Casualty (Stock),39450.0,514.0,,2016,50000.0,LFG.AX
+74,Goldman Sachs Group,Commercial Banks,39208.0,6083.0,,2016,36800.0,GS
+75,Honeywell International,"Electronics, Electrical Equipment",38581.0,4768.0,,2016,129000.0,HON
+76,Massachusetts Mutual Life Insurance,"Insurance: Life, Health (Mutual)",38243.0,1425.0,,2016,11593.0,
+77,Oracle,Computer Software,38226.0,9938.0,,2016,132000.0,ORCL
+78,Morgan Stanley,Commercial Banks,37897.0,6127.0,,2016,56218.0,MS
+79,Cigna,Health Care: Insurance and Managed Care,37876.0,2094.0,,2016,39300.0,CI
+80,United Continental Holdings,Airlines,37864.0,7340.0,,2016,84000.0,UAL
+81,Allstate,Insurance: Property and Casualty (Stock),35653.0,2171.0,,2016,41350.0,ALL
+82,TIAA,"Insurance: Life, Health (Mutual)",35181.0,1214.0,,2016,12735.0,TILIX
+83,INTL FCStone,Diversified Financials,34693.0,56.0,,2016,1231.0,INTL.WA
+84,CHS,Food Production,34582.0,781.0,,2016,12511.0,CHS.V
+85,American Express,Diversified Financials,34441.0,5163.0,,2016,54800.0,AXP
+86,Gilead Sciences,Pharmaceuticals,32639.0,18108.0,,2016,8000.0,GILD
+87,Publix Super Markets,Food & Drug Stores,32619.0,1965.0,,2016,180000.0,
+88,General Dynamics,Aerospace & Defense,31469.0,2965.0,,2016,99900.0,GD
+89,TJX,Specialty Retailers: Apparel,30945.0,2278.0,,2016,216000.0,TJX
+90,ConocoPhillips,"Mining, Crude-Oil Production",30935.0,4428.0,,2016,15900.0,COP
+91,Nike,Apparel,30601.0,3273.0,,2016,62600.0,NKE
+92,World Fuel Services,Wholesalers: Diversified,30380.0,187.0,,2016,4700.0,WFK.BE
+93,3M,Miscellaneous,30274.0,4833.0,,2016,89446.0,MMM
+94,Mondelez International,Food Consumer Products,29636.0,7267.0,,2016,99000.0,MDLZ
+95,Exelon,Utilities: Gas and Electric,29447.0,2269.0,,2016,29762.0,EXC
+96,Twenty-First Century Fox,Entertainment,28987.0,8306.0,,2016,20500.0,21STCENMGM.NS
+97,Deere,Construction and Farm Machinery,28863.0,1940.0,,2016,57180.0,DE
+98,Tesoro,Petroleum Refining,28150.0,1540.0,,2016,6016.0,5D7.F
+99,Time Warner,Entertainment,28118.0,3833.0,,2016,24800.0,T
+100,Northwestern Mutual,"Insurance: Life, Health (Mutual)",28111.0,815.0,,2016,5530.0,NWE

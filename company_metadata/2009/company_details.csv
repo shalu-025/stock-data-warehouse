@@ -1,0 +1,68 @@
+rank,company,industry,revenue,employees,ticker
+1,Exxon Mobil Corporation,Petroleum Refining,442851.0,,XOM
+2,"Wal-Mart Stores, Inc.",General Merchandisers,405607.0,,WMT
+3,Chevron Corporation,Petroleum Refining,263159.0,,CVX
+4,ConocoPhillips,Petroleum Refining,230764.0,,COP
+5,General Electric Company,Diversified Financials,183207.0,,GE
+7,Ford Motor Company,Motor Vehicles & Parts,146277.0,,F
+8,AT&T Inc.,Telecommunications,124028.0,,ATT.L
+10,Valero Energy Corporation,Petroleum Refining,118298.0,,VLO
+11,Bank of America Corporation,Commercial Banks,113106.0,,BAC
+12,"Citigroup, Inc.",Commercial Banks,112372.0,,C
+14,International Business Machines Corporation,Information Technology Services,103630.0,,IBM
+15,McKesson Corporation,Wholesalers: Health Care,101703.0,,MCK
+16,J.P. Morgan Chase & Co.,Commercial Banks,101491.0,,JPM
+17,Verizon Communications Inc.,Telecommunications,97354.0,,VZ
+18,"Cardinal Health, Inc.",Wholesalers: Health Care,91091.4,,CAH
+19,CVS Caremark Corporation,Food & Drug Stores,87471.9,,CVS
+21,UnitedHealth Group Incorporated,Health Care: Insurance and Managed Care,81186.0,,UNH
+22,The Kroger Company,Food & Drug Stores,76000.0,,KR
+24,Costco Wholesale Corporation,Specialty Retailers,72483.0,,COST
+25,"The Home Depot, Inc.",Specialty Retailers,71288.0,,THD
+28,Target Corporation,General Merchandisers,64948.0,,TGT
+29,Johnson & Johnson,Pharmaceuticals,63747.0,,JNJ
+30,Morgan Stanley,Commercial Banks,62262.0,,MS
+34,The Boeing Company,Aerospace & Defense,60909.0,,BA
+35,Microsoft Corporation,Computer Software,60420.0,,MSFT
+38,The Dow Chemical Company,Chemicals,57514.0,,TDC
+39,"MetLife, Inc.","Insurance: Life, Health (Stock)",55085.0,,MET
+40,"The Goldman Sachs Group, Inc.",Commercial Banks,53579.0,,TGS
+41,Wells Fargo & Company,Commercial Banks,51652.0,,WFC
+43,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",51486.0,,UPS
+44,Caterpillar Inc.,Construction and Farm Machinery,51324.0,,CAT
+46,Pfizer Inc.,Pharmaceuticals,48296.0,,PFIZER.NS
+47,"Lowe's Companies, Inc.",Specialty Retailers,48230.0,,LOW
+48,Time Warner Inc.,Entertainment,46984.0,,T
+49,Sears Holdings Corporation,General Merchandisers,46770.0,,SRSCQ
+52,"PepsiCo, Inc.",Food Consumer Products,43251.0,,PEP
+53,Kraft Foods Inc.,Food Consumer Products,42867.0,,1959.T
+54,Lockheed Martin Corporation,Aerospace & Defense,42731.0,,LMT
+56,Best Buy Co. Inc.,Specialty Retailers,40023.0,,BBY
+57,"Cisco Systems, Inc.",Network and Other Communications Equipment,39540.0,,CSCO
+58,"Johnson Controls, Inc.",Motor Vehicles & Parts,38062.0,,JCI
+59,FedEx Corporation,"Mail, Package, and Freight Delivery",37953.0,,FDX
+60,The Walt Disney Company,Entertainment,37843.0,,DIS
+61,Intel Corporation,Semiconductors and Other Electronic Components,37586.0,,INTC
+62,Sysco Corporation,Wholesalers: Food and Grocery,37522.1,,SYY
+63,Honeywell International Inc.,Aerospace & Defense,36556.0,,HON
+64,Sprint Nextel Corporation,Telecommunications,35635.0,,SIX.AX
+68,Comcast Corporation,Telecommunications,34256.0,,CMCSA
+69,Northrop Grumman Corporation,Aerospace & Defense,33940.0,,NOC
+74,American Express Company,Commercial Banks,31877.0,,AXP
+78,"Motorola, Inc.",Network and Other Communications Equipment,30146.0,,MSI
+79,"Plains All American Pipeline, L.P.",Pipelines,30061.0,,PAA
+80,Abbott Laboratories,Pharmaceuticals,29527.6,,ABT
+81,The Allstate Corporation,Insurance: Property and Casualty (Stock),29394.0,,ALL
+83,General Dynamics Corporation,Aerospace & Defense,29302.0,,GD
+84,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",29275.0,,PRU
+86,Liberty Mutual Holding Company Inc.,Insurance: Property and Casualty (Stock),28855.0,,LBTYA
+87,Deere & Company,Construction and Farm Machinery,28437.6,,DE
+89,"Tyson Foods, Inc.",Food Production,28130.0,,TSN
+90,"Alcoa, Inc.",Metals,28119.0,,AA
+92,Murphy Oil Corporation,Petroleum Refining,27512.5,,MUR
+93,Philip Morris International Inc.,Tobacco,25705.0,,PM
+94,Emerson Electric Co.,"Electronics, Electrical Equipment",25281.0,,EMR
+95,3M Company,zMiscellaneous,25269.0,,MMM
+97,International Paper Company,Forest and Paper Products,24829.0,,IP
+98,Occidental Petroleum Corporation,"Mining, Crude-Oil Production",24480.0,,OXY
+99,"The Travelers Companies, Inc.",Insurance: Property and Casualty (Stock),24477.0,,TTC

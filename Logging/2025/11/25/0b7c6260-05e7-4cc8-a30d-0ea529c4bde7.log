@@ -1,0 +1,208 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 14:05:14,392 - INFO - ===== started running the process ======
+2025-11-25 14:05:14,440 - INFO - 
+============================================================
+2025-11-25 14:05:14,440 - INFO - Fetching LIVE data for 2025
+2025-11-25 14:05:14,440 - INFO - Date: 2025-11-25
+2025-11-25 14:05:14,442 - INFO - Total companies with tickers: 96
+2025-11-25 14:05:14,442 - INFO - Today's data already exists — skipping
+2025-11-25 14:05:14,442 - INFO - 
+============================================================
+2025-11-25 14:05:14,442 - INFO - Creating LIVE company metadata for 2025
+2025-11-25 14:05:14,442 - INFO - Metadata already exists — skipping
+2025-11-25 14:05:14,442 - INFO - 
+============================================================
+2025-11-25 14:05:14,442 - INFO - creating LIVE macro data for 2025
+2025-11-25 14:05:14,442 - INFO - current year data already exists — skipping
+2025-11-25 14:05:14,442 - INFO - sentiment already exists — skipping
+2025-11-25 14:05:14,442 - INFO - 
+============================================================
+2025-11-25 14:05:14,442 - INFO - Fetching LIVE exchange rates (USD-INR) from FRED for 2025
+2025-11-25 14:05:14,442 - INFO - Current year data already exists — skipping
+2025-11-25 14:05:14,442 - INFO - Starting merge process
+2025-11-25 14:05:14,442 - INFO - Mode: Live
+2025-11-25 14:05:14,442 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:05:14
+2025-11-25 14:05:14,442 - INFO - 
+============================================================
+2025-11-25 14:05:14,442 - INFO - Processing BASE TABLE (stocks_raw)
+2025-11-25 14:05:14,442 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-25 14:05:14,443 - INFO - Read 93 rows from stocks_raw
+2025-11-25 14:05:14,457 - INFO - Validation complete for stocks_raw: valid=93, invalid=0
+2025-11-25 14:05:14,459 - INFO - Removed 1 duplicate records based on ticker-date
+2025-11-25 14:05:14,460 - INFO - Valid: 92, Invalid: 0
+2025-11-25 14:05:14,473 - INFO - Table stocks_raw created
+2025-11-25 14:05:14,490 - INFO - Inserted 92 rows into stocks_raw
+2025-11-25 14:05:14,490 - INFO - Loaded 92 rows to stocks_raw
+2025-11-25 14:05:14,490 - INFO - Base table established with 92 records
+2025-11-25 14:05:14,491 - INFO - Found 92 unique tickers: 601336.SS, AAL, ABBV, ACI, ADM, ALL, AMZN, APLE, ATT.L, AVGO, AXP, BA, BAC, CAH, CAT, CHTR, CI, CITI.NE, CMCSA, CNC, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, ELV, EPD, ET, F, FDX, FMCC, FNMA, GD, GM, GOOGL, GSBD, HCA, HD, HP, HUM.ST, IBM, INGM, INTC, JNJ, JPM, KR, LLY, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TRV, TSLA, TSN, UAL, UIPMX, UNH, UPS, VLO, VZ, WFC, WMT, X1G.PA, XOM
+2025-11-25 14:05:14,491 - INFO - 
+============================================================
+2025-11-25 14:05:14,491 - INFO - Processing DEPENDENT TABLES
+2025-11-25 14:05:14,491 - INFO - Processing company_metadata
+2025-11-25 14:05:14,491 - INFO - Read 93 rows from company_metadata/2025/company_details.csv
+2025-11-25 14:05:14,491 - INFO - Filtered to 6 columns matching table structure
+2025-11-25 14:05:14,495 - INFO - Validation complete for company_metadata: valid=93, invalid=0
+2025-11-25 14:05:14,497 - INFO - Valid: 93, Invalid: 0
+2025-11-25 14:05:14,501 - INFO - Table company_metadata created successfully
+2025-11-25 14:05:14,511 - INFO - Successfully inserted 93/93 rows into company_metadata
+2025-11-25 14:05:14,511 - INFO - Loaded 93 rows to company_metadata
+2025-11-25 14:05:14,511 - INFO - company_metadata processed and linked to stocks_raw
+2025-11-25 14:05:14,511 - INFO - 
+============================================================
+2025-11-25 14:05:14,511 - INFO - Processing INDEPENDENT TABLES
+2025-11-25 14:05:14,511 - INFO - Processing exchange_rates
+2025-11-25 14:05:14,512 - INFO - Read 219 rows from exchange_rates
+2025-11-25 14:05:14,538 - INFO - Validation complete for exchange_rates: valid=219, invalid=0
+2025-11-25 14:05:14,540 - INFO - Valid: 219, Invalid: 0
+2025-11-25 14:05:14,545 - INFO - Table exchange_rates created
+2025-11-25 14:05:14,567 - INFO - Inserted 219 rows into exchange_rates
+2025-11-25 14:05:14,567 - INFO - Loaded 219 rows to exchange_rates
+2025-11-25 14:05:14,567 - INFO - exchange_rates processed
+2025-11-25 14:05:14,567 - INFO - Processing macro_raw
+2025-11-25 14:05:14,567 - ERROR - Failed to read macro_data/2025.csv: cannot convert float NaN to integer
+2025-11-25 14:05:14,567 - WARNING - macro_raw not available
+2025-11-25 14:05:14,568 - INFO - 
+============================================================
+2025-11-25 14:05:14,568 - INFO - Processing SENTIMENT DATA
+2025-11-25 14:05:14,568 - INFO - Processing sentiment
+2025-11-25 14:05:14,568 - INFO - Read 4 rows from sentiment
+2025-11-25 14:05:14,569 - INFO - Validation complete for sentiment: valid=4, invalid=0
+2025-11-25 14:05:14,570 - INFO - Valid: 4, Invalid: 0
+2025-11-25 14:05:14,574 - INFO - Table sentiment created
+2025-11-25 14:05:14,575 - INFO - Inserted 4 rows into sentiment
+2025-11-25 14:05:14,575 - INFO - Loaded 4 rows to sentiment
+2025-11-25 14:05:14,575 - INFO - sentiment processed and linked to stocks_raw
+2025-11-25 14:05:14,575 - INFO - 
+============================================================
+2025-11-25 14:05:14,575 - INFO - KPI CALCULATIONS AND FACT TABLE GENERATION
+2025-11-25 14:05:14,575 - INFO - Starting KPI calculations
+2025-11-25 14:05:14,575 - ERROR - File not found: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:05:14/valid_macro_raw.csv
+2025-11-25 14:05:14,575 - WARNING - KPI calculation returned no data
+2025-11-25 14:05:14,575 - INFO - 
+================================================================================
+2025-11-25 14:05:14,575 - INFO - REPORT GENERATION STARTED
+2025-11-25 14:05:14,575 - INFO - Created directory: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:05:14/reports
+2025-11-25 14:05:14,575 - INFO - 
+============================================================
+2025-11-25 14:05:14,575 - INFO - Generating Report 1: Annual Market Intelligence Report
+2025-11-25 14:05:14,634 - INFO - Fetched 2 rows for yearly performance
+2025-11-25 14:05:14,649 - INFO - Fetched 20 rows for company performance
+2025-11-25 14:05:14,649 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:05:14/report1_yearly_performance.csv
+2025-11-25 14:05:14,650 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:05:14/report1_company_performance.csv
+2025-11-25 14:05:14,650 - ERROR - Failed to generate annual market intelligence report: not enough values to unpack (expected 4, got 3)
+2025-11-25 14:05:14,652 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 226, in annual_market_intelligence_report
+    y=draw_table(c, table_data, y=y, col_widths=[20*mm, 25*mm, 28*mm, 32*mm, 25*mm, 20*mm, 25*mm])
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 133, in draw_table
+    table.drawOn(c, x, y-table_height)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 112, in drawOn
+    self._drawOn(canvas)
+    ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 93, in _drawOn
+    self.draw()#this is the bit you overload
+    ~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2340, in draw
+    self._drawBkgrnd()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2399, in _drawBkgrnd
+    for cmd, (sc, sr), (ec, er), arg in self._bkgrndcmds:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)
+
+2025-11-25 14:05:14,652 - INFO - 
+============================================================
+2025-11-25 14:05:14,652 - INFO - Generating Report 2: Sector Stability & Volatility Report
+2025-11-25 14:05:14,656 - INFO - Fetched 48 rows for sector metrics
+2025-11-25 14:05:14,656 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:05:14/report2_sector_stability.csv
+2025-11-25 14:05:14,696 - INFO - Saved Excel: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:05:14/reports/report2_sector_stability_20251125_140514.xlsx
+2025-11-25 14:05:14,697 - ERROR - Failed to generate sector stability report: not enough values to unpack (expected 4, got 3)
+2025-11-25 14:05:14,697 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 346, in sector_stability_volatility_report
+    y=draw_table(c, table_data, y=y, col_widths=[40*mm, 20*mm, 25*mm, 25*mm, 25*mm, 20*mm, 25*mm])
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 133, in draw_table
+    table.drawOn(c, x, y-table_height)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 112, in drawOn
+    self._drawOn(canvas)
+    ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 93, in _drawOn
+    self.draw()#this is the bit you overload
+    ~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2340, in draw
+    self._drawBkgrnd()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2399, in _drawBkgrnd
+    for cmd, (sc, sr), (ec, er), arg in self._bkgrndcmds:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)
+
+2025-11-25 14:05:14,697 - INFO - 
+============================================================
+2025-11-25 14:05:14,697 - INFO - Generating Report 3: Cross-Market Analysis Report
+2025-11-25 14:05:14,720 - INFO - Fetched 2 rows for yearly currency data
+2025-11-25 14:05:14,721 - INFO - Fetched 20 rows for company currency data
+2025-11-25 14:05:14,722 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:05:14/report3_currency_yearly.csv
+2025-11-25 14:05:14,722 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:05:14/report3_company_currency.csv
+2025-11-25 14:05:14,725 - ERROR - Failed to generate cross-market analysis report: not enough values to unpack (expected 4, got 3)
+2025-11-25 14:05:14,726 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 456, in cross_market_analysis_report
+    y=draw_table(c, table_data, y=y, col_widths=[25*mm, 40*mm, 40*mm, 40*mm, 35*mm])
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 133, in draw_table
+    table.drawOn(c, x, y-table_height)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 112, in drawOn
+    self._drawOn(canvas)
+    ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 93, in _drawOn
+    self.draw()#this is the bit you overload
+    ~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2340, in draw
+    self._drawBkgrnd()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2399, in _drawBkgrnd
+    for cmd, (sc, sr), (ec, er), arg in self._bkgrndcmds:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)
+
+2025-11-25 14:05:14,726 - INFO - 
+============================================================
+2025-11-25 14:05:14,726 - INFO - Generating Report 4: Forecasting & Prediction Summary
+2025-11-25 14:05:14,729 - INFO - Fetched 5 rows for quarterly trends
+2025-11-25 14:05:14,730 - INFO - Fetched 46 rows for sector forecast
+2025-11-25 14:05:14,730 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:05:14/report4_quarterly_trends.csv
+2025-11-25 14:05:14,731 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:05:14/report4_sector_forecast.csv
+2025-11-25 14:05:14,731 - ERROR - Failed to generate forecasting summary: not enough values to unpack (expected 4, got 3)
+2025-11-25 14:05:14,732 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 594, in forecasting_prediction_summary
+    y=draw_table(c, table_data, y=y, col_widths=[20*mm, 15*mm, 28*mm, 28*mm, 28*mm, 26*mm, 30*mm])
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 133, in draw_table
+    table.drawOn(c, x, y-table_height)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 112, in drawOn
+    self._drawOn(canvas)
+    ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 93, in _drawOn
+    self.draw()#this is the bit you overload
+    ~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2340, in draw
+    self._drawBkgrnd()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2399, in _drawBkgrnd
+    for cmd, (sc, sr), (ec, er), arg in self._bkgrndcmds:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)
+
+2025-11-25 14:05:14,732 - INFO - 
+================================================================================
+2025-11-25 14:05:14,732 - INFO - REPORT GENERATION COMPLETED SUCCESSFULLY
+2025-11-25 14:05:14,732 - INFO - 
+================================================================================
+
+********** END OF LOG FILE **********

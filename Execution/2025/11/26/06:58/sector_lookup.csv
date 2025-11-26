@@ -1,0 +1,40 @@
+sector_id,sector_name,sector_code
+1,Health Care: Pharmacy and Other Services,HEAL
+2,Petroleum Refining,PETR
+3,Health Care: Insurance and Managed Care,HEAL
+4,"Mining, Crude-Oil Production",MINI
+5,"Insurance: Life, Health (Mutual)",INSU
+6,General Merchandisers,GENE
+7,Financial Services,FINA
+8,"Computers, Office Equipment",COMP
+9,Health Care,HEAL
+10,Internet Services And Retailing,INTE
+11,Wholesalers,WHOL
+12,Commercial Banks,COMM
+13,Computer Software,COMP
+14,Motor Vehicles & Parts,MOTO
+15,Specialty Retailers,SPEC
+16,Food & Drug Stores,FOOD
+17,Diversified Financials,DIVE
+18,Telecommunications,TELE
+19,Pharmaceutical,PHAR
+20,Food Production,FOOD
+21,Food Consumer Products,FOOD
+22,"Mail, Package, And Freight Delivery",MAIL
+23,Entertainment,ENTE
+24,Household And Personal Products,HOUS
+25,Pipelines,PIPE
+26,"Aerospace, Defense",AERO
+27,Industrial Machinery,INDU
+28,Construction And Farm Machinery,CONS
+29,Insurance,INSU
+30,Health Care: Medical Facilities,HEAL
+31,Information Technology Services,INFO
+32,Semiconductor And Electronics,SEMI
+33,Airlines,AIRL
+34,Network And Other Communications Equipment,NETW
+35,Metals & Mining,META
+36,Apparel,APPA
+37,Energy,ENER
+38,Beverage,BEVE
+39,Chemicals,CHEM

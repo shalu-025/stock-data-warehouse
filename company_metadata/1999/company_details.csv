@@ -1,0 +1,48 @@
+rank,company,industry,revenue,employees,ticker
+2,Ford Motor Company,Motor Vehicles & Parts,144416.0,,F
+3,"Wal-Mart Stores, Inc.",General Merchandisers,139208.0,,WMT
+4,Exxon Corporation,Petroleum Refining,100697.0,,XOM
+5,General Electric Company,"Electronics, Electrical Equipment",100469.0,,GE
+6,International Business Machines Corporation,"Computers, Office Equipment",81667.0,,IBM
+7,"Citigroup, Inc.",Diversified Financials,76431.0,,C
+9,The Boeing Company,Aerospace & Defense,56154.0,,BA
+10,AT&T Corp.,Telecommunications,53588.0,,ATT.L
+22,"American International Group,Inc.",Insurance: Property and Casualty (Stock),33296.0,,AIG
+26,Fannie Mae,Diversified Financials,31498.8,,FNMA
+29,Morgan Stanley Dean Witter & Co.,Securities,31131.0,,MS
+34,"Motorola, Inc.","Electronics, Electrical Equipment",29398.0,,MSI
+36,The Kroger Company,Food & Drug Stores,28203.3,,KR
+37,"Merck & Co., Inc.",Pharmaceuticals,26898.2,,MRK
+38,Chevron Corporation,Petroleum Refining,26801.0,,CVX
+40,Intel Corporation,Semiconductors,26273.0,,INTC
+41,Lockheed Martin Corporation,Aerospace & Defense,26266.0,,LMT
+42,The Allstate Corporation,Insurance: Property and Casualty (Stock),25879.0,,ALL
+46,"United Parcel Service of America, Inc.","Mail, Package, and Freight Delivery",24788.0,,UPS
+50,"ConAgra, Inc.",Food,23840.5,,CAG
+51,Johnson & Johnson,Pharmaceuticals,23657.0,,JNJ
+53,The Walt Disney Company,Entertainment,22976.0,,DIS
+54,"PepsiCo, Inc.",Beverages,22348.0,,PEP
+56,First Union Corporation,Commercial Banks,21543.0,,FHN
+57,CIGNA Corporation,Health Care,21437.0,,CI
+58,"Caterpillar, Inc.",Industrial and Farm Equipment,20977.0,,CAT
+59,McKesson HBOC Inc.,Wholesalers,20857.3,,MCK
+60,Loews Corporation,Insurance: Property and Casualty (Stock),20713.0,,L
+62,Wells Fargo & Co.,Commercial Banks,20482.0,,WFC
+63,Xerox Corporation,"Computers, Office Equipment",20019.0,,XRX
+67,American Stores Company,Food & Drug Stores,19866.7,,AXP
+71,International Paper Company,Forest and Paper Products,19500.0,,IP
+73,American Express Company,Diversified Financials,19132.0,,AXP
+76,J.P. Morgan & Co. Incorporated,Commercial Banks,18425.0,,JPM
+79,Freddie Mac,Diversified Financials,18048.0,,FMCC
+81,Duke Energy Corporation,Utilities: Gas and Electric,17610.0,,DUK
+83,"AutoNation, Inc.","Automotive Retailing, Services",17487.3,,AN
+84,United Health Care Corporation,Health Care,17355.0,,UNH
+85,Halliburton Company,Engineering & Construction,17353.1,,HAL
+90,Electronic Data Systems Corporation,Computer And Data Services,16891.0,,EA
+91,Archer Daniels Midland Company,Food,16108.6,,ADM
+93,"Cardinal Health, Inc.",Wholesalers,15918.1,,CAH
+94,FDX Corporation,"Mail, Package, and Freight Delivery",15872.8,,FDX
+95,"Federated Department Stores, Inc.",General Merchandisers,15833.0,,FHI
+96,"Alcoa, Inc.",Metals,15489.4,,AA
+97,Sysco Corporation,Wholesalers,15327.5,,SYY
+99,CVS Corporation,Food & Drug Stores,15273.6,,CVS

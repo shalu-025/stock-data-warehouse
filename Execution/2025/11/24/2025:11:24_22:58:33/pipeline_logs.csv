@@ -1,0 +1,2 @@
+run_timestamp	table_name	records_processed	records_valid	records_invalid	execution_time_seconds	status
+2025-11-24 22:58:33.508886	all_tables	408	408	0	0	success

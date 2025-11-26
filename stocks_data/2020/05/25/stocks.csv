@@ -1,0 +1,6 @@
+company,ticker,date,open,high,low,close,volume
+Lowe's,X1G.PA,2020-05-25,249.16,249.35,249.16,249.35,163
+Humana,HUM.ST,2020-05-25,41.3,41.79,40.82,41.3,112324
+New York Life Insurance,601336.SS,2020-05-25,35.36,35.47,34.35,34.54,9546234
+Tech Data,TECH.OL,2020-05-25,23.8,23.8,23.0,23.6,979
+World Fuel Services,WFK.BE,2020-05-25,19.33,19.51,19.33,19.51,0

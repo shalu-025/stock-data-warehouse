@@ -1,0 +1,40 @@
+sector_id,sector_name,sector_code
+1,General Merchandisers,GENE
+2,Internet Services and Retailing,INTE
+3,"Computers, Office Equipment",COMP
+4,Health Care: Pharmacy and Other Services,HEAL
+5,Health Care: Insurance and Managed Care,HEAL
+6,Wholesalers: Health Care,WHOL
+7,Petroleum Refining,PETR
+8,Telecommunications,TELE
+9,Computer Software,COMP
+10,Food & Drug Stores,FOOD
+11,Specialty Retailers: Other,SPEC
+12,Commercial Banks,COMM
+13,Motor Vehicles & Parts,MOTO
+14,Diversified Financials,DIVE
+15,"Mail, Package, and Freight Delivery",MAIL
+16,Pharmaceuticals,PHAR
+17,Industrial Machinery,INDU
+18,Semiconductors and Other Electronic Components,SEMI
+19,Information Technology Services,INFO
+20,Household and Personal Products,HOUS
+21,Food Consumer Products,FOOD
+22,"Insurance: Life, Health (Stock)",INSU
+23,Aerospace & Defense,AERO
+24,Entertainment,ENTE
+25,Food Production,FOOD
+26,Wholesalers: Food and Grocery,WHOL
+27,Health Care: Medical Facilities,HEAL
+28,Network and Other Communications Equipment,NETW
+29,"Insurance: Life, Health (Mutual)",INSU
+30,Insurance: Property and Casualty (Stock),INSU
+31,Construction and Farm Machinery,CONS
+32,Pipelines,PIPE
+33,Chemicals,CHEM
+34,Apparel,APPA
+35,Medical Products and Equipment,MEDI
+36,Utilities: Gas and Electric,UTIL
+37,"Electronics, Electrical Equipment",ELEC
+38,"Scientific, Photographic and Control Equipment",SCIE
+39,Specialty Retailers: Apparel,SPEC

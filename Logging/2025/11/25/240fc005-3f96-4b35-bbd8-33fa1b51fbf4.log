@@ -1,0 +1,16 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 20:26:12,678 - INFO - ===== started running the process ======
+2025-11-25 20:26:12,721 - INFO - ============================================================
+2025-11-25 20:26:12,721 - INFO - LIVE SCHEDULER STARTED
+2025-11-25 20:26:12,721 - INFO - ============================================================
+2025-11-25 20:26:12,721 - INFO - Scheduled task:
+2025-11-25 20:26:12,721 - INFO - - Daily live data collection: Every day
+2025-11-25 20:26:12,721 - INFO -   (Stocks -> Metadata -> Macro -> Sentiment -> Exchange -> Merge)
+2025-11-25 20:26:12,721 - INFO - ============================================================
+2025-11-25 20:26:12,721 - INFO - Scheduler is now running.

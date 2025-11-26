@@ -1,0 +1,7 @@
+company,ticker,date,open,high,low,close,volume
+AT&T Inc.,ATT.L,2010-02-15,24.63,24.63,24.63,24.85,140250
+Pfizer Inc.,PFIZER.NS,2010-02-15,595.11,595.11,570.39,576.23,2167
+Kraft Foods Inc.,1959.T,2010-02-15,373.1,373.1,362.17,362.85,31000
+Sprint Nextel Corporation,SIX.AX,2010-02-15,2.29,2.42,2.29,2.29,2247
+Massachusetts Financial Group,MFG.AX,2010-02-15,0.39,0.39,0.38,0.39,21069
+The Hartford Financial Services Group Inc.,HFF.BE,2010-02-15,12.08,12.08,12.08,12.08,0

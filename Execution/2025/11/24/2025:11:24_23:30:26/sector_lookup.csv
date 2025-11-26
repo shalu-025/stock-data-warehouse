@@ -1,0 +1,37 @@
+sector_id	sector_name	sector_code
+1	General Merchandisers	GENE
+2	Financial Services	FINA
+3	Computers, Office Equipment	COMP
+4	Health Care	HEAL
+5	Petroleum Refining	PETR
+6	Internet Services And Retailing	INTE
+7	Wholesalers	WHOL
+8	Commercial Banks	COMM
+9	Computer Software	COMP
+10	Motor Vehicles & Parts	MOTO
+11	Specialty Retailers	SPEC
+12	Food & Drug Stores	FOOD
+13	Diversified Financials	DIVE
+14	Telecommunications	TELE
+15	Pharmaceutical	PHAR
+16	Food Production	FOOD
+17	Food Consumer Products	FOOD
+18	Mail, Package, And Freight Delivery	MAIL
+19	Entertainment	ENTE
+20	Household And Personal Products	HOUS
+21	Pipelines	PIPE
+22	Aerospace, Defense	AERO
+23	Industrial Machinery	INDU
+24	Construction And Farm Machinery	CONS
+25	Insurance	INSU
+26	Health Care: Medical Facilities	HEAL
+27	Information Technology Services	INFO
+28	Semiconductor And Electronics	SEMI
+29	Mining, Crude-Oil Production	MINI
+30	Airlines	AIRL
+31	Network And Other Communications Equipment	NETW
+32	Metals & Mining	META
+33	Apparel	APPA
+34	Energy	ENER
+35	Beverage	BEVE
+36	Chemicals	CHEM

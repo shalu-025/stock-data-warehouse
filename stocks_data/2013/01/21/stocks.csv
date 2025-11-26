@@ -1,0 +1,7 @@
+company,ticker,date,open,high,low,close,volume
+AT&T Inc.,ATT.L,2013-01-21,34.1,34.2,33.6,33.6,200760
+Express Scripts Holding Company,ESH.BE,2013-01-21,9.53,9.53,9.53,9.53,0
+Pfizer Inc.,PFIZER.NS,2013-01-21,754.41,760.14,751.13,752.16,1802
+World Fuel Services Corporation,WFK.BE,2013-01-21,26.14,26.14,26.14,26.14,0
+Sprint Nextel Corporation,SIX.AX,2013-01-21,0.77,0.77,0.77,0.77,1298
+New York Life Insurance Company,601336.SS,2013-01-21,21.64,21.64,20.59,21.23,9863102

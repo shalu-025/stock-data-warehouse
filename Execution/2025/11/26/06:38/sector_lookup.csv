@@ -1,0 +1,34 @@
+sector_id,sector_name,sector_code
+1,Food & Drug Stores,FOOD
+2,Securities,SECU
+3,Utilities: Gas and Electric,UTIL
+4,Petroleum Refining,PETR
+5,"Electronics, Electrical Equipment",ELEC
+6,Commercial Banks,COMM
+7,Forest and Paper Products,FORE
+8,Energy,ENER
+9,Wholesalers: Health Care,WHOL
+10,Diversified Financials,DIVE
+11,"Insurance: Life, Health (Stock)",INSU
+12,Semiconductors and Other Electronic Components,SEMI
+13,Metals,META
+14,Network and Other Communications Equipment,NETW
+15,"Automotive Retailing, Services",AUTO
+16,Tobacco,TOBA
+17,Telecommunications,TELE
+18,Specialty Retailers,SPEC
+19,Pharmaceuticals,PHAR
+20,"Mail, Package, and Freight Delivery",MAIL
+21,Insurance: Property and Casualty (Stock),INSU
+22,Aerospace & Defense,AERO
+23,Wholesalers: Food and Grocery,WHOL
+24,Computer And Data Services,COMP
+25,Industrial and Farm Equipment,INDU
+26,General Merchandisers,GENE
+27,Motor Vehicles & Parts,MOTO
+28,"Computers, Office Equipment",COMP
+29,Entertainment,ENTE
+30,Computer Software,COMP
+31,Health Care,HEAL
+32,Food Consumer Products,FOOD
+33,Food Production,FOOD

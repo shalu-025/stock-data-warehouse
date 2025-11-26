@@ -1,0 +1,5 @@
+company,ticker,date,open,high,low,close,volume
+Pfizer Inc.,PFIZER.NS,2006-01-16,603.94,614.6,589.46,594.96,6691
+AT&T Inc.,ATT.L,2006-01-16,23.15,23.15,23.15,23.15,0
+The Hartford Financial Services Group Inc.,HFF.BE,2006-01-16,50.88,50.88,50.88,50.88,0
+Massachusetts Financial Group,MFG.AX,2006-01-16,0.34,0.34,0.34,0.34,0

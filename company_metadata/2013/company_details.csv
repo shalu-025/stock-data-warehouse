@@ -1,0 +1,73 @@
+rank,company,industry,revenue,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,469162.0,,WMT
+2,Exxon Mobil Corporation,Petroleum Refining,449886.0,,XOM
+3,Chevron Corporation,Petroleum Refining,233899.0,,CVX
+4,Phillips 66,Petroleum Refining,169551.0,,PSX
+7,General Motors Company,Motor Vehicles & Parts,152256.0,,GM
+8,General Electric Company,Diversified Financials,146874.0,,GE
+9,Valero Energy Corporation,Petroleum Refining,138286.0,,VLO
+10,Ford Motor Company,Motor Vehicles & Parts,134252.0,,F
+11,AT&T Inc.,Telecommunications,127434.0,,ATT.L
+12,Fannie Mae,Diversified Financials,127230.0,,FNMA
+13,CVS Caremark Corporation,Food & Drug Stores,123133.0,,CVS
+14,McKesson Corporation,Wholesalers: Health Care,122734.0,,MCK
+16,Verizon Communications Inc.,Telecommunications,115846.0,,VZ
+17,UnitedHealth Group Incorporated,Health Care: Insurance and Managed Care,110618.0,,UNH
+18,J.P. Morgan Chase & Co.,Commercial Banks,108184.0,,JPM
+19,"Cardinal Health, Inc.",Wholesalers: Health Care,107552.0,,CAH
+20,International Business Machines Corporation,Information Technology Services,104507.0,,IBM
+21,Bank of America Corporation,Commercial Banks,100078.0,,BAC
+22,Costco Wholesale Corporation,Specialty Retailers: Other,99137.0,,COST
+23,The Kroger Company,Food & Drug Stores,96751.3,,KR
+24,Express Scripts Holding Company,Health Care: Pharmacy and Other Services,94416.7,,ESH.BE
+25,Wells Fargo & Company,Commercial Banks,91247.0,,WFC
+26,Citigroup Inc.,Commercial Banks,90769.0,,C
+29,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",84838.0,,PRU
+30,The Boeing Company,Aerospace & Defense,81698.0,,BA
+31,Freddie Mac,Diversified Financials,80635.0,,FMCC
+33,Marathon Petroleum Corporation,Petroleum Refining,76783.0,,MPC
+34,"The Home Depot, Inc.",Specialty Retailers: Other,74754.0,,THD
+35,Microsoft Corporation,Computer Software,73723.0,,MSFT
+36,Target Corporation,General Merchandisers,73301.0,,TGT
+38,"American International Group, Inc.",Insurance: Property and Casualty (Stock),70143.0,,AIG
+40,"MetLife, Inc.","Insurance: Life, Health (Stock)",68224.0,,MET
+41,Johnson & Johnson,Pharmaceuticals,67224.0,,JNJ
+42,Caterpillar Inc.,Construction and Farm Machinery,65875.0,,CAT
+43,"PepsiCo, Inc.",Food Consumer Products,65492.0,,PEP
+45,ConocoPhillips,"Mining, Crude-Oil Production",63373.0,,COP
+46,Comcast Corporation,Telecommunications,62570.0,,CMCSA
+48,Pfizer Inc.,Pharmaceuticals,61244.0,,PFIZER.NS
+52,The Dow Chemical Company,Chemicals,56786.0,,TDC
+53,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",54127.0,,UPS
+54,Intel Corporation,Semiconductors and Other Electronic Components,53341.0,,INTC
+56,"Lowe's Companies, Inc.",Specialty Retailers: Other,50521.0,,LOW
+58,"Merck & Co., Inc.",Pharmaceuticals,47267.0,,MRK
+59,Lockheed Martin Corporation,Aerospace & Defense,47182.0,,LMT
+60,"Cisco Systems, Inc.",Network and Other Communications Equipment,46061.0,,CSCO
+61,"Best Buy Co., Inc.",Specialty Retailers: Other,45087.0,,BBY
+63,FedEx Corporation,"Mail, Package, and Freight Delivery",42680.0,,FDX
+64,Enterprise Products Partners L.P.,Pipelines,42583.1,,EPD
+65,Sysco Corporation,Wholesalers: Food and Grocery,42380.9,,SYY
+66,The Walt Disney Company,Entertainment,42278.0,,DIS
+67,"Johnson Controls, Inc.",Motor Vehicles & Parts,41955.0,,JCI
+68,"The Goldman Sachs Group, Inc.",Commercial Banks,41664.0,,TGS
+70,Abbott Laboratories,Pharmaceuticals,39873.9,,ABT
+71,Sears Holdings Corporation,General Merchandisers,39854.0,,SRSCQ
+74,World Fuel Services Corporation,Wholesalers: Diversified,38945.3,,WFK.BE
+77,"Plains All American Pipeline, L.P.",Pipelines,37797.0,,PAA
+78,Honeywell International Inc.,Aerospace & Defense,37665.0,,HON
+79,"United Continental Holdings, Inc.",Airlines,37152.0,,UAL
+80,Oracle Corporation,Computer Software,37121.0,,ORCL
+81,Liberty Mutual Holding Company Inc.,Insurance: Property and Casualty (Stock),36944.0,,LBTYA
+83,"Delta Air Lines, Inc.",Airlines,36670.0,,DAL
+85,Deere & Company,Construction and Farm Machinery,36157.1,,DE
+87,Sprint Nextel Corporation,Telecommunications,35345.0,,SIX.AX
+88,"Mondelez International, Inc.",Food Consumer Products,35015.0,,MDLZ
+89,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",34308.6,,601336.SS
+90,American Express Company,Commercial Banks,33808.0,,AXP
+91,News Corporation,Entertainment,33706.0,,NWSA
+92,The Allstate Corporation,Insurance: Property and Casualty (Stock),33315.0,,ALL
+93,"Tyson Foods, Inc.",Food Production,33278.0,,TSN
+96,Morgan Stanley,Commercial Banks,32355.0,,MS
+98,General Dynamics Corporation,Aerospace & Defense,31513.0,,GD
+99,Philip Morris International Inc.,Tobacco,31377.0,,PM

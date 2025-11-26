@@ -1,0 +1,43 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 20:14:32,393 - INFO - ===== started running the process ======
+2025-11-25 20:14:54,604 - INFO - Created config file: watch_folder/config_20251125_201454_c821af8b.json
+2025-11-25 20:14:54,605 - INFO - Date range: 2025-10-26 to 2025-11-20
+2025-11-25 20:14:54,608 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:14:57,615 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:00,614 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:03,614 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:06,614 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:09,614 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:12,614 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:15,619 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:18,615 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:21,614 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:24,614 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:27,615 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:30,614 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:33,614 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:36,612 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:39,614 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:42,615 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:45,615 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:48,615 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:51,616 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:54,709 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:15:57,710 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:16:00,709 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:16:03,710 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:16:06,710 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:16:09,710 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:16:12,709 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:16:15,707 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:16:18,723 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:16:21,709 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:16:24,709 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:16:27,710 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports
+2025-11-25 20:16:30,709 - INFO - Reports directory does not exist yet: Execution/2025/11/25/20:14/reports

@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,246525.0,,,2003,,WMT
+2,General Motors Corporation,Motor Vehicles & Parts,186763.0,,,2003,,GM
+3,Exxon Mobil Corporation,Petroleum Refining,182466.0,,,2003,,XOM
+4,Ford Motor Company,Motor Vehicles & Parts,163630.0,,,2003,,F
+5,General Electric Company,Diversified Financials,131698.0,,,2003,,GE
+6,"Citigroup, Inc.",Commercial Banks,100789.0,,,2003,,C
+7,ChevronTexaco Corporation,Petroleum Refining,92043.0,,,2003,,
+8,International Business Machines Corporation,"Computers, Office Equipment",83132.0,,,2003,,IBM
+9,"American International Group,Inc.",Insurance: Property and Casualty (Stock),67722.8,,,2003,,AIG
+10,Verizon Communications Inc.,Telecommunications,67625.0,,,2003,,VZ
+11,"Altria Group, Inc.",Tobacco,62182.0,,,2003,,MO
+12,ConocoPhillips,Petroleum Refining,58394.0,,,2003,,COP
+13,"The Home Depot, Inc.",Specialty Retailers,58247.0,,,2003,,THD
+14,Hewlett-Packard Company,"Computers, Office Equipment",56588.0,,,2003,,
+15,The Boeing Company,Aerospace & Defense,54069.0,,,2003,,BA
+16,Fannie Mae,Diversified Financials,52901.1,,,2003,,FNMA
+17,"Merck & Co., Inc.",Pharmaceuticals,51790.3,,,2003,,MRK
+18,The Kroger Company,Food & Drug Stores,51759.5,,,2003,,KR
+19,"Cardinal Health, Inc.",Wholesalers: Health Care,51135.7,,,2003,,CAH
+20,McKesson Corporation,Wholesalers: Health Care,50006.0,,,2003,,MCK
+21,State Farm Insurance Cos.,Insurance: Property and Casualty (Mutual),49653.7,,,2003,,
+22,AT&T,Telecommunications,46727.0,,,2003,,ATT.L
+23,Bank of America Corporation,Commercial Banks,45732.0,,,2003,,BAC
+24,AmerisourceBergen Corp.,Wholesalers: Health Care,45234.8,,,2003,,ABC.VI
+25,Target Corporation,General Merchandisers,43917.0,,,2003,,TGT
+26,J.P. Morgan Chase & Co.,Commercial Banks,43372.0,,,2003,,JPM
+27,SBC Communications Inc.,Telecommunications,43138.0,,,2003,,SBC
+28,Berkshire Hathaway Inc.,Insurance: Property and Casualty (Stock),42353.0,,,2003,,BRK.A
+29,AOL Time Warner Inc.,Entertainment,41780.0,,,2003,,
+30,Sears Roebuck and Company,General Merchandisers,41366.0,,,2003,,SSRAP
+31,The Procter & Gamble Company,Household and Personal Products,40238.0,,,2003,,TPG
+32,Freddie Mac,Diversified Financials,39663.0,,,2003,,FMCC
+33,Costco Wholesale Corporation,Specialty Retailers,38762.5,,,2003,,COST
+34,Johnson & Johnson,Pharmaceuticals,36298.0,,,2003,,JNJ
+35,"Albertson's, Inc.",Food & Drug Stores,35916.0,,,2003,,ACI
+36,Dell Computer Corporation,"Computers, Office Equipment",35404.0,,,2003,,Dell
+37,Pfizer Inc.,Pharmaceuticals,35281.0,,,2003,,PFIZER.NS
+38,MetLife Inc.,"Insurance: Life, Health (Stock)",34055.0,,,2003,,MET
+39,Kmart Corporation,General Merchandisers,32765.0,,,2003,,
+40,Morgan Stanley,Securities,32415.0,,,2003,,MS
+41,Safeway Inc.,Food & Drug Stores,32399.2,,,2003,,301559.SZ
+42,"J.C. Penney Company, Inc.",General Merchandisers,32347.0,,,2003,,
+43,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",31272.0,,,2003,,UPS
+44,The Allstate Corporation,Insurance: Property and Casualty (Stock),29579.0,,,2003,,ALL
+45,Walgreen Co.,Food & Drug Stores,28681.1,,,2003,,
+46,Wells Fargo & Co.,Commercial Banks,28473.0,,,2003,,WFC
+47,Microsoft Corporation,Computer Software,28365.0,,,2003,,MSFT
+48,"Merrill Lynch & Co., Inc.",Securities,28253.0,,,2003,,DE000SLA1M99.SG
+49,United Technologies Corporation,Aerospace & Defense,28212.0,,,2003,,
+50,"ConAgra Foods, Incorporated",Food Consumer Products,27629.6,,,2003,,CAG
+51,The Dow Chemical Company,Chemicals,27609.0,,,2003,,TDC
+52,Marathon Oil Corporation,Petroleum Refining,27470.0,,,2003,,MRO
+53,Delphi Corporation,Motor Vehicles & Parts,27427.0,,,2003,,DELPHIFX.NS
+54,Sprint Corporation,Telecommunications,27180.0,,,2003,,SPRINT.ST
+55,Valero Energy Corp,Petroleum Refining,26976.3,,,2003,,VLO
+56,Lockheed Martin Corporation,Aerospace & Defense,26806.0,,,2003,,LMT
+57,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",26797.0,,,2003,,PRU
+58,Intel,Semiconductors and Other Electronic Components,26764.0,,,2003,,INTC
+59,"Motorola, Inc.",Network and Other Communications Equipment,26679.0,,,2003,,MSI
+60,"Lowe's Companies, Inc.",Specialty Retailers,26490.9,,,2003,,LOW
+61,The Walt Disney Company,Entertainment,25329.0,,,2003,,DIS
+62,"PepsiCo, Inc.",Food Consumer Products,25112.0,,,2003,,PEP
+63,"UnitedHealth Group, Incorporated",Health Care,25020.0,,,2003,,UNH
+64,International Paper Company,Forest and Paper Products,24976.0,,,2003,,IP
+65,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",24720.7,,,2003,,601336.SS
+66,Viacom Inc.,Entertainment,24605.7,,,2003,,
+67,E.I. du Pont de Nemours,Chemicals,24522.0,,,2003,,
+68,CVS Corporation,Food & Drug Stores,24181.5,,,2003,,CVS
+69,American Express Company,Diversified Financials,23807.0,,,2003,,AXP
+70,Wachovia Corp.,Commercial Banks,23591.0,,,2003,,
+71,Archer Daniels Midland Company,Food Production,23453.6,,,2003,,ADM
+72,"Tyson Foods, Inc.",Food Production,23367.0,,,2003,,TSN
+73,Sysco Corporation,Wholesalers: Food and Grocery,23350.5,,,2003,,SYY
+74,Georgia-Pacific Corporation,Forest and Paper Products,23271.0,,,2003,,
+75,"Goldman Sachs Group, Inc.",Securities,22854.0,,,2003,,GS
+76,"Ingram Micro, Inc.",Wholesalers: Electronics and Office Equipment,22459.3,,,2003,,INGM
+77,BellSouth Corporation,Telecommunications,22440.0,,,2003,,KTBA
+78,Honeywell International Inc.,Aerospace & Defense,22274.0,,,2003,,HON
+79,Bank One Corporation,Commercial Banks,22171.0,,,2003,,BANK.NE
+80,Electronic Data Systems Corporation,Computer And Data Services,21782.0,,,2003,,EA
+81,Supervalu Inc.,Wholesalers: Food and Grocery,20908.5,,,2003,,
+82,"Alcoa, Inc.",Metals,20618.0,,,2003,,AA
+83,FedEx Corporation,"Mail, Package, and Freight Delivery",20607.0,,,2003,,FDX
+84,Massachusetts Mutual Life Insurance Company,"Insurance: Life, Health (Mutual)",20247.1,,,2003,,
+85,"Caterpillar, Inc.",Industrial and Farm Equipment,20152.0,,,2003,,CAT
+86,"Johnson Controls, Inc.",Motor Vehicles & Parts,20103.4,,,2003,,JCI
+87,CIGNA Corporation,Health Care,19915.0,,,2003,,CI
+88,Aetna Inc.,Health Care,19878.7,,,2003,,
+89,Teachers Insurance and Annuity Association College Retiremen,"Insurance: Life, Health (Mutual)",19791.0,,,2003,,
+90,"HCA, Inc",Health Care,19729.0,,,2003,,HCA
+91,Best Buy Co. Inc.,Specialty Retailers,19597.0,,,2003,,BBY
+92,The Coca-Cola Company,Beverages,19564.0,,,2003,,
+93,"AutoNation, Inc.","Automotive Retailing, Services",19478.5,,,2003,,AN
+94,"Washington Mutual, Inc.",Savings Institutions,19037.0,,,2003,,4691.T
+95,"Cisco Systems, Inc.",Network and Other Communications Equipment,18915.0,,,2003,,CSCO
+96,Weyerhaeuser Company,Forest and Paper Products,18521.0,,,2003,,WY
+97,Visteon Corporation,Motor Vehicles & Parts,18395.0,,,2003,,VC
+98,Bristol-Myers Squibb Company,Pharmaceuticals,18119.0,,,2003,,
+99,Northrop Grumman Corporation,Aerospace & Defense,17837.0,,,2003,,NOC
+100,Abbott Laboratories,Pharmaceuticals,17684.7,,,2003,,ABT

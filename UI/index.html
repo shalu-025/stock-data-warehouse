@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stock Data Warehouse - Dashboard</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+           min-height:100vh; padding:20px; }
+    .container { max-width:1200px; margin:0 auto; }
+    header { background:white; padding:30px; border-radius:15px; box-shadow:0 10px 30px rgba(0,0,0,0.2); margin-bottom:30px; text-align:center; }
+    h1 { color:#667eea; font-size:2.5rem; margin-bottom:10px; }
+    .subtitle { color:#666; font-size:1.1rem; }
+    .date-section { background:white; padding:30px; border-radius:15px; box-shadow:0 10px 30px rgba(0,0,0,0.2); margin-bottom:30px; }
+    .date-section h2 { color:#333; margin-bottom:20px; font-size:1.5rem; }
+    .date-inputs { display:flex; gap:20px; align-items:end; flex-wrap:wrap; }
+    .input-group { flex:1; min-width:200px; }
+    label { display:block; color:#555; font-weight:600; margin-bottom:8px; }
+    input[type="date"] { width:100%; padding:12px; border:2px solid #e0e0e0; border-radius:8px; font-size:1rem; transition:all 0.3s; }
+    input[type="date"]:focus { outline:none; border-color:#667eea; box-shadow:0 0 0 3px rgba(102,126,234,0.1); }
+    .fetch-btn { padding:12px 40px; background:linear-gradient(135deg,#667eea 0%,#764ba2 100%); color:white; border:none; border-radius:8px; font-size:1.1rem; font-weight:600; cursor:pointer; transition:all 0.3s; box-shadow:0 4px 15px rgba(102,126,234,0.4); }
+    .fetch-btn:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(102,126,234,0.6); }
+    .fetch-btn:active { transform:translateY(0); }
+    .fetch-btn:disabled { background:#ccc; cursor:not-allowed; transform:none; }
+    .loading { text-align:center; padding:40px; background:white; border-radius:15px; margin:20px 0; }
+    .spinner { border:4px solid #f3f3f3; border-top:4px solid #667eea; border-radius:50%; width:50px; height:50px; animation:spin 1s linear infinite; margin:0 auto 20px; }
+    @keyframes spin { 0%{transform:rotate(0deg);} 100%{transform:rotate(360deg);} }
+    .reports-section { display:none; }
+    .reports-section.active { display:block; }
+    .reports-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:20px; margin-top:20px; }
+    .report-card { background:white; padding:25px; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); cursor:pointer; transition:all 0.3s; border-left:5px solid #667eea; }
+    .report-card:hover { transform:translateY(-5px); box-shadow:0 8px 25px rgba(0,0,0,0.2); }
+    .report-card h3 { color:#333; margin-bottom:10px; font-size:1.2rem; }
+    .report-card p { color:#666; font-size:0.9rem; margin-bottom:15px; }
+    .report-status { display:inline-block; padding:5px 15px; background:#4caf50; color:white; border-radius:20px; font-size:0.85rem; font-weight:600; }
+    .report-status.cached { background:#2196F3; }
+    .modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:1000; overflow-y:auto; }
+    .modal.active { display:flex; justify-content:center; align-items:start; padding:40px 20px; }
+    .modal-content { background:white; padding:40px; border-radius:15px; max-width:900px; width:100%; max-height:90vh; overflow-y:auto; position:relative; }
+    .close-btn { position:absolute; top:20px; right:20px; font-size:2rem; color:#999; cursor:pointer; background:none; border:none; line-height:1; }
+    .close-btn:hover { color:#333; }
+    .report-content { margin-top:20px; }
+    .pdf-viewer { width:100%; height:600px; border:1px solid #ddd; border-radius:8px; }
+    .report-info { background:#f5f5f5; padding:15px; border-radius:8px; margin-bottom:20px; }
+    .report-info p { margin:5px 0; color:#555; }
+    .download-btn, .view-btn { margin-top:20px; padding:12px 30px; color:white; border:none; border-radius:8px; font-size:1rem; cursor:pointer; display:inline-flex; align-items:center; gap:10px; margin-right:10px; }
+    .download-btn { background:#4caf50; } .download-btn:hover { background:#45a049; }
+    .view-btn { background:#2196F3; } .view-btn:hover { background:#0b7dda; }
+    .error-message { background:#f44336; color:white; padding:15px; border-radius:8px; margin:20px 0; display:none; }
+    .error-message.active { display:block; }
+    .success-message { background:#4caf50; color:white; padding:15px; border-radius:8px; margin:20px 0; display:none; }
+    .success-message.active { display:block; }
+    .progress-bar { width:100%; height:30px; background:#f0f0f0; border-radius:15px; overflow:hidden; margin:20px 0; }
+    .progress-fill { height:100%; background:linear-gradient(135deg,#667eea 0%,#764ba2 100%); width:0%; transition:width 0.3s; display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📊 Stock Data Warehouse</h1>
+      <p class="subtitle">Historical Data Analysis & Report Generation</p>
+    </header>
+
+    <div class="date-section">
+      <h2>Select Date Range</h2>
+      <div class="date-inputs">
+        <div class="input-group">
+          <label for="start_date">Start Date</label>
+          <input type="date" id="start_date" required>
+        </div>
+        <div class="input-group">
+          <label for="end_date">End Date</label>
+          <input type="date" id="end_date" required>
+        </div>
+        <button class="fetch-btn" id="generateBtn" onclick="fetchReports()">🚀 Generate Reports</button>
+      </div>
+    </div>
+
+    <div class="error-message" id="errorMessage"></div>
+    <div class="success-message" id="successMessage"></div>
+
+    <div class="loading" id="loadingSection" style="display:none;">
+      <div class="spinner"></div>
+      <h3 id="loadingTitle">Processing your request...</h3>
+      <p id="loadingMessage">Checking for existing reports...</p>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill">0%</div>
+      </div>
+    </div>
+
+    <div class="reports-section" id="reportsSection">
+      <div style="background:white; padding:30px; border-radius:15px;">
+        <h2 style="color:#333; margin-bottom:20px;">Available Reports</h2>
+        <div class="reports-grid" id="reportsGrid"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="reportModal">
+    <div class="modal-content">
+      <button class="close-btn" onclick="closeModal()">&times;</button>
+      <h2 id="modalTitle">Report Title</h2>
+      <div class="report-info" id="reportInfo">
+        <p><strong>File:</strong> <span id="reportFilename"></span></p>
+        <p><strong>Size:</strong> <span id="reportSize"></span></p>
+        <p><strong>Modified:</strong> <span id="reportModified"></span></p>
+      </div>
+      <div class="report-content" id="reportContent">
+        <iframe class="pdf-viewer" id="pdfViewer"></iframe>
+      </div>
+      <button class="download-btn" onclick="downloadReport()">📥 Download PDF</button>
+      <button class="view-btn" onclick="openInNewTab()">🔗 Open in New Tab</button>
+    </div>
+  </div>
+
+  <script>
+    // Configuration: lookback -1 minute, lookahead +6 minutes
+    const LOOKBACK_MINUTES = 1;
+    const LOOKAHEAD_MINUTES = 6;
+    const MIN_DATE = '1996-01-01';
+    function todayDateISO() { const d = new Date(); return d.toISOString().split('T')[0]; }
+
+    let currentReportPath = null;
+    let pollingInterval = null;
+    let isFromCache = false;
+
+    function updateProgress(percent, message) {
+      const fill = document.getElementById('progressFill');
+      fill.style.width = percent + '%';
+      fill.textContent = Math.round(percent) + '%';
+      document.getElementById('loadingMessage').textContent = message;
+    }
+
+    function showError(msg) {
+      const d = document.getElementById('errorMessage');
+      d.textContent = msg;
+      d.classList.add('active');
+      setTimeout(() => d.classList.remove('active'), 8000);
+    }
+
+    function showSuccess(msg) {
+      const d = document.getElementById('successMessage');
+      d.textContent = msg;
+      d.classList.add('active');
+      setTimeout(() => d.classList.remove('active'), 5000);
+    }
+
+    // parse execution_dir like Execution/2025/11/25/20:14 or /abs/path/.../2025/11/25/20:14
+    function parseExecutionDir(executionDir) {
+      if (!executionDir) return null;
+      const p = executionDir.replace(/\\/g, '/');
+      const m = p.match(/(.*\/)?(\d{4})\/(\d{1,2})\/(\d{1,2})\/(\d{1,2}:\d{2})\/?$/);
+      if (!m) return null;
+      return { prefix: m[1] || '', year: m[2], month: String(m[3]).padStart(2,'0'), day: String(m[4]).padStart(2,'0'), hhmm: m[5] };
+    }
+
+    function hhmmWithOffset(hhmm, offset) {
+      const [hh, mm] = hhmm.split(':').map(x => parseInt(x,10));
+      const dt = new Date();
+      dt.setHours(hh, mm, 0, 0);
+      dt.setMinutes(dt.getMinutes() + offset);
+      const nh = String(dt.getHours()).padStart(2,'0');
+      const nm = String(dt.getMinutes()).padStart(2,'0');
+      return `${nh}:${nm}`;
+    }
+
+    function buildCandidates(executionDir) {
+      const parsed = parseExecutionDir(executionDir);
+      if (!parsed) return [executionDir];
+      const cand = [];
+      for (let d = -LOOKBACK_MINUTES; d <= LOOKAHEAD_MINUTES; d++) {
+        const t = hhmmWithOffset(parsed.hhmm, d);
+        cand.push((parsed.prefix || '') + `${parsed.year}/${parsed.month}/${parsed.day}/${t}`);
+      }
+      return [...new Set(cand)];
+    }
+
+    async function tryCandidatesOnce(candidates) {
+      for (let i=0; i<candidates.length; i++) {
+        const dir = candidates[i];
+        try {
+          const resp = await fetch(`/check_reports?execution_dir=${encodeURIComponent(dir)}`);
+          if (!resp.ok) continue;
+          const data = await resp.json();
+          if (data && data.reports_ready && Array.isArray(data.reports) && data.reports.length > 0) {
+            data._used_execution_dir = dir;
+            return data;
+          }
+        } catch (err) {
+          console.warn('candidate check error', dir, err);
+        }
+      }
+      return null;
+    }
+
+    async function fetchReports() {
+      const startDate = document.getElementById('start_date').value;
+      const endDate = document.getElementById('end_date').value;
+      const btn = document.getElementById('generateBtn');
+      const today = todayDateISO();
+
+      // basic validations + strict range enforcement
+      if (!startDate || !endDate) { showError('Please select both dates'); return; }
+      if (new Date(startDate) > new Date(endDate)) { showError('Start date must be before end date'); return; }
+      if (startDate < MIN_DATE) { showError(`Start date cannot be before ${MIN_DATE}`); return; }
+      if (endDate < MIN_DATE) { showError(`End date cannot be before ${MIN_DATE}`); return; }
+      if (startDate > today) { showError('Start date cannot be in the future'); return; }
+      if (endDate > today) { showError('End date cannot be in the future'); return; }
+
+      btn.disabled = true;
+      document.getElementById('reportsSection').classList.remove('active');
+      document.getElementById('loadingSection').style.display = 'block';
+      updateProgress(5, 'Requesting server to process the date range...');
+
+      try {
+        const resp = await fetch('/trigger_processing', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ start_date: startDate, end_date: endDate })
+        });
+        if (!resp.ok) {
+          const t = await resp.text();
+          throw new Error('Server error: ' + t);
+        }
+        const data = await resp.json();
+        if (!data || !data.success) throw new Error(data && data.message ? data.message : 'Invalid server response');
+
+        isFromCache = !!data.from_cache;
+        const executionDir = data.execution_dir || data.executionPath || data.path;
+        if (!executionDir) throw new Error('Server did not return execution_dir');
+
+        updateProgress(15, 'Checking minute-folders around execution_dir...');
+        const candidates = buildCandidates(executionDir);
+
+        const found = await tryCandidatesOnce(candidates);
+        if (found) {
+          updateProgress(100, 'Reports found');
+          document.getElementById('loadingSection').style.display = 'none';
+          showSuccess(`Found ${found.count || found.reports.length} reports ${isFromCache ? '(From cache)' : ''}`);
+          displayReports(found.reports);
+          btn.disabled = false;
+          return;
+        }
+
+        updateProgress(20, 'Reports not present yet. Watching candidate folders...');
+        startPollingAcrossCandidates(candidates, btn);
+
+      } catch (err) {
+        document.getElementById('loadingSection').style.display = 'none';
+        showError('Error: ' + err.message);
+        btn.disabled = false;
+      }
+    }
+
+    function startPollingAcrossCandidates(candidates, btn) {
+      const maxAttempts = 120;
+      let attempts = 0;
+      if (pollingInterval) clearInterval(pollingInterval);
+
+      pollingInterval = setInterval(async () => {
+        attempts++;
+        updateProgress(Math.min(25 + attempts * 0.6, 85), `Watching folders (attempt ${attempts})...`);
+        try {
+          const found = await tryCandidatesOnce(candidates);
+          if (found) {
+            clearInterval(pollingInterval);
+            pollingInterval = null;
+            document.getElementById('loadingSection').style.display = 'none';
+            showSuccess(`Found ${found.count || found.reports.length} reports ${isFromCache ? '(From cache)' : ''}`);
+            displayReports(found.reports);
+            btn.disabled = false;
+            updateProgress(100, 'Reports available');
+            return;
+          }
+        } catch (err) {
+          console.warn('Polling error', err);
+        }
+
+        if (attempts >= maxAttempts) {
+          clearInterval(pollingInterval);
+          pollingInterval = null;
+          document.getElementById('loadingSection').style.display = 'none';
+          showError('Processing timeout. Reports not found.');
+          btn.disabled = false;
+        }
+      }, 3000);
+    }
+
+    function displayReports(reports) {
+      const grid = document.getElementById('reportsGrid');
+      grid.innerHTML = '';
+      const descriptions = {
+        'report1_annual_market_intelligence': 'Comprehensive annual market intelligence with company performance metrics',
+        'report2_sector_stability': 'Analysis of sector stability and volatility patterns',
+        'report3_cross_market': 'Cross-market comparison and currency correlation analysis',
+        'report4_forecasting': 'Forecasting and prediction summary with quarterly trends'
+      };
+      (reports || []).forEach(r => {
+        const nameVal = r.name || r.filename || (r.path ? r.path.split('/').pop() : 'report');
+        const title = nameVal.replace(/_/g,' ').replace(/\b\w/g, l => l.toUpperCase());
+        const card = document.createElement('div');
+        card.className = 'report-card';
+        card.innerHTML = `
+          <h3>${title}</h3>
+          <p>${descriptions[nameVal] || r.description || 'Detailed analysis report'}</p>
+          <span class="report-status ${isFromCache ? 'cached' : ''}">${isFromCache ? 'Cached' : 'Ready'}</span>
+        `;
+        card.onclick = () => viewReport({ name: nameVal, path: r.path || r.filepath || r.path_to_file || '' });
+        grid.appendChild(card);
+      });
+      document.getElementById('reportsSection').classList.add('active');
+    }
+
+    async function viewReport(report) {
+      const modal = document.getElementById('reportModal');
+      const modalTitle = document.getElementById('modalTitle');
+      const pdfViewer = document.getElementById('pdfViewer');
+      modalTitle.textContent = (report.name || '').replace(/_/g,' ').replace(/\b\w/g, l => l.toUpperCase());
+      modal.classList.add('active');
+      currentReportPath = report.path;
+
+      try {
+        const resp = await fetch(`/get_report_preview?path=${encodeURIComponent(currentReportPath)}`);
+        if (!resp.ok) throw new Error(await resp.text());
+        const data = await resp.json();
+        if (!data.success) throw new Error(data.message || 'Preview failed');
+        document.getElementById('reportFilename').textContent = data.filename || currentReportPath.split('/').pop();
+        document.getElementById('reportSize').textContent = (data.size_mb ? (data.size_mb + ' MB') : (data.size || 'Unknown'));
+        document.getElementById('reportModified').textContent = data.modified || 'Unknown';
+        pdfViewer.src = `/view_report?path=${encodeURIComponent(currentReportPath)}`;
+      } catch (err) {
+        showError('Error loading report: ' + err.message);
+        closeModal();
+      }
+    }
+
+    async function downloadReport() {
+      if (!currentReportPath) return;
+      try {
+        const resp = await fetch(`/download_report?path=${encodeURIComponent(currentReportPath)}`);
+        if (!resp.ok) throw new Error('Download failed: ' + (await resp.text()));
+        const blob = await resp.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = currentReportPath.split('/').pop();
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+      } catch (err) {
+        showError('Error downloading report: ' + err.message);
+      }
+    }
+
+    function openInNewTab() {
+      if (!currentReportPath) return;
+      window.open(`/view_report?path=${encodeURIComponent(currentReportPath)}`, '_blank');
+    }
+
+    function closeModal() {
+      document.getElementById('reportModal').classList.remove('active');
+      document.getElementById('pdfViewer').src = '';
+    }
+
+    window.onclick = function(e) {
+      const modal = document.getElementById('reportModal');
+      if (e.target === modal) closeModal();
+    };
+
+    // set min/max and default dates, restrict future dates and earlier than MIN_DATE
+    window.onload = function() {
+      const today = todayDateISO();
+      const endInput = document.getElementById('end_date');
+      const startInput = document.getElementById('start_date');
+
+      // enforce min/max attributes on inputs
+      startInput.min = MIN_DATE;
+      startInput.max = today;
+      endInput.min = MIN_DATE;
+      endInput.max = today;
+
+      // default values: last 30 days but capped at today and not before MIN_DATE
+      const endDate = new Date();
+      const startDate = new Date();
+      startDate.setDate(startDate.getDate() - 30);
+
+      if (startDate < new Date(MIN_DATE)) startDate.setTime(new Date(MIN_DATE).getTime());
+      if (endDate > new Date()) endDate.setTime(new Date().getTime());
+
+      endInput.value = endDate.toISOString().split('T')[0];
+      startInput.value = startDate.toISOString().split('T')[0];
+    };
+  </script>
+</body>
+</html>

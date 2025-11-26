@@ -1,0 +1,93 @@
+ticker	company	sector_name	outperformance_rate	max_consecutive_quarters	total_quarters_analyzed	avg_company_return	avg_sector_return	return_advantage	consistency_category	analysis_type	generated_at
+601336.SS	New York Life Insurance	Insurance: Life, Health (Mutual)	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.039234
+MRK	Merck	Pharmaceuticals	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.054315
+PFIZER.NS	Pfizer	Pharmaceuticals	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.056422
+PFGC	Performance Food	Wholesalers: Food and Grocery	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.056187
+PEP	PepsiCo	Food Consumer Products	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.055954
+PAGP	Plains GP	Pipelines	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.055718
+ORCL	Oracle	Computer Software	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.055483
+NVDA	Nvidia	Semiconductors and Other Electronic Components	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.055247
+NKE	Nike	Apparel	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.055013
+MSFT	Microsoft	Computer Software	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.054781
+MS	Morgan Stanley	Commercial Banks	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.054549
+MPC	Marathon Petroleum	Petroleum Refining	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.054082
+AAL	American Airlines	Airlines	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.039493
+META	Meta	Internet Services and Retailing	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.053846
+MET	MetLife	Insurance: Life, Health (Stock)	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.053612
+MCK	McKesson	Wholesalers: Health Care	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.053377
+LMT	Lockheed Martin	Aerospace & Defense	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.053140
+LLY	Eli Lilly	Pharmaceuticals	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.052905
+KR	Kroger	Food & Drug Stores	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.052660
+JPM	JPMorgan Chase	Commercial Banks	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.052427
+JNJ	Johnson & Johnson	Pharmaceuticals	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.052191
+INTC	Intel	Semiconductors and Other Electronic Components	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.051957
+PG	Procter & Gamble	Household and Personal Products	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.056656
+PGR	Progressive	Insurance: Property and Casualty (Stock)	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.056892
+PRU	Prudential Financial	Insurance: Life, Health (Stock)	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.057126
+PSX	Phillips 66	Petroleum Refining	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.057359
+X1G.PA	Lowe's	Specialty Retailers: Other	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.062024
+WMT	Walmart	General Merchandisers	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.061791
+WFC	Wells Fargo	Commercial Banks	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.061558
+VZ	Verizon	Telecommunications	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.061323
+VLO	Valero Energy	Petroleum Refining	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.061088
+UPS	UPS	Mail, Package and Freight Delivery	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.060838
+UNH	UnitedHealth	Health Care: Insurance and Managed Care	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.060599
+UIPMX	USAA	Insurance: Property and Casualty (Stock)	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.060363
+UAL	United Airlines	Airlines	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.060128
+TSN	Tyson Foods	Food Production	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.059887
+TSLA	Tesla	Motor Vehicles & Parts	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.059647
+TRV	Travelers	Insurance: Property and Casualty (Stock)	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.059411
+TJX	TJX	Specialty Retailers: Apparel	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.059170
+TILIX	TIAA	Insurance: Life, Health (Mutual)	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.058930
+TGT	Target	General Merchandisers	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.058688
+SYY	Sysco	Wholesalers: Food and Grocery	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.058440
+SNX	TD Synnex	Wholesalers: Electronics and Office Equipment	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.058172
+SNEX	StoneX	Diversified Financials	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.057845
+RTX	RTX	Aerospace & Defense	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.057593
+INGM	Ingram Micro	Wholesalers: Electronics and Office Equipment	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.051722
+IBM	IBM	Information Technology Services	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.051483
+HUM.ST	Humana	Health Care: Insurance and Managed Care	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.051247
+COR	Cencora	Wholesalers: Health Care	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.045248
+COLA.WA	Coca-Cola	Beverages	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.044774
+CNC	Centene	Health Care: Insurance and Managed Care	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.044531
+CMCSA	Comcast	Telecommunications	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.044295
+CITI.NE	Citi	Commercial Banks	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.044058
+CI	Cigna	Health Care: Pharmacy and Other Services	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.043820
+CHTR	Charter Communications	Telecommunications	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.043579
+CAT	Caterpillar	Construction and Farm Machinery	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.043340
+CAH	Cardinal Health	Wholesalers: Health Care	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.043100
+BAC	Bank of America	Commercial Banks	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.042833
+BA	Boeing	Aerospace & Defense	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.042514
+AXP	American Express	Diversified Financials	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.042178
+AVGO	Broadcom	Semiconductors and Other Electronic Components	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.041911
+ATT.L	AT&T	Telecommunications	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.041485
+APLE	Apple	Computers, Office Equipment	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.040965
+AMZN	Amazon	Internet Services and Retailing	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.040722
+ALL	Allstate	Insurance: Property and Casualty (Mutual)	0.0	0	2	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.040478
+ADM	Archer Daniels Midland	Food Production	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.040223
+ACI	Albertsons	Food & Drug Stores	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.039984
+ABBV	AbbVie	Pharmaceuticals	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.039742
+COP	ConocoPhillips	Mining, Crude-Oil Production	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.045007
+COST	Costco	General Merchandisers	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.045481
+HP	HP	Computers, Office Equipment	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.051006
+CSCO	Cisco Systems	Network and Other Communications Equipment	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.045714
+HD	Home Depot	Specialty Retailers: Other	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.050761
+HCA	HCA Healthcare	Health Care: Medical Facilities	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.050501
+GSBD	Goldman Sachs	Commercial Banks	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.050200
+GOOGL	Alphabet	Internet Services and Retailing	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.049832
+GM	General Motors	Motor Vehicles & Parts	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.049501
+GD	General Dynamics	Aerospace & Defense	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.049230
+FNMA	Fannie Mae	Diversified Financials	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.048995
+FMCC	Freddie Mac	Diversified Financials	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.048730
+FDX	FedEx	Mail, Package and Freight Delivery	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.048481
+F	Ford Motor	Motor Vehicles & Parts	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.048221
+ET	Energy Transfer	Pipelines	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.047952
+EPD	Enterprise Products Partners	Pipelines	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.047683
+ELV	Elevance Health	Health Care: Insurance and Managed Care	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.047445
+DIS	Walt Disney	Entertainment	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.047209
+DELL	Dell Technologies	Computers, Office Equipment	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.046885
+DE	Deere	Construction and Farm Machinery	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.046652
+DAL	Delta Airlines	Airlines	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.046418
+CVX	Chevron	Petroleum Refining	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.046184
+CVS	CVS Health	Health Care: Pharmacy and Other Services	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.045947
+XOM	Exxon Mobil	Petroleum Refining	0.0	0	1	0.0	0.0	0.0	Inconsistent or Below-Average Performer	consistent_performers	2025-11-24 19:01:11.062259

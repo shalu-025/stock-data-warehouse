@@ -1,0 +1,38 @@
+rank,company,industry,revenue,employees,ticker
+2,Ford Motor Company,Motor Vehicles & Parts,153627.0,,F
+3,Exxon Corporation,Petroleum Refining,122379.0,,XOM
+4,"Wal-Mart Stores, Inc.",General Merchandisers,119299.0,,WMT
+5,General Electric Company,"Electronics, Electrical Equipment",90840.0,,GE
+6,International Business Machines Corporation,"Computers, Office Equipment",78508.0,,IBM
+10,AT&T Corp.,Telecommunications,53261.0,,ATT.L
+11,The Boeing Company,Aerospace & Defense,45800.0,,BA
+17,Travelers Group Inc.,Diversified Financials,37609.0,,TRV
+19,Chevron Corporation,Petroleum Refining,36376.0,,CVX
+26,"American International Group,Inc.",Insurance: Property and Casualty (Stock),30519.5,,AIG
+29,"Motorola, Inc.","Electronics, Electrical Equipment",29794.0,,MSI
+31,"PepsiCo, Inc.",Beverages,29292.0,,PEP
+32,Lockheed Martin Corporation,Aerospace & Defense,28069.0,,LMT
+33,Fannie Mae,Diversified Financials,27776.9,,FNMA
+35,"Morgan Stanley, Dean Witter, Discover & Co.",Securities,27132.0,,MSD
+36,The Kroger Company,Food & Drug Stores,26567.3,,KR
+38,Intel Corporation,Semiconductors,25070.0,,INTC
+39,The Allstate Corporation,Insurance: Property and Casualty (Stock),24949.0,,ALL
+45,"ConAgra, Inc.",Food,24002.1,,CAG
+46,"Merck & Co., Inc.",Pharmaceuticals,23636.9,,MRK
+49,Johnson & Johnson,Pharmaceuticals,22629.0,,JNJ
+51,The Walt Disney Company,Entertainment,22473.0,,DIS
+59,CIGNA Corporation,"Insurance: Life, Health (Stock)",20038.0,,CI
+63,Loews Corporation,Insurance: Property and Casualty (Stock),19647.8,,L
+65,American Stores Company,Food & Drug Stores,19138.9,,AXP
+66,"Caterpillar, Inc.",Industrial and Farm Equipment,18925.0,,CAT
+72,Xerox Corporation,"Computers, Office Equipment",18166.0,,XRX
+73,American Express Company,Diversified Financials,17760.0,,AXP
+74,J.P. Morgan & Co. Incorporated,Commercial Banks,17701.0,,JPM
+81,Duke Energy Corporation,Utilities: Gas and Electric,16308.9,,DUK
+83,"Federated Department Stores, Inc.",General Merchandisers,15668.3,,FHI
+88,Electronic Data Systems Corporation,Computer And Data Services,15235.6,,EA
+94,Sysco Corporation,Wholesalers,14454.6,,SYY
+95,Federal Home Loan Mortgage Corp.,Diversified Financials,14399.0,,FMCC
+96,First Union Corporation,Commercial Banks,14329.0,,FHN
+99,Archer Daniels Midland Company,Food,13853.3,,ADM
+102,Ashland Inc.,Petroleum Refining,13567.0,,ASH

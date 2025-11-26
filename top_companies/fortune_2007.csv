@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,351139.0,,,2007,,WMT
+2,Exxon Mobil Corporation,Petroleum Refining,347254.0,,,2007,,XOM
+3,General Motors Corporation,Motor Vehicles & Parts,207349.0,,,2007,,GM
+4,Chevron Corporation,Petroleum Refining,200567.0,,,2007,,CVX
+5,ConocoPhillips,Petroleum Refining,172451.0,,,2007,,COP
+6,General Electric Company,Diversified Financials,168307.0,,,2007,,GE
+7,Ford Motor Company,Motor Vehicles & Parts,160126.0,,,2007,,F
+8,"Citigroup, Inc.",Commercial Banks,146777.0,,,2007,,C
+9,Bank of America Corporation,Commercial Banks,117017.0,,,2007,,BAC
+10,"American International Group,Inc.",Insurance: Property and Casualty (Stock),113194.0,,,2007,,AIG
+11,J.P. Morgan Chase & Co.,Commercial Banks,99973.0,,,2007,,JPM
+12,Berkshire Hathaway Inc.,Insurance: Property and Casualty (Stock),98539.0,,,2007,,BRK.A
+13,Verizon Communications Inc.,Telecommunications,93221.0,,,2007,,VZ
+14,Hewlett-Packard Company,"Computers, Office Equipment",91658.0,,,2007,,
+15,International Business Machines Corporation,"Computers, Office Equipment",91424.0,,,2007,,IBM
+16,Valero Energy Corporation,Petroleum Refining,91051.0,,,2007,,VLO
+17,"The Home Depot, Inc.",Specialty Retailers,90837.0,,,2007,,THD
+18,McKesson Corporation,Wholesalers: Health Care,88050.0,,,2007,,MCK
+19,"Cardinal Health, Inc.",Wholesalers: Health Care,81895.1,,,2007,,CAH
+20,Morgan Stanley,Securities,76688.0,,,2007,,MS
+21,UnitedHealth Group Incorporated,Health Care: Insurance and Managed Care,71542.0,,,2007,,UNH
+22,"Merrill Lynch & Co., Inc.",Securities,70591.0,,,2007,,DE000SLA1M99.SG
+23,"Altria Group, Inc.",Tobacco,70324.0,,,2007,,MO
+24,"The Goldman Sachs Group, Inc.",Securities,69353.0,,,2007,,TGS
+25,The Procter & Gamble Company,Household and Personal Products,68222.0,,,2007,,TPG
+26,The Kroger Company,Food & Drug Stores,66111.2,,,2007,,KR
+27,AT&T Inc.,Telecommunications,63055.0,,,2007,,ATT.L
+28,The Boeing Company,Aerospace & Defense,61530.0,,,2007,,BA
+29,AmerisourceBergen Corp.,Wholesalers: Health Care,61203.1,,,2007,,ABC.VI
+30,Marathon Oil Corporation,Petroleum Refining,60643.0,,,2007,,MRO
+31,State Farm Insurance Cos.,Insurance: Property and Casualty (Mutual),60528.0,,,2007,,
+32,Costco Wholesale Corporation,Specialty Retailers,60151.2,,,2007,,COST
+33,Target Corporation,General Merchandisers,59490.0,,,2007,,TGT
+34,Dell Inc.,"Computers, Office Equipment",57095.0,,,2007,,DELL
+35,"WellPoint, Inc.",Health Care: Insurance and Managed Care,56953.0,,,2007,,
+36,Johnson & Johnson,Pharmaceuticals,53324.0,,,2007,,JNJ
+37,"MetLife, Inc.","Insurance: Life, Health (Stock)",53275.0,,,2007,,MET
+38,Sears Holdings Corporation,General Merchandisers,53012.0,,,2007,,SRSCQ
+39,Pfizer Inc.,Pharmaceuticals,52415.0,,,2007,,PFIZER.NS
+40,The Dow Chemical Company,Chemicals,49124.0,,,2007,,TDC
+41,Wells Fargo & Company,Commercial Banks,47979.0,,,2007,,WFC
+42,United Technologies Corporation,Aerospace & Defense,47829.0,,,2007,,
+43,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",47547.0,,,2007,,UPS
+44,Walgreen Co.,Food & Drug Stores,47409.0,,,2007,,
+45,"Lowe's Companies, Inc.",Specialty Retailers,46927.0,,,2007,,LOW
+46,Wachovia Corporation,Commercial Banks,46810.0,,,2007,,
+47,"Lehman Brothers Holdings, Inc.",Securities,46709.0,,,2007,,LEHNQ
+48,Time Warner Inc.,Entertainment,44788.0,,,2007,,T
+49,Microsoft Corporation,Computer Software,44282.0,,,2007,,MSFT
+50,Freddie Mac,Diversified Financials,44002.0,,,2007,,FMCC
+51,CVS/Caremark Corporation,Food & Drug Stores,43813.8,,,2007,,
+52,"Motorola, Inc.",Network and Other Communications Equipment,43739.0,,,2007,,MSI
+53,Sprint Nextel Corporation,Telecommunications,43531.0,,,2007,,SIX.AX
+54,"Medco Health Solutions, Inc.",Health Care: Pharmacy and Other Services,42543.7,,,2007,,MED.PM
+55,"Caterpillar, Inc.",Industrial and Farm Equipment,41517.0,,,2007,,CAT
+56,Safeway Inc.,Food & Drug Stores,40185.0,,,2007,,301559.SZ
+57,Lockheed Martin Corporation,Aerospace & Defense,39620.0,,,2007,,LMT
+58,"Caremark Rx, Inc.",Health Care: Pharmacy and Other Services,36750.2,,,2007,,
+59,Archer-Daniels-Midland Company,Food Production,36596.1,,,2007,,
+60,"Sunoco, Inc.",Petroleum Refining,36081.0,,,2007,,SUN
+61,The Allstate Corporation,Insurance: Property and Casualty (Stock),35796.0,,,2007,,ALL
+62,Intel Corporation,Semiconductors and Other Electronic Components,35382.0,,,2007,,INTC
+63,"PepsiCo, Inc.",Food Consumer Products,35137.0,,,2007,,PEP
+64,The Walt Disney Company,Entertainment,34285.0,,,2007,,DIS
+65,Sysco Corporation,Wholesalers: Food and Grocery,32628.4,,,2007,,SYY
+66,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",32488.0,,,2007,,PRU
+67,"Johnson Controls, Inc.",Motor Vehicles & Parts,32413.0,,,2007,,JCI
+68,FedEx Corporation,"Mail, Package, and Freight Delivery",32294.0,,,2007,,FDX
+69,Honeywell International Inc.,Aerospace & Defense,31367.0,,,2007,,HON
+70,Ingram Micro Inc.,Wholesalers: Electronics and Office Equipment,31357.5,,,2007,,INGM
+71,"Alcoa, Inc.",Metals,30896.0,,,2007,,AA
+72,Best Buy Co. Inc.,Specialty Retailers,30848.0,,,2007,,BBY
+73,Northrop Grumman Corporation,Aerospace & Defense,30304.0,,,2007,,NOC
+74,E.I. du Pont de Nemours,Chemicals,28982.0,,,2007,,
+75,Hess Corp.,Petroleum Refining,28720.0,,,2007,,HES
+76,"Federated Department Stores, Inc.",General Merchandisers,28711.0,,,2007,,FHI
+77,"Cisco Systems, Inc.",Network and Other Communications Equipment,28484.0,,,2007,,CSCO
+78,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",28365.1,,,2007,,601336.SS
+79,American Express Company,Diversified Financials,27145.0,,,2007,,AXP
+80,Teachers Insurance and Annuity Association College Retiremen,"Insurance: Life, Health (Mutual)",26756.8,,,2007,,
+81,"Washington Mutual, Inc.",Savings Institutions,26561.0,,,2007,,4691.T
+82,The Hartford Financial Services Group Inc.,Insurance: Property and Casualty (Stock),26500.0,,,2007,,HFF.BE
+83,Delphi Corporation,Motor Vehicles & Parts,26392.0,,,2007,,DELPHIFX.NS
+84,Comcast Corporation,Telecommunications,25700.0,,,2007,,CMCSA
+85,Aetna Inc.,Health Care: Insurance and Managed Care,25568.6,,,2007,,
+86,"Tyson Foods, Inc.",Food Production,25559.0,,,2007,,TSN
+87,HCA Inc,Health Care: Medical Facilities,25477.0,,,2007,,HCA
+88,News Corporation,Entertainment,25327.0,,,2007,,NWSA
+89,"The Travelers Companies, Inc.",Insurance: Property and Casualty (Stock),25090.0,,,2007,,TTC
+90,Massachusetts Financial Group,"Insurance: Life, Health (Mutual)",24863.4,,,2007,,MFG.AX
+91,Countrywide Financial Corporation,Diversified Financials,24444.6,,,2007,,
+92,General Dynamics Corporation,Aerospace & Defense,24212.0,,,2007,,GD
+93,International Paper Company,Forest and Paper Products,24186.0,,,2007,,IP
+94,The Coca-Cola Company,Beverages,24088.0,,,2007,,
+95,Liberty Mutual Insurance Group,Insurance: Property and Casualty (Stock),23520.0,,,2007,,LFG.AX
+96,Raytheon Company,Aerospace & Defense,23274.0,,,2007,,^RTX
+97,3M Company,zMiscellaneous,22923.0,,,2007,,MMM
+98,Deere & Company,Industrial and Farm Equipment,22768.9,,,2007,,DE
+99,"Merck & Co., Inc.",Pharmaceuticals,22636.0,,,2007,,MRK
+100,Halliburton Company,"Oil and Gas Equipment, Services",22576.0,,,2007,,HAL

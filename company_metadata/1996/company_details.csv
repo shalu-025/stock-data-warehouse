@@ -1,0 +1,39 @@
+rank,company,industry,revenue,employees,ticker
+2,Ford Motor Company,Motor Vehicles & Parts,137137.0,,F
+3,Exxon Corporation,Petroleum Refining,110009.0,,XOM
+4,"Wal-Mart Stores, Inc.",General Merchandisers,93627.0,,WMT
+5,AT&T Corp.,Telecommunications,79609.0,,ATT.L
+6,International Business Machines Corporation,"Computers, Office Equipment",71940.0,,IBM
+7,General Electric Company,"Electronics, Electrical Equipment",70028.0,,GE
+12,State Farm Group,Insurance: Property and Casualty (Mutual),40809.9,,SFG.AX
+18,Chevron Corporation,Petroleum Refining,32094.0,,CVX
+21,"PepsiCo, Inc.",Food Services,30421.0,,PEP
+24,"Motorola, Inc.","Electronics, Electrical Equipment",27037.0,,MSI
+25,"American International Group,Inc.",Insurance: Property and Casualty (Stock),25874.0,,AIG
+26,"ConAgra, Inc.",Food,24108.9,,CAG
+27,The Kroger Company,Food & Drug Stores,23937.8,,KR
+29,Lockheed Martin Corporation,Aerospace & Defense,22853.0,,LMT
+31,The Allstate Corporation,Insurance: Property and Casualty (Stock),22793.0,,ALL
+32,Federal National Mortgage Association,Diversified Financials,22246.0,,FNMA
+39,International Paper Company,Forest and Paper Products,19797.0,,IP
+40,The Boeing Company,Aerospace & Defense,19515.0,,BA
+41,Xerox Corporation,"Scientific, Photographic and Control Equipment",18963.0,,XRX
+42,Cigna Corporation,"Insurance: Life, Health (Stock)",18955.0,,CI
+43,Johnson & Johnson,Pharmaceuticals,18842.0,,JNJ
+44,Loews Corporation,Insurance: Property and Casualty (Stock),18770.0,,L
+45,American Stores Company,Food & Drug Stores,18308.9,,AXP
+55,"Merck & Co., Inc.",Pharmaceuticals,16681.1,,MRK
+60,Intel Corporation,"Electronics, Electrical Equipment",16202.0,,INTC
+62,Minnesota Mining & Manufacturing Company,"Scientific, Photographic and Control Equipment",16105.0,,MMM
+63,"Caterpillar, Inc.",Industrial and Farm Equipment,16072.0,,CAT
+65,American Express Company,Diversified Financials,15841.0,,AXP
+76,J.P. Morgan & Co. Inc.,Commercial Banks,13838.0,,JPM
+77,Digital Equipment Corporation,"Computers, Office Equipment",13813.1,,GEN
+87,McKesson Corporation,Wholesalers,13325.5,,MCK
+88,The Goodyear Tire & Rubber Company,Rubber and Plastic Products,13165.9,,TGT
+89,"Texas Instruments, Inc.","Electronics, Electrical Equipment",13128.0,,TXN
+90,Rockwell International Corporation,"Electronics, Electrical Equipment",13009.0,,ROK
+92,Archer Daniels Midland Company,Food,12671.9,,ADM
+95,Alcoa,Metals,12654.9,,AA
+100,"ITT Hartford Group, Inc.",Insurance: Property and Casualty (Stock),12150.0,,ITT
+101,SYSCO Corporation,Wholesalers,12118.0,,SYY

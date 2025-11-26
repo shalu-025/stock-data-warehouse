@@ -1,0 +1,190 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 19:22:43,998 - INFO - ===== started running the process ======
+2025-11-25 19:22:44,055 - INFO - ============================================================
+2025-11-25 19:22:44,055 - INFO - LIVE SCHEDULER STARTED
+2025-11-25 19:22:44,055 - INFO - ============================================================
+2025-11-25 19:22:44,055 - INFO - Scheduled task:
+2025-11-25 19:22:44,055 - INFO - - Daily live data collection: Every day
+2025-11-25 19:22:44,055 - INFO -   (Stocks -> Metadata -> Macro -> Sentiment -> Exchange -> Merge)
+2025-11-25 19:22:44,055 - INFO - ============================================================
+2025-11-25 19:22:44,055 - INFO - Scheduler is now running.
+2025-11-25 19:24:14,067 - INFO - ============================================================
+2025-11-25 19:24:14,067 - INFO - DAILY LIVE DATA COLLECTION STARTED
+2025-11-25 19:24:14,068 - INFO - Time: 2025-11-25 19:24:14
+2025-11-25 19:24:14,068 - INFO - ============================================================
+2025-11-25 19:24:14,068 - INFO - 
+[1/5] Collecting live stocks data...
+2025-11-25 19:24:14,068 - INFO - 
+============================================================
+2025-11-25 19:24:14,068 - INFO - Fetching LIVE data for 2025
+2025-11-25 19:24:14,068 - INFO - Date: 2025-11-25
+2025-11-25 19:24:14,079 - INFO - Total companies with tickers: 96
+2025-11-25 19:24:14,079 - INFO - Today's data already exists — skipping
+2025-11-25 19:24:14,079 - INFO - 
+[2/5] Collecting company metadata...
+2025-11-25 19:24:14,079 - INFO - 
+============================================================
+2025-11-25 19:24:14,079 - INFO - Creating LIVE company metadata for 2025
+2025-11-25 19:24:14,080 - INFO - Metadata already exists — skipping
+2025-11-25 19:24:14,080 - INFO - 
+[3/5] Collecting macroeconomic data...
+2025-11-25 19:24:14,080 - INFO - 
+============================================================
+2025-11-25 19:24:14,080 - INFO - creating LIVE macro data for 2025
+2025-11-25 19:24:14,080 - INFO - current year data already exists — skipping
+2025-11-25 19:24:14,080 - INFO - 
+[4/5] Collecting sentiment analysis...
+2025-11-25 19:24:14,081 - INFO - sentiment already exists — skipping
+2025-11-25 19:24:14,081 - INFO - 
+[5/5] Collecting exchange rates...
+2025-11-25 19:24:14,081 - INFO - 
+============================================================
+2025-11-25 19:24:14,081 - INFO - Fetching LIVE exchange rates (USD-INR) from FRED for 2025
+2025-11-25 19:24:14,081 - INFO - Current year data already exists — skipping
+2025-11-25 19:24:14,081 - INFO - 
+[MERGE] Merging all collected data...
+2025-11-25 19:24:14,082 - INFO - Starting merge process
+2025-11-25 19:24:14,082 - INFO - Mode: Live
+2025-11-25 19:24:14,082 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14
+2025-11-25 19:24:14,082 - INFO - 
+============================================================
+2025-11-25 19:24:14,082 - INFO - Processing BASE TABLE (stocks_raw)
+2025-11-25 19:24:14,082 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-25 19:24:14,083 - INFO - Read 93 rows from stocks_raw
+2025-11-25 19:24:14,109 - INFO - Validation complete for stocks_raw: valid=93, invalid=0
+2025-11-25 19:24:14,111 - INFO - Removed 1 duplicate records based on ticker-date
+2025-11-25 19:24:14,113 - INFO - Valid: 92, Invalid: 0
+2025-11-25 19:24:14,126 - INFO - Table stocks_raw created
+2025-11-25 19:24:14,147 - INFO - Inserted 92 rows into stocks_raw
+2025-11-25 19:24:14,147 - INFO - Loaded 92 rows to stocks_raw
+2025-11-25 19:24:14,147 - INFO - Base table established with 92 records
+2025-11-25 19:24:14,147 - INFO - Found 92 unique tickers: 601336.SS, AAL, ABBV, ACI, ADM, ALL, AMZN, APLE, ATT.L, AVGO, AXP, BA, BAC, CAH, CAT, CHTR, CI, CITI.NE, CMCSA, CNC, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, ELV, EPD, ET, F, FDX, FMCC, FNMA, GD, GM, GOOGL, GSBD, HCA, HD, HP, HUM.ST, IBM, INGM, INTC, JNJ, JPM, KR, LLY, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TRV, TSLA, TSN, UAL, UIPMX, UNH, UPS, VLO, VZ, WFC, WMT, X1G.PA, XOM
+2025-11-25 19:24:14,147 - INFO - 
+============================================================
+2025-11-25 19:24:14,147 - INFO - Processing DEPENDENT TABLES
+2025-11-25 19:24:14,147 - INFO - Processing company_metadata
+2025-11-25 19:24:14,148 - INFO - Read 93 rows from company_metadata/2025/company_details.csv
+2025-11-25 19:24:14,148 - INFO - Filtered to 6 columns matching table structure
+2025-11-25 19:24:14,154 - INFO - Validation complete for company_metadata: valid=93, invalid=0
+2025-11-25 19:24:14,156 - INFO - Valid: 93, Invalid: 0
+2025-11-25 19:24:14,161 - INFO - Table company_metadata created successfully
+2025-11-25 19:24:14,173 - INFO - Successfully inserted 93/93 rows into company_metadata
+2025-11-25 19:24:14,173 - INFO - Loaded 93 rows to company_metadata
+2025-11-25 19:24:14,174 - INFO - company_metadata processed and linked to stocks_raw
+2025-11-25 19:24:14,174 - INFO - 
+============================================================
+2025-11-25 19:24:14,174 - INFO - Processing INDEPENDENT TABLES
+2025-11-25 19:24:14,174 - INFO - Processing exchange_rates
+2025-11-25 19:24:14,174 - INFO - Read 219 rows from exchange_rates
+2025-11-25 19:24:14,203 - INFO - Validation complete for exchange_rates: valid=219, invalid=0
+2025-11-25 19:24:14,206 - INFO - Valid: 219, Invalid: 0
+2025-11-25 19:24:14,213 - INFO - Table exchange_rates created
+2025-11-25 19:24:14,240 - INFO - Inserted 219 rows into exchange_rates
+2025-11-25 19:24:14,240 - INFO - Loaded 219 rows to exchange_rates
+2025-11-25 19:24:14,240 - INFO - exchange_rates processed
+2025-11-25 19:24:14,240 - INFO - Processing macro_raw
+2025-11-25 19:24:14,241 - INFO - Read 4 rows from macro_raw
+2025-11-25 19:24:14,241 - INFO - Validation complete for macro_raw: valid=4, invalid=0
+2025-11-25 19:24:14,242 - INFO - Valid: 4, Invalid: 0
+2025-11-25 19:24:14,246 - INFO - Table macro_raw created
+2025-11-25 19:24:14,247 - INFO - Inserted 4 rows into macro_raw
+2025-11-25 19:24:14,247 - INFO - Loaded 4 rows to macro_raw
+2025-11-25 19:24:14,247 - INFO - macro_raw processed
+2025-11-25 19:24:14,247 - INFO - 
+============================================================
+2025-11-25 19:24:14,247 - INFO - Processing SENTIMENT DATA
+2025-11-25 19:24:14,247 - INFO - Processing sentiment
+2025-11-25 19:24:14,247 - INFO - Read 4 rows from sentiment
+2025-11-25 19:24:14,248 - INFO - Validation complete for sentiment: valid=4, invalid=0
+2025-11-25 19:24:14,249 - INFO - Valid: 4, Invalid: 0
+2025-11-25 19:24:14,253 - INFO - Table sentiment created
+2025-11-25 19:24:14,254 - INFO - Inserted 4 rows into sentiment
+2025-11-25 19:24:14,254 - INFO - Loaded 4 rows to sentiment
+2025-11-25 19:24:14,254 - INFO - sentiment processed and linked to stocks_raw
+2025-11-25 19:24:14,254 - INFO - 
+============================================================
+2025-11-25 19:24:14,254 - INFO - KPI CALCULATIONS AND FACT TABLE GENERATION
+2025-11-25 19:24:14,254 - INFO - Starting KPI calculations
+2025-11-25 19:24:14,255 - INFO - Loaded stocks_raw: 92 rows
+2025-11-25 19:24:14,255 - INFO - Loaded macro_raw: 4 rows
+2025-11-25 19:24:14,255 - INFO - Loaded company_metadata: 93 rows
+2025-11-25 19:24:14,255 - INFO - Loaded exchange_rates: 219 rows
+2025-11-25 19:24:14,256 - INFO - Calculating stock_facts metrics...
+2025-11-25 19:24:14,274 - INFO - Stock facts calculated: 92 rows
+2025-11-25 19:24:14,274 - INFO - Calculating macro_facts metrics...
+2025-11-25 19:24:14,278 - INFO - Macro facts calculated: 4 rows
+2025-11-25 19:24:14,278 - INFO - Creating sector_lookup...
+2025-11-25 19:24:14,278 - INFO - Sector lookup created: 38 sectors
+2025-11-25 19:24:14,278 - INFO - Calculating analytics_summary metrics...
+2025-11-25 19:24:14,351 - INFO - Removed 1 duplicate analytics_summary records based on ticker-year-quarter
+2025-11-25 19:24:14,352 - INFO - Analytics summary calculated: 92 rows
+2025-11-25 19:24:14,352 - INFO - 
+============================================================
+2025-11-25 19:24:14,352 - INFO - KPI calculations completed successfully
+2025-11-25 19:24:14,352 - INFO - Generated files: stock_facts.csv, macro_facts.csv, sector_lookup.csv, analytics_summary.csv, pipeline_logs.csv
+2025-11-25 19:24:14,352 - INFO - KPI calculations completed successfully
+2025-11-25 19:24:14,360 - INFO - Table stock_facts created
+2025-11-25 19:24:14,380 - INFO - Inserted 92 rows into stock_facts
+2025-11-25 19:24:14,380 - INFO - Loaded stock_facts to database
+2025-11-25 19:24:14,384 - INFO - Table macro_facts created
+2025-11-25 19:24:14,385 - INFO - Inserted 4 rows into macro_facts
+2025-11-25 19:24:14,385 - INFO - Loaded macro_facts to database
+2025-11-25 19:24:14,388 - INFO - Table sector_lookup created
+2025-11-25 19:24:14,392 - INFO - Inserted 38 rows into sector_lookup
+2025-11-25 19:24:14,392 - INFO - Loaded sector_lookup to database
+2025-11-25 19:24:14,394 - INFO - Table analytics_summary created
+2025-11-25 19:24:14,407 - INFO - Inserted 92 rows into analytics_summary
+2025-11-25 19:24:14,407 - INFO - Loaded analytics_summary to database
+2025-11-25 19:24:14,407 - INFO - 
+================================================================================
+2025-11-25 19:24:14,407 - INFO - REPORT GENERATION STARTED
+2025-11-25 19:24:14,407 - INFO - Created directory: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/reports
+2025-11-25 19:24:14,407 - INFO - 
+============================================================
+2025-11-25 19:24:14,407 - INFO - Generating Report 1: Annual Market Intelligence Report
+2025-11-25 19:24:15,395 - INFO - Fetched 30 rows for yearly performance
+2025-11-25 19:24:15,713 - INFO - Fetched 20 rows for company performance
+2025-11-25 19:24:15,720 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report1_yearly_performance.csv
+2025-11-25 19:24:15,720 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report1_company_performance.csv
+2025-11-25 19:24:15,731 - INFO - Saved PDF: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/reports/report1_annual_market_intelligence_20251125_192415.pdf
+2025-11-25 19:24:15,731 - INFO - Report 1 completed: {'csv': ['/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report1_yearly_performance.csv', '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report1_company_performance.csv'], 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/reports/report1_annual_market_intelligence_20251125_192415.pdf'}
+2025-11-25 19:24:15,731 - INFO - 
+============================================================
+2025-11-25 19:24:15,731 - INFO - Generating Report 2: Sector Stability & Volatility Report
+2025-11-25 19:24:15,741 - INFO - Fetched 63 rows for sector metrics
+2025-11-25 19:24:15,742 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report2_sector_stability.csv
+2025-11-25 19:24:15,798 - INFO - Saved Excel: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/reports/report2_sector_stability_20251125_192415.xlsx
+2025-11-25 19:24:15,804 - INFO - Saved PDF: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/reports/report2_sector_stability_20251125_192415.pdf
+2025-11-25 19:24:15,804 - INFO - Report 2 completed: {'csv': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report2_sector_stability.csv', 'excel': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/reports/report2_sector_stability_20251125_192415.xlsx', 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/reports/report2_sector_stability_20251125_192415.pdf'}
+2025-11-25 19:24:15,804 - INFO - 
+============================================================
+2025-11-25 19:24:15,804 - INFO - Generating Report 3: Cross-Market Analysis Report
+2025-11-25 19:24:16,234 - INFO - Fetched 30 rows for yearly currency data
+2025-11-25 19:24:16,240 - INFO - Fetched 20 rows for company currency data
+2025-11-25 19:24:16,243 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report3_currency_yearly.csv
+2025-11-25 19:24:16,243 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report3_company_currency.csv
+2025-11-25 19:24:16,305 - INFO - Saved PDF: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/reports/report3_cross_market_20251125_192416.pdf
+2025-11-25 19:24:16,306 - INFO - Report 3 completed: {'csv': ['/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report3_currency_yearly.csv', '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report3_company_currency.csv'], 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/reports/report3_cross_market_20251125_192416.pdf'}
+2025-11-25 19:24:16,306 - INFO - 
+============================================================
+2025-11-25 19:24:16,306 - INFO - Generating Report 4: Forecasting & Prediction Summary
+2025-11-25 19:24:16,312 - INFO - Fetched 20 rows for quarterly trends
+2025-11-25 19:24:16,316 - INFO - Fetched 876 rows for sector forecast
+2025-11-25 19:24:16,317 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report4_quarterly_trends.csv
+2025-11-25 19:24:16,321 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report4_sector_forecast.csv
+2025-11-25 19:24:16,328 - INFO - Saved PDF: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/reports/report4_forecasting_20251125_192416.pdf
+2025-11-25 19:24:16,328 - INFO - Report 4 completed: {'csv': ['/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report4_quarterly_trends.csv', '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/report4_sector_forecast.csv'], 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_19:24:14/reports/report4_forecasting_20251125_192416.pdf'}
+2025-11-25 19:24:16,328 - INFO - 
+================================================================================
+2025-11-25 19:24:16,328 - INFO - REPORT GENERATION COMPLETED SUCCESSFULLY
+2025-11-25 19:24:16,328 - INFO - 
+================================================================================
+2025-11-25 19:24:16,328 - INFO - ============================================================
+2025-11-25 19:24:16,328 - INFO - DAILY COLLECTION COMPLETED SUCCESSFULLY
+2025-11-25 19:24:16,328 - INFO - ============================================================

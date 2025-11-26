@@ -1,0 +1,715 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-26 13:44:11,793 - INFO - ===== started running the process ======
+2025-11-26 13:44:11,841 - INFO - ============================================================
+2025-11-26 13:44:11,841 - INFO - HISTORICAL PROCESSING FROM CONFIG
+2025-11-26 13:44:11,841 - INFO - Range: 2025-10-27 to 2025-11-26
+2025-11-26 13:44:11,841 - INFO - ============================================================
+2025-11-26 13:44:11,841 - INFO - 
+============================================================
+2025-11-26 13:44:11,841 - INFO - Fetching HISTORICAL data for 2025
+2025-11-26 13:44:11,841 - INFO - Period: 2025-10-27 to 2025-11-26
+2025-11-26 13:44:11,842 - INFO - total companies with tickers: 96
+2025-11-26 13:44:11,848 - INFO - found 238 days already saved
+2025-11-26 13:44:11,848 - INFO - 
+[1] ->  Walmart (WMT)
+2025-11-26 13:44:12,617 - INFO - Got 22 days of data
+2025-11-26 13:44:12,630 - INFO - 
+[2] ->  Amazon (AMZN)
+2025-11-26 13:44:12,651 - INFO - Got 22 days of data
+2025-11-26 13:44:12,664 - INFO - 
+[3] ->  UnitedHealth (UNH)
+2025-11-26 13:44:12,777 - INFO - Got 22 days of data
+2025-11-26 13:44:12,790 - INFO - 
+[4] ->  Apple (APLE)
+2025-11-26 13:44:12,884 - INFO - Got 22 days of data
+2025-11-26 13:44:12,897 - INFO - 
+[5] ->  CVS Health (CVS)
+2025-11-26 13:44:13,025 - INFO - Got 22 days of data
+2025-11-26 13:44:13,038 - INFO - 
+[6] ->  Berkshire Hathaway (BRK.A)
+2025-11-26 13:44:13,795 - INFO - No data available
+2025-11-26 13:44:13,796 - INFO - 
+[7] ->  Alphabet (GOOGL)
+2025-11-26 13:44:13,873 - INFO - Got 22 days of data
+2025-11-26 13:44:13,886 - INFO - 
+[8] ->  Exxon Mobil (XOM)
+2025-11-26 13:44:14,053 - INFO - Got 22 days of data
+2025-11-26 13:44:14,064 - INFO - 
+[9] ->  McKesson (MCK)
+2025-11-26 13:44:14,267 - INFO - Got 22 days of data
+2025-11-26 13:44:14,280 - INFO - 
+[10] ->  Cencora (COR)
+2025-11-26 13:44:14,386 - INFO - Got 22 days of data
+2025-11-26 13:44:14,399 - INFO - 
+[11] ->  JPMorgan Chase (JPM)
+2025-11-26 13:44:14,527 - INFO - Got 22 days of data
+2025-11-26 13:44:14,539 - INFO - 
+[12] ->  Costco (COST)
+2025-11-26 13:44:14,657 - INFO - Got 22 days of data
+2025-11-26 13:44:14,669 - INFO - 
+[13] ->  Cigna (CI)
+2025-11-26 13:44:14,831 - INFO - Got 22 days of data
+2025-11-26 13:44:14,844 - INFO - 
+[14] ->  Microsoft (MSFT)
+2025-11-26 13:44:14,954 - INFO - Got 22 days of data
+2025-11-26 13:44:14,967 - INFO - 
+[15] ->  Cardinal Health (CAH)
+2025-11-26 13:44:15,176 - INFO - Got 22 days of data
+2025-11-26 13:44:15,189 - INFO - 
+[16] ->  Chevron (CVX)
+2025-11-26 13:44:15,352 - INFO - Got 22 days of data
+2025-11-26 13:44:15,365 - INFO - 
+[17] ->  Bank of America (BAC)
+2025-11-26 13:44:15,494 - INFO - Got 22 days of data
+2025-11-26 13:44:15,505 - INFO - 
+[18] ->  General Motors (GM)
+2025-11-26 13:44:15,622 - INFO - Got 22 days of data
+2025-11-26 13:44:15,634 - INFO - 
+[19] ->  Ford Motor (F)
+2025-11-26 13:44:15,871 - INFO - Got 22 days of data
+2025-11-26 13:44:15,884 - INFO - 
+[20] ->  Elevance Health (ELV)
+2025-11-26 13:44:15,924 - INFO - Got 22 days of data
+2025-11-26 13:44:15,936 - INFO - 
+[21] ->  Citi (CITI.NE)
+2025-11-26 13:44:16,018 - INFO - Got 22 days of data
+2025-11-26 13:44:16,031 - INFO - 
+[22] ->  Meta (META)
+2025-11-26 13:44:16,108 - INFO - Got 22 days of data
+2025-11-26 13:44:16,121 - INFO - 
+[23] ->  Centene (CNC)
+2025-11-26 13:44:16,368 - INFO - Got 22 days of data
+2025-11-26 13:44:16,380 - INFO - 
+[24] ->  Home Depot (HD)
+2025-11-26 13:44:16,453 - INFO - Got 22 days of data
+2025-11-26 13:44:16,465 - INFO - 
+[25] ->  Fannie Mae (FNMA)
+2025-11-26 13:44:16,692 - INFO - Got 22 days of data
+2025-11-26 13:44:16,704 - INFO - 
+[27] ->  Kroger (KR)
+2025-11-26 13:44:16,928 - INFO - Got 22 days of data
+2025-11-26 13:44:16,941 - INFO - 
+[28] ->  Phillips 66 (PSX)
+2025-11-26 13:44:16,963 - INFO - Got 22 days of data
+2025-11-26 13:44:16,975 - INFO - 
+[29] ->  Marathon Petroleum (MPC)
+2025-11-26 13:44:17,093 - INFO - Got 22 days of data
+2025-11-26 13:44:17,105 - INFO - 
+[30] ->  Verizon (VZ)
+2025-11-26 13:44:17,230 - INFO - Got 22 days of data
+2025-11-26 13:44:17,242 - INFO - 
+[31] ->  Nvidia (NVDA)
+2025-11-26 13:44:17,312 - INFO - Got 22 days of data
+2025-11-26 13:44:17,325 - INFO - 
+[32] ->  Goldman Sachs (GSBD)
+2025-11-26 13:44:17,454 - INFO - Got 22 days of data
+2025-11-26 13:44:17,466 - INFO - 
+[33] ->  Wells Fargo (WFC)
+2025-11-26 13:44:17,592 - INFO - Got 22 days of data
+2025-11-26 13:44:17,604 - INFO - 
+[34] ->  Valero Energy (VLO)
+2025-11-26 13:44:17,734 - INFO - Got 22 days of data
+2025-11-26 13:44:17,746 - INFO - 
+[35] ->  Comcast (CMCSA)
+2025-11-26 13:44:17,895 - INFO - Got 22 days of data
+2025-11-26 13:44:17,907 - INFO - 
+[36] ->  State Farm (ALL)
+2025-11-26 13:44:18,027 - INFO - Got 22 days of data
+2025-11-26 13:44:18,039 - INFO - 
+[37] ->  AT&T (ATT.L)
+2025-11-26 13:44:18,189 - INFO - Got 22 days of data
+2025-11-26 13:44:18,202 - INFO - 
+[38] ->  Freddie Mac (FMCC)
+2025-11-26 13:44:18,310 - INFO - Got 22 days of data
+2025-11-26 13:44:18,322 - INFO - 
+[39] ->  Humana (HUM.ST)
+2025-11-26 13:44:18,416 - INFO - Got 22 days of data
+2025-11-26 13:44:18,429 - INFO - 
+[40] ->  Morgan Stanley (MS)
+2025-11-26 13:44:18,555 - INFO - Got 22 days of data
+2025-11-26 13:44:18,568 - INFO - 
+[41] ->  Target (TGT)
+2025-11-26 13:44:18,711 - INFO - Got 22 days of data
+2025-11-26 13:44:18,724 - INFO - 
+[42] ->  StoneX (SNEX)
+2025-11-26 13:44:18,817 - INFO - Got 22 days of data
+2025-11-26 13:44:18,829 - INFO - 
+[43] ->  Tesla (TSLA)
+2025-11-26 13:44:18,914 - INFO - Got 22 days of data
+2025-11-26 13:44:18,927 - INFO - 
+[44] ->  Dell Technologies (DELL)
+2025-11-26 13:44:19,022 - INFO - Got 22 days of data
+2025-11-26 13:44:19,035 - INFO - 
+[45] ->  PepsiCo (PEP)
+2025-11-26 13:44:19,162 - INFO - Got 22 days of data
+2025-11-26 13:44:19,175 - INFO - 
+[46] ->  Walt Disney (DIS)
+2025-11-26 13:44:19,331 - INFO - Got 22 days of data
+2025-11-26 13:44:19,343 - INFO - 
+[47] ->  UPS (UPS)
+2025-11-26 13:44:19,574 - INFO - Got 22 days of data
+2025-11-26 13:44:19,585 - INFO - 
+[48] ->  Johnson & Johnson (JNJ)
+2025-11-26 13:44:19,745 - INFO - Got 22 days of data
+2025-11-26 13:44:19,758 - INFO - 
+[49] ->  FedEx (FDX)
+2025-11-26 13:44:19,988 - INFO - Got 22 days of data
+2025-11-26 13:44:20,001 - INFO - 
+[50] ->  Archer Daniels Midland (ADM)
+2025-11-26 13:44:20,072 - INFO - Got 22 days of data
+2025-11-26 13:44:20,084 - INFO - 
+[51] ->  Procter & Gamble (PG)
+2025-11-26 13:44:20,304 - INFO - Got 22 days of data
+2025-11-26 13:44:20,317 - INFO - 
+[52] ->  Lowe's (X1G.PA)
+2025-11-26 13:44:20,436 - INFO - Got 22 days of data
+2025-11-26 13:44:20,449 - INFO - 
+[53] ->  Energy Transfer (ET)
+2025-11-26 13:44:20,521 - INFO - Got 22 days of data
+2025-11-26 13:44:20,534 - INFO - 
+[54] ->  RTX (RTX)
+2025-11-26 13:44:20,871 - INFO - Got 22 days of data
+2025-11-26 13:44:20,883 - INFO - 
+[55] ->  Albertsons (ACI)
+2025-11-26 13:44:20,907 - INFO - Got 22 days of data
+2025-11-26 13:44:20,919 - INFO - 
+[56] ->  Sysco (SYY)
+2025-11-26 13:44:21,046 - INFO - Got 22 days of data
+2025-11-26 13:44:21,059 - INFO - 
+[57] ->  Progressive (PGR)
+2025-11-26 13:44:21,202 - INFO - Got 22 days of data
+2025-11-26 13:44:21,214 - INFO - 
+[58] ->  American Express (AXP)
+2025-11-26 13:44:21,288 - INFO - Got 22 days of data
+2025-11-26 13:44:21,301 - INFO - 
+[59] ->  Lockheed Martin (LMT)
+2025-11-26 13:44:21,524 - INFO - Got 22 days of data
+2025-11-26 13:44:21,537 - INFO - 
+[60] ->  MetLife (MET)
+2025-11-26 13:44:21,617 - INFO - Got 22 days of data
+2025-11-26 13:44:21,630 - INFO - 
+[61] ->  HCA Healthcare (HCA)
+2025-11-26 13:44:21,709 - INFO - Got 22 days of data
+2025-11-26 13:44:21,722 - INFO - 
+[62] ->  Prudential Financial (PRU)
+2025-11-26 13:44:21,856 - INFO - Got 22 days of data
+2025-11-26 13:44:21,869 - INFO - 
+[63] ->  Boeing (BA)
+2025-11-26 13:44:22,058 - INFO - Got 22 days of data
+2025-11-26 13:44:22,070 - INFO - 
+[64] ->  Caterpillar (CAT)
+2025-11-26 13:44:22,278 - INFO - Got 22 days of data
+2025-11-26 13:44:22,291 - INFO - 
+[65] ->  Merck (MRK)
+2025-11-26 13:44:22,449 - INFO - Got 22 days of data
+2025-11-26 13:44:22,461 - INFO - 
+[66] ->  Allstate (ALL)
+2025-11-26 13:44:22,468 - INFO - Got 22 days of data
+2025-11-26 13:44:22,480 - INFO - 
+[67] ->  Pfizer (PFIZER.NS)
+2025-11-26 13:44:22,606 - INFO - Got 22 days of data
+2025-11-26 13:44:22,616 - INFO - 
+[68] ->  IBM (IBM)
+2025-11-26 13:44:22,794 - INFO - Got 22 days of data
+2025-11-26 13:44:22,805 - INFO - 
+[69] ->  New York Life Insurance (601336.SS)
+2025-11-26 13:44:22,971 - INFO - Got 22 days of data
+2025-11-26 13:44:22,984 - INFO - 
+[70] ->  Delta Airlines (DAL)
+2025-11-26 13:44:23,084 - INFO - Got 22 days of data
+2025-11-26 13:44:23,097 - INFO - 
+[72] ->  Nationwide (NATWIDE.KL)
+2025-11-26 13:44:24,009 - INFO - No data available
+2025-11-26 13:44:24,009 - INFO - 
+[73] ->  TD Synnex (SNX)
+2025-11-26 13:44:24,132 - INFO - Got 22 days of data
+2025-11-26 13:44:24,144 - INFO - 
+[74] ->  United Airlines (UAL)
+2025-11-26 13:44:24,216 - INFO - Got 22 days of data
+2025-11-26 13:44:24,228 - INFO - 
+[75] ->  ConocoPhillips (COP)
+2025-11-26 13:44:24,454 - INFO - Got 22 days of data
+2025-11-26 13:44:24,467 - INFO - 
+[76] ->  TJX (TJX)
+2025-11-26 13:44:24,541 - INFO - Got 22 days of data
+2025-11-26 13:44:24,554 - INFO - 
+[77] ->  AbbVie (ABBV)
+2025-11-26 13:44:24,791 - INFO - Got 22 days of data
+2025-11-26 13:44:24,804 - INFO - 
+[78] ->  Enterprise Products Partners (EPD)
+2025-11-26 13:44:24,897 - INFO - Got 22 days of data
+2025-11-26 13:44:24,910 - INFO - 
+[79] ->  Charter Communications (CHTR)
+2025-11-26 13:44:24,945 - INFO - Got 22 days of data
+2025-11-26 13:44:24,957 - INFO - 
+[80] ->  Performance Food (PFGC)
+2025-11-26 13:44:25,088 - INFO - Got 22 days of data
+2025-11-26 13:44:25,101 - INFO - 
+[81] ->  American Airlines (AAL)
+2025-11-26 13:44:25,173 - INFO - Got 22 days of data
+2025-11-26 13:44:25,186 - INFO - 
+[82] ->  Capital One (VALC.TA)
+2025-11-26 13:44:26,187 - INFO - No data available
+2025-11-26 13:44:26,187 - INFO - 
+[83] ->  Cisco Systems (CSCO)
+2025-11-26 13:44:34,582 - INFO - Got 22 days of data
+2025-11-26 13:44:34,595 - INFO - 
+[84] ->  HP (HP)
+2025-11-26 13:44:34,634 - INFO - Got 22 days of data
+2025-11-26 13:44:34,646 - INFO - 
+[85] ->  Tyson Foods (TSN)
+2025-11-26 13:44:34,679 - INFO - Got 22 days of data
+2025-11-26 13:44:34,691 - INFO - 
+[86] ->  Intel (INTC)
+2025-11-26 13:44:34,723 - INFO - Got 22 days of data
+2025-11-26 13:44:34,736 - INFO - 
+[87] ->  Oracle (ORCL)
+2025-11-26 13:44:34,819 - INFO - Got 22 days of data
+2025-11-26 13:44:34,832 - INFO - 
+[88] ->  Broadcom (AVGO)
+2025-11-26 13:44:34,897 - INFO - Got 22 days of data
+2025-11-26 13:44:34,910 - INFO - 
+[89] ->  Deere (DE)
+2025-11-26 13:44:35,131 - INFO - Got 22 days of data
+2025-11-26 13:44:35,144 - INFO - 
+[90] ->  Nike (NKE)
+2025-11-26 13:44:35,493 - INFO - Got 22 days of data
+2025-11-26 13:44:35,506 - INFO - 
+[92] ->  Plains GP (PAGP)
+2025-11-26 13:44:36,208 - INFO - Got 22 days of data
+2025-11-26 13:44:36,221 - INFO - 
+[93] ->  USAA (UIPMX)
+2025-11-26 13:44:36,880 - INFO - Got 22 days of data
+2025-11-26 13:44:36,893 - INFO - 
+[95] ->  Ingram Micro (INGM)
+2025-11-26 13:44:37,339 - INFO - Got 22 days of data
+2025-11-26 13:44:37,352 - INFO - 
+[96] ->  General Dynamics (GD)
+2025-11-26 13:44:37,685 - INFO - Got 22 days of data
+2025-11-26 13:44:37,697 - INFO - 
+[97] ->  Coca-Cola (COLA.WA)
+2025-11-26 13:44:37,770 - INFO - Got 16 days of data
+2025-11-26 13:44:37,782 - INFO - 
+[98] ->  TIAA (TILIX)
+2025-11-26 13:44:38,120 - INFO - Got 22 days of data
+2025-11-26 13:44:38,132 - INFO - 
+[99] ->  Travelers (TRV)
+2025-11-26 13:44:38,380 - INFO - Got 22 days of data
+2025-11-26 13:44:38,393 - INFO - 
+[100] ->  Eli Lilly (LLY)
+2025-11-26 13:44:38,564 - INFO - Got 22 days of data
+2025-11-26 13:44:38,577 - INFO - Historic stocks data collected
+2025-11-26 13:44:38,577 - INFO - 
+============================================================
+2025-11-26 13:44:38,577 - INFO - Creating HISTORICAL company metadata
+2025-11-26 13:44:38,577 - INFO - Years: 2025 to 2025
+2025-11-26 13:44:38,578 - INFO - 
+2025: Metadata already exists — skipping
+2025-11-26 13:44:38,578 - INFO - 
+Metadata creation completed
+2025-11-26 13:44:38,578 - INFO - 
+============================================================
+2025-11-26 13:44:38,578 - INFO - Creating HISTORICAL macro data
+2025-11-26 13:44:38,578 - INFO - Years: 2025 to 2025
+2025-11-26 13:44:38,578 - INFO - 
+2025: already exists — skipping
+2025-11-26 13:44:38,578 - INFO - 
+Macro data creation complete
+2025-11-26 13:44:38,578 - INFO - 
+============================================================
+2025-11-26 13:44:38,578 - INFO - Fetching HISTORICAL exchange rates (USD-INR) from FRED
+2025-11-26 13:44:38,578 - INFO - Years: 2025 to 2025
+2025-11-26 13:44:38,578 - INFO - 
+2025: Already exists — skipping
+2025-11-26 13:44:38,578 - INFO - 
+Exchange rate data complete
+2025-11-26 13:44:38,578 - INFO - Starting merge process
+2025-11-26 13:44:38,578 - INFO - Mode: Historical
+2025-11-26 13:44:38,578 - INFO - Date range: 2025-10-27 to 2025-11-26
+2025-11-26 13:44:38,578 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44
+2025-11-26 13:44:38,578 - INFO - 
+============================================================
+2025-11-26 13:44:38,578 - INFO - Processing BASE TABLE (stocks_raw)
+2025-11-26 13:44:38,578 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-26 13:44:38,580 - INFO - Read 92 rows from 2025/11/03/stocks.csv
+2025-11-26 13:44:38,580 - INFO - Read 92 rows from 2025/11/04/stocks.csv
+2025-11-26 13:44:38,581 - INFO - Read 92 rows from 2025/11/05/stocks.csv
+2025-11-26 13:44:38,582 - INFO - Read 92 rows from 2025/11/20/stocks.csv
+2025-11-26 13:44:38,583 - INFO - Read 92 rows from 2025/11/18/stocks.csv
+2025-11-26 13:44:38,583 - INFO - Read 91 rows from 2025/11/11/stocks.csv
+2025-11-26 13:44:38,584 - INFO - Read 92 rows from 2025/11/17/stocks.csv
+2025-11-26 13:44:38,584 - INFO - Read 92 rows from 2025/11/10/stocks.csv
+2025-11-26 13:44:38,585 - INFO - Read 92 rows from 2025/11/19/stocks.csv
+2025-11-26 13:44:38,586 - INFO - Read 93 rows from 2025/11/26/stocks.csv
+2025-11-26 13:44:38,586 - INFO - Read 92 rows from 2025/11/21/stocks.csv
+2025-11-26 13:44:38,587 - INFO - Read 91 rows from 2025/11/07/stocks.csv
+2025-11-26 13:44:38,587 - INFO - Read 92 rows from 2025/11/06/stocks.csv
+2025-11-26 13:44:38,588 - INFO - Read 93 rows from 2025/11/24/stocks.csv
+2025-11-26 13:44:38,588 - INFO - Read 93 rows from 2025/11/23/stocks.csv
+2025-11-26 13:44:38,589 - INFO - Read 92 rows from 2025/11/12/stocks.csv
+2025-11-26 13:44:38,590 - INFO - Read 91 rows from 2025/11/13/stocks.csv
+2025-11-26 13:44:38,590 - INFO - Read 92 rows from 2025/11/14/stocks.csv
+2025-11-26 13:44:38,591 - INFO - Read 93 rows from 2025/11/25/stocks.csv
+2025-11-26 13:44:38,591 - INFO - Read 92 rows from 2025/10/27/stocks.csv
+2025-11-26 13:44:38,592 - INFO - Read 91 rows from 2025/10/29/stocks.csv
+2025-11-26 13:44:38,592 - INFO - Read 91 rows from 2025/10/28/stocks.csv
+2025-11-26 13:44:38,593 - INFO - Read 91 rows from 2025/10/31/stocks.csv
+2025-11-26 13:44:38,593 - INFO - Read 92 rows from 2025/10/30/stocks.csv
+2025-11-26 13:44:38,600 - INFO - Merged 2206 rows for stocks_raw
+2025-11-26 13:44:38,913 - INFO - validation complete for stocks_raw: valid=2206, invalid=0
+2025-11-26 13:44:38,929 - INFO - Removed 192 duplicate records based on ticker-date
+2025-11-26 13:44:38,933 - INFO - Valid: 2014, Invalid: 0
+2025-11-26 13:44:38,942 - INFO - Table stocks_raw created
+2025-11-26 13:44:39,141 - INFO - Inserted 2014 rows into stocks_raw
+2025-11-26 13:44:39,141 - INFO - Loaded 2014 rows to stocks_raw
+2025-11-26 13:44:39,141 - INFO - Base table established with 2014 records
+2025-11-26 13:44:39,141 - INFO - Found 92 unique tickers: 601336.SS, AAL, ABBV, ACI, ADM, ALL, AMZN, APLE, ATT.L, AVGO, AXP, BA, BAC, CAH, CAT, CHTR, CI, CITI.NE, CMCSA, CNC, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, ELV, EPD, ET, F, FDX, FMCC, FNMA, GD, GM, GOOGL, GSBD, HCA, HD, HP, HUM.ST, IBM, INGM, INTC, JNJ, JPM, KR, LLY, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TRV, TSLA, TSN, UAL, UIPMX, UNH, UPS, VLO, VZ, WFC, WMT, X1G.PA, XOM
+2025-11-26 13:44:39,141 - INFO - 
+============================================================
+2025-11-26 13:44:39,141 - INFO - Processing DEPENDENT TABLES
+2025-11-26 13:44:39,141 - INFO - Processing company_metadata
+2025-11-26 13:44:39,142 - INFO - Read 93 rows from 2025/company_details.csv
+2025-11-26 13:44:39,143 - INFO - Merged 93 rows for company_metadata
+2025-11-26 13:44:39,147 - INFO - validation complete for company_metadata: valid=93, invalid=0
+2025-11-26 13:44:39,148 - INFO - Valid: 93, Invalid: 0
+2025-11-26 13:44:39,151 - INFO - Table company_metadata created successfully
+2025-11-26 13:44:39,151 - ERROR - failed to insert row 0: {'rank': 1, 'company': 'Walmart', 'industry': 'General Merchandisers', 'revenue': '$681,000,000,000', 'employees': '2,100,000', 'ticker': 'WMT', 'marketCap': 840497627136.0, 'sector': 'Consumer Defensive', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,151 - ERROR - failed bcoz: could not convert string to float: '$681,000,000,000'
+2025-11-26 13:44:39,151 - ERROR - failed to insert row 1: {'rank': 2, 'company': 'Amazon', 'industry': 'Internet Services and Retailing', 'revenue': '$638,000,000,000', 'employees': '1,556,000', 'ticker': 'AMZN', 'marketCap': 2359223910400.0, 'sector': 'Consumer Cyclical', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,151 - ERROR - failed bcoz: could not convert string to float: '$638,000,000,000'
+2025-11-26 13:44:39,151 - ERROR - failed to insert row 2: {'rank': 3, 'company': 'UnitedHealth', 'industry': 'Health Care: Insurance and Managed Care', 'revenue': '$400,300,000,000', 'employees': '400,000', 'ticker': 'UNH', 'marketCap': 289841184768.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,151 - ERROR - failed bcoz: could not convert string to float: '$400,300,000,000'
+2025-11-26 13:44:39,151 - ERROR - failed to insert row 3: {'rank': 4, 'company': 'Apple', 'industry': 'Computers, Office Equipment', 'revenue': '$391,000,000,000', 'employees': '164,000', 'ticker': 'APLE', 'marketCap': 2784630528.0, 'sector': 'Real Estate', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,151 - ERROR - failed bcoz: could not convert string to float: '$391,000,000,000'
+2025-11-26 13:44:39,151 - ERROR - failed to insert row 4: {'rank': 5, 'company': 'CVS Health', 'industry': 'Health Care: Pharmacy and Other Services', 'revenue': '$372,800,000,000', 'employees': '259,500', 'ticker': 'CVS', 'marketCap': 99053813760.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,151 - ERROR - failed bcoz: could not convert string to float: '$372,800,000,000'
+2025-11-26 13:44:39,151 - ERROR - failed to insert row 5: {'rank': 7, 'company': 'Alphabet', 'industry': 'Internet Services and Retailing', 'revenue': '$350,000,000,000', 'employees': '183,300', 'ticker': 'GOOGL', 'marketCap': 3629518422016.0, 'sector': 'Communication Services', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,151 - ERROR - failed bcoz: could not convert string to float: '$350,000,000,000'
+2025-11-26 13:44:39,151 - ERROR - failed to insert row 6: {'rank': 8, 'company': 'Exxon Mobil', 'industry': 'Petroleum Refining', 'revenue': '$349,600,000,000', 'employees': '60,900', 'ticker': 'XOM', 'marketCap': 499140984832.0, 'sector': 'Energy', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,151 - ERROR - failed bcoz: could not convert string to float: '$349,600,000,000'
+2025-11-26 13:44:39,151 - ERROR - failed to insert row 7: {'rank': 9, 'company': 'McKesson', 'industry': 'Wholesalers: Health Care', 'revenue': '$309,000,000,000', 'employees': '48,000', 'ticker': 'MCK', 'marketCap': 107720622080.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,151 - ERROR - failed bcoz: could not convert string to float: '$309,000,000,000'
+2025-11-26 13:44:39,151 - ERROR - failed to insert row 8: {'rank': 10, 'company': 'Cencora', 'industry': 'Wholesalers: Health Care', 'revenue': '$294,000,000,000', 'employees': '44,000', 'ticker': 'COR', 'marketCap': 70897262592.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,151 - ERROR - failed bcoz: could not convert string to float: '$294,000,000,000'
+2025-11-26 13:44:39,151 - ERROR - failed to insert row 9: {'rank': 11, 'company': 'JPMorgan Chase', 'industry': 'Commercial Banks', 'revenue': '$278,900,000,000', 'employees': '317,200', 'ticker': 'JPM', 'marketCap': 819481608192.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,151 - ERROR - failed bcoz: could not convert string to float: '$278,900,000,000'
+2025-11-26 13:44:39,151 - ERROR - failed to insert row 10: {'rank': 12, 'company': 'Costco', 'industry': 'General Merchandisers', 'revenue': '$254,500,000,000', 'employees': '333,000', 'ticker': 'COST', 'marketCap': 398690353152.0, 'sector': 'Consumer Defensive', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,151 - ERROR - failed bcoz: could not convert string to float: '$254,500,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 11: {'rank': 13, 'company': 'Cigna', 'industry': 'Health Care: Pharmacy and Other Services', 'revenue': '$247,100,000,000', 'employees': '72,400', 'ticker': 'CI', 'marketCap': 74285023232.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$247,100,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 12: {'rank': 14, 'company': 'Microsoft', 'industry': 'Computer Software', 'revenue': '$245,100,000,000', 'employees': '228,000', 'ticker': 'MSFT', 'marketCap': 3509346369536.0, 'sector': 'Technology', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$245,100,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 13: {'rank': 15, 'company': 'Cardinal Health', 'industry': 'Wholesalers: Health Care', 'revenue': '$226,800,000,000', 'employees': '48,400', 'ticker': 'CAH', 'marketCap': 49771409408.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$226,800,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 14: {'rank': 16, 'company': 'Chevron', 'industry': 'Petroleum Refining', 'revenue': '$202,800,000,000', 'employees': '45,300', 'ticker': 'CVX', 'marketCap': 302183055360.0, 'sector': 'Energy', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$202,800,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 15: {'rank': 17, 'company': 'Bank of America', 'industry': 'Commercial Banks', 'revenue': '$192,400,000,000', 'employees': '213,200', 'ticker': 'BAC', 'marketCap': 381902225408.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$192,400,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 16: {'rank': 18, 'company': 'General Motors', 'industry': 'Motor Vehicles & Parts', 'revenue': '$187,400,000,000', 'employees': '162,000', 'ticker': 'GM', 'marketCap': 66959634432.0, 'sector': 'Consumer Cyclical', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$187,400,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 17: {'rank': 19, 'company': 'Ford Motor', 'industry': 'Motor Vehicles & Parts', 'revenue': '$185,000,000,000', 'employees': '171,000', 'ticker': 'F', 'marketCap': 51121119232.0, 'sector': 'Consumer Cyclical', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$185,000,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 18: {'rank': 20, 'company': 'Elevance Health', 'industry': 'Health Care: Insurance and Managed Care', 'revenue': '$177,000,000,000', 'employees': '103,700', 'ticker': 'ELV', 'marketCap': 72446615552.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$177,000,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 19: {'rank': 21, 'company': 'Citi', 'industry': 'Commercial Banks', 'revenue': '$170,800,000,000', 'employees': '227,900', 'ticker': 'CITI.NE', 'marketCap': 252190228480.0, 'sector': nan, 'country': nan, 'exchange': 'NEO', 'currency': 'CAD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$170,800,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 20: {'rank': 22, 'company': 'Meta', 'industry': 'Internet Services and Retailing', 'revenue': '$164,500,000,000', 'employees': '74,100', 'ticker': 'META', 'marketCap': 1497823576064.0, 'sector': 'Communication Services', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$164,500,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 21: {'rank': 23, 'company': 'Centene', 'industry': 'Health Care: Insurance and Managed Care', 'revenue': '$163,100,000,000', 'employees': '60,500', 'ticker': 'CNC', 'marketCap': 17940408320.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$163,100,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 22: {'rank': 24, 'company': 'Home Depot', 'industry': 'Specialty Retailers: Other', 'revenue': '$159,500,000,000', 'employees': '470,100', 'ticker': 'HD', 'marketCap': 341736128512.0, 'sector': 'Consumer Cyclical', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$159,500,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 23: {'rank': 25, 'company': 'Fannie Mae', 'industry': 'Diversified Financials', 'revenue': '$152,700,000,000', 'employees': '8,200', 'ticker': 'FNMA', 'marketCap': 10654405632.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'OQB', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$152,700,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 24: {'rank': 27, 'company': 'Kroger', 'industry': 'Food & Drug Stores', 'revenue': '$147,100,000,000', 'employees': '409,000', 'ticker': 'KR', 'marketCap': 43776520192.0, 'sector': 'Consumer Defensive', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$147,100,000,000'
+2025-11-26 13:44:39,152 - ERROR - failed to insert row 25: {'rank': 28, 'company': 'Phillips 66', 'industry': 'Petroleum Refining', 'revenue': '$145,500,000,000', 'employees': '13,200', 'ticker': 'PSX', 'marketCap': 54039494656.0, 'sector': 'Energy', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,152 - ERROR - failed bcoz: could not convert string to float: '$145,500,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 26: {'rank': 29, 'company': 'Marathon Petroleum', 'industry': 'Petroleum Refining', 'revenue': '$140,400,000,000', 'employees': '18,300', 'ticker': 'MPC', 'marketCap': 57952350208.0, 'sector': 'Energy', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$140,400,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 27: {'rank': 30, 'company': 'Verizon', 'industry': 'Telecommunications', 'revenue': '$134,800,000,000', 'employees': '99,600', 'ticker': 'VZ', 'marketCap': 173843218432.0, 'sector': 'Communication Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$134,800,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 28: {'rank': 31, 'company': 'Nvidia', 'industry': 'Semiconductors and Other Electronic Components', 'revenue': '$130,500,000,000', 'employees': '36,000', 'ticker': 'NVDA', 'marketCap': 4347678687232.0, 'sector': 'Technology', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$130,500,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 29: {'rank': 32, 'company': 'Goldman Sachs', 'industry': 'Commercial Banks', 'revenue': '$126,900,000,000', 'employees': '46,500', 'ticker': 'GSBD', 'marketCap': 1096626816.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$126,900,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 30: {'rank': 33, 'company': 'Wells Fargo', 'industry': 'Commercial Banks', 'revenue': '$125,400,000,000', 'employees': '217,500', 'ticker': 'WFC', 'marketCap': 266238001152.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$125,400,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 31: {'rank': 34, 'company': 'Valero Energy', 'industry': 'Petroleum Refining', 'revenue': '$124,000,000,000', 'employees': '9,900', 'ticker': 'VLO', 'marketCap': 53882544128.0, 'sector': 'Energy', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$124,000,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 32: {'rank': 35, 'company': 'Comcast', 'industry': 'Telecommunications', 'revenue': '$123,700,000,000', 'employees': '182,000', 'ticker': 'CMCSA', 'marketCap': 100981850112.0, 'sector': 'Communication Services', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$123,700,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 33: {'rank': 36, 'company': 'State Farm', 'industry': 'Insurance: Property and Casualty (Mutual)', 'revenue': '$123,000,000,000', 'employees': '67,400', 'ticker': 'ALL', 'marketCap': 56474464256.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$123,000,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 34: {'rank': 37, 'company': 'AT&T', 'industry': 'Telecommunications', 'revenue': '$122,300,000,000', 'employees': '141,000', 'ticker': 'ATT.L', 'marketCap': 1773942016.0, 'sector': 'Financial Services', 'country': 'Germany', 'exchange': 'LSE', 'currency': 'GBp'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$122,300,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 35: {'rank': 38, 'company': 'Freddie Mac', 'industry': 'Diversified Financials', 'revenue': '$122,100,000,000', 'employees': '8,100', 'ticker': 'FMCC', 'marketCap': 5714023936.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'OQB', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$122,100,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 36: {'rank': 39, 'company': 'Humana', 'industry': 'Health Care: Insurance and Managed Care', 'revenue': '$117,800,000,000', 'employees': '65,700', 'ticker': 'HUM.ST', 'marketCap': 2288498688.0, 'sector': 'Healthcare', 'country': 'Sweden', 'exchange': 'STO', 'currency': 'SEK'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$117,800,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 37: {'rank': 40, 'company': 'Morgan Stanley', 'industry': 'Commercial Banks', 'revenue': '$107,300,000,000', 'employees': '80,500', 'ticker': 'MS', 'marketCap': 252492414976.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$107,300,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 38: {'rank': 41, 'company': 'Target', 'industry': 'General Merchandisers', 'revenue': '$106,600,000,000', 'employees': '440,000', 'ticker': 'TGT', 'marketCap': 39674032128.0, 'sector': 'Consumer Defensive', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$106,600,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 39: {'rank': 42, 'company': 'StoneX', 'industry': 'Diversified Financials', 'revenue': '$99,900,000,000', 'employees': '4,500', 'ticker': 'SNEX', 'marketCap': 4367472640.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$99,900,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 40: {'rank': 43, 'company': 'Tesla', 'industry': 'Motor Vehicles & Parts', 'revenue': '$97,700,000,000', 'employees': '125,700', 'ticker': 'TSLA', 'marketCap': 1300694564864.0, 'sector': 'Consumer Cyclical', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$97,700,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 41: {'rank': 44, 'company': 'Dell Technologies', 'industry': 'Computers, Office Equipment', 'revenue': '$95,600,000,000', 'employees': '108,000', 'ticker': 'DELL', 'marketCap': 82372435968.0, 'sector': 'Technology', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$95,600,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 42: {'rank': 45, 'company': 'PepsiCo', 'industry': 'Food Consumer Products', 'revenue': '$91,900,000,000', 'employees': '319,000', 'ticker': 'PEP', 'marketCap': 200337080320.0, 'sector': 'Consumer Defensive', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$91,900,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 43: {'rank': 46, 'company': 'Walt Disney', 'industry': 'Entertainment', 'revenue': '$91,400,000,000', 'employees': '205,000', 'ticker': 'DIS', 'marketCap': 187488534528.0, 'sector': 'Communication Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$91,400,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 44: {'rank': 47, 'company': 'UPS', 'industry': 'Mail, Package and Freight Delivery', 'revenue': '$91,100,000,000', 'employees': '372,200', 'ticker': 'UPS', 'marketCap': 80308183040.0, 'sector': 'Industrials', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$91,100,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 45: {'rank': 48, 'company': 'Johnson & Johnson', 'industry': 'Pharmaceuticals', 'revenue': '$88,800,000,000', 'employees': '138,100', 'ticker': 'JNJ', 'marketCap': 491255267328.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$88,800,000,000'
+2025-11-26 13:44:39,153 - ERROR - failed to insert row 46: {'rank': 49, 'company': 'FedEx', 'industry': 'Mail, Package and Freight Delivery', 'revenue': '$87,700,000,000', 'employees': '422,100', 'ticker': 'FDX', 'marketCap': 63573475328.0, 'sector': 'Industrials', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,153 - ERROR - failed bcoz: could not convert string to float: '$87,700,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 47: {'rank': 50, 'company': 'Archer Daniels Midland', 'industry': 'Food Production', 'revenue': '$85,500,000,000', 'employees': '43,200', 'ticker': 'ADM', 'marketCap': 28175804416.0, 'sector': 'Consumer Defensive', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$85,500,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 48: {'rank': 51, 'company': 'Procter & Gamble', 'industry': 'Household and Personal Products', 'revenue': '$84,000,000,000', 'employees': '108,000', 'ticker': 'PG', 'marketCap': 353226063872.0, 'sector': 'Consumer Defensive', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$84,000,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 49: {'rank': 52, 'company': "Lowe's", 'industry': 'Specialty Retailers: Other', 'revenue': '$83,700,000,000', 'employees': '215,500', 'ticker': 'X1G.PA', 'marketCap': nan, 'sector': nan, 'country': nan, 'exchange': 'PAR', 'currency': 'EUR'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$83,700,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 50: {'rank': 53, 'company': 'Energy Transfer', 'industry': 'Pipelines', 'revenue': '$82,700,000,000', 'employees': '16,200', 'ticker': 'ET', 'marketCap': 56685215744.0, 'sector': 'Energy', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$82,700,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 51: {'rank': 54, 'company': 'RTX', 'industry': 'Aerospace & Defense', 'revenue': '$80,700,000,000', 'employees': '186,000', 'ticker': 'RTX', 'marketCap': 227502178304.0, 'sector': 'Industrials', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$80,700,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 52: {'rank': 55, 'company': 'Albertsons', 'industry': 'Food & Drug Stores', 'revenue': '$79,200,000,000', 'employees': '196,600', 'ticker': 'ACI', 'marketCap': 9858896896.0, 'sector': 'Consumer Defensive', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$79,200,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 53: {'rank': 56, 'company': 'Sysco', 'industry': 'Wholesalers: Food and Grocery', 'revenue': '$78,800,000,000', 'employees': '76,000', 'ticker': 'SYY', 'marketCap': 36695121920.0, 'sector': 'Consumer Defensive', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$78,800,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 54: {'rank': 57, 'company': 'Progressive', 'industry': 'Insurance: Property and Casualty (Stock)', 'revenue': '$75,400,000,000', 'employees': '66,300', 'ticker': 'PGR', 'marketCap': 133060026368.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$75,400,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 55: {'rank': 58, 'company': 'American Express', 'industry': 'Diversified Financials', 'revenue': '$74,200,000,000', 'employees': '75,100', 'ticker': 'AXP', 'marketCap': 245569896448.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$74,200,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 56: {'rank': 59, 'company': 'Lockheed Martin', 'industry': 'Aerospace & Defense', 'revenue': '$71,000,000,000', 'employees': '121,000', 'ticker': 'LMT', 'marketCap': 107576025088.0, 'sector': 'Industrials', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$71,000,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 57: {'rank': 60, 'company': 'MetLife', 'industry': 'Insurance: Life, Health (Stock)', 'revenue': '$71,000,000,000', 'employees': '45,000', 'ticker': 'MET', 'marketCap': 49923506176.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$71,000,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 58: {'rank': 61, 'company': 'HCA Healthcare', 'industry': 'Health Care: Medical Facilities', 'revenue': '$70,600,000,000', 'employees': '271,000', 'ticker': 'HCA', 'marketCap': 114890809344.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$70,600,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 59: {'rank': 62, 'company': 'Prudential Financial', 'industry': 'Insurance: Life, Health (Stock)', 'revenue': '$70,400,000,000', 'employees': '37,900', 'ticker': 'PRU', 'marketCap': 37569908736.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$70,400,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 60: {'rank': 63, 'company': 'Boeing', 'industry': 'Aerospace & Defense', 'revenue': '$66,500,000,000', 'employees': '172,000', 'ticker': 'BA', 'marketCap': 136589156352.0, 'sector': 'Industrials', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$66,500,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 61: {'rank': 64, 'company': 'Caterpillar', 'industry': 'Construction and Farm Machinery', 'revenue': '$64,800,000,000', 'employees': '112,900', 'ticker': 'CAT', 'marketCap': 258875473920.0, 'sector': 'Industrials', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$64,800,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 62: {'rank': 65, 'company': 'Merck', 'industry': 'Pharmaceuticals', 'revenue': '$64,200,000,000', 'employees': '74,000', 'ticker': 'MRK', 'marketCap': 244183302144.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$64,200,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 63: {'rank': 66, 'company': 'Allstate', 'industry': 'Insurance: Property and Casualty (Stock)', 'revenue': '$64,100,000,000', 'employees': '55,200', 'ticker': 'ALL', 'marketCap': 56474464256.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$64,100,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 64: {'rank': 67, 'company': 'Pfizer', 'industry': 'Pharmaceuticals', 'revenue': '$63,600,000,000', 'employees': '81,000', 'ticker': 'PFIZER.NS', 'marketCap': 228761534464.0, 'sector': 'Healthcare', 'country': 'India', 'exchange': 'NSI', 'currency': 'INR'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$63,600,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 65: {'rank': 68, 'company': 'IBM', 'industry': 'Information Technology Services', 'revenue': '$62,800,000,000', 'employees': '284,500', 'ticker': 'IBM', 'marketCap': 278027665408.0, 'sector': 'Technology', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$62,800,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 66: {'rank': 69, 'company': 'New York Life Insurance', 'industry': 'Insurance: Life, Health (Mutual)', 'revenue': '$62,600,000,000', 'employees': '15,100', 'ticker': '601336.SS', 'marketCap': 204018352128.0, 'sector': 'Financial Services', 'country': 'China', 'exchange': 'SHH', 'currency': 'CNY'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$62,600,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 67: {'rank': 70, 'company': 'Delta Airlines', 'industry': 'Airlines', 'revenue': '$61,600,000,000', 'employees': '103,000', 'ticker': 'DAL', 'marketCap': 38244028416.0, 'sector': 'Industrials', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$61,600,000,000'
+2025-11-26 13:44:39,154 - ERROR - failed to insert row 68: {'rank': 73, 'company': 'TD Synnex', 'industry': 'Wholesalers: Electronics and Office Equipment', 'revenue': '$58,500,000,000', 'employees': '25,800', 'ticker': 'SNX', 'marketCap': 12059985920.0, 'sector': 'Technology', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,154 - ERROR - failed bcoz: could not convert string to float: '$58,500,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 69: {'rank': 74, 'company': 'United Airlines', 'industry': 'Airlines', 'revenue': '$57,100,000,000', 'employees': '107,300', 'ticker': 'UAL', 'marketCap': 29848641536.0, 'sector': 'Industrials', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$57,100,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 70: {'rank': 75, 'company': 'ConocoPhillips', 'industry': 'Mining, Crude-Oil Production', 'revenue': '$57,000,000,000', 'employees': '11,800', 'ticker': 'COP', 'marketCap': 109120094208.0, 'sector': 'Energy', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$57,000,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 71: {'rank': 76, 'company': 'TJX', 'industry': 'Specialty Retailers: Apparel', 'revenue': '$56,400,000,000', 'employees': '364,000', 'ticker': 'TJX', 'marketCap': 168937668608.0, 'sector': 'Consumer Cyclical', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$56,400,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 72: {'rank': 77, 'company': 'AbbVie', 'industry': 'Pharmaceuticals', 'revenue': '$56,300,000,000', 'employees': '55,000', 'ticker': 'ABBV', 'marketCap': 417597620224.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$56,300,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 73: {'rank': 78, 'company': 'Enterprise Products Partners', 'industry': 'Pipelines', 'revenue': '$56,200,000,000', 'employees': '7,800', 'ticker': 'EPD', 'marketCap': 70240624640.0, 'sector': 'Energy', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$56,200,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 74: {'rank': 79, 'company': 'Charter Communications', 'industry': 'Telecommunications', 'revenue': '$55,100,000,000', 'employees': '94,500', 'ticker': 'CHTR', 'marketCap': 27727972352.0, 'sector': 'Communication Services', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$55,100,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 75: {'rank': 80, 'company': 'Performance Food', 'industry': 'Wholesalers: Food and Grocery', 'revenue': '$54,700,000,000', 'employees': '36,800', 'ticker': 'PFGC', 'marketCap': 15155894272.0, 'sector': 'Consumer Defensive', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$54,700,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 76: {'rank': 81, 'company': 'American Airlines', 'industry': 'Airlines', 'revenue': '$54,200,000,000', 'employees': '133,300', 'ticker': 'AAL', 'marketCap': 8495312896.0, 'sector': 'Industrials', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$54,200,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 77: {'rank': 83, 'company': 'Cisco Systems', 'industry': 'Network and Other Communications Equipment', 'revenue': '$53,800,000,000', 'employees': '90,400', 'ticker': 'CSCO', 'marketCap': 300678283264.0, 'sector': 'Technology', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$53,800,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 78: {'rank': 84, 'company': 'HP', 'industry': 'Computers, Office Equipment', 'revenue': '$53,600,000,000', 'employees': '58,000', 'ticker': 'HP', 'marketCap': 2659201536.0, 'sector': 'Energy', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$53,600,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 79: {'rank': 85, 'company': 'Tyson Foods', 'industry': 'Food Production', 'revenue': '$53,300,000,000', 'employees': '138,000', 'ticker': 'TSN', 'marketCap': 18948411392.0, 'sector': 'Consumer Defensive', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$53,300,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 80: {'rank': 86, 'company': 'Intel', 'industry': 'Semiconductors and Other Electronic Components', 'revenue': '$53,100,000,000', 'employees': '108,900', 'ticker': 'INTC', 'marketCap': 164564992000.0, 'sector': 'Technology', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$53,100,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 81: {'rank': 87, 'company': 'Oracle', 'industry': 'Computer Software', 'revenue': '$53,000,000,000', 'employees': '159,000', 'ticker': 'ORCL', 'marketCap': 566623535104.0, 'sector': 'Technology', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$53,000,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 82: {'rank': 88, 'company': 'Broadcom', 'industry': 'Semiconductors and Other Electronic Components', 'revenue': '$52,400,000,000', 'employees': '37,000', 'ticker': 'AVGO', 'marketCap': 1606548586496.0, 'sector': 'Technology', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$52,400,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 83: {'rank': 89, 'company': 'Deere', 'industry': 'Construction and Farm Machinery', 'revenue': '$51,700,000,000', 'employees': '55,500', 'ticker': 'DE', 'marketCap': 131715301376.0, 'sector': 'Industrials', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$51,700,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 84: {'rank': 90, 'company': 'Nike', 'industry': 'Apparel', 'revenue': '$51,400,000,000', 'employees': '79,400', 'ticker': 'NKE', 'marketCap': 92831039488.0, 'sector': 'Consumer Cyclical', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$51,400,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 85: {'rank': 92, 'company': 'Plains GP', 'industry': 'Pipelines', 'revenue': '$50,100,000,000', 'employees': '4,200', 'ticker': 'PAGP', 'marketCap': 4196337920.0, 'sector': 'Energy', 'country': 'United States', 'exchange': 'NMS', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$50,100,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 86: {'rank': 93, 'company': 'USAA', 'industry': 'Insurance: Property and Casualty (Stock)', 'revenue': '$48,600,000,000', 'employees': '38,000', 'ticker': 'UIPMX', 'marketCap': nan, 'sector': nan, 'country': nan, 'exchange': 'NAS', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$48,600,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 87: {'rank': 95, 'company': 'Ingram Micro', 'industry': 'Wholesalers: Electronics and Office Equipment', 'revenue': '$48,000,000,000', 'employees': '26,100', 'ticker': 'INGM', 'marketCap': 4844847616.0, 'sector': 'Technology', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$48,000,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 88: {'rank': 96, 'company': 'General Dynamics', 'industry': 'Aerospace & Defense', 'revenue': '$47,700,000,000', 'employees': '117,000', 'ticker': 'GD', 'marketCap': 91932794880.0, 'sector': 'Industrials', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$47,700,000,000'
+2025-11-26 13:44:39,155 - ERROR - failed to insert row 89: {'rank': 97, 'company': 'Coca-Cola', 'industry': 'Beverages', 'revenue': '$47,100,000,000', 'employees': '69,700', 'ticker': 'COLA.WA', 'marketCap': nan, 'sector': nan, 'country': 'United States', 'exchange': 'WSE', 'currency': 'PLN'}
+2025-11-26 13:44:39,155 - ERROR - failed bcoz: could not convert string to float: '$47,100,000,000'
+2025-11-26 13:44:39,156 - ERROR - failed to insert row 90: {'rank': 98, 'company': 'TIAA', 'industry': 'Insurance: Life, Health (Mutual)', 'revenue': '$46,900,000,000', 'employees': '15,600', 'ticker': 'TILIX', 'marketCap': 14876947456.0, 'sector': nan, 'country': nan, 'exchange': 'NAS', 'currency': 'USD'}
+2025-11-26 13:44:39,156 - ERROR - failed bcoz: could not convert string to float: '$46,900,000,000'
+2025-11-26 13:44:39,156 - ERROR - failed to insert row 91: {'rank': 99, 'company': 'Travelers', 'industry': 'Insurance: Property and Casualty (Stock)', 'revenue': '$46,400,000,000', 'employees': '34,000', 'ticker': 'TRV', 'marketCap': 65304576000.0, 'sector': 'Financial Services', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,156 - ERROR - failed bcoz: could not convert string to float: '$46,400,000,000'
+2025-11-26 13:44:39,156 - ERROR - failed to insert row 92: {'rank': 100, 'company': 'Eli Lilly', 'industry': 'Pharmaceuticals', 'revenue': '$45,000,000,000', 'employees': '47,000', 'ticker': 'LLY', 'marketCap': 949975187456.0, 'sector': 'Healthcare', 'country': 'United States', 'exchange': 'NYQ', 'currency': 'USD'}
+2025-11-26 13:44:39,156 - ERROR - failed bcoz: could not convert string to float: '$45,000,000,000'
+2025-11-26 13:44:39,156 - INFO - successfully inserted 0/93 rows into company_metadata
+2025-11-26 13:44:39,156 - INFO - Loaded 93 rows to company_metadata
+2025-11-26 13:44:39,156 - INFO - company_metadata processed and linked to stocks_raw
+2025-11-26 13:44:39,156 - INFO - 
+============================================================
+2025-11-26 13:44:39,156 - INFO - Processing INDEPENDENT TABLES
+2025-11-26 13:44:39,156 - INFO - Processing exchange_rates
+2025-11-26 13:44:39,156 - INFO - Read 219 rows from 2025.csv
+2025-11-26 13:44:39,157 - INFO - Merged 219 rows for exchange_rates
+2025-11-26 13:44:39,183 - INFO - validation complete for exchange_rates: valid=219, invalid=0
+2025-11-26 13:44:39,186 - INFO - Valid: 219, Invalid: 0
+2025-11-26 13:44:39,188 - INFO - Table exchange_rates created
+2025-11-26 13:44:39,199 - INFO - Inserted 219 rows into exchange_rates
+2025-11-26 13:44:39,199 - INFO - Loaded 219 rows to exchange_rates
+2025-11-26 13:44:39,199 - INFO - exchange_rates processed
+2025-11-26 13:44:39,199 - INFO - Processing macro_raw
+2025-11-26 13:44:39,200 - INFO - Read 4 rows from 2025.csv
+2025-11-26 13:44:39,201 - INFO - Merged 1 rows for macro_raw from Q4 2025 to Q4 2025
+2025-11-26 13:44:39,201 - INFO - Years included: [np.int64(2025)]
+2025-11-26 13:44:39,201 - INFO - Quarters included: ['2025-Q4']
+2025-11-26 13:44:39,201 - INFO - validation complete for macro_raw: valid=1, invalid=0
+2025-11-26 13:44:39,202 - INFO - Valid: 1, Invalid: 0
+2025-11-26 13:44:39,204 - INFO - Table macro_raw created
+2025-11-26 13:44:39,204 - INFO - Inserted 1 rows into macro_raw
+2025-11-26 13:44:39,204 - INFO - Loaded 1 rows to macro_raw
+2025-11-26 13:44:39,204 - INFO - macro_raw processed
+2025-11-26 13:44:39,204 - INFO - 
+============================================================
+2025-11-26 13:44:39,204 - INFO - Processing SENTIMENT DATA
+2025-11-26 13:44:39,204 - INFO - Processing sentiment
+2025-11-26 13:44:39,204 - WARNING - No historical data available for sentiment - only live data exists
+2025-11-26 13:44:39,204 - WARNING - sentiment not available
+2025-11-26 13:44:39,204 - INFO - 
+============================================================
+2025-11-26 13:44:39,204 - INFO - KPI CALCULATIONS AND FACT TABLE GENERATION
+2025-11-26 13:44:39,204 - INFO - Starting KPI calculations
+2025-11-26 13:44:39,206 - INFO - Loaded stocks_raw: 2014 rows
+2025-11-26 13:44:39,206 - INFO - Loaded macro_raw: 1 rows
+2025-11-26 13:44:39,206 - INFO - Loaded company_metadata: 93 rows
+2025-11-26 13:44:39,206 - INFO - Loaded exchange_rates: 219 rows
+2025-11-26 13:44:39,207 - INFO - calculating stock_facts metrics...
+2025-11-26 13:44:39,234 - INFO - stock facts calculated: 2014 rows
+2025-11-26 13:44:39,235 - INFO - calculating macro_facts metrics...
+2025-11-26 13:44:39,238 - INFO - Macro facts calculated: 1 rows
+2025-11-26 13:44:39,238 - INFO - Creating sector_lookup...
+2025-11-26 13:44:39,238 - INFO - Sector lookup created: 38 sectors
+2025-11-26 13:44:39,239 - INFO - Calculating analytics_summary metrics...
+2025-11-26 13:44:39,240 - INFO - avg_return stats - Mean: -0.0073, Min: -1.5710, Max: 1.3708, NaN count: 0
+2025-11-26 13:44:39,243 - INFO - Calculating correlations for each ticker...
+2025-11-26 13:44:39,244 - INFO - Computing correlations for 92 tickers...
+2025-11-26 13:44:39,245 - INFO - Processing ticker 1/92: 601336.SS
+2025-11-26 13:44:39,253 - INFO - Processing ticker 11/92: AXP
+2025-11-26 13:44:39,261 - INFO - Processing ticker 21/92: COLA.WA
+2025-11-26 13:44:39,269 - INFO - Processing ticker 31/92: DIS
+2025-11-26 13:44:39,277 - INFO - Processing ticker 41/92: GOOGL
+2025-11-26 13:44:39,286 - INFO - Processing ticker 51/92: JPM
+2025-11-26 13:44:39,295 - INFO - Processing ticker 61/92: MSFT
+2025-11-26 13:44:39,305 - INFO - Processing ticker 71/92: PRU
+2025-11-26 13:44:39,313 - INFO - Processing ticker 81/92: TSLA
+2025-11-26 13:44:39,322 - INFO - Processing ticker 91/92: X1G.PA
+2025-11-26 13:44:39,325 - INFO - Correlation stats - GDP: 0.0000, Inflation: 0.0000, Currency: -0.0000
+2025-11-26 13:44:39,326 - WARNING - No recession periods found in data - setting all recession_resilience_score to 0
+2025-11-26 13:44:39,327 - INFO - Removed 1 duplicate analytics_summary records based on ticker-year-quarter
+2025-11-26 13:44:39,327 - INFO - 
+============================================================
+2025-11-26 13:44:39,327 - INFO - ANALYTICS SUMMARY FINAL STATISTICS:
+2025-11-26 13:44:39,327 - INFO - avg_return                     - Mean:  -0.0073, Min:  -1.5710, Max:   1.3708, Zero%:   0.0%
+2025-11-26 13:44:39,327 - INFO - avg_volatility                 - Mean:   1.6836, Min:   0.0929, Max:   5.1301, Zero%:   0.0%
+2025-11-26 13:44:39,327 - INFO - correlation_gdp                - Mean:   0.0000, Min:   0.0000, Max:   0.0000, Zero%: 100.0%
+2025-11-26 13:44:39,327 - INFO - correlation_inflation          - Mean:   0.0000, Min:   0.0000, Max:   0.0000, Zero%: 100.0%
+2025-11-26 13:44:39,327 - INFO - currency_impact                - Mean:  -0.0000, Min:  -0.0000, Max:   0.0000, Zero%:  15.2%
+2025-11-26 13:44:39,327 - INFO - sector_rank                    - Mean:   2.0870, Min:   1.0000, Max:   6.0000, Zero%:   0.0%
+2025-11-26 13:44:39,327 - INFO - sector_avg_return              - Mean:  -0.0073, Min:  -1.0223, Max:   0.7326, Zero%:   0.0%
+2025-11-26 13:44:39,327 - INFO - recession_resilience_score     - Mean:   0.0000, Min:   0.0000, Max:   0.0000, Zero%: 100.0%
+2025-11-26 13:44:39,327 - INFO - ============================================================
+
+2025-11-26 13:44:39,329 - INFO - Analytics summary calculated: 92 rows
+2025-11-26 13:44:39,329 - INFO - 
+============================================================
+2025-11-26 13:44:39,329 - INFO - KPI calculations completed successfully
+2025-11-26 13:44:39,329 - INFO - Generated files: stock_facts.csv, macro_facts.csv, sector_lookup.csv, analytics_summary.csv, pipeline_logs.csv
+2025-11-26 13:44:39,329 - INFO - KPI calculations completed successfully
+2025-11-26 13:44:39,332 - INFO - Table stock_facts created
+2025-11-26 13:44:39,548 - INFO - Inserted 2014 rows into stock_facts
+2025-11-26 13:44:39,548 - INFO - Loaded stock_facts to database
+2025-11-26 13:44:39,551 - INFO - Table macro_facts created
+2025-11-26 13:44:39,551 - INFO - Inserted 1 rows into macro_facts
+2025-11-26 13:44:39,551 - INFO - Loaded macro_facts to database
+2025-11-26 13:44:39,553 - INFO - Table sector_lookup created
+2025-11-26 13:44:39,555 - INFO - Inserted 38 rows into sector_lookup
+2025-11-26 13:44:39,555 - INFO - Loaded sector_lookup to database
+2025-11-26 13:44:39,557 - INFO - Table analytics_summary created
+2025-11-26 13:44:39,565 - INFO - Inserted 92 rows into analytics_summary
+2025-11-26 13:44:39,565 - INFO - Loaded analytics_summary to database
+2025-11-26 13:44:39,565 - INFO - 
+============================================================
+2025-11-26 13:44:39,565 - INFO - GENERATING REPORTS
+2025-11-26 13:44:39,565 - INFO - Date Range: 2025-10-27 to 2025-11-26
+2025-11-26 13:44:39,565 - INFO - ============================================================
+2025-11-26 13:44:39,565 - INFO - 
+================================================================================
+2025-11-26 13:44:39,565 - INFO - REPORT GENERATION STARTED
+2025-11-26 13:44:39,565 - INFO - 
+============================================================
+2025-11-26 13:44:39,565 - INFO - Generating Report 1: Annual Market Intelligence Report
+2025-11-26 13:44:39,747 - INFO - Fetched 1 rows for yearly performance
+2025-11-26 13:44:39,880 - INFO - Fetched 20 rows for company performance
+2025-11-26 13:44:39,880 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r1_yearly_performance.csv
+2025-11-26 13:44:39,881 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r1_company_performance.csv
+2025-11-26 13:44:39,904 - INFO - saved PDF: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/reports/report1_annual_market_intelligence.pdf
+2025-11-26 13:44:39,905 - INFO - Report 1 completed: {'csv': ['/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r1_yearly_performance.csv', '/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r1_company_performance.csv'], 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/reports/report1_annual_market_intelligence.pdf'}
+2025-11-26 13:44:39,905 - INFO - 
+============================================================
+2025-11-26 13:44:39,905 - INFO - Generating Report 2: Sector Stability & Volatility Report
+2025-11-26 13:44:39,908 - INFO - fetched 25 rows for sector metrics
+2025-11-26 13:44:39,909 - INFO - saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r2_sector_stability.csv
+2025-11-26 13:44:39,939 - INFO - saved Excel: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/reports/r2_sector_stability.xlsx
+2025-11-26 13:44:39,961 - INFO - Saved PDF: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/reports/report2_sector_stability.pdf
+2025-11-26 13:44:39,961 - INFO - Report 2 completed: {'csv': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r2_sector_stability.csv', 'excel': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/reports/r2_sector_stability.xlsx', 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/reports/report2_sector_stability.pdf'}
+2025-11-26 13:44:39,961 - INFO - 
+============================================================
+2025-11-26 13:44:39,961 - INFO - Generating Report 3: Cross-Market Analysis Report
+2025-11-26 13:44:40,075 - INFO - Fetched 1 rows for yearly currency data
+2025-11-26 13:44:40,077 - INFO - Fetched 20 rows for company currency data
+2025-11-26 13:44:40,078 - INFO - saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r3_currency_yearly.csv
+2025-11-26 13:44:40,079 - INFO - saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r3_company_currency.csv
+2025-11-26 13:44:40,150 - INFO - saved PDF: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/reports/report3_cross_market.pdf
+2025-11-26 13:44:40,150 - INFO - Report 3 completed: {'csv': ['/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r3_currency_yearly.csv', '/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r3_company_currency.csv'], 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/reports/report3_cross_market.pdf'}
+2025-11-26 13:44:40,150 - INFO - 
+============================================================
+2025-11-26 13:44:40,150 - INFO - Generating Report 4: Forecasting & Prediction Summary
+2025-11-26 13:44:40,155 - INFO - Fetched 4 rows for historical quarterly data
+2025-11-26 13:44:40,157 - INFO - Fetched 100 rows for sector data
+2025-11-26 13:44:40,158 - INFO - Calculating forecasts using moving average method...
+2025-11-26 13:44:40,162 - INFO - Saved market forecast CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r4_market_forecast.csv
+2025-11-26 13:44:40,162 - INFO - Saved sector forecast CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r4_sector_forecast.csv
+2025-11-26 13:44:40,162 - INFO - Saved historical data CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r4_historical_data.csv
+2025-11-26 13:44:40,185 - INFO - Saved PDF: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/reports/report4_forecasting.pdf
+2025-11-26 13:44:40,185 - INFO - Report 4 completed: {'csv': ['/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r4_market_forecast.csv', '/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r4_sector_forecast.csv', '/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/r4_historical_data.csv'], 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/reports/report4_forecasting.pdf', 'forecast_summary': {'avg_predicted_return': 0.08691639185097973, 'trend': 'Upward', 'quarters_forecasted': 4}}
+2025-11-26 13:44:40,185 - INFO - 
+================================================================================
+2025-11-26 13:44:40,185 - INFO - REPORT GENERATION COMPLETED SUCCESSFULLY
+2025-11-26 13:44:40,185 - INFO - 
+================================================================================
+2025-11-26 13:44:40,185 - INFO - Reports generated successfully
+2025-11-26 13:44:40,185 - INFO - Reports saved to: /Users/shalinitata/Desktop/stocks/Execution/2025/11/26/13:44/reports
+
+********** END OF LOG FILE **********

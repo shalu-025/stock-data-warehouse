@@ -1,0 +1,55 @@
+rank,company,industry,revenue,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,219812.0,,WMT
+2,Exxon Mobil Corporation,Petroleum Refining,191581.0,,XOM
+4,Ford Motor Company,Motor Vehicles & Parts,162412.0,,F
+6,General Electric Company,Diversified Financials,125913.0,,GE
+7,"Citigroup, Inc.",Diversified Financials,112022.0,,C
+9,International Business Machines Corporation,"Computers, Office Equipment",85866.0,,IBM
+10,Philip Morris Companies Inc.,Tobacco,72944.0,,TABAK.PR
+11,Verizon Communications Inc.,Telecommunications,67190.0,,VZ
+12,"American International Group,Inc.",Insurance: Property and Casualty (Stock),62402.0,,AIG
+13,"American Electric Power Company, Inc.",Energy,61257.0,,AEP
+14,Duke Energy Corporation,Energy,59503.0,,DUK
+15,AT&T Corp.,Telecommunications,59142.0,,ATT.L
+16,The Boeing Company,Aerospace & Defense,58198.0,,BA
+17,El Paso Corporation,Energy,57475.0,,EL.PA
+19,Bank of America Corporation,Commercial Banks,52641.0,,BAC
+20,Fannie Mae,Diversified Financials,50803.0,,FNMA
+21,J.P. Morgan Chase & Co.,Commercial Banks,50429.0,,JPM
+22,The Kroger Company,Food & Drug Stores,50098.0,,KR
+23,"Cardinal Health, Inc.",Wholesalers: Health Care,47947.6,,CAH
+24,"Merck & Co., Inc.",Pharmaceuticals,47715.7,,MRK
+26,"Reliant Energy, Incorporated",Energy,46225.8,,RELIANCE.NS
+29,Morgan Stanley Dean Witter & Co.,Securities,43727.0,,MS
+31,McKesson Corporation,Wholesalers: Health Care,42010.0,,MCK
+34,Target Corporation,General Merchandisers,39888.0,,TGT
+41,Freddie Mac,Diversified Financials,35523.0,,FMCC
+44,Costco Wholesale Corporation,Specialty Retailers,34797.0,,COST
+47,Johnson & Johnson,Pharmaceuticals,33004.0,,JNJ
+48,Conoco Inc.,Petroleum Refining,32795.0,,COP
+49,Pfizer Inc.,Pharmaceuticals,32259.0,,PFIZER.NS
+51,MetLife Inc.,"Insurance: Life, Health (Stock)",31928.0,,MET
+54,"Goldman Sachs Group, Inc.",Securities,31138.0,,GS
+55,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",30646.0,,UPS
+56,"Motorola, Inc.",Network and Other Communications Equipment,30004.0,,MSI
+57,The Allstate Corporation,Insurance: Property and Casualty (Stock),28865.0,,ALL
+61,"ConAgra Foods, Incorporated",Food Consumer Products,27194.2,,CAG
+62,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",27177.0,,PRU
+63,"PepsiCo, Inc.",Beverages,26935.0,,PEP
+64,Wells Fargo & Co.,Commercial Banks,26891.0,,WFC
+65,Intel,Semiconductors and Other Electronic Components,26539.0,,INTC
+66,International Paper Company,Forest and Paper Products,26363.0,,IP
+72,Microsoft Corporation,Computer Software,25296.0,,MSFT
+73,The Walt Disney Company,Entertainment,25269.0,,DIS
+77,Lockheed Martin Corporation,Aerospace & Defense,24793.0,,LMT
+83,Honeywell International Inc.,Aerospace & Defense,23652.0,,HON
+84,"UnitedHealth Group, Incorporated",Health Care,23454.0,,UNH
+88,"Alcoa, Inc.",Metals,22859.0,,AA
+89,American Express Company,Diversified Financials,22582.0,,AXP
+92,"Cisco Systems, Inc.",Network and Other Communications Equipment,22293.0,,CSCO
+93,CVS Corporation,Food & Drug Stores,22241.4,,CVS
+95,Sysco Corporation,Wholesalers: Food and Grocery,21784.5,,SYY
+97,Electronic Data Systems Corporation,Computer And Data Services,21543.0,,EA
+98,"Caterpillar, Inc.",Industrial and Farm Equipment,20450.0,,CAT
+100,Archer Daniels Midland Company,Food Production,20051.4,,ADM
+101,"AutoNation, Inc.","Automotive Retailing, Services",19989.3,,AN

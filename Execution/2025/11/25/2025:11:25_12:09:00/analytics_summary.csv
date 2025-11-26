@@ -1,0 +1,94 @@
+ticker,company,sector_name,sector_code,year,quarter,avg_return,total_volatility,correlation_gdp,correlation_inflation,currency_impact,sector_rank,sector_avg_return,outperforming_sector,recession_resilience_score
+601336.SS,New York Life Insurance,Insurance,INSU,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+AAL,American Airlines Group,Metals & Mining,META,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+AAPL,Apple,"Computers, Office Equipment",COMP,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+ABBV,Abbvie,Pharmaceutical,PHAR,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+ACI,Albertsons,Food & Drug Stores,FOOD,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+ADM,Archer Daniels Midland,Food Production,FOOD,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+AIG,Aig,Insurance,INSU,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+ALL,Allstate,Insurance,INSU,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+AMZN,Amazon,Financial Services,FINA,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+ATT.L,At&T,Telecommunications,TELE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+AXP,American Express,Diversified Financials,DIVE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+BA,Boeing,"Aerospace, Defense",AERO,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+BAC,Bank Of America,Commercial Banks,COMM,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+BBY,Best Buy,Specialty Retailers,SPEC,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+C,Citigroup,Commercial Banks,COMM,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+CAH,Cardinal Health,Wholesalers,WHOL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+CAT,Caterpillar,Construction And Farm Machinery,CONS,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+CHS.V,Chs,Food Production,FOOD,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+CHTR,Charter Communications,Telecommunications,TELE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+CI,Cigna,Health Care,HEAL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+CMCSA,Comcast,Telecommunications,TELE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+CNC,Centene,Health Care,HEAL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+COF,Capital One Financial,Commercial Banks,COMM,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+COLA.WA,Coca-Cola,Beverage,BEVE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+COP,Conocophillips,"Mining, Crude-Oil Production",MINI,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+COR,Cencora,Wholesalers,WHOL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+COST,Costco,General Merchandisers,GENE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+CSCO,Cisco Systems,Network And Other Communications Equipment,NETW,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+CVS,Cvs,Health Care,HEAL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+CVX,Chevron,Petroleum Refining,PETR,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+DAL,Delta Air Lines,Airlines,AIRL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+DE,Deere,Construction And Farm Machinery,CONS,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+DELL,Dell Technologies,"Computers, Office Equipment",COMP,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+DIS,Walt Disney,Entertainment,ENTE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+DOW,Dow,Chemicals,CHEM,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+ELV,Elevance Health,Health Care,HEAL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+EPD,Enterprise Products Partners,Pipelines,PIPE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+ET,Energy Transfer,Pipelines,PIPE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+F,Ford Motor,Motor Vehicles & Parts,MOTO,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+FDX,Fedex,"Mail, Package, And Freight Delivery",MAIL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+FMCC,Freddie Mac,Diversified Financials,DIVE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+FNMA,Fannie Mae,Diversified Financials,DIVE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+GE,General Electric,Industrial Machinery,INDU,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+GM,General Motors,Motor Vehicles & Parts,MOTO,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+GOOGL,Alphabet,Internet Services And Retailing,INTE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+GS,Goldman Sachs Group,Commercial Banks,COMM,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+HCA,Hca Healthcare,Health Care: Medical Facilities,HEAL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+HD,Home Depot,Specialty Retailers,SPEC,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+HUM.ST,Humana,Health Care,HEAL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+IBM,Ibm,Information Technology Services,INFO,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+INTC,Intel,Semiconductor And Electronics,SEMI,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+JNJ,Johnson & Johnson,Pharmaceutical,PHAR,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+JPM,Jp Morgan Chase,Commercial Banks,COMM,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+KR,Kroger,Food & Drug Stores,FOOD,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+LFG.AX,Liberty Mutual Insurance Group,Insurance,INSU,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+LMT,Lockheed Martin,"Aerospace, Defense",AERO,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+MCK,Mckesson,Wholesalers,WHOL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+MET,Metlife,Insurance,INSU,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+META,Meta Platforms,Internet Services And Retailing,INTE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+MPC,Marathon Petroleum,Petroleum Refining,PETR,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+MRK,Merck,Pharmaceutical,PHAR,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+MS,Morgan Stanley,Commercial Banks,COMM,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+MSFT,Microsoft,Computer Software,COMP,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+NKE,Nike,Apparel,APPA,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+NVDA,Nvidia,Semiconductor And Electronics,SEMI,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+ORCL,Oracle,Computer Software,COMP,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+PAGP,Plains Gp Holdings,Pipelines,PIPE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+PEP,Pepsico,Food Consumer Products,FOOD,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+PFGC,Performance Food Group,Wholesalers,WHOL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+PFIZER.NS,Pfizer,Pharmaceutical,PHAR,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+PG,Procter & Gamble,Household And Personal Products,HOUS,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+PGR,Progressive,Insurance,INSU,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+PRU,Prudential Financial,Insurance,INSU,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+PSX,Phillips 66,Petroleum Refining,PETR,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+RTX,Rtx,"Aerospace, Defense",AERO,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+SNEX,Stonex Group,Diversified Financials,DIVE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+SNX,Td Synnex,Wholesalers,WHOL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+SYY,Sysco,Wholesalers,WHOL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+TGT,Target,General Merchandisers,GENE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+TILIX,Tiaa,Insurance,INSU,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+TJX,Tjx,Specialty Retailers,SPEC,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+TSLA,Tesla,Motor Vehicles & Parts,MOTO,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+TSN,Tyson Foods,Food Production,FOOD,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+UAL,United Airlines Holdings,Airlines,AIRL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+UNH,Unitedhealth Group,Health Care,HEAL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+UPS,United Parcel Service,"Mail, Package, And Freight Delivery",MAIL,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+VLO,Valero Energy,Petroleum Refining,PETR,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+VZ,Verizon Communications,Telecommunications,TELE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+WFC,Wells Fargo,Commercial Banks,COMM,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+WKC,World Kinect,Energy,ENER,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+WMT,Walmart,General Merchandisers,GENE,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+X1G.PA,Lowe'S,Specialty Retailers,SPEC,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0
+XOM,Exxon Mobil,Petroleum Refining,PETR,2024,4,0.0,0.0,0,0,0,1.0,0.0,0,0.0

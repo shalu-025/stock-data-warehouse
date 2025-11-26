@@ -1,0 +1,43 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 20:26:12,457 - INFO - ===== started running the process ======
+2025-11-25 20:26:12,457 - INFO - ============================================================
+2025-11-25 20:26:12,457 - INFO - Stock Data Watcher Started
+2025-11-25 20:26:12,457 - INFO - ============================================================
+2025-11-25 20:26:12,457 - INFO - Starting live data scheduler...
+2025-11-25 20:26:12,458 - INFO - Live scheduler started successfully
+2025-11-25 20:26:12,459 - INFO - Watching 'watch_folder/' for config files...
+2025-11-25 20:26:12,459 - INFO - Drop JSON configs with start_date and end_date for historical processing
+2025-11-25 20:26:47,411 - INFO - New config detected: /Users/shalinitata/Desktop/stocks/watch_folder/config_20251125_202647_2f3b4f41.json
+2025-11-25 20:26:47,416 - INFO - Processing historical range: 2025-04-02 to 2025-05-20
+2025-11-25 20:26:47,416 - INFO - Triggering check.py for historical processing
+2025-11-25 20:26:47,420 - INFO - Modified config detected: /Users/shalinitata/Desktop/stocks/watch_folder/config_20251125_202647_2f3b4f41.json
+2025-11-25 20:26:47,421 - INFO - Processing historical range: 2025-04-02 to 2025-05-20
+2025-11-25 20:26:47,421 - INFO - Triggering check.py for historical processing
+2025-11-25 20:26:47,816 - INFO - Modified config detected: /Users/shalinitata/Desktop/stocks/watch_folder/config_20251125_202647_2f3b4f41.json
+2025-11-25 20:26:47,817 - INFO - Processing historical range: 2025-04-02 to 2025-05-20
+2025-11-25 20:26:47,817 - INFO - Triggering check.py for historical processing
+2025-11-25 20:26:47,856 - INFO - Modified config detected: /Users/shalinitata/Desktop/stocks/watch_folder/config_20251125_202647_2f3b4f41.json
+2025-11-25 20:26:47,857 - INFO - Processing historical range: 2025-04-02 to 2025-05-20
+2025-11-25 20:26:47,857 - INFO - Triggering check.py for historical processing
+2025-11-25 20:31:18,101 - INFO - New config detected: /Users/shalinitata/Desktop/stocks/watch_folder/config_20251125_203118_0a6f7232.json
+2025-11-25 20:31:18,102 - INFO - Processing historical range: 2024-04-02 to 2024-05-20
+2025-11-25 20:31:18,102 - INFO - Triggering check.py for historical processing
+2025-11-25 20:31:18,105 - INFO - Modified config detected: /Users/shalinitata/Desktop/stocks/watch_folder/config_20251125_203118_0a6f7232.json
+2025-11-25 20:31:18,105 - INFO - Processing historical range: 2024-04-02 to 2024-05-20
+2025-11-25 20:31:18,105 - INFO - Triggering check.py for historical processing
+2025-11-25 20:31:18,538 - INFO - Modified config detected: /Users/shalinitata/Desktop/stocks/watch_folder/config_20251125_203118_0a6f7232.json
+2025-11-25 20:31:18,538 - INFO - Processing historical range: 2024-04-02 to 2024-05-20
+2025-11-25 20:31:18,538 - INFO - Triggering check.py for historical processing
+2025-11-25 20:31:18,676 - INFO - Modified config detected: /Users/shalinitata/Desktop/stocks/watch_folder/config_20251125_203118_0a6f7232.json
+2025-11-25 20:31:18,677 - INFO - Processing historical range: 2024-04-02 to 2024-05-20
+2025-11-25 20:31:18,677 - INFO - Triggering check.py for historical processing
+2025-11-25 20:38:58,233 - INFO - 
+Shutting down watcher...
+2025-11-25 20:38:58,235 - INFO - Live scheduler stopped
+2025-11-25 20:38:58,235 - INFO - Watcher stopped

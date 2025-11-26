@@ -1,0 +1,5 @@
+company,ticker,date,open,high,low,close,volume
+AT&T Inc.,ATT.L,2008-02-18,22.21,22.21,22.21,22.45,177830
+Pfizer Inc.,PFIZER.NS,2008-02-18,365.97,365.97,356.67,360.12,3882
+Kraft Foods Inc.,1959.T,2008-02-18,377.99,378.65,377.99,378.65,124000
+The Hartford Financial Services Group Inc.,HFF.BE,2008-02-18,34.78,34.78,34.78,34.78,0

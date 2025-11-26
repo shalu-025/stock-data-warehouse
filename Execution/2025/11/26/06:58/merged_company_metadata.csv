@@ -1,0 +1,187 @@
+rank,company,industry,revenue,employees,ticker,marketCap,sector,country,exchange,currency
+1,Walmart,General Merchandisers,"$681,000,000,000","2,100,000",WMT,840497627136.0,Consumer Defensive,United States,NYQ,USD
+2,Amazon,Internet Services and Retailing,"$638,000,000,000","1,556,000",AMZN,2359223910400.0,Consumer Cyclical,United States,NMS,USD
+3,UnitedHealth,Health Care: Insurance and Managed Care,"$400,300,000,000","400,000",UNH,289841184768.0,Healthcare,United States,NYQ,USD
+4,Apple,"Computers, Office Equipment","$391,000,000,000","164,000",APLE,2784630528.0,Real Estate,United States,NYQ,USD
+5,CVS Health,Health Care: Pharmacy and Other Services,"$372,800,000,000","259,500",CVS,99053813760.0,Healthcare,United States,NYQ,USD
+7,Alphabet,Internet Services and Retailing,"$350,000,000,000","183,300",GOOGL,3629518422016.0,Communication Services,United States,NMS,USD
+8,Exxon Mobil,Petroleum Refining,"$349,600,000,000","60,900",XOM,499140984832.0,Energy,United States,NYQ,USD
+9,McKesson,Wholesalers: Health Care,"$309,000,000,000","48,000",MCK,107720622080.0,Healthcare,United States,NYQ,USD
+10,Cencora,Wholesalers: Health Care,"$294,000,000,000","44,000",COR,70897262592.0,Healthcare,United States,NYQ,USD
+11,JPMorgan Chase,Commercial Banks,"$278,900,000,000","317,200",JPM,819481608192.0,Financial Services,United States,NYQ,USD
+12,Costco,General Merchandisers,"$254,500,000,000","333,000",COST,398690353152.0,Consumer Defensive,United States,NMS,USD
+13,Cigna,Health Care: Pharmacy and Other Services,"$247,100,000,000","72,400",CI,74285023232.0,Healthcare,United States,NYQ,USD
+14,Microsoft,Computer Software,"$245,100,000,000","228,000",MSFT,3509346369536.0,Technology,United States,NMS,USD
+15,Cardinal Health,Wholesalers: Health Care,"$226,800,000,000","48,400",CAH,49771409408.0,Healthcare,United States,NYQ,USD
+16,Chevron,Petroleum Refining,"$202,800,000,000","45,300",CVX,302183055360.0,Energy,United States,NYQ,USD
+17,Bank of America,Commercial Banks,"$192,400,000,000","213,200",BAC,381902225408.0,Financial Services,United States,NYQ,USD
+18,General Motors,Motor Vehicles & Parts,"$187,400,000,000","162,000",GM,66959634432.0,Consumer Cyclical,United States,NYQ,USD
+19,Ford Motor,Motor Vehicles & Parts,"$185,000,000,000","171,000",F,51121119232.0,Consumer Cyclical,United States,NYQ,USD
+20,Elevance Health,Health Care: Insurance and Managed Care,"$177,000,000,000","103,700",ELV,72446615552.0,Healthcare,United States,NYQ,USD
+21,Citi,Commercial Banks,"$170,800,000,000","227,900",CITI.NE,252190228480.0,,,NEO,CAD
+22,Meta,Internet Services and Retailing,"$164,500,000,000","74,100",META,1497823576064.0,Communication Services,United States,NMS,USD
+23,Centene,Health Care: Insurance and Managed Care,"$163,100,000,000","60,500",CNC,17940408320.0,Healthcare,United States,NYQ,USD
+24,Home Depot,Specialty Retailers: Other,"$159,500,000,000","470,100",HD,341736128512.0,Consumer Cyclical,United States,NYQ,USD
+25,Fannie Mae,Diversified Financials,"$152,700,000,000","8,200",FNMA,10654405632.0,Financial Services,United States,OQB,USD
+27,Kroger,Food & Drug Stores,"$147,100,000,000","409,000",KR,43776520192.0,Consumer Defensive,United States,NYQ,USD
+28,Phillips 66,Petroleum Refining,"$145,500,000,000","13,200",PSX,54039494656.0,Energy,United States,NYQ,USD
+29,Marathon Petroleum,Petroleum Refining,"$140,400,000,000","18,300",MPC,57952350208.0,Energy,United States,NYQ,USD
+30,Verizon,Telecommunications,"$134,800,000,000","99,600",VZ,173843218432.0,Communication Services,United States,NYQ,USD
+31,Nvidia,Semiconductors and Other Electronic Components,"$130,500,000,000","36,000",NVDA,4347678687232.0,Technology,United States,NMS,USD
+32,Goldman Sachs,Commercial Banks,"$126,900,000,000","46,500",GSBD,1096626816.0,Financial Services,United States,NYQ,USD
+33,Wells Fargo,Commercial Banks,"$125,400,000,000","217,500",WFC,266238001152.0,Financial Services,United States,NYQ,USD
+34,Valero Energy,Petroleum Refining,"$124,000,000,000","9,900",VLO,53882544128.0,Energy,United States,NYQ,USD
+35,Comcast,Telecommunications,"$123,700,000,000","182,000",CMCSA,100981850112.0,Communication Services,United States,NMS,USD
+36,State Farm,Insurance: Property and Casualty (Mutual),"$123,000,000,000","67,400",ALL,56474464256.0,Financial Services,United States,NYQ,USD
+37,AT&T,Telecommunications,"$122,300,000,000","141,000",ATT.L,1773942016.0,Financial Services,Germany,LSE,GBp
+38,Freddie Mac,Diversified Financials,"$122,100,000,000","8,100",FMCC,5714023936.0,Financial Services,United States,OQB,USD
+39,Humana,Health Care: Insurance and Managed Care,"$117,800,000,000","65,700",HUM.ST,2288498688.0,Healthcare,Sweden,STO,SEK
+40,Morgan Stanley,Commercial Banks,"$107,300,000,000","80,500",MS,252492414976.0,Financial Services,United States,NYQ,USD
+41,Target,General Merchandisers,"$106,600,000,000","440,000",TGT,39674032128.0,Consumer Defensive,United States,NYQ,USD
+42,StoneX,Diversified Financials,"$99,900,000,000","4,500",SNEX,4367472640.0,Financial Services,United States,NMS,USD
+43,Tesla,Motor Vehicles & Parts,"$97,700,000,000","125,700",TSLA,1300694564864.0,Consumer Cyclical,United States,NMS,USD
+44,Dell Technologies,"Computers, Office Equipment","$95,600,000,000","108,000",DELL,82372435968.0,Technology,United States,NYQ,USD
+45,PepsiCo,Food Consumer Products,"$91,900,000,000","319,000",PEP,200337080320.0,Consumer Defensive,United States,NMS,USD
+46,Walt Disney,Entertainment,"$91,400,000,000","205,000",DIS,187488534528.0,Communication Services,United States,NYQ,USD
+47,UPS,"Mail, Package and Freight Delivery","$91,100,000,000","372,200",UPS,80308183040.0,Industrials,United States,NYQ,USD
+48,Johnson & Johnson,Pharmaceuticals,"$88,800,000,000","138,100",JNJ,491255267328.0,Healthcare,United States,NYQ,USD
+49,FedEx,"Mail, Package and Freight Delivery","$87,700,000,000","422,100",FDX,63573475328.0,Industrials,United States,NYQ,USD
+50,Archer Daniels Midland,Food Production,"$85,500,000,000","43,200",ADM,28175804416.0,Consumer Defensive,United States,NYQ,USD
+51,Procter & Gamble,Household and Personal Products,"$84,000,000,000","108,000",PG,353226063872.0,Consumer Defensive,United States,NYQ,USD
+52,Lowe's,Specialty Retailers: Other,"$83,700,000,000","215,500",X1G.PA,,,,PAR,EUR
+53,Energy Transfer,Pipelines,"$82,700,000,000","16,200",ET,56685215744.0,Energy,United States,NYQ,USD
+54,RTX,Aerospace & Defense,"$80,700,000,000","186,000",RTX,227502178304.0,Industrials,United States,NYQ,USD
+55,Albertsons,Food & Drug Stores,"$79,200,000,000","196,600",ACI,9858896896.0,Consumer Defensive,United States,NYQ,USD
+56,Sysco,Wholesalers: Food and Grocery,"$78,800,000,000","76,000",SYY,36695121920.0,Consumer Defensive,United States,NYQ,USD
+57,Progressive,Insurance: Property and Casualty (Stock),"$75,400,000,000","66,300",PGR,133060026368.0,Financial Services,United States,NYQ,USD
+58,American Express,Diversified Financials,"$74,200,000,000","75,100",AXP,245569896448.0,Financial Services,United States,NYQ,USD
+59,Lockheed Martin,Aerospace & Defense,"$71,000,000,000","121,000",LMT,107576025088.0,Industrials,United States,NYQ,USD
+60,MetLife,"Insurance: Life, Health (Stock)","$71,000,000,000","45,000",MET,49923506176.0,Financial Services,United States,NYQ,USD
+61,HCA Healthcare,Health Care: Medical Facilities,"$70,600,000,000","271,000",HCA,114890809344.0,Healthcare,United States,NYQ,USD
+62,Prudential Financial,"Insurance: Life, Health (Stock)","$70,400,000,000","37,900",PRU,37569908736.0,Financial Services,United States,NYQ,USD
+63,Boeing,Aerospace & Defense,"$66,500,000,000","172,000",BA,136589156352.0,Industrials,United States,NYQ,USD
+64,Caterpillar,Construction and Farm Machinery,"$64,800,000,000","112,900",CAT,258875473920.0,Industrials,United States,NYQ,USD
+65,Merck,Pharmaceuticals,"$64,200,000,000","74,000",MRK,244183302144.0,Healthcare,United States,NYQ,USD
+66,Allstate,Insurance: Property and Casualty (Stock),"$64,100,000,000","55,200",ALL,56474464256.0,Financial Services,United States,NYQ,USD
+67,Pfizer,Pharmaceuticals,"$63,600,000,000","81,000",PFIZER.NS,228761534464.0,Healthcare,India,NSI,INR
+68,IBM,Information Technology Services,"$62,800,000,000","284,500",IBM,278027665408.0,Technology,United States,NYQ,USD
+69,New York Life Insurance,"Insurance: Life, Health (Mutual)","$62,600,000,000","15,100",601336.SS,204018352128.0,Financial Services,China,SHH,CNY
+70,Delta Airlines,Airlines,"$61,600,000,000","103,000",DAL,38244028416.0,Industrials,United States,NYQ,USD
+73,TD Synnex,Wholesalers: Electronics and Office Equipment,"$58,500,000,000","25,800",SNX,12059985920.0,Technology,United States,NYQ,USD
+74,United Airlines,Airlines,"$57,100,000,000","107,300",UAL,29848641536.0,Industrials,United States,NMS,USD
+75,ConocoPhillips,"Mining, Crude-Oil Production","$57,000,000,000","11,800",COP,109120094208.0,Energy,United States,NYQ,USD
+76,TJX,Specialty Retailers: Apparel,"$56,400,000,000","364,000",TJX,168937668608.0,Consumer Cyclical,United States,NYQ,USD
+77,AbbVie,Pharmaceuticals,"$56,300,000,000","55,000",ABBV,417597620224.0,Healthcare,United States,NYQ,USD
+78,Enterprise Products Partners,Pipelines,"$56,200,000,000","7,800",EPD,70240624640.0,Energy,United States,NYQ,USD
+79,Charter Communications,Telecommunications,"$55,100,000,000","94,500",CHTR,27727972352.0,Communication Services,United States,NMS,USD
+80,Performance Food,Wholesalers: Food and Grocery,"$54,700,000,000","36,800",PFGC,15155894272.0,Consumer Defensive,United States,NYQ,USD
+81,American Airlines,Airlines,"$54,200,000,000","133,300",AAL,8495312896.0,Industrials,United States,NMS,USD
+83,Cisco Systems,Network and Other Communications Equipment,"$53,800,000,000","90,400",CSCO,300678283264.0,Technology,United States,NMS,USD
+84,HP,"Computers, Office Equipment","$53,600,000,000","58,000",HP,2659201536.0,Energy,United States,NYQ,USD
+85,Tyson Foods,Food Production,"$53,300,000,000","138,000",TSN,18948411392.0,Consumer Defensive,United States,NYQ,USD
+86,Intel,Semiconductors and Other Electronic Components,"$53,100,000,000","108,900",INTC,164564992000.0,Technology,United States,NMS,USD
+87,Oracle,Computer Software,"$53,000,000,000","159,000",ORCL,566623535104.0,Technology,United States,NYQ,USD
+88,Broadcom,Semiconductors and Other Electronic Components,"$52,400,000,000","37,000",AVGO,1606548586496.0,Technology,United States,NMS,USD
+89,Deere,Construction and Farm Machinery,"$51,700,000,000","55,500",DE,131715301376.0,Industrials,United States,NYQ,USD
+90,Nike,Apparel,"$51,400,000,000","79,400",NKE,92831039488.0,Consumer Cyclical,United States,NYQ,USD
+92,Plains GP,Pipelines,"$50,100,000,000","4,200",PAGP,4196337920.0,Energy,United States,NMS,USD
+93,USAA,Insurance: Property and Casualty (Stock),"$48,600,000,000","38,000",UIPMX,,,,NAS,USD
+95,Ingram Micro,Wholesalers: Electronics and Office Equipment,"$48,000,000,000","26,100",INGM,4844847616.0,Technology,United States,NYQ,USD
+96,General Dynamics,Aerospace & Defense,"$47,700,000,000","117,000",GD,91932794880.0,Industrials,United States,NYQ,USD
+97,Coca-Cola,Beverages,"$47,100,000,000","69,700",COLA.WA,,,United States,WSE,PLN
+98,TIAA,"Insurance: Life, Health (Mutual)","$46,900,000,000","15,600",TILIX,14876947456.0,,,NAS,USD
+99,Travelers,Insurance: Property and Casualty (Stock),"$46,400,000,000","34,000",TRV,65304576000.0,Financial Services,United States,NYQ,USD
+100,Eli Lilly,Pharmaceuticals,"$45,000,000,000","47,000",LLY,949975187456.0,Healthcare,United States,NYQ,USD
+1,Walmart,General Merchandisers,648125.0,2100000.0,WMT,,,,,
+2,Amazon,Financial Services,574785.0,1525000.0,AMZN,,,,,
+3,Apple,"Computers, Office Equipment",383285.0,161000.0,AAPL,,,,,
+4,Unitedhealth Group,Health Care,371622.0,440000.0,UNH,,,,,
+6,Cvs,Health Care,357776.0,259500.0,CVS,,,,,
+7,Exxon Mobil,Petroleum Refining,344582.0,61500.0,XOM,,,,,
+8,Alphabet,Internet Services And Retailing,307394.0,182502.0,GOOGL,,,,,
+9,Mckesson,Wholesalers,276711.0,48000.0,MCK,,,,,
+10,Cencora,Wholesalers,262173.4,44000.0,COR,,,,,
+11,Costco,General Merchandisers,242290.0,316000.0,COST,,,,,
+12,Jp Morgan Chase,Commercial Banks,239425.0,309926.0,JPM,,,,,
+13,Microsoft,Computer Software,211915.0,221000.0,MSFT,,,,,
+14,Cardinal Health,Wholesalers,205012.0,47520.0,CAH,,,,,
+15,Chevron,Petroleum Refining,200949.0,45600.0,CVX,,,,,
+16,Cigna,Health Care,195265.0,71413.0,CI,,,,,
+17,Ford Motor,Motor Vehicles & Parts,176191.0,177000.0,F,,,,,
+18,Bank Of America,Commercial Banks,171912.0,212985.0,BAC,,,,,
+19,General Motors,Motor Vehicles & Parts,171842.0,163000.0,GM,,,,,
+20,Elevance Health,Health Care,171340.0,104900.0,ELV,,,,,
+21,Citigroup,Commercial Banks,156820.0,237925.0,C,,,,,
+22,Centene,Health Care,153999.0,67700.0,CNC,,,,,
+23,Home Depot,Specialty Retailers,152669.0,463100.0,HD,,,,,
+24,Marathon Petroleum,Petroleum Refining,150307.0,18200.0,MPC,,,,,
+25,Kroger,Food & Drug Stores,150039.0,414000.0,KR,,,,,
+26,Phillips 66,Petroleum Refining,149890.0,14000.0,PSX,,,,,
+27,Fannie Mae,Diversified Financials,141240.0,8100.0,FNMA,,,,,
+29,Valero Energy,Petroleum Refining,139001.0,9987.0,VLO,,,,,
+30,Meta Platforms,Internet Services And Retailing,134902.0,67317.0,META,,,,,
+31,Verizon Communications,Telecommunications,133974.0,105400.0,VZ,,,,,
+32,At&T,Telecommunications,122428.0,150470.0,ATT.L,,,,,
+33,Comcast,Telecommunications,121572.0,186000.0,CMCSA,,,,,
+34,Wells Fargo,Commercial Banks,115340.0,226000.0,WFC,,,,,
+35,Goldman Sachs Group,Commercial Banks,108418.0,45300.0,GS,,,,,
+36,Freddie Mac,Diversified Financials,108050.0,8020.0,FMCC,,,,,
+37,Target,General Merchandisers,107412.0,415000.0,TGT,,,,,
+38,Humana,Health Care,106374.0,67600.0,HUM.ST,,,,,
+40,Tesla,Motor Vehicles & Parts,96773.0,140473.0,TSLA,,,,,
+41,Morgan Stanley,Commercial Banks,96194.0,80006.0,MS,,,,,
+42,Johnson & Johnson,Pharmaceutical,95195.0,131900.0,JNJ,,,,,
+43,Archer Daniels Midland,Food Production,93935.0,41008.0,ADM,,,,,
+44,Pepsico,Food Consumer Products,91471.0,318000.0,PEP,,,,,
+45,United Parcel Service,"Mail, Package, And Freight Delivery",90958.0,382550.0,UPS,,,,,
+46,Fedex,"Mail, Package, And Freight Delivery",90155.0,446400.0,FDX,,,,,
+47,Walt Disney,Entertainment,88898.0,199125.0,DIS,,,,,
+48,Dell Technologies,"Computers, Office Equipment",88425.0,120000.0,DELL,,,,,
+49,Lowe'S,Specialty Retailers,86377.0,226000.0,X1G.PA,,,,,
+50,Procter & Gamble,Household And Personal Products,82006.0,107000.0,PG,,,,,
+51,Energy Transfer,Pipelines,78586.0,13786.0,ET,,,,,
+52,Boeing,"Aerospace, Defense",77794.0,171000.0,BA,,,,,
+53,Albertsons,Food & Drug Stores,77649.7,198650.0,ACI,,,,,
+54,Sysco,Wholesalers,76324.7,71750.0,SYY,,,,,
+55,Rtx,"Aerospace, Defense",68920.0,185000.0,RTX,,,,,
+56,General Electric,Industrial Machinery,67954.0,125000.0,GE,,,,,
+57,Lockheed Martin,"Aerospace, Defense",67571.0,122000.0,LMT,,,,,
+58,American Express,Diversified Financials,67364.0,74600.0,AXP,,,,,
+59,Caterpillar,Construction And Farm Machinery,67060.0,113200.0,CAT,,,,,
+60,Metlife,Insurance,66905.0,45000.0,MET,,,,,
+61,Hca Healthcare,Health Care: Medical Facilities,64968.0,265000.0,HCA,,,,,
+62,Progressive,Insurance,62108.5,61432.0,PGR,,,,,
+63,Ibm,Information Technology Services,61860.0,296600.0,IBM,,,,,
+64,Deere,Construction And Farm Machinery,61251.0,82956.0,DE,,,,,
+65,Nvidia,Semiconductor And Electronics,60922.0,29600.0,NVDA,,,,,
+66,Stonex Group,Diversified Financials,60856.1,4137.0,SNEX,,,,,
+67,Merck,Pharmaceutical,60115.0,71000.0,MRK,,,,,
+68,Conocophillips,"Mining, Crude-Oil Production",58574.0,9900.0,COP,,,,,
+69,Pfizer,Pharmaceutical,58496.0,88000.0,PFIZER.NS,,,,,
+70,Delta Air Lines,Airlines,58048.0,103000.0,DAL,,,,,
+71,Td Synnex,Wholesalers,57555.4,28000.0,SNX,,,,,
+73,Allstate,Insurance,57094.0,53200.0,ALL,,,,,
+74,Cisco Systems,Network And Other Communications Equipment,56998.0,84900.0,CSCO,,,,,
+76,Charter Communications,Telecommunications,54607.0,101100.0,CHTR,,,,,
+77,Abbvie,Pharmaceutical,54318.0,50000.0,ABBV,,,,,
+78,New York Life Insurance,Insurance,54317.2,15384.0,601336.SS,,,,,
+79,Intel,Semiconductor And Electronics,54228.0,124800.0,INTC,,,,,
+80,Tjx,Specialty Retailers,54217.0,329000.0,TJX,,,,,
+81,Prudential Financial,Insurance,53979.0,40366.0,PRU,,,,,
+83,United Airlines Holdings,Airlines,53717.0,103300.0,UAL,,,,,
+84,Performance Food Group,Wholesalers,53354.7,34825.0,PFGC,,,,,
+85,Tyson Foods,Food Production,52881.0,139000.0,TSN,,,,,
+86,American Airlines Group,Metals & Mining,52788.0,132100.0,AAL,,,,,
+87,Liberty Mutual Insurance Group,Insurance,52612.0,45000.0,LFG.AX,,,,,
+88,Nike,Apparel,51217.0,83700.0,NKE,,,,,
+89,Oracle,Computer Software,49954.0,164000.0,ORCL,,,,,
+90,Enterprise Products Partners,Pipelines,49715.0,7500.0,EPD,,,,,
+91,Capital One Financial,Commercial Banks,49484.0,51987.0,COF,,,,,
+92,Plains Gp Holdings,Pipelines,48712.0,4200.0,PAGP,,,,,
+93,World Kinect,Energy,47710.6,5289.0,WKC,,,,,
+94,Aig,Insurance,46802.0,25200.0,AIG,,,,,
+95,Coca-Cola,Beverage,45754.0,79100.0,COLA.WA,,,,,
+96,Tiaa,Insurance,45734.8,16023.0,TILIX,,,,,
+97,Chs,Food Production,45590.0,10609.0,CHS.V,,,,,
+99,Dow,Chemicals,44622.0,35900.0,DOW,,,,,
+100,Best Buy,Specialty Retailers,43452.0,85000.0,BBY,,,,,

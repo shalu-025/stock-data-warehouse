@@ -1,0 +1,7 @@
+company,ticker,date,open,high,low,close,volume
+AT&T,ATT.L,2016-02-15,53.9,53.9,52.2,53.2,116500
+Express Scripts Holding,ESH.BE,2016-02-15,8.17,8.17,8.17,8.17,0
+Lowe's,X1G.PA,2016-02-15,223.22,223.22,223.22,223.22,0
+Pfizer,PFIZER.NS,2016-02-15,1713.75,1725.6,1689.21,1696.11,6350
+New York Life Insurance,601336.SS,2016-02-15,27.37,28.77,27.37,28.4,11660826
+World Fuel Services,WFK.BE,2016-02-15,32.29,32.55,32.26,32.51,0

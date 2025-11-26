@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,Walmart,General Merchandisers,500343.0,9862.0,,2018,2300000.0,WMT
+2,Exxon Mobil,Petroleum Refining,244363.0,19710.0,,2018,71200.0,XOM
+3,Berkshire Hathaway,Insurance: Property and Casualty (Stock),242137.0,44940.0,,2018,377000.0,BRK.A
+4,Apple,"Computers, Office Equipment",229234.0,48351.0,,2018,123000.0,APLE
+5,UnitedHealth Group,Health Care: Insurance and Managed Care,201159.0,10558.0,,2018,260000.0,UNH
+6,McKesson,Wholesalers: Health Care,198533.0,5070.0,,2018,64500.0,MCK
+7,CVS Health,Health Care: Pharmacy and Other Services,184765.0,6622.0,,2018,203000.0,CVS
+8,Amazon.com,Internet Services and Retailing,177866.0,3033.0,,2018,566000.0,
+9,AT&T,Telecommunications,160546.0,29450.0,,2018,254000.0,ATT.L
+10,General Motors,Motor Vehicles & Parts,157311.0,3864.0,,2018,180000.0,GM
+11,Ford Motor,Motor Vehicles & Parts,156776.0,7602.0,,2018,202000.0,F
+12,AmerisourceBergen,Wholesalers: Health Care,153144.0,365.0,,2018,19500.0,ABC.VI
+13,Chevron,Petroleum Refining,134533.0,9195.0,,2018,51900.0,CVX
+14,Cardinal Health,Wholesalers: Health Care,129976.0,1288.0,,2018,40400.0,CAH
+15,Costco,General Merchandisers,129025.0,2679.0,,2018,182000.0,COST
+16,Verizon,Telecommunications,126034.0,30101.0,,2018,155400.0,VZ
+17,Kroger,Food & Drug Stores,122662.0,1907.0,,2018,449000.0,KR
+18,General Electric,Industrial Machinery,122274.0,5786.0,,2018,313000.0,GE
+19,Walgreens Boots Alliance,Food & Drug Stores,118214.0,4078.0,,2018,290000.0,WBA
+20,JPMorgan Chase,Commercial Banks,113899.0,24441.0,,2018,252539.0,JPM
+21,Fannie Mae,Diversified Financials,112394.0,2463.0,,2018,7200.0,FNMA
+22,Alphabet,Internet Services and Retailing,110855.0,12662.0,,2018,80110.0,GOOGL
+23,Home Depot,Specialty Retailers: Other,100904.0,8630.0,,2018,413000.0,HD
+24,Bank of America Corp.,Commercial Banks,100264.0,18232.0,,2018,209376.0,BAC
+25,Express Scripts Holding,Health Care: Pharmacy and Other Services,100065.0,4517.0,,2018,26600.0,ESH.BE
+26,Wells Fargo,Commercial Banks,97741.0,22183.0,,2018,262700.0,WFC
+27,Boeing,Aerospace & Defense,93392.0,8197.0,,2018,140800.0,BA
+28,Phillips 66,Petroleum Refining,91568.0,5106.0,,2018,14600.0,PSX
+29,Anthem,Health Care: Insurance and Managed Care,90039.0,3843.0,,2018,56000.0,ANTHEM.NS
+30,Microsoft,Computer Software,89950.0,21204.0,,2018,124000.0,MSFT
+31,Valero Energy,Petroleum Refining,88407.0,4065.0,,2018,10015.0,VLO
+32,Citigroup,Commercial Banks,87966.0,6798.0,,2018,209000.0,C
+33,Comcast,Telecommunications,84526.0,22714.0,,2018,164000.0,CMCSA
+34,IBM,Information Technology Services,79139.0,5753.0,,2018,366000.0,IBM
+35,Dell Technologies,"Computers, Office Equipment",78660.0,3728.0,,2018,145000.0,DELL
+36,State Farm Insurance Cos.,Insurance: Property and Casualty (Mutual),78331.0,2207.0,,2018,65664.0,
+37,Johnson & Johnson,Pharmaceuticals,76450.0,1300.0,,2018,134000.0,JNJ
+38,Freddie Mac,Diversified Financials,74676.0,5625.0,,2018,6165.0,FMCC
+39,Target,General Merchandisers,71879.0,2934.0,,2018,345000.0,TGT
+40,Lowe's,Specialty Retailers: Other,68619.0,3447.0,,2018,255000.0,X1G.PA
+41,Marathon Petroleum,Petroleum Refining,67610.0,3432.0,,2018,43800.0,MPC
+42,Procter & Gamble,Household and Personal Products,66217.0,15326.0,,2018,95000.0,PG
+43,MetLife,"Insurance: Life, Health (Stock)",66153.0,4010.0,,2018,49000.0,MET
+44,UPS,"Mail, Package, and Freight Delivery",65872.0,4910.0,,2018,346415.0,UPS
+45,PepsiCo,Food Consumer Products,63525.0,4857.0,,2018,263000.0,PEP
+46,Intel,Semiconductors and Other Electronic Components,62761.0,9601.0,,2018,102700.0,INTC
+47,DowDuPont,Chemicals,62683.0,1460.0,,2018,98000.0,
+48,Archer Daniels Midland,Food Production,60828.0,1595.0,,2018,31300.0,ADM
+49,Aetna,Health Care: Insurance and Managed Care,60535.0,1904.0,,2018,47950.0,
+50,FedEx,"Mail, Package, and Freight Delivery",60319.0,2997.0,,2018,357000.0,FDX
+51,United Technologies,Aerospace & Defense,59837.0,4552.0,,2018,204700.0,
+52,Prudential Financial,"Insurance: Life, Health (Stock)",59689.0,7863.0,,2018,49705.0,PRU
+53,Albertsons Cos.,Food & Drug Stores,59678.0,373.0,,2018,273000.0,ACI
+54,Sysco,Wholesalers: Food and Grocery,55371.0,1143.0,,2018,66500.0,SYY
+55,Disney,Entertainment,55137.0,8980.0,,2018,199000.0,DIS
+56,Humana,Health Care: Insurance and Managed Care,53767.0,2448.0,,2018,45900.0,HUM.ST
+57,Pfizer,Pharmaceuticals,52546.0,21308.0,,2018,90200.0,PFIZER.NS
+58,HP,"Computers, Office Equipment",52056.0,2526.0,,2018,49000.0,HP
+59,Lockheed Martin,Aerospace & Defense,51048.0,2002.0,,2018,100000.0,LMT
+60,AIG,Insurance: Property and Casualty (Stock),49520.0,6084.0,,2018,49800.0,AIG
+61,Centene,Health Care: Insurance and Managed Care,48572.0,828.0,,2018,33700.0,CNC
+62,Cisco Systems,Network and Other Communications Equipment,48005.0,9609.0,,2018,72900.0,CSCO
+63,HCA Healthcare,Health Care: Medical Facilities,47653.0,2216.0,,2018,221491.0,HCA
+64,Energy Transfer Equity,Pipelines,47487.0,954.0,,2018,29486.0,ET
+65,Caterpillar,Construction and Farm Machinery,45462.0,754.0,,2018,98400.0,CAT
+66,Nationwide,Insurance: Property and Casualty (Mutual),43940.0,247.0,,2018,33135.0,NATWIDE.KL
+67,Morgan Stanley,Commercial Banks,43642.0,6111.0,,2018,57633.0,MS
+68,Liberty Mutual Insurance Group,Insurance: Property and Casualty (Stock),42687.0,17.0,,2018,50000.0,LFG.AX
+69,New York Life Insurance,"Insurance: Life, Health (Mutual)",42296.0,1867.0,,2018,11114.0,601336.SS
+70,Goldman Sachs Group,Commercial Banks,42254.0,4286.0,,2018,36600.0,GS
+71,American Airlines Group,Airlines,42207.0,1919.0,,2018,126600.0,AAL
+72,Best Buy,Specialty Retailers: Other,42151.0,1000.0,,2018,125000.0,BBY
+73,Cigna,Health Care: Insurance and Managed Care,41616.0,2237.0,,2018,46000.0,CI
+74,Charter Communications,Telecommunications,41581.0,9895.0,,2018,94800.0,CHTR
+75,Delta Air Lines,Airlines,41244.0,3577.0,,2018,86564.0,DAL
+76,Facebook,Internet Services and Retailing,40653.0,15934.0,,2018,25105.0,3LFB.MI
+77,Honeywell International,"Electronics, Electrical Equipment",40534.0,1655.0,,2018,131000.0,HON
+78,Merck,Pharmaceuticals,40122.0,2394.0,,2018,69000.0,MRK
+79,Allstate,Insurance: Property and Casualty (Stock),38524.0,3189.0,,2018,42680.0,ALL
+80,Tyson Foods,Food Production,38260.0,1774.0,,2018,122000.0,TSN
+81,United Continental Holdings,Airlines,37736.0,2131.0,,2018,89800.0,UAL
+82,Oracle,Computer Software,37728.0,9335.0,,2018,138000.0,ORCL
+83,Tech Data,Wholesalers: Electronics and Office Equipment,36775.0,117.0,,2018,14000.0,TECH.OL
+84,TIAA,"Insurance: Life, Health (Mutual)",36025.0,1050.0,,2018,16829.0,TILIX
+85,TJX,Specialty Retailers: Apparel,35865.0,2608.0,,2018,249000.0,TJX
+86,American Express,Diversified Financials,35583.0,2736.0,,2018,55000.0,AXP
+87,Coca-Cola,Beverages,35410.0,1248.0,,2018,61800.0,COLA.WA
+88,Publix Super Markets,Food & Drug Stores,34837.0,2292.0,,2018,193000.0,
+89,Nike,Apparel,34350.0,4240.0,,2018,74400.0,NKE
+90,Andeavor,Petroleum Refining,34204.0,1528.0,,2018,14300.0,
+91,World Fuel Services,Energy,33696.0,170.0,,2018,5000.0,WFK.BE
+92,Exelon,Utilities: Gas and Electric,33531.0,3770.0,,2018,34621.0,EXC
+93,Massachusetts Mutual Life Insurance,"Insurance: Life, Health (Mutual)",33495.0,513.0,,2018,11811.0,
+94,Rite Aid,Food & Drug Stores,32845.0,4.0,,2018,70430.0,RADCQ
+95,ConocoPhillips,"Mining, Crude-Oil Production",32584.0,855.0,,2018,11400.0,COP
+96,CHS,Food Production,31935.0,128.0,,2018,11626.0,CHS.V
+97,3M,Miscellaneous,31657.0,4858.0,,2018,91536.0,MMM
+98,Time Warner,Entertainment,31271.0,5247.0,,2018,26000.0,T
+99,General Dynamics,Aerospace & Defense,30973.0,2912.0,,2018,98600.0,GD
+100,USAA,Insurance: Property and Casualty (Stock),30016.0,2422.0,,2018,32705.0,UIPMX

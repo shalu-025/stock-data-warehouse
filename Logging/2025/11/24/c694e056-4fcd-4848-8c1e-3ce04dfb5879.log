@@ -1,0 +1,54 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 14:13:03,791 - INFO - -> started running the process <-
+2025-11-24 14:13:03,803 - INFO - 
+============================================================
+2025-11-24 14:13:03,803 - INFO - Fetching LIVE data for 2025
+2025-11-24 14:13:03,803 - INFO - Date: 2025-11-24
+2025-11-24 14:13:03,803 - INFO - ============================================================
+2025-11-24 14:13:03,805 - INFO - Total companies with tickers: 96
+2025-11-24 14:13:03,805 - INFO - Today's data already exists — skipping
+2025-11-24 14:13:03,805 - INFO - 
+============================================================
+2025-11-24 14:13:03,805 - INFO - Creating LIVE company metadata for 2025
+2025-11-24 14:13:03,805 - INFO - ============================================================
+2025-11-24 14:13:03,805 - INFO - Metadata already exists — skipping
+2025-11-24 14:13:03,805 - INFO - 
+============================================================
+2025-11-24 14:13:03,805 - INFO - Creating LIVE macro data for 2025
+2025-11-24 14:13:03,805 - INFO - ============================================================
+2025-11-24 14:13:03,805 - INFO - Current year data already exists — skipping
+2025-11-24 14:13:03,806 - INFO - Sentiment already exists — skipping
+2025-11-24 14:13:03,806 - INFO - 
+============================================================
+2025-11-24 14:13:03,806 - INFO - Fetching LIVE exchange rates (USD-INR) from FRED for 2025
+2025-11-24 14:13:03,806 - INFO - ============================================================
+2025-11-24 14:13:03,806 - INFO - Current year data already exists — skipping
+2025-11-24 14:13:03,806 - INFO - ============================================================
+2025-11-24 14:13:03,806 - INFO - Starting merge process
+2025-11-24 14:13:03,806 - INFO - Mode: Live
+2025-11-24 14:13:03,806 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/20251124_141303
+2025-11-24 14:13:03,806 - INFO - ============================================================
+2025-11-24 14:13:03,806 - INFO - 
+============================================================
+2025-11-24 14:13:03,806 - INFO - STEP 1: Processing BASE TABLE (stocks_raw)
+2025-11-24 14:13:03,806 - INFO - ============================================================
+2025-11-24 14:13:03,806 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-24 14:13:03,807 - INFO - Read 93 rows from stocks_raw
+2025-11-24 14:13:03,821 - INFO - Validation complete for stocks_raw: valid=93, invalid=0
+2025-11-24 14:13:03,825 - INFO - Valid: 93, Invalid: 0
+2025-11-24 14:13:03,840 - ERROR - Error connecting to MySQL: 1049 (42000): Unknown database 'stocks'
+2025-11-24 14:13:03,840 - INFO - Loaded 93 rows to stocks_raw
+2025-11-24 14:13:03,841 - INFO - Base table established with 93 records
+2025-11-24 14:13:03,841 - INFO - Found 92 unique tickers: 601336.SS, AAL, ABBV, ACI, ADM, ALL, AMZN, APLE, ATT.L, AVGO, AXP, BA, BAC, CAH, CAT, CHTR, CI, CITI.NE, CMCSA, CNC, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, ELV, EPD, ET, F, FDX, FMCC, FNMA, GD, GM, GOOGL, GSBD, HCA, HD, HP, HUM.ST, IBM, INGM, INTC, JNJ, JPM, KR, LLY, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TRV, TSLA, TSN, UAL, UIPMX, UNH, UPS, VLO, VZ, WFC, WMT, X1G.PA, XOM
+2025-11-24 14:13:03,841 - INFO - 
+============================================================
+2025-11-24 14:13:03,841 - INFO - STEP 2: Processing DEPENDENT TABLES
+2025-11-24 14:13:03,841 - INFO - ============================================================
+2025-11-24 14:13:03,842 - INFO - Processing company_metadata
+2025-11-24 14:13:03,842 - INFO - Read 93 rows from company_metadata

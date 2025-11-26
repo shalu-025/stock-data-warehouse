@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,General Motors Corporation,Motor Vehicles & Parts,161315.0,,,1999,,GM
+2,Ford Motor Company,Motor Vehicles & Parts,144416.0,,,1999,,F
+3,"Wal-Mart Stores, Inc.",General Merchandisers,139208.0,,,1999,,WMT
+4,Exxon Corporation,Petroleum Refining,100697.0,,,1999,,XOM
+5,General Electric Company,"Electronics, Electrical Equipment",100469.0,,,1999,,GE
+6,International Business Machines Corporation,"Computers, Office Equipment",81667.0,,,1999,,IBM
+7,"Citigroup, Inc.",Diversified Financials,76431.0,,,1999,,C
+8,Philip Morris Companies Inc.,Tobacco,57813.0,,,1999,,TABAK.PR
+9,The Boeing Company,Aerospace & Defense,56154.0,,,1999,,BA
+10,AT&T Corp.,Telecommunications,53588.0,,,1999,,ATT.L
+11,BankAmerica Corporation,Commercial Banks,50777.0,,,1999,,
+12,Mobil Corporation,Petroleum Refining,47678.0,,,1999,,MBLY
+13,Hewlett-Packard Company,"Computers, Office Equipment",47061.0,,,1999,,
+14,State Farm Insurance Companies,Insurance: Property and Casualty (Mutual),44620.9,,,1999,,
+15,"Sears, Roebuck and Co.",General Merchandisers,41322.0,,,1999,,SSRAP
+16,"E.I. du Pont de Nemours and Company, Inc.",Chemicals,39130.0,,,1999,,
+17,The Procter & Gamble Company,"Soaps, Cosmetics",37154.0,,,1999,,TPG
+18,Teachers Insurance and Annuity Association College Retiremen,"Insurance: Life, Health (Mutual)",35889.1,,,1999,,
+19,"Merrill Lynch & Co., Inc.",Securities,35853.0,,,1999,,DE000SLA1M99.SG
+20,Prudential Insurance Company of America,"Insurance: Life, Health (Stock)",34427.0,,,1999,,PRU
+21,Kmart Corporation,General Merchandisers,33674.0,,,1999,,
+22,"American International Group,Inc.",Insurance: Property and Casualty (Stock),33296.0,,,1999,,AIG
+23,Chase Manhattan Corp,Commercial Banks,32379.0,,,1999,,
+24,Texaco Inc.,Petroleum Refining,31707.0,,,1999,,TEXC.NS
+25,Bell Atlantic Corporation,Telecommunications,31565.9,,,1999,,
+26,Fannie Mae,Diversified Financials,31498.8,,,1999,,FNMA
+27,Enron,Pipelines,31260.0,,,1999,,
+28,Compaq Computer Corporation,"Computers, Office Equipment",31169.0,,,1999,,
+29,Morgan Stanley Dean Witter & Co.,Securities,31131.0,,,1999,,MS
+30,Dayton Hudson Corporation,General Merchandisers,30951.0,,,1999,,7228.T
+31,"J.C. Penney Company, Inc.",General Merchandisers,30678.0,,,1999,,
+32,"The Home Depot, Inc.",Specialty Retailers,30219.0,,,1999,,THD
+33,Lucent Technologies,"Electronics, Electrical Equipment",30147.0,,,1999,,
+34,"Motorola, Inc.","Electronics, Electrical Equipment",29398.0,,,1999,,MSI
+35,"SBC Communications, Inc.",Telecommunications,28777.0,,,1999,,SBC
+36,The Kroger Company,Food & Drug Stores,28203.3,,,1999,,KR
+37,"Merck & Co., Inc.",Pharmaceuticals,26898.2,,,1999,,MRK
+38,Chevron Corporation,Petroleum Refining,26801.0,,,1999,,CVX
+39,Metropolitan Life Insurance Co.,"Insurance: Life, Health (Stock)",26735.0,,,1999,,MTLA.JK
+40,Intel Corporation,Semiconductors,26273.0,,,1999,,INTC
+41,Lockheed Martin Corporation,Aerospace & Defense,26266.0,,,1999,,LMT
+42,The Allstate Corporation,Insurance: Property and Casualty (Stock),25879.0,,,1999,,ALL
+43,United Technologies Corporation,Aerospace & Defense,25715.0,,,1999,,
+44,Bank One Corporation,Commercial Banks,25595.0,,,1999,,BANK.NE
+45,GTE Corporation,Telecommunications,25473.0,,,1999,,GTE
+46,"United Parcel Service of America, Inc.","Mail, Package, and Freight Delivery",24788.0,,,1999,,UPS
+47,USX Corporation,Petroleum Refining,24754.0,,,1999,,USXF
+48,Safeway Inc.,Food & Drug Stores,24484.2,,,1999,,301559.SZ
+49,"Costco Companies, Inc.",Specialty Retailers,24269.9,,,1999,,
+50,"ConAgra, Inc.",Food,23840.5,,,1999,,CAG
+51,Johnson & Johnson,Pharmaceuticals,23657.0,,,1999,,JNJ
+52,BellSouth Corporation,Telecommunications,23123.0,,,1999,,KTBA
+53,The Walt Disney Company,Entertainment,22976.0,,,1999,,DIS
+54,"PepsiCo, Inc.",Beverages,22348.0,,,1999,,PEP
+55,"Ingram Micro, Inc.",Wholesalers,22034.0,,,1999,,INGM
+56,First Union Corporation,Commercial Banks,21543.0,,,1999,,FHN
+57,CIGNA Corporation,Health Care,21437.0,,,1999,,CI
+58,"Caterpillar, Inc.",Industrial and Farm Equipment,20977.0,,,1999,,CAT
+59,McKesson HBOC Inc.,Wholesalers,20857.3,,,1999,,MCK
+60,Loews Corporation,Insurance: Property and Casualty (Stock),20713.0,,,1999,,L
+61,"Aetna, Inc.",Health Care,20604.1,,,1999,,
+62,Wells Fargo & Co.,Commercial Banks,20482.0,,,1999,,WFC
+63,Xerox Corporation,"Computers, Office Equipment",20019.0,,,1999,,XRX
+64,Sara Lee Corporation,Food,20011.0,,,1999,,
+65,PG&E Corporation,Utilities: Gas and Electric,19942.0,,,1999,,PGE.V
+66,"Lehman Brothers Holdings, Inc.",Securities,19894.0,,,1999,,LEHNQ
+67,American Stores Company,Food & Drug Stores,19866.7,,,1999,,AXP
+68,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",19848.9,,,1999,,601336.SS
+69,Columbia/HCA Healthcare Corp.,Health Care,19681.0,,,1999,,
+70,Raytheon Company,Aerospace & Defense,19530.0,,,1999,,^RTX
+71,International Paper Company,Forest and Paper Products,19500.0,,,1999,,IP
+72,AMR Corporation,Airlines,19205.0,,,1999,,AMR
+73,American Express Company,Diversified Financials,19132.0,,,1999,,AXP
+74,The Coca-Cola Company,Beverages,18813.0,,,1999,,
+75,The Dow Chemical Company,Chemicals,18441.0,,,1999,,TDC
+76,J.P. Morgan & Co. Incorporated,Commercial Banks,18425.0,,,1999,,JPM
+77,Bristol-Myers Squibb Company,Pharmaceuticals,18283.6,,,1999,,
+78,Dell Computer Corporation,"Computers, Office Equipment",18243.0,,,1999,,Dell
+79,Freddie Mac,Diversified Financials,18048.0,,,1999,,FMCC
+80,"MCI WorldCom, Inc.",Telecommunications,17678.0,,,1999,,
+81,Duke Energy Corporation,Utilities: Gas and Electric,17610.0,,,1999,,DUK
+82,UAL Corporation,Airlines,17561.0,,,1999,,UAL
+83,"AutoNation, Inc.","Automotive Retailing, Services",17487.3,,,1999,,AN
+84,United Health Care Corporation,Health Care,17355.0,,,1999,,UNH
+85,Halliburton Company,Engineering & Construction,17353.1,,,1999,,HAL
+86,Supervalu Inc.,Wholesalers,17201.4,,,1999,,
+87,Ameritech Corporation,Telecommunications,17154.0,,,1999,,
+88,Sprint Corporation,Telecommunications,17134.3,,,1999,,SPRINT.ST
+89,RJR Nabisco Holdings Corporation,Food,17037.0,,,1999,,BURCA
+90,Electronic Data Systems Corporation,Computer And Data Services,16891.0,,,1999,,EA
+91,Archer Daniels Midland Company,Food,16108.6,,,1999,,ADM
+92,Di Giorgio Corporation,Food & Drug Stores,16005.1,,,1999,,
+93,"Cardinal Health, Inc.",Wholesalers,15918.1,,,1999,,CAH
+94,FDX Corporation,"Mail, Package, and Freight Delivery",15872.8,,,1999,,FDX
+95,"Federated Department Stores, Inc.",General Merchandisers,15833.0,,,1999,,FHI
+96,"Alcoa, Inc.",Metals,15489.4,,,1999,,AA
+97,Sysco Corporation,Wholesalers,15327.5,,,1999,,SYY
+98,Walgreen Co.,Food & Drug Stores,15307.0,,,1999,,
+99,CVS Corporation,Food & Drug Stores,15273.6,,,1999,,CVS
+100,AlliedSignal Inc.,Aerospace & Defense,15128.0,,,1999,,

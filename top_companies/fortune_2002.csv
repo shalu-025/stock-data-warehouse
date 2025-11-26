@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,219812.0,,,2002,,WMT
+2,Exxon Mobil Corporation,Petroleum Refining,191581.0,,,2002,,XOM
+3,General Motors Corporation,Motor Vehicles & Parts,177260.0,,,2002,,GM
+4,Ford Motor Company,Motor Vehicles & Parts,162412.0,,,2002,,F
+5,Enron,Energy,138718.0,,,2002,,
+6,General Electric Company,Diversified Financials,125913.0,,,2002,,GE
+7,"Citigroup, Inc.",Diversified Financials,112022.0,,,2002,,C
+8,ChevronTexaco Corporation,Petroleum Refining,99699.0,,,2002,,
+9,International Business Machines Corporation,"Computers, Office Equipment",85866.0,,,2002,,IBM
+10,Philip Morris Companies Inc.,Tobacco,72944.0,,,2002,,TABAK.PR
+11,Verizon Communications Inc.,Telecommunications,67190.0,,,2002,,VZ
+12,"American International Group,Inc.",Insurance: Property and Casualty (Stock),62402.0,,,2002,,AIG
+13,"American Electric Power Company, Inc.",Energy,61257.0,,,2002,,AEP
+14,Duke Energy Corporation,Energy,59503.0,,,2002,,DUK
+15,AT&T Corp.,Telecommunications,59142.0,,,2002,,ATT.L
+16,The Boeing Company,Aerospace & Defense,58198.0,,,2002,,BA
+17,El Paso Corporation,Energy,57475.0,,,2002,,EL.PA
+18,"The Home Depot, Inc.",Specialty Retailers,53553.0,,,2002,,THD
+19,Bank of America Corporation,Commercial Banks,52641.0,,,2002,,BAC
+20,Fannie Mae,Diversified Financials,50803.0,,,2002,,FNMA
+21,J.P. Morgan Chase & Co.,Commercial Banks,50429.0,,,2002,,JPM
+22,The Kroger Company,Food & Drug Stores,50098.0,,,2002,,KR
+23,"Cardinal Health, Inc.",Wholesalers: Health Care,47947.6,,,2002,,CAH
+24,"Merck & Co., Inc.",Pharmaceuticals,47715.7,,,2002,,MRK
+25,State Farm Insurance Cos.,Insurance: Property and Casualty (Mutual),46705.2,,,2002,,
+26,"Reliant Energy, Incorporated",Energy,46225.8,,,2002,,RELIANCE.NS
+27,SBC Communications Inc.,Telecommunications,45908.0,,,2002,,SBC
+28,Hewlett-Packard Company,"Computers, Office Equipment",45226.0,,,2002,,
+29,Morgan Stanley Dean Witter & Co.,Securities,43727.0,,,2002,,MS
+31,McKesson Corporation,Wholesalers: Health Care,42010.0,,,2002,,MCK
+32,Sears Roebuck and Company,General Merchandisers,41078.0,,,2002,,SSRAP
+33,"Aquila, Inc.",Energy,40376.8,,,2002,,ALAQU.PA
+34,Target Corporation,General Merchandisers,39888.0,,,2002,,TGT
+35,The Procter & Gamble Company,Household and Personal Products,39244.0,,,2002,,TPG
+36,"Merrill Lynch & Co., Inc.",Securities,38793.0,,,2002,,DE000SLA1M99.SG
+37,AOL Time Warner,Entertainment,38234.0,,,2002,,
+38,Dynegy Inc.,Food & Drug Stores,37931.0,,,2002,,
+39,Berkshire Hathaway Inc.,Insurance: Property and Casualty (Stock),37668.0,,,2002,,BRK.A
+40,Kmart Corporation,General Merchandisers,36910.0,,,2002,,
+41,Freddie Mac,Diversified Financials,35523.0,,,2002,,FMCC
+42,"WorldCom, Inc.",Telecommunications,35179.0,,,2002,,3499.TWO
+43,Marathon Oil Corporation,Petroleum Refining,35041.0,,,2002,,MRO
+44,Costco Wholesale Corporation,Specialty Retailers,34797.0,,,2002,,COST
+45,Safeway Inc.,Food & Drug Stores,34301.0,,,2002,,301559.SZ
+46,Compaq Computer Corporation,"Computers, Office Equipment",33554.0,,,2002,,
+47,Johnson & Johnson,Pharmaceuticals,33004.0,,,2002,,JNJ
+48,Conoco Inc.,Petroleum Refining,32795.0,,,2002,,COP
+49,Pfizer Inc.,Pharmaceuticals,32259.0,,,2002,,PFIZER.NS
+50,"J.C. Penney Company, Inc.",General Merchandisers,32004.0,,,2002,,
+51,MetLife Inc.,"Insurance: Life, Health (Stock)",31928.0,,,2002,,MET
+52,Mirant Corp.,Energy,31502.0,,,2002,,
+53,Dell Computer Corporation,"Computers, Office Equipment",31168.0,,,2002,,Dell
+54,"Goldman Sachs Group, Inc.",Securities,31138.0,,,2002,,GS
+55,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",30646.0,,,2002,,UPS
+56,"Motorola, Inc.",Network and Other Communications Equipment,30004.0,,,2002,,MSI
+57,The Allstate Corporation,Insurance: Property and Casualty (Stock),28865.0,,,2002,,ALL
+58,TXU Corp.,Utilities: Gas and Electric,27927.0,,,2002,,TXUE
+59,United Technologies Corporation,Aerospace & Defense,27897.0,,,2002,,
+60,The Dow Chemical Company,Chemicals,27805.0,,,2002,,TDC
+61,"ConAgra Foods, Incorporated",Food Consumer Products,27194.2,,,2002,,CAG
+62,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",27177.0,,,2002,,PRU
+63,"PepsiCo, Inc.",Beverages,26935.0,,,2002,,PEP
+64,Wells Fargo & Co.,Commercial Banks,26891.0,,,2002,,WFC
+65,Intel,Semiconductors and Other Electronic Components,26539.0,,,2002,,INTC
+66,International Paper Company,Forest and Paper Products,26363.0,,,2002,,IP
+67,Delphi Corporation,Motor Vehicles & Parts,26088.0,,,2002,,DELPHIFX.NS
+68,Sprint Corporation,Telecommunications,26071.0,,,2002,,SPRINT.ST
+69,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",25678.2,,,2002,,601336.SS
+70,E.I. du Pont de Nemours,Chemicals,25370.0,,,2002,,
+71,Georgia-Pacific Group,Forest and Paper Products,25309.0,,,2002,,
+72,Microsoft Corporation,Computer Software,25296.0,,,2002,,MSFT
+73,The Walt Disney Company,Entertainment,25269.0,,,2002,,DIS
+74,Aetna,Health Care,25190.8,,,2002,,
+75,"Ingram Micro, Inc.",Wholesalers: Electronics and Office Equipment,25186.9,,,2002,,INGM
+76,Lucent Technologies Inc.,Network and Other Communications Equipment,25132.0,,,2002,,
+77,Lockheed Martin Corporation,Aerospace & Defense,24793.0,,,2002,,LMT
+78,Walgreen Co.,Food & Drug Stores,24623.0,,,2002,,
+79,Bank One Corporation,Commercial Banks,24527.0,,,2002,,BANK.NE
+80,Teachers Insurance and Annuity Association College Retiremen,"Insurance: Life, Health (Mutual)",24230.6,,,2002,,
+81,Phillips Petroleum Company,Petroleum Refining,24189.0,,,2002,,PSX
+83,Honeywell International Inc.,Aerospace & Defense,23652.0,,,2002,,HON
+84,"UnitedHealth Group, Incorporated",Health Care,23454.0,,,2002,,UNH
+85,Viacom Inc.,Entertainment,23222.8,,,2002,,
+86,Supervalu Inc.,Wholesalers: Food and Grocery,23194.3,,,2002,,
+87,PG&E Corporation,Utilities: Gas and Electric,22959.0,,,2002,,PGE.V
+88,"Alcoa, Inc.",Metals,22859.0,,,2002,,AA
+89,American Express Company,Diversified Financials,22582.0,,,2002,,AXP
+90,Wachovia Corp.,Commercial Banks,22396.0,,,2002,,
+91,"Lehman Brothers Holdings, Inc.",Securities,22392.0,,,2002,,LEHNQ
+92,"Cisco Systems, Inc.",Network and Other Communications Equipment,22293.0,,,2002,,CSCO
+93,CVS Corporation,Food & Drug Stores,22241.4,,,2002,,CVS
+94,BellSouth Corporation,Specialty Retailers,22111.1,,,2002,,KTBA
+95,Sysco Corporation,Wholesalers: Food and Grocery,21784.5,,,2002,,SYY
+96,Bristol-Myers Squibb Company,Pharmaceuticals,21717.0,,,2002,,
+97,Electronic Data Systems Corporation,Computer And Data Services,21543.0,,,2002,,EA
+98,"Caterpillar, Inc.",Industrial and Farm Equipment,20450.0,,,2002,,CAT
+99,The Coca-Cola Company,Beverages,20092.0,,,2002,,
+100,Archer Daniels Midland Company,Food Production,20051.4,,,2002,,ADM
+101,"AutoNation, Inc.","Automotive Retailing, Services",19989.3,,,2002,,AN
+102,Qwest Communications International Inc.,Telecommunications,19743.0,,,2002,,

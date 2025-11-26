@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,General Motors Corporation,Motor Vehicles & Parts,168369.0,,,1997,,GM
+2,Ford Motor Company,Motor Vehicles & Parts,146991.0,,,1997,,F
+3,Exxon Corporation,Petroleum Refining,119434.0,,,1997,,XOM
+4,"Wal-Mart Stores, Inc.",General Merchandisers,106147.0,,,1997,,WMT
+5,General Electric Company,"Electronics, Electrical Equipment",79179.0,,,1997,,GE
+6,International Business Machines Corporation,"Computers, Office Equipment",75947.0,,,1997,,IBM
+7,AT&T Corp.,Telecommunications,74525.0,,,1997,,ATT.L
+8,Mobil Corporation,Petroleum Refining,72267.0,,,1997,,MBLY
+9,Chrysler Corporation,Motor Vehicles & Parts,61397.0,,,1997,,
+10,Philip Morris Companies Inc.,Tobacco,54553.0,,,1997,,TABAK.PR
+11,Texaco Inc.,Petroleum Refining,44561.0,,,1997,,TEXC.NS
+12,State Farm Insurance Companies,Insurance: Property and Casualty (Mutual),42781.2,,,1997,,
+13,Prudential Insurance Company of America,"Insurance: Life, Health (Mutual)",40175.0,,,1997,,PRU
+14,"E.I. du Pont de Nemours and Company, Inc.",Chemicals,39689.0,,,1997,,
+15,Chevron Corporation,Petroleum Refining,38691.0,,,1997,,CVX
+16,Hewlett-Packard Company,"Computers, Office Equipment",38420.0,,,1997,,
+17,"Sears, Roebuck & Company",General Merchandisers,38236.0,,,1997,,
+18,The Procter & Gamble Company,"Soaps, Cosmetics",35284.0,,,1997,,TPG
+19,Amoco Corporation,Petroleum Refining,32726.0,,,1997,,
+20,Citicorp,Commercial Banks,32605.0,,,1997,,
+21,"PepsiCo, Inc.",Food Services,31645.0,,,1997,,PEP
+22,Kmart Corporation,General Merchandisers,31437.0,,,1997,,
+23,"American International Group,Inc.",Insurance: Property and Casualty (Stock),28205.3,,,1997,,AIG
+24,"Motorola, Inc.","Electronics, Electrical Equipment",27973.0,,,1997,,MSI
+25,The Chase Manhattan Corporation,Commercial Banks,27421.0,,,1997,,
+26,Lockheed Martin Corporation,Aerospace & Defense,26875.0,,,1997,,LMT
+27,Dayton Hudson Corporation,General Merchandisers,25371.0,,,1997,,7228.T
+28,The Kroger Company,Food & Drug Stores,25170.9,,,1997,,KR
+29,Fannie Mae,Diversified Financials,25054.0,,,1997,,FNMA
+30,"Merrill Lynch & Co., Inc.",Securities,25011.0,,,1997,,DE000SLA1M99.SG
+31,"ConAgra, Inc.",Food,24821.6,,,1997,,CAG
+32,The Allstate Corporation,Insurance: Property and Casualty (Stock),24299.0,,,1997,,ALL
+33,"J.C. Penney Company, Inc.",General Merchandisers,23649.0,,,1997,,
+34,United Technologies Corporation,Aerospace & Defense,23512.0,,,1997,,
+35,Metropolitan Life Insurance Co.,"Insurance: Life, Health (Stock)",23000.0,,,1997,,MTLA.JK
+36,The Boeing Company,Aerospace & Defense,22681.0,,,1997,,BA
+37,"United Parcel Service of America, Inc.","Mail, Package, and Freight Delivery",22368.0,,,1997,,UPS
+38,BankAmerica Corporation,Commercial Banks,22071.0,,,1997,,
+39,Johnson & Johnson,Pharmaceuticals,21620.0,,,1997,,JNJ
+40,Travelers Group Inc.,Insurance: Property and Casualty (Stock),21345.4,,,1997,,TRV
+41,GTE Corporation,Telecommunications,21339.2,,,1997,,GTE
+42,USX Corporation,Petroleum Refining,21076.0,,,1997,,USXF
+43,Intel Corporation,Semiconductors,20847.0,,,1997,,INTC
+44,International Paper Company,Forest and Paper Products,20143.0,,,1997,,IP
+45,The Dow Chemical Company,Chemicals,20053.0,,,1997,,TDC
+46,Loews Corporation,Insurance: Property and Casualty (Stock),19964.8,,,1997,,L
+47,Columbia/HCA Healthcare Corp.,Health Care,19909.0,,,1997,,
+48,"Merck & Co., Inc.",Pharmaceuticals,19828.7,,,1997,,MRK
+49,"Costco Companies, Inc.",Specialty Retailers,19566.5,,,1997,,
+50,"The Home Depot, Inc.",Specialty Retailers,19535.5,,,1997,,THD
+51,Xerox Corporation,"Computers, Office Equipment",19521.0,,,1997,,XRX
+52,Atlantic Richfield Company,Petroleum Refining,19168.5,,,1997,,
+53,BellSouth Corporation,Telecommunications,19040.0,,,1997,,KTBA
+54,CIGNA Corporation,"Insurance: Life, Health (Stock)",18950.0,,,1997,,CI
+55,The Walt Disney Company,Entertainment,18739.0,,,1997,,DIS
+56,American Stores Company,Food & Drug Stores,18678.1,,,1997,,AXP
+57,Sara Lee Corporation,Food,18624.0,,,1997,,
+58,The Coca-Cola Company,Beverages,18546.0,,,1997,,
+59,MCI Communications Corporation,Telecommunications,18494.0,,,1997,,
+60,Compaq Computer Corporation,"Computers, Office Equipment",18109.0,,,1997,,
+61,AMR Corporation,Airlines,17753.0,,,1997,,AMR
+62,NationsBank Corporation,Commercial Banks,17509.0,,,1997,,
+63,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",17347.0,,,1997,,601336.SS
+64,American Express Company,Diversified Financials,17280.0,,,1997,,AXP
+65,Safeway Inc.,Food & Drug Stores,17269.0,,,1997,,301559.SZ
+66,RJR Nabisco Holdings Corporation,Food,17063.0,,,1997,,BURCA
+67,"Aetna, Inc.","Insurance: Life, Health (Stock)",16900.2,,,1997,,
+68,"Caterpillar, Inc.",Industrial and Farm Equipment,16522.0,,,1997,,CAT
+69,"Fleming Companies, Inc.",Wholesalers,16486.7,,,1997,,FLMNG.SL
+70,"Supervalu, Inc.",Wholesalers,16486.3,,,1997,,
+71,UAL Corporation,Airlines,16362.0,,,1997,,UAL
+72,Eastman Kodak Company,"Scientific, Photographic and Control Equipment",15968.0,,,1997,,KODK
+73,J.P. Morgan & Co. Incorporated,Commercial Banks,15866.0,,,1997,,JPM
+74,Phillips Petroleum Company,Petroleum Refining,15807.0,,,1997,,PSX
+75,"Federated Department Stores, Inc.",General Merchandisers,15229.0,,,1997,,FHI
+76,Bristol-Myers Squibb Company,Pharmaceuticals,15065.0,,,1997,,
+77,Ameritech Corporation,Telecommunications,14917.0,,,1997,,
+78,Digital Equipment Corporation,"Computers, Office Equipment",14562.8,,,1997,,GEN
+79,Rockwell International Corporation,"Electronics, Electrical Equipment",14343.0,,,1997,,ROK
+80,"Lehman Brothers Holdings, Inc.",Securities,14260.0,,,1997,,LEHNQ
+81,Minnesota Mining & Manufacturing Company,"Scientific, Photographic and Control Equipment",14236.0,,,1997,,MMM
+82,Sprint Corporation,Telecommunications,14234.9,,,1997,,SPRINT.ST
+83,American Home Products Corporation,Pharmaceuticals,14088.3,,,1997,,AMH
+85,SBC Communications Inc.,Telecommunications,13898.2,,,1997,,SBC
+86,College Retirement Equities Fund,Diversified Financials,13864.6,,,1997,,
+87,McDonnell Douglas Corporation,Aerospace & Defense,13834.0,,,1997,,
+88,Teachers Insurance & Annuity Association of America,"Insurance: Life, Health (Mutual)",13828.1,,,1997,,
+89,AlliedSignal Inc.,Food & Drug Stores,13776.7,,,1997,,
+90,McKesson Corporation,Wholesalers,13718.8,,,1997,,MCK
+91,NYNEX Corporation,Telecommunications,13453.8,,,1997,,
+92,SYSCO Corporation,Wholesalers,13395.1,,,1997,,SYY
+93,Archer Daniels Midland Company,Food,13314.0,,,1997,,ADM
+94,Enron Corp.,Pipelines,13289.0,,,1997,,
+95,Kimberly-Clark Corporation,Forest and Paper Products,13149.1,,,1997,,
+96,Morgan Stanley Group,Securities,13144.0,,,1997,,MS
+97,Alcoa,Metals,13128.4,,,1997,,AA
+98,The Goodyear Tire & Rubber Company,Rubber and Plastic Products,13112.8,,,1997,,TGT
+99,Bell Atlantic Corporation,Telecommunications,13081.4,,,1997,,
+100,Georgia-Pacific Corporation,Forest and Paper Products,13024.0,,,1997,,
+101,"Winn-Dixie Stores, Inc.",Food & Drug Stores,12955.5,,,1997,,

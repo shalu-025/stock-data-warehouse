@@ -1,0 +1,27 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 20:43:40,486 - INFO - -> started running the process <-
+2025-11-24 20:43:40,488 - INFO - ============================================================
+2025-11-24 20:43:40,488 - INFO - Starting report generation from database
+2025-11-24 20:43:40,488 - INFO - ============================================================
+2025-11-24 20:43:40,488 - INFO - Generating Annual Market Intelligence Report...
+2025-11-24 20:43:40,504 - INFO - Annual report saved: ./reports_out/annual_market_intel_20251124.pdf
+2025-11-24 20:43:40,505 - INFO - Generating Sector Stability & Volatility Report...
+2025-11-24 20:43:40,509 - WARNING - Resilience scores are 0, attempting alternate calculation
+2025-11-24 20:43:40,546 - INFO - Excel report saved: ./reports_out/sector_stability_20251124.xlsx
+2025-11-24 20:43:40,548 - INFO - PDF report saved: ./reports_out/sector_stability_20251124.pdf
+2025-11-24 20:43:40,549 - INFO - Generating Cross Market Analysis Report...
+2025-11-24 20:43:40,558 - INFO - Cross market report saved: ./reports_out/cross_market_20251124.pdf
+2025-11-24 20:43:40,558 - INFO - Generating Forecasting & Prediction Summary...
+2025-11-24 20:43:40,566 - INFO - Forecasting report saved: ./reports_out/forecasting_summary_20251124.pdf
+2025-11-24 20:43:40,566 - INFO - Generating Operational Pipeline Summary...
+2025-11-24 20:43:40,574 - INFO - Pipeline report saved: ./reports_out/pipeline_summary_20251124.pdf
+2025-11-24 20:43:40,574 - INFO - ============================================================
+2025-11-24 20:43:40,574 - INFO - Report generation completed
+2025-11-24 20:43:40,574 - INFO - Reports saved in: ./reports_out
+2025-11-24 20:43:40,574 - INFO - ============================================================

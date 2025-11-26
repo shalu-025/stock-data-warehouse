@@ -1,0 +1,21 @@
+Ticker,Company,Industry,AvgReturn,AvgVolatility,TradingDays
+601336.SS,New York Life Insurance,"Insurance: Life, Health (Mutual)",0.0,0.0,1
+AAL,American Airlines,Airlines,0.0,0.0,1
+ABBV,AbbVie,Pharmaceuticals,0.0,0.0,1
+ACI,Albertsons,Food & Drug Stores,0.0,0.0,1
+ADM,Archer Daniels Midland,Food Production,0.0,0.0,1
+ALL,Allstate,Insurance: Property and Casualty (Stock),0.0,0.0,1
+ALL,Allstate,Insurance: Property and Casualty (Mutual),0.0,0.0,1
+AMZN,Amazon,Internet Services and Retailing,0.0,0.0,1
+APLE,Apple,"Computers, Office Equipment",0.0,0.0,1
+ATT.L,AT&T,Telecommunications,0.0,0.0,1
+AVGO,Broadcom,Semiconductors and Other Electronic Components,0.0,0.0,1
+AXP,American Express,Diversified Financials,0.0,0.0,1
+BA,Boeing,Aerospace & Defense,0.0,0.0,1
+BAC,Bank of America,Commercial Banks,0.0,0.0,1
+CAH,Cardinal Health,Wholesalers: Health Care,0.0,0.0,1
+CAT,Caterpillar,Construction and Farm Machinery,0.0,0.0,1
+CHTR,Charter Communications,Telecommunications,0.0,0.0,1
+CI,Cigna,Health Care: Pharmacy and Other Services,0.0,0.0,1
+CITI.NE,Citi,Commercial Banks,0.0,0.0,1
+CMCSA,Comcast,Telecommunications,0.0,0.0,1

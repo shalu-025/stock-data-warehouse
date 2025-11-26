@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,Walmart,General Merchandisers,559151.0,13510.0,,2021,2300000.0,WMT
+2,Amazon,Internet Services and Retailing,386064.0,21331.0,,2021,1298000.0,AMZN
+3,Apple,"Computers, Office Equipment",274515.0,57411.0,,2021,147000.0,APLE
+4,CVS Health,Health Care: Pharmacy and Other Services,268706.0,7179.0,,2021,256500.0,CVS
+5,UnitedHealth Group,Health Care: Insurance and Managed Care,257141.0,15403.0,,2021,330000.0,UNH
+6,Berkshire Hathaway,Insurance: Property and Casualty (Stock),245510.0,42521.0,,2021,360000.0,BRK.A
+7,McKesson,Wholesalers: Health Care,231051.0,900.0,,2021,70000.0,MCK
+8,AmerisourceBergen,Wholesalers: Health Care,189894.0,3409.0,,2021,21500.0,ABC.VI
+9,Alphabet,Internet Services and Retailing,182527.0,40269.0,,2021,135301.0,GOOGL
+10,Exxon Mobil,Petroleum Refining,181502.0,22440.0,,2021,72000.0,XOM
+11,AT&T,Telecommunications,171760.0,5176.0,,2021,230760.0,ATT.L
+12,Costco Wholesale,General Merchandisers,166761.0,4002.0,,2021,214500.0,COST
+13,Cigna,Health Care: Pharmacy and Other Services,160401.0,8458.0,,2021,72963.0,CI
+14,Cardinal Health,Wholesalers: Health Care,152922.0,3696.0,,2021,48000.0,CAH
+15,Microsoft,Computer Software,143015.0,44281.0,,2021,163000.0,MSFT
+16,Walgreens Boots Alliance,Food & Drug Stores,139537.0,456.0,,2021,277000.0,WBA
+17,Kroger,Food & Drug Stores,132498.0,2585.0,,2021,465000.0,KR
+18,Home Depot,Specialty Retailers: Other,132110.0,12866.0,,2021,504800.0,HD
+19,JPMorgan Chase,Commercial Banks,129503.0,29131.0,,2021,255351.0,JPM
+20,Verizon Communications,Telecommunications,128292.0,17801.0,,2021,132200.0,VZ
+21,Ford Motor,Motor Vehicles & Parts,127144.0,1279.0,,2021,186000.0,F
+22,General Motors,Motor Vehicles & Parts,122485.0,6427.0,,2021,155000.0,GM
+23,Elevance Health,Health Care: Insurance and Managed Care,121867.0,4572.0,,2021,83400.0,ELV
+24,Centene,Health Care: Insurance and Managed Care,111115.0,1808.0,,2021,71300.0,CNC
+25,Fannie Mae,Diversified Financials,106437.0,11805.0,,2021,7700.0,FNMA
+26,Comcast,Telecommunications,103564.0,10534.0,,2021,168000.0,CMCSA
+27,Chevron,Petroleum Refining,94692.0,5543.0,,2021,47736.0,CVX
+28,Dell Technologies,"Computers, Office Equipment",94224.0,3250.0,,2021,158000.0,DELL
+29,Bank of America,Commercial Banks,93753.0,17894.0,,2021,212505.0,BAC
+30,Target,General Merchandisers,93561.0,4368.0,,2021,409000.0,TGT
+31,Lowe's,Specialty Retailers: Other,89597.0,5835.0,,2021,280000.0,X1G.PA
+32,Marathon Petroleum,Petroleum Refining,88952.0,9826.0,,2021,57900.0,MPC
+33,Citigroup,Commercial Banks,88839.0,11047.0,,2021,210153.0,C
+34,Meta Platforms,Internet Services and Retailing,85965.0,29146.0,,2021,58604.0,META
+35,UPS,"Mail, Package, and Freight Delivery",84628.0,1343.0,,2021,408255.0,UPS
+36,Johnson & Johnson,Pharmaceuticals,82584.0,14714.0,,2021,134500.0,JNJ
+37,Wells Fargo,Commercial Banks,80303.0,3301.0,,2021,268531.0,WFC
+38,General Electric,Industrial Machinery,79619.0,5704.0,,2021,184000.0,GE
+39,State Farm Insurance,Insurance: Property and Casualty (Mutual),78898.0,3739.0,,2021,57582.0,
+40,Intel,Semiconductors and Other Electronic Components,77867.0,20899.0,,2021,110600.0,INTC
+41,Humana,Health Care: Insurance and Managed Care,77155.0,3367.0,,2021,48700.0,HUM.ST
+42,IBM,Information Technology Services,73620.0,5590.0,,2021,364800.0,IBM
+43,Procter & Gamble,Household and Personal Products,70950.0,13027.0,,2021,99000.0,PG
+44,PepsiCo,Food Consumer Products,70372.0,7120.0,,2021,291000.0,PEP
+45,FedEx,"Mail, Package, and Freight Delivery",69217.0,1286.0,,2021,418000.0,FDX
+46,MetLife,"Insurance: Life, Health (Stock)",67842.0,5407.0,,2021,46500.0,MET
+47,Freddie Mac,Diversified Financials,66228.0,7326.0,,2021,6922.0,FMCC
+48,Phillips 66,Petroleum Refining,65494.0,3975.0,,2021,14300.0,PSX
+49,Lockheed Martin,Aerospace & Defense,65398.0,6833.0,,2021,114000.0,LMT
+50,Walt Disney,Entertainment,65388.0,2864.0,,2021,203000.0,DIS
+51,Archer Daniels Midland,Food Production,64355.0,1772.0,,2021,38332.0,ADM
+52,Albertsons,Food & Drug Stores,62455.0,466.0,,2021,270000.0,ACI
+53,Valero Energy,Petroleum Refining,60115.0,1421.0,,2021,9964.0,VLO
+54,Boeing,Aerospace & Defense,58158.0,11873.0,,2021,141000.0,BA
+55,Prudential Financial,"Insurance: Life, Health (Stock)",57033.0,374.0,,2021,41671.0,PRU
+56,HP,"Computers, Office Equipment",56639.0,2844.0,,2021,53000.0,HP
+57,Raytheon Technologies,Aerospace & Defense,56587.0,3519.0,,2021,181000.0,^RTX
+58,StoneX Group,Diversified Financials,54140.0,170.0,,2021,2950.0,SNEX
+59,Goldman Sachs Group,Commercial Banks,53498.0,9459.0,,2021,40500.0,GS
+60,Sysco,Wholesalers: Food and Grocery,52893.0,216.0,,2021,57000.0,SYY
+61,Morgan Stanley,Commercial Banks,52047.0,10996.0,,2021,68097.0,MS
+62,HCA Healthcare,Health Care: Medical Facilities,51533.0,3754.0,,2021,235000.0,HCA
+63,Cisco Systems,Network and Other Communications Equipment,49301.0,11214.0,,2021,77500.0,CSCO
+64,Charter Communications,Telecommunications,48097.0,3222.0,,2021,96100.0,CHTR
+65,Merck,Pharmaceuticals,47994.0,7067.0,,2021,73500.0,MRK
+66,Best Buy,Specialty Retailers: Other,47262.0,1798.0,,2021,81600.0,BBY
+67,New York Life Insurance,"Insurance: Life, Health (Mutual)",46712.0,822.0,,2021,11506.0,601336.SS
+68,AbbVie,Pharmaceuticals,45804.0,4616.0,,2021,47000.0,ABBV
+69,Publix Super Markets,Food & Drug Stores,45204.0,3972.0,,2021,227000.0,
+70,Allstate,Insurance: Property and Casualty (Stock),44791.0,5576.0,,2021,42010.0,ALL
+71,Liberty Mutual Insurance Group,Insurance: Property and Casualty (Stock),43796.0,758.0,,2021,45000.0,LFG.AX
+72,AIG,Insurance: Property and Casualty (Stock),43736.0,5944.0,,2021,45000.0,AIG
+73,Tyson Foods,Food Production,43185.0,2061.0,,2021,139000.0,TSN
+74,Progressive,Insurance: Property and Casualty (Stock),42658.0,5705.0,,2021,43326.0,PGR
+75,Bristol-Myers Squibb,Pharmaceuticals,42518.0,9015.0,,2021,30250.0,
+76,Nationwide,Insurance: Property and Casualty (Mutual),41930.0,138.0,,2021,25391.0,NATWIDE.KL
+77,Pfizer,Pharmaceuticals,41908.0,9616.0,,2021,78500.0,PFIZER.NS
+78,Caterpillar,Construction and Farm Machinery,41748.0,2998.0,,2021,97300.0,CAT
+79,TIAA,"Insurance: Life, Health (Mutual)",41619.0,558.0,,2021,14953.0,TILIX
+80,Oracle,Computer Software,39068.0,10135.0,,2021,135000.0,ORCL
+81,Energy Transfer,Pipelines,38954.0,648.0,,2021,11421.0,ET
+82,Dow,Chemicals,38542.0,1225.0,,2021,35700.0,DOW
+83,American Express,Diversified Financials,38185.0,3135.0,,2021,63700.0,AXP
+84,General Dynamics,Aerospace & Defense,37925.0,3167.0,,2021,100700.0,GD
+85,Nike,Apparel,37403.0,2539.0,,2021,75400.0,NKE
+86,Northrop Grumman,Aerospace & Defense,36799.0,3189.0,,2021,97000.0,NOC
+87,USAA,Insurance: Property and Casualty (Stock),36296.0,3907.0,,2021,35935.0,UIPMX
+88,Deere,Construction and Farm Machinery,35540.0,2751.0,,2021,69634.0,DE
+89,Abbott Laboratories,Medical Products and Equipment,34608.0,4495.0,,2021,109000.0,ABT
+90,Northwestern Mutual,"Insurance: Life, Health (Mutual)",33782.0,425.0,,2021,6641.0,NWE
+91,Dollar General,Specialty Retailers: Other,33747.0,2655.0,,2021,158000.0,DG
+92,Exelon,Utilities: Gas and Electric,33039.0,1963.0,,2021,32340.0,EXC
+93,Coca-Cola,Beverages,33014.0,7747.0,,2021,80300.0,COLA.WA
+94,Honeywell International,"Electronics, Electrical Equipment",32637.0,4779.0,,2021,103000.0,HON
+95,Thermo Fisher Scientific,"Scientific, Photographic and Control Equipment",32218.0,6375.0,,2021,84362.0,TMO
+96,3M,Chemicals,32184.0,5384.0,,2021,94987.0,MMM
+97,TJX,Specialty Retailers: Apparel,32137.0,91.0,,2021,320000.0,TJX
+98,Travelers,Insurance: Property and Casualty (Stock),31981.0,2697.0,,2021,30294.0,TRV
+99,Capital One Financial,Commercial Banks,31643.0,2714.0,,2021,51985.0,COF
+100,Tesla,Motor Vehicles & Parts,31536.0,721.0,,2021,70757.0,TSLA

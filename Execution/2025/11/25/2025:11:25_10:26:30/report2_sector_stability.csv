@@ -1,0 +1,37 @@
+SectorName,SectorCode,AvgVolatility,AvgReturn,Resilience,AvgRank,CompanyCount
+"Aerospace, Defense",AERO,0.0,0.0,0.0,1.0,3
+Airlines,AIRL,0.0,0.0,0.0,1.0,2
+Apparel,APPA,0.0,0.0,0.0,1.0,1
+Beverage,BEVE,0.0,0.0,0.0,1.0,1
+Chemicals,CHEM,0.0,0.0,0.0,1.0,1
+Commercial Banks,COMM,0.0,0.0,0.0,1.0,7
+Computer Software,COMP,0.0,0.0,0.0,1.0,2
+"Computers, Office Equipment",COMP,0.0,0.0,0.0,1.0,2
+Construction And Farm Machinery,CONS,0.0,0.0,0.0,1.0,2
+Diversified Financials,DIVE,0.0,0.0,0.0,1.0,4
+Energy,ENER,0.0,0.0,0.0,1.0,1
+Entertainment,ENTE,0.0,0.0,0.0,1.0,1
+Financial Services,FINA,0.0,0.0,0.0,1.0,1
+Food & Drug Stores,FOOD,0.0,0.0,0.0,1.0,2
+Food Consumer Products,FOOD,0.0,0.0,0.0,1.0,1
+Food Production,FOOD,0.0,0.0,0.0,1.0,3
+General Merchandisers,GENE,0.0,0.0,0.0,1.0,3
+Health Care,HEAL,0.0,0.0,0.0,1.0,6
+Health Care: Medical Facilities,HEAL,0.0,0.0,0.0,1.0,1
+Household And Personal Products,HOUS,0.0,0.0,0.0,1.0,1
+Industrial Machinery,INDU,0.0,0.0,0.0,1.0,1
+Information Technology Services,INFO,0.0,0.0,0.0,1.0,1
+Insurance,INSU,0.0,0.0,0.0,1.0,8
+Internet Services And Retailing,INTE,0.0,0.0,0.0,1.0,2
+"Mail, Package, And Freight Delivery",MAIL,0.0,0.0,0.0,1.0,2
+Metals & Mining,META,0.0,0.0,0.0,1.0,1
+"Mining, Crude-Oil Production",MINI,0.0,0.0,0.0,1.0,1
+Motor Vehicles & Parts,MOTO,0.0,0.0,0.0,1.0,3
+Network And Other Communications Equipment,NETW,0.0,0.0,0.0,1.0,1
+Petroleum Refining,PETR,0.0,0.0,0.0,1.0,5
+Pharmaceutical,PHAR,0.0,0.0,0.0,1.0,4
+Pipelines,PIPE,0.0,0.0,0.0,1.0,3
+Semiconductor And Electronics,SEMI,0.0,0.0,0.0,1.0,2
+Specialty Retailers,SPEC,0.0,0.0,0.0,1.0,4
+Telecommunications,TELE,0.0,0.0,0.0,1.0,4
+Wholesalers,WHOL,0.0,0.0,0.0,1.0,6

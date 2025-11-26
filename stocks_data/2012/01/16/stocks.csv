@@ -1,0 +1,8 @@
+company,ticker,date,open,high,low,close,volume
+AT&T Inc.,ATT.L,2012-01-16,29.3,29.6,29.3,29.65,81500
+Pfizer Inc.,PFIZER.NS,2012-01-16,698.11,703.53,695.59,698.75,2454
+Kraft Foods Inc.,1959.T,2012-01-16,334.07,336.21,329.81,336.21,7000
+Express Scripts Holding Company,ESH.BE,2012-01-16,7.15,7.22,7.15,7.22,338
+World Fuel Services Corporation,WFK.BE,2012-01-16,28.07,28.07,28.07,28.07,0
+New York Life Insurance Company,601336.SS,2012-01-16,22.43,22.64,21.39,21.51,3600578
+Sprint Nextel Corporation,SIX.AX,2012-01-16,1.2,1.5,1.2,1.5,2408

@@ -1,0 +1,12 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 18:21:25,406 - INFO - -> started running the process <-
+2025-11-24 18:21:25,406 - INFO - ============================================================
+2025-11-24 18:21:25,406 - INFO - Starting Analytical Layer Processing
+2025-11-24 18:21:25,406 - INFO - ============================================================
+2025-11-24 18:21:25,406 - ERROR - File not found: /path/to/Execution/2025/11/24/2025:11:24_15:26:59/stock_facts.csv

@@ -1,0 +1,229 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 14:15:57,776 - INFO - ===== started running the process ======
+2025-11-25 14:15:57,821 - INFO - 
+============================================================
+2025-11-25 14:15:57,821 - INFO - Fetching LIVE data for 2025
+2025-11-25 14:15:57,821 - INFO - Date: 2025-11-25
+2025-11-25 14:15:57,823 - INFO - Total companies with tickers: 96
+2025-11-25 14:15:57,823 - INFO - Today's data already exists — skipping
+2025-11-25 14:15:57,823 - INFO - 
+============================================================
+2025-11-25 14:15:57,823 - INFO - Creating LIVE company metadata for 2025
+2025-11-25 14:15:57,823 - INFO - Metadata already exists — skipping
+2025-11-25 14:15:57,823 - INFO - 
+============================================================
+2025-11-25 14:15:57,823 - INFO - creating LIVE macro data for 2025
+2025-11-25 14:15:57,823 - INFO - current year data already exists — skipping
+2025-11-25 14:15:57,823 - INFO - sentiment already exists — skipping
+2025-11-25 14:15:57,823 - INFO - 
+============================================================
+2025-11-25 14:15:57,823 - INFO - Fetching LIVE exchange rates (USD-INR) from FRED for 2025
+2025-11-25 14:15:57,823 - INFO - Current year data already exists — skipping
+2025-11-25 14:15:57,823 - INFO - Starting merge process
+2025-11-25 14:15:57,823 - INFO - Mode: Live
+2025-11-25 14:15:57,823 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:15:57
+2025-11-25 14:15:57,823 - INFO - 
+============================================================
+2025-11-25 14:15:57,823 - INFO - Processing BASE TABLE (stocks_raw)
+2025-11-25 14:15:57,823 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-25 14:15:57,824 - INFO - Read 93 rows from stocks_raw
+2025-11-25 14:15:57,838 - INFO - Validation complete for stocks_raw: valid=93, invalid=0
+2025-11-25 14:15:57,839 - INFO - Removed 1 duplicate records based on ticker-date
+2025-11-25 14:15:57,840 - INFO - Valid: 92, Invalid: 0
+2025-11-25 14:15:57,853 - INFO - Table stocks_raw created
+2025-11-25 14:15:57,872 - INFO - Inserted 92 rows into stocks_raw
+2025-11-25 14:15:57,872 - INFO - Loaded 92 rows to stocks_raw
+2025-11-25 14:15:57,872 - INFO - Base table established with 92 records
+2025-11-25 14:15:57,872 - INFO - Found 92 unique tickers: 601336.SS, AAL, ABBV, ACI, ADM, ALL, AMZN, APLE, ATT.L, AVGO, AXP, BA, BAC, CAH, CAT, CHTR, CI, CITI.NE, CMCSA, CNC, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, ELV, EPD, ET, F, FDX, FMCC, FNMA, GD, GM, GOOGL, GSBD, HCA, HD, HP, HUM.ST, IBM, INGM, INTC, JNJ, JPM, KR, LLY, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TRV, TSLA, TSN, UAL, UIPMX, UNH, UPS, VLO, VZ, WFC, WMT, X1G.PA, XOM
+2025-11-25 14:15:57,872 - INFO - 
+============================================================
+2025-11-25 14:15:57,872 - INFO - Processing DEPENDENT TABLES
+2025-11-25 14:15:57,872 - INFO - Processing company_metadata
+2025-11-25 14:15:57,873 - INFO - Read 93 rows from company_metadata/2025/company_details.csv
+2025-11-25 14:15:57,873 - INFO - Filtered to 6 columns matching table structure
+2025-11-25 14:15:57,877 - INFO - Validation complete for company_metadata: valid=93, invalid=0
+2025-11-25 14:15:57,879 - INFO - Valid: 93, Invalid: 0
+2025-11-25 14:15:57,883 - INFO - Table company_metadata created successfully
+2025-11-25 14:15:57,894 - INFO - Successfully inserted 93/93 rows into company_metadata
+2025-11-25 14:15:57,894 - INFO - Loaded 93 rows to company_metadata
+2025-11-25 14:15:57,894 - INFO - company_metadata processed and linked to stocks_raw
+2025-11-25 14:15:57,894 - INFO - 
+============================================================
+2025-11-25 14:15:57,894 - INFO - Processing INDEPENDENT TABLES
+2025-11-25 14:15:57,894 - INFO - Processing exchange_rates
+2025-11-25 14:15:57,895 - INFO - Read 219 rows from exchange_rates
+2025-11-25 14:15:57,920 - INFO - Validation complete for exchange_rates: valid=219, invalid=0
+2025-11-25 14:15:57,923 - INFO - Valid: 219, Invalid: 0
+2025-11-25 14:15:57,929 - INFO - Table exchange_rates created
+2025-11-25 14:15:57,953 - INFO - Inserted 219 rows into exchange_rates
+2025-11-25 14:15:57,953 - INFO - Loaded 219 rows to exchange_rates
+2025-11-25 14:15:57,953 - INFO - exchange_rates processed
+2025-11-25 14:15:57,953 - INFO - Processing macro_raw
+2025-11-25 14:15:57,954 - INFO - Read 4 rows from macro_raw
+2025-11-25 14:15:57,954 - INFO - Validation complete for macro_raw: valid=4, invalid=0
+2025-11-25 14:15:57,955 - INFO - Valid: 4, Invalid: 0
+2025-11-25 14:15:57,959 - INFO - Table macro_raw created
+2025-11-25 14:15:57,960 - INFO - Inserted 4 rows into macro_raw
+2025-11-25 14:15:57,960 - INFO - Loaded 4 rows to macro_raw
+2025-11-25 14:15:57,960 - INFO - macro_raw processed
+2025-11-25 14:15:57,960 - INFO - 
+============================================================
+2025-11-25 14:15:57,960 - INFO - Processing SENTIMENT DATA
+2025-11-25 14:15:57,960 - INFO - Processing sentiment
+2025-11-25 14:15:57,960 - INFO - Read 4 rows from sentiment
+2025-11-25 14:15:57,961 - INFO - Validation complete for sentiment: valid=4, invalid=0
+2025-11-25 14:15:57,962 - INFO - Valid: 4, Invalid: 0
+2025-11-25 14:15:57,966 - INFO - Table sentiment created
+2025-11-25 14:15:57,967 - INFO - Inserted 4 rows into sentiment
+2025-11-25 14:15:57,967 - INFO - Loaded 4 rows to sentiment
+2025-11-25 14:15:57,967 - INFO - sentiment processed and linked to stocks_raw
+2025-11-25 14:15:57,967 - INFO - 
+============================================================
+2025-11-25 14:15:57,967 - INFO - KPI CALCULATIONS AND FACT TABLE GENERATION
+2025-11-25 14:15:57,967 - INFO - Starting KPI calculations
+2025-11-25 14:15:57,968 - INFO - Loaded stocks_raw: 92 rows
+2025-11-25 14:15:57,968 - INFO - Loaded macro_raw: 4 rows
+2025-11-25 14:15:57,968 - INFO - Loaded company_metadata: 93 rows
+2025-11-25 14:15:57,968 - INFO - Loaded exchange_rates: 219 rows
+2025-11-25 14:15:57,969 - INFO - Calculating stock_facts metrics...
+2025-11-25 14:15:57,988 - INFO - Stock facts calculated: 92 rows
+2025-11-25 14:15:57,988 - INFO - Calculating macro_facts metrics...
+2025-11-25 14:15:57,992 - INFO - Macro facts calculated: 4 rows
+2025-11-25 14:15:57,992 - INFO - Creating sector_lookup...
+2025-11-25 14:15:57,992 - INFO - Sector lookup created: 38 sectors
+2025-11-25 14:15:57,992 - INFO - Calculating analytics_summary metrics...
+2025-11-25 14:15:58,064 - INFO - Removed 1 duplicate analytics_summary records based on ticker-year-quarter
+2025-11-25 14:15:58,066 - INFO - Analytics summary calculated: 92 rows
+2025-11-25 14:15:58,066 - INFO - 
+============================================================
+2025-11-25 14:15:58,066 - INFO - KPI calculations completed successfully
+2025-11-25 14:15:58,066 - INFO - Generated files: stock_facts.csv, macro_facts.csv, sector_lookup.csv, analytics_summary.csv, pipeline_logs.csv
+2025-11-25 14:15:58,066 - INFO - KPI calculations completed successfully
+2025-11-25 14:15:58,070 - INFO - Table stock_facts created
+2025-11-25 14:15:58,090 - INFO - Inserted 92 rows into stock_facts
+2025-11-25 14:15:58,090 - INFO - Loaded stock_facts to database
+2025-11-25 14:15:58,095 - INFO - Table macro_facts created
+2025-11-25 14:15:58,096 - INFO - Inserted 4 rows into macro_facts
+2025-11-25 14:15:58,096 - INFO - Loaded macro_facts to database
+2025-11-25 14:15:58,099 - INFO - Table sector_lookup created
+2025-11-25 14:15:58,103 - INFO - Inserted 38 rows into sector_lookup
+2025-11-25 14:15:58,103 - INFO - Loaded sector_lookup to database
+2025-11-25 14:15:58,105 - INFO - Table analytics_summary created
+2025-11-25 14:15:58,117 - INFO - Inserted 92 rows into analytics_summary
+2025-11-25 14:15:58,117 - INFO - Loaded analytics_summary to database
+2025-11-25 14:15:58,117 - INFO - 
+================================================================================
+2025-11-25 14:15:58,117 - INFO - REPORT GENERATION STARTED
+2025-11-25 14:15:58,117 - INFO - Created directory: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:15:57/reports
+2025-11-25 14:15:58,117 - INFO - 
+============================================================
+2025-11-25 14:15:58,117 - INFO - Generating Report 1: Annual Market Intelligence Report
+2025-11-25 14:15:58,176 - INFO - Fetched 3 rows for yearly performance
+2025-11-25 14:15:58,191 - INFO - Fetched 20 rows for company performance
+2025-11-25 14:15:58,192 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:15:57/report1_yearly_performance.csv
+2025-11-25 14:15:58,192 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:15:57/report1_company_performance.csv
+2025-11-25 14:15:58,193 - ERROR - Failed to generate annual market intelligence report: not enough values to unpack (expected 4, got 3)
+2025-11-25 14:15:58,194 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 226, in annual_market_intelligence_report
+    y=draw_table(c, table_data, y=y, col_widths=[20*mm, 25*mm, 28*mm, 32*mm, 25*mm, 20*mm, 25*mm])
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 133, in draw_table
+    table.drawOn(c, x, y-table_height)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 112, in drawOn
+    self._drawOn(canvas)
+    ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 93, in _drawOn
+    self.draw()#this is the bit you overload
+    ~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2340, in draw
+    self._drawBkgrnd()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2399, in _drawBkgrnd
+    for cmd, (sc, sr), (ec, er), arg in self._bkgrndcmds:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)
+
+2025-11-25 14:15:58,194 - INFO - 
+============================================================
+2025-11-25 14:15:58,194 - INFO - Generating Report 2: Sector Stability & Volatility Report
+2025-11-25 14:15:58,197 - INFO - Fetched 53 rows for sector metrics
+2025-11-25 14:15:58,198 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:15:57/report2_sector_stability.csv
+2025-11-25 14:15:58,234 - INFO - Saved Excel: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:15:57/reports/report2_sector_stability_20251125_141558.xlsx
+2025-11-25 14:15:58,235 - ERROR - Failed to generate sector stability report: not enough values to unpack (expected 4, got 3)
+2025-11-25 14:15:58,235 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 346, in sector_stability_volatility_report
+    y=draw_table(c, table_data, y=y, col_widths=[40*mm, 20*mm, 25*mm, 25*mm, 25*mm, 20*mm, 25*mm])
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 133, in draw_table
+    table.drawOn(c, x, y-table_height)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 112, in drawOn
+    self._drawOn(canvas)
+    ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 93, in _drawOn
+    self.draw()#this is the bit you overload
+    ~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2340, in draw
+    self._drawBkgrnd()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2399, in _drawBkgrnd
+    for cmd, (sc, sr), (ec, er), arg in self._bkgrndcmds:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)
+
+2025-11-25 14:15:58,235 - INFO - 
+============================================================
+2025-11-25 14:15:58,235 - INFO - Generating Report 3: Cross-Market Analysis Report
+2025-11-25 14:15:58,259 - INFO - Fetched 3 rows for yearly currency data
+2025-11-25 14:15:58,259 - INFO - Fetched 20 rows for company currency data
+2025-11-25 14:15:58,260 - ERROR - Failed to generate cross-market analysis report: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 3 and the array at index 1 has size 2
+2025-11-25 14:15:58,261 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 418, in cross_market_analysis_report
+    correlation=np.corrcoef(returns, exchange)[0, 1] if len(returns)>1 and len(exchange)>1 else 0
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py", line 3057, in corrcoef
+    c = cov(x, y, rowvar, dtype=dtype)
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py", line 2849, in cov
+    X = np.concatenate((X, y), axis=0)
+ValueError: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 3 and the array at index 1 has size 2
+
+2025-11-25 14:15:58,261 - INFO - 
+============================================================
+2025-11-25 14:15:58,261 - INFO - Generating Report 4: Forecasting & Prediction Summary
+2025-11-25 14:15:58,264 - INFO - Fetched 6 rows for quarterly trends
+2025-11-25 14:15:58,265 - INFO - Fetched 37 rows for sector forecast
+2025-11-25 14:15:58,265 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:15:57/report4_quarterly_trends.csv
+2025-11-25 14:15:58,266 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_14:15:57/report4_sector_forecast.csv
+2025-11-25 14:15:58,266 - ERROR - Failed to generate forecasting summary: not enough values to unpack (expected 4, got 3)
+2025-11-25 14:15:58,267 - ERROR - Traceback (most recent call last):
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 594, in forecasting_prediction_summary
+    y=draw_table(c, table_data, y=y, col_widths=[20*mm, 15*mm, 28*mm, 28*mm, 28*mm, 26*mm, 30*mm])
+  File "/Users/shalinitata/Desktop/stocks/report.py", line 133, in draw_table
+    table.drawOn(c, x, y-table_height)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 112, in drawOn
+    self._drawOn(canvas)
+    ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/flowables.py", line 93, in _drawOn
+    self.draw()#this is the bit you overload
+    ~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2340, in draw
+    self._drawBkgrnd()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Users/shalinitata/Desktop/stocks/stocks/lib/python3.13/site-packages/reportlab/platypus/tables.py", line 2399, in _drawBkgrnd
+    for cmd, (sc, sr), (ec, er), arg in self._bkgrndcmds:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)
+
+2025-11-25 14:15:58,267 - INFO - 
+================================================================================
+2025-11-25 14:15:58,267 - INFO - REPORT GENERATION COMPLETED SUCCESSFULLY
+2025-11-25 14:15:58,267 - INFO - 
+================================================================================
+
+********** END OF LOG FILE **********

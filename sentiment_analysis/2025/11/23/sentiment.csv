@@ -1,0 +1,8 @@
+ticker,company,date,sentiment_score,article_count,bullish,bearish,neutral
+WMT,Walmart,2025-11-23,0.3,10,3,0,7
+AMZN,Amazon,2025-11-23,-0.1,10,1,2,7
+UNH,UnitedHealth,2025-11-23,-1.0,1,0,1,0
+APLE,Apple,2025-11-23,-0.3,10,0,3,7
+CVS,CVS Health,2025-11-23,0.5,2,1,0,1
+GOOGL,Alphabet,2025-11-23,0.0,10,3,3,4
+XOM,Exxon Mobil,2025-11-23,1.0,1,1,0,0

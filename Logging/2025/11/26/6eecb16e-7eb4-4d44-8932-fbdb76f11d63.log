@@ -1,0 +1,25 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-26 06:26:24,299 - INFO - ===== started running the process ======
+2025-11-26 06:26:24,299 - INFO - ============================================================
+2025-11-26 06:26:24,299 - INFO - Stock Data Watcher Started
+2025-11-26 06:26:24,299 - INFO - ============================================================
+2025-11-26 06:26:24,299 - INFO - Starting live data scheduler...
+2025-11-26 06:26:24,300 - INFO - Live scheduler started successfully
+2025-11-26 06:26:24,301 - INFO - Watching 'watch_folder/' for config files...
+2025-11-26 06:26:24,301 - INFO - Drop JSON configs with start_date and end_date for historical processing
+2025-11-26 06:26:54,977 - INFO - Modified config detected: /Users/shalinitata/Desktop/stocks/watch_folder/test.json
+2025-11-26 06:26:54,980 - INFO - Processing historical range: 1996-01-01 to 2025-11-25
+2025-11-26 06:26:54,980 - INFO - Triggering check.py for historical processing
+2025-11-26 06:50:08,544 - INFO - Modified config detected: /Users/shalinitata/Desktop/stocks/watch_folder/test.json
+2025-11-26 06:50:08,546 - INFO - Processing historical range: 1996-01-01 to 2025-11-25
+2025-11-26 06:50:08,546 - INFO - Triggering check.py for historical processing
+2025-11-26 06:51:53,068 - INFO - 
+Shutting down watcher...
+2025-11-26 06:51:53,070 - INFO - Live scheduler stopped
+2025-11-26 06:51:53,070 - INFO - Watcher stopped

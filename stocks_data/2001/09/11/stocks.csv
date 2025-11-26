@@ -1,0 +1,5 @@
+company,ticker,date,open,high,low,close,volume
+AT&T Corp.,ATT.L,2001-09-11,25.4,25.4,25.4,25.4,0
+Philip Morris Companies Inc.,TABAK.PR,2001-09-11,729.31,734.05,729.31,731.16,30
+"Reliant Energy, Incorporated",RELIANCE.NS,2001-09-11,16.8,16.88,16.66,16.77,14673580
+El Paso Corporation,EL.PA,2001-09-11,9.67,9.78,9.53,9.78,1107935

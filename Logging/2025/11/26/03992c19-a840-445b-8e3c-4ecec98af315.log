@@ -1,0 +1,77 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-26 14:31:37,977 - INFO - ===== started running the process ======
+2025-11-26 14:31:57,512 - INFO - Created config file: watch_folder/config_20251126_143157_86f0bca9.json
+2025-11-26 14:31:57,513 - INFO - Date range: 2025-10-27 to 2025-11-26
+2025-11-26 14:31:57,517 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:30/reports
+2025-11-26 14:31:57,519 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:31/reports
+2025-11-26 14:31:57,522 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:32/reports
+2025-11-26 14:31:57,523 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:33/reports
+2025-11-26 14:31:57,525 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:34/reports
+2025-11-26 14:31:57,527 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:35/reports
+2025-11-26 14:31:57,529 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:36/reports
+2025-11-26 14:31:57,530 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:37/reports
+2025-11-26 14:32:00,537 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:30/reports
+2025-11-26 14:32:00,541 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:31/reports
+2025-11-26 14:32:00,544 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:32/reports
+2025-11-26 14:32:00,546 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:33/reports
+2025-11-26 14:32:00,548 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:34/reports
+2025-11-26 14:32:00,549 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:35/reports
+2025-11-26 14:32:00,551 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:36/reports
+2025-11-26 14:32:00,553 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:37/reports
+2025-11-26 14:32:03,534 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:30/reports
+2025-11-26 14:32:03,536 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:31/reports
+2025-11-26 14:32:03,538 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:32/reports
+2025-11-26 14:32:03,539 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:33/reports
+2025-11-26 14:32:03,541 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:34/reports
+2025-11-26 14:32:03,542 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:35/reports
+2025-11-26 14:32:03,543 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:36/reports
+2025-11-26 14:32:03,544 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:37/reports
+2025-11-26 14:32:06,533 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:30/reports
+2025-11-26 14:32:06,534 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:31/reports
+2025-11-26 14:32:06,535 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:32/reports
+2025-11-26 14:32:06,536 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:33/reports
+2025-11-26 14:32:06,537 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:34/reports
+2025-11-26 14:32:06,538 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:35/reports
+2025-11-26 14:32:06,539 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:36/reports
+2025-11-26 14:32:06,540 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:37/reports
+2025-11-26 14:32:09,535 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:30/reports
+2025-11-26 14:32:09,539 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:31/reports
+2025-11-26 14:32:09,542 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:32/reports
+2025-11-26 14:32:09,543 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:33/reports
+2025-11-26 14:32:09,545 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:34/reports
+2025-11-26 14:32:09,547 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:35/reports
+2025-11-26 14:32:09,548 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:36/reports
+2025-11-26 14:32:09,549 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:37/reports
+2025-11-26 14:32:12,536 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:30/reports
+2025-11-26 14:32:12,541 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:31/reports
+2025-11-26 14:32:12,544 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:32/reports
+2025-11-26 14:32:12,546 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:33/reports
+2025-11-26 14:32:12,548 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:34/reports
+2025-11-26 14:32:12,550 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:35/reports
+2025-11-26 14:32:12,551 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:36/reports
+2025-11-26 14:32:12,552 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:37/reports
+2025-11-26 14:32:15,537 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:30/reports
+2025-11-26 14:32:15,542 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:31/reports
+2025-11-26 14:32:15,544 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:32/reports
+2025-11-26 14:32:15,546 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:33/reports
+2025-11-26 14:32:15,549 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:34/reports
+2025-11-26 14:32:15,550 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:35/reports
+2025-11-26 14:32:15,552 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:36/reports
+2025-11-26 14:32:15,554 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:37/reports
+2025-11-26 14:32:18,535 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:30/reports
+2025-11-26 14:32:18,539 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:31/reports
+2025-11-26 14:32:18,541 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:32/reports
+2025-11-26 14:32:18,543 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:33/reports
+2025-11-26 14:32:18,544 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:34/reports
+2025-11-26 14:32:18,545 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:35/reports
+2025-11-26 14:32:18,546 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:36/reports
+2025-11-26 14:32:18,548 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:37/reports
+2025-11-26 14:32:22,341 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:30/reports
+2025-11-26 14:32:22,343 - INFO - Reports directory does not exist yet: Execution/2025/11/26/14:31/reports
+2025-11-26 14:32:22,346 - INFO - Found 4 reports in Execution/2025/11/26/14:32/reports

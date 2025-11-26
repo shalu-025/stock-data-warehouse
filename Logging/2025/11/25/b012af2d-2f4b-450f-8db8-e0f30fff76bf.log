@@ -1,0 +1,16 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 18:22:57,361 - INFO - ===== started running the process ======
+2025-11-25 18:27:01,191 - INFO - Created config file: watch_folder/config_20251125_182701_8026203e.json
+2025-11-25 18:27:01,191 - INFO - Date range: 2025-11-20 to 2025-11-22
+2025-11-25 18:32:11,994 - INFO - Created config file: watch_folder/config_20251125_183211_817ad10d.json
+2025-11-25 18:32:11,995 - INFO - Date range: 2025-11-20 to 2025-11-22
+2025-11-25 18:32:20,747 - INFO - Created config file: watch_folder/config_20251125_183220_0a75b27b.json
+2025-11-25 18:32:20,748 - INFO - Date range: 2025-11-20 to 2025-11-22
+2025-11-25 18:37:00,370 - INFO - Created config file: watch_folder/config_20251125_183700_492a1915.json
+2025-11-25 18:37:00,371 - INFO - Date range: 2025-11-20 to 2025-11-23

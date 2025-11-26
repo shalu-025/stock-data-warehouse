@@ -1,0 +1,519 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 22:58:08,002 - INFO - -> started running the process <-
+2025-11-24 22:58:08,069 - INFO - 
+============================================================
+2025-11-24 22:58:08,069 - INFO - Fetching LIVE data for 2025
+2025-11-24 22:58:08,069 - INFO - Date: 2025-11-24
+2025-11-24 22:58:08,069 - INFO - ============================================================
+2025-11-24 22:58:08,072 - INFO - Total companies with tickers: 96
+2025-11-24 22:58:08,074 - INFO - Today's file exists but missing 3 tickers — will append missing
+2025-11-24 22:58:08,074 - INFO - 
+[1/96] Walmart (WMT)
+2025-11-24 22:58:08,813 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:08,914 - INFO - 
+[2/96] Amazon (AMZN)
+2025-11-24 22:58:08,996 - INFO -   Got data for 2025-11-21
+2025-11-24 22:58:09,101 - INFO - 
+[3/96] UnitedHealth (UNH)
+2025-11-24 22:58:09,225 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:09,330 - INFO - 
+[4/96] Apple (APLE)
+2025-11-24 22:58:09,420 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:09,526 - INFO - 
+[5/96] CVS Health (CVS)
+2025-11-24 22:58:09,668 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:09,772 - INFO - 
+[6/96] Berkshire Hathaway (BRK.A)
+2025-11-24 22:58:10,926 - INFO -   No data available
+2025-11-24 22:58:10,927 - INFO - 
+[7/96] Alphabet (GOOGL)
+2025-11-24 22:58:11,009 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:11,112 - INFO - 
+[8/96] Exxon Mobil (XOM)
+2025-11-24 22:58:11,325 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:11,430 - INFO - 
+[9/96] McKesson (MCK)
+2025-11-24 22:58:11,555 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:11,657 - INFO - 
+[10/96] Cencora (COR)
+2025-11-24 22:58:11,762 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:11,866 - INFO - 
+[11/96] JPMorgan Chase (JPM)
+2025-11-24 22:58:11,989 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:12,095 - INFO - 
+[12/96] Costco (COST)
+2025-11-24 22:58:12,205 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:12,310 - INFO - 
+[13/96] Cigna (CI)
+2025-11-24 22:58:12,434 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:12,540 - INFO - 
+[14/96] Microsoft (MSFT)
+2025-11-24 22:58:12,661 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:12,763 - INFO - 
+[15/96] Cardinal Health (CAH)
+2025-11-24 22:58:12,894 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:13,000 - INFO - 
+[16/96] Chevron (CVX)
+2025-11-24 22:58:13,149 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:13,254 - INFO - 
+[17/96] Bank of America (BAC)
+2025-11-24 22:58:13,383 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:13,489 - INFO - 
+[18/96] General Motors (GM)
+2025-11-24 22:58:13,574 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:13,679 - INFO - 
+[19/96] Ford Motor (F)
+2025-11-24 22:58:13,843 - INFO -   Got data for 2025-11-21
+2025-11-24 22:58:13,947 - INFO - 
+[20/96] Elevance Health (ELV)
+2025-11-24 22:58:14,040 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:14,145 - INFO - 
+[21/96] Citi (CITI.NE)
+2025-11-24 22:58:14,220 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:14,323 - INFO - 
+[22/96] Meta (META)
+2025-11-24 22:58:14,395 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:14,498 - INFO - 
+[23/96] Centene (CNC)
+2025-11-24 22:58:14,577 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:14,682 - INFO - 
+[24/96] Home Depot (HD)
+2025-11-24 22:58:14,816 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:14,920 - INFO - 
+[25/96] Fannie Mae (FNMA)
+2025-11-24 22:58:15,045 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:15,151 - INFO - 
+[27/96] Kroger (KR)
+2025-11-24 22:58:15,314 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:15,415 - INFO - 
+[28/96] Phillips 66 (PSX)
+2025-11-24 22:58:15,510 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:15,615 - INFO - 
+[29/96] Marathon Petroleum (MPC)
+2025-11-24 22:58:15,696 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:15,796 - INFO - 
+[30/96] Verizon (VZ)
+2025-11-24 22:58:15,907 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:16,008 - INFO - 
+[31/96] Nvidia (NVDA)
+2025-11-24 22:58:16,100 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:16,205 - INFO - 
+[32/96] Goldman Sachs (GSBD)
+2025-11-24 22:58:16,294 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:16,399 - INFO - 
+[33/96] Wells Fargo (WFC)
+2025-11-24 22:58:16,531 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:16,636 - INFO - 
+[34/96] Valero Energy (VLO)
+2025-11-24 22:58:16,779 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:16,883 - INFO - 
+[35/96] Comcast (CMCSA)
+2025-11-24 22:58:17,021 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:17,126 - INFO - 
+[36/96] State Farm (ALL)
+2025-11-24 22:58:17,237 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:17,343 - INFO - 
+[37/96] AT&T (ATT.L)
+2025-11-24 22:58:17,423 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:17,524 - INFO - 
+[38/96] Freddie Mac (FMCC)
+2025-11-24 22:58:17,634 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:17,740 - INFO - 
+[39/96] Humana (HUM.ST)
+2025-11-24 22:58:17,834 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:17,938 - INFO - 
+[40/96] Morgan Stanley (MS)
+2025-11-24 22:58:18,081 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:18,186 - INFO - 
+[41/96] Target (TGT)
+2025-11-24 22:58:18,334 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:18,438 - INFO - 
+[42/96] StoneX (SNEX)
+2025-11-24 22:58:18,577 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:18,682 - INFO - 
+[43/96] Tesla (TSLA)
+2025-11-24 22:58:18,891 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:18,995 - INFO - 
+[44/96] Dell Technologies (DELL)
+2025-11-24 22:58:19,195 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:19,300 - INFO - 
+[45/96] PepsiCo (PEP)
+2025-11-24 22:58:19,452 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:19,557 - INFO - 
+[46/96] Walt Disney (DIS)
+2025-11-24 22:58:19,706 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:19,812 - INFO - 
+[47/96] UPS (UPS)
+2025-11-24 22:58:19,969 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:20,074 - INFO - 
+[48/96] Johnson & Johnson (JNJ)
+2025-11-24 22:58:20,236 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:20,341 - INFO - 
+[49/96] FedEx (FDX)
+2025-11-24 22:58:20,454 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:20,558 - INFO - 
+[50/96] Archer Daniels Midland (ADM)
+2025-11-24 22:58:20,726 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:20,832 - INFO - 
+[51/96] Procter & Gamble (PG)
+2025-11-24 22:58:21,000 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:21,104 - INFO - 
+[52/96] Lowe's (X1G.PA)
+2025-11-24 22:58:21,186 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:21,289 - INFO - 
+[53/96] Energy Transfer (ET)
+2025-11-24 22:58:21,400 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:21,502 - INFO - 
+[54/96] RTX (RTX)
+2025-11-24 22:58:21,680 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:21,785 - INFO - 
+[55/96] Albertsons (ACI)
+2025-11-24 22:58:21,869 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:21,975 - INFO - 
+[56/96] Sysco (SYY)
+2025-11-24 22:58:22,117 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:22,220 - INFO - 
+[57/96] Progressive (PGR)
+2025-11-24 22:58:22,362 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:22,467 - INFO - 
+[58/96] American Express (AXP)
+2025-11-24 22:58:22,613 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:22,716 - INFO - 
+[59/96] Lockheed Martin (LMT)
+2025-11-24 22:58:22,938 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:23,043 - INFO - 
+[60/96] MetLife (MET)
+2025-11-24 22:58:23,156 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:23,261 - INFO - 
+[61/96] HCA Healthcare (HCA)
+2025-11-24 22:58:23,360 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:23,466 - INFO - 
+[62/96] Prudential Financial (PRU)
+2025-11-24 22:58:23,580 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:23,685 - INFO - 
+[63/96] Boeing (BA)
+2025-11-24 22:58:23,847 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:23,949 - INFO - 
+[64/96] Caterpillar (CAT)
+2025-11-24 22:58:24,104 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:24,210 - INFO - 
+[65/96] Merck (MRK)
+2025-11-24 22:58:24,355 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:24,460 - INFO - 
+[66/96] Allstate (ALL)
+2025-11-24 22:58:24,482 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:24,587 - INFO - 
+[67/96] Pfizer (PFIZER.NS)
+2025-11-24 22:58:24,691 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:24,796 - INFO - 
+[68/96] IBM (IBM)
+2025-11-24 22:58:24,995 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:25,101 - INFO - 
+[69/96] New York Life Insurance (601336.SS)
+2025-11-24 22:58:25,196 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:25,301 - INFO - 
+[70/96] Delta Airlines (DAL)
+2025-11-24 22:58:25,398 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:25,504 - INFO - 
+[72/96] Nationwide (NATWIDE.KL)
+2025-11-24 22:58:26,751 - INFO -   No data available
+2025-11-24 22:58:26,752 - INFO - 
+[73/96] TD Synnex (SNX)
+2025-11-24 22:58:26,841 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:26,945 - INFO - 
+[74/96] United Airlines (UAL)
+2025-11-24 22:58:27,029 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:27,132 - INFO - 
+[75/96] ConocoPhillips (COP)
+2025-11-24 22:58:27,272 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:27,378 - INFO - 
+[76/96] TJX (TJX)
+2025-11-24 22:58:27,506 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:27,610 - INFO - 
+[77/96] AbbVie (ABBV)
+2025-11-24 22:58:27,705 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:27,807 - INFO - 
+[78/96] Enterprise Products Partners (EPD)
+2025-11-24 22:58:27,995 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:28,097 - INFO - 
+[79/96] Charter Communications (CHTR)
+2025-11-24 22:58:28,175 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:28,280 - INFO - 
+[80/96] Performance Food (PFGC)
+2025-11-24 22:58:28,365 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:28,470 - INFO - 
+[81/96] American Airlines (AAL)
+2025-11-24 22:58:28,559 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:28,661 - INFO - 
+[82/96] Capital One (VALC.TA)
+2025-11-24 22:58:29,514 - INFO -   No data available
+2025-11-24 22:58:29,515 - INFO - 
+[83/96] Cisco Systems (CSCO)
+2025-11-24 22:58:29,683 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:29,789 - INFO - 
+[84/96] HP (HP)
+2025-11-24 22:58:29,908 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:30,012 - INFO - 
+[85/96] Tyson Foods (TSN)
+2025-11-24 22:58:30,149 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:30,252 - INFO - 
+[86/96] Intel (INTC)
+2025-11-24 22:58:30,386 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:30,491 - INFO - 
+[87/96] Oracle (ORCL)
+2025-11-24 22:58:30,612 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:30,717 - INFO - 
+[88/96] Broadcom (AVGO)
+2025-11-24 22:58:30,809 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:30,912 - INFO - 
+[89/96] Deere (DE)
+2025-11-24 22:58:31,085 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:31,187 - INFO - 
+[90/96] Nike (NKE)
+2025-11-24 22:58:31,321 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:31,427 - INFO - 
+[92/96] Plains GP (PAGP)
+2025-11-24 22:58:31,531 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:31,632 - INFO - 
+[93/96] USAA (UIPMX)
+2025-11-24 22:58:31,727 - INFO -   Got data for 2025-11-21
+2025-11-24 22:58:31,831 - INFO - 
+[95/96] Ingram Micro (INGM)
+2025-11-24 22:58:31,919 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:32,022 - INFO - 
+[96/96] General Dynamics (GD)
+2025-11-24 22:58:32,161 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:32,266 - INFO - 
+[97/96] Coca-Cola (COLA.WA)
+2025-11-24 22:58:32,350 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:32,455 - INFO - 
+[98/96] TIAA (TILIX)
+2025-11-24 22:58:32,556 - INFO -   Got data for 2025-11-21
+2025-11-24 22:58:32,659 - INFO - 
+[99/96] Travelers (TRV)
+2025-11-24 22:58:32,866 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:32,967 - INFO - 
+[100/96] Eli Lilly (LLY)
+2025-11-24 22:58:33,109 - INFO -   Got data for 2025-11-24
+2025-11-24 22:58:33,216 - INFO - 
+============================================================
+2025-11-24 22:58:33,216 - INFO - No new tickers to append — today's file already contains these tickers
+2025-11-24 22:58:33,216 - INFO - ============================================================
+2025-11-24 22:58:33,217 - INFO - 
+============================================================
+2025-11-24 22:58:33,217 - INFO - Creating LIVE company metadata for 2025
+2025-11-24 22:58:33,217 - INFO - ============================================================
+2025-11-24 22:58:33,217 - INFO - Metadata already exists — skipping
+2025-11-24 22:58:33,217 - INFO - 
+============================================================
+2025-11-24 22:58:33,217 - INFO - Creating LIVE macro data for 2025
+2025-11-24 22:58:33,218 - INFO - ============================================================
+2025-11-24 22:58:33,218 - INFO - Current year data already exists — skipping
+2025-11-24 22:58:33,218 - INFO - Sentiment already exists — skipping
+2025-11-24 22:58:33,218 - INFO - 
+============================================================
+2025-11-24 22:58:33,218 - INFO - Fetching LIVE exchange rates (USD-INR) from FRED for 2025
+2025-11-24 22:58:33,218 - INFO - ============================================================
+2025-11-24 22:58:33,218 - INFO - Current year data already exists — skipping
+2025-11-24 22:58:33,218 - INFO - ============================================================
+2025-11-24 22:58:33,218 - INFO - Starting merge process
+2025-11-24 22:58:33,218 - INFO - Mode: Live
+2025-11-24 22:58:33,218 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33
+2025-11-24 22:58:33,218 - INFO - ============================================================
+2025-11-24 22:58:33,218 - INFO - 
+============================================================
+2025-11-24 22:58:33,218 - INFO - STEP 1: Processing BASE TABLE (stocks_raw)
+2025-11-24 22:58:33,218 - INFO - ============================================================
+2025-11-24 22:58:33,218 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-24 22:58:33,220 - INFO - Read 93 rows from stocks_raw
+2025-11-24 22:58:33,244 - INFO - Validation complete for stocks_raw: valid=93, invalid=0
+2025-11-24 22:58:33,247 - WARNING - Removed 1 duplicate records based on ticker-date
+2025-11-24 22:58:33,248 - INFO - Valid: 92, Invalid: 0
+2025-11-24 22:58:33,274 - INFO - Table stocks_raw created
+2025-11-24 22:58:33,296 - INFO - Inserted 92 rows into stocks_raw
+2025-11-24 22:58:33,296 - INFO - Loaded 92 rows to stocks_raw
+2025-11-24 22:58:33,296 - INFO - Base table established with 92 records
+2025-11-24 22:58:33,296 - INFO - Found 92 unique tickers: 601336.SS, AAL, ABBV, ACI, ADM, ALL, AMZN, APLE, ATT.L, AVGO, AXP, BA, BAC, CAH, CAT, CHTR, CI, CITI.NE, CMCSA, CNC, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, ELV, EPD, ET, F, FDX, FMCC, FNMA, GD, GM, GOOGL, GSBD, HCA, HD, HP, HUM.ST, IBM, INGM, INTC, JNJ, JPM, KR, LLY, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TRV, TSLA, TSN, UAL, UIPMX, UNH, UPS, VLO, VZ, WFC, WMT, X1G.PA, XOM
+2025-11-24 22:58:33,296 - INFO - 
+============================================================
+2025-11-24 22:58:33,296 - INFO - STEP 2: Processing DEPENDENT TABLES
+2025-11-24 22:58:33,296 - INFO - ============================================================
+2025-11-24 22:58:33,296 - INFO - Processing company_metadata
+2025-11-24 22:58:33,297 - INFO - Read 93 rows from company_metadata
+2025-11-24 22:58:33,302 - INFO - Validation complete for company_metadata: valid=93, invalid=0
+2025-11-24 22:58:33,304 - INFO - Valid: 93, Invalid: 0
+2025-11-24 22:58:33,308 - ERROR - Failed to load company_metadata: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank INT PRIMARY KEY,
+            company VARCHAR(255) NOT NULL UNIQUE,
+        ' at line 2
+2025-11-24 22:58:33,308 - INFO - Loaded 93 rows to company_metadata
+2025-11-24 22:58:33,308 - INFO - company_metadata processed and linked to stocks_raw
+2025-11-24 22:58:33,308 - INFO - 
+============================================================
+2025-11-24 22:58:33,308 - INFO - STEP 3: Processing INDEPENDENT TABLES
+2025-11-24 22:58:33,308 - INFO - ============================================================
+2025-11-24 22:58:33,308 - INFO - Processing exchange_rates
+2025-11-24 22:58:33,309 - INFO - Read 219 rows from exchange_rates
+2025-11-24 22:58:33,338 - INFO - Validation complete for exchange_rates: valid=219, invalid=0
+2025-11-24 22:58:33,341 - INFO - Valid: 219, Invalid: 0
+2025-11-24 22:58:33,349 - INFO - Table exchange_rates created
+2025-11-24 22:58:33,378 - INFO - Inserted 219 rows into exchange_rates
+2025-11-24 22:58:33,378 - INFO - Loaded 219 rows to exchange_rates
+2025-11-24 22:58:33,379 - INFO - exchange_rates processed
+2025-11-24 22:58:33,379 - INFO - Processing macro_raw
+2025-11-24 22:58:33,379 - INFO - Read 4 rows from macro_raw
+2025-11-24 22:58:33,380 - INFO - Validation complete for macro_raw: valid=4, invalid=0
+2025-11-24 22:58:33,380 - INFO - Valid: 4, Invalid: 0
+2025-11-24 22:58:33,383 - INFO - Table macro_raw created
+2025-11-24 22:58:33,386 - INFO - Inserted 4 rows into macro_raw
+2025-11-24 22:58:33,386 - INFO - Loaded 4 rows to macro_raw
+2025-11-24 22:58:33,386 - INFO - macro_raw processed
+2025-11-24 22:58:33,386 - INFO - 
+============================================================
+2025-11-24 22:58:33,386 - INFO - STEP 4: Processing SENTIMENT DATA
+2025-11-24 22:58:33,386 - INFO - ============================================================
+2025-11-24 22:58:33,386 - INFO - Processing sentiment
+2025-11-24 22:58:33,386 - INFO - Read 45 rows from sentiment
+2025-11-24 22:58:33,394 - INFO - Validation complete for sentiment: valid=45, invalid=0
+2025-11-24 22:58:33,394 - WARNING - Removed 1 duplicate records based on ticker-date
+2025-11-24 22:58:33,395 - INFO - Valid: 44, Invalid: 0
+2025-11-24 22:58:33,398 - INFO - Table sentiment created
+2025-11-24 22:58:33,404 - INFO - Inserted 44 rows into sentiment
+2025-11-24 22:58:33,404 - INFO - Loaded 44 rows to sentiment
+2025-11-24 22:58:33,404 - INFO - sentiment processed and linked to stocks_raw
+2025-11-24 22:58:33,404 - INFO - 
+============================================================
+2025-11-24 22:58:33,404 - INFO - STEP 5: KPI CALCULATIONS AND FACT TABLE GENERATION
+2025-11-24 22:58:33,404 - INFO - ============================================================
+2025-11-24 22:58:33,404 - INFO - ============================================================
+2025-11-24 22:58:33,404 - INFO - Starting KPI calculations
+2025-11-24 22:58:33,404 - INFO - ============================================================
+2025-11-24 22:58:33,407 - INFO - Loaded stocks_raw: 92 rows
+2025-11-24 22:58:33,407 - INFO - Loaded macro_raw: 4 rows
+2025-11-24 22:58:33,407 - INFO - Loaded company_metadata: 93 rows
+2025-11-24 22:58:33,407 - INFO - Loaded exchange_rates: 219 rows
+2025-11-24 22:58:33,408 - INFO - Calculating stock_facts metrics...
+2025-11-24 22:58:33,427 - INFO - Stock facts calculated: 92 rows
+2025-11-24 22:58:33,427 - INFO - Calculating macro_facts metrics...
+2025-11-24 22:58:33,431 - INFO - Macro facts calculated: 4 rows
+2025-11-24 22:58:33,431 - INFO - Creating sector_lookup...
+2025-11-24 22:58:33,432 - INFO - Sector lookup created: 38 sectors
+2025-11-24 22:58:33,432 - INFO - Calculating analytics_summary metrics...
+2025-11-24 22:58:33,508 - INFO - Analytics summary calculated: 93 rows
+2025-11-24 22:58:33,508 - INFO - Creating pipeline log entry...
+2025-11-24 22:58:33,509 - INFO - Pipeline log created
+2025-11-24 22:58:33,509 - INFO - 
+============================================================
+2025-11-24 22:58:33,509 - INFO - KPI calculations completed successfully
+2025-11-24 22:58:33,509 - INFO - Generated files: stock_facts.csv, macro_facts.csv, sector_lookup.csv, analytics_summary.csv, pipeline_logs.csv
+2025-11-24 22:58:33,509 - INFO - ============================================================
+2025-11-24 22:58:33,509 - INFO - KPI calculations completed successfully
+2025-11-24 22:58:33,517 - INFO - Table stock_facts created
+2025-11-24 22:58:33,544 - INFO - Inserted 92 rows into stock_facts
+2025-11-24 22:58:33,544 - INFO - Loaded stock_facts to database
+2025-11-24 22:58:33,547 - INFO - Table macro_facts created
+2025-11-24 22:58:33,550 - INFO - Inserted 4 rows into macro_facts
+2025-11-24 22:58:33,550 - INFO - Loaded macro_facts to database
+2025-11-24 22:58:33,553 - INFO - Table sector_lookup created
+2025-11-24 22:58:33,559 - INFO - Inserted 38 rows into sector_lookup
+2025-11-24 22:58:33,559 - INFO - Loaded sector_lookup to database
+2025-11-24 22:58:33,561 - INFO - Table analytics_summary created
+2025-11-24 22:58:33,575 - INFO - Inserted 93 rows into analytics_summary
+2025-11-24 22:58:33,576 - INFO - Loaded analytics_summary to database
+2025-11-24 22:58:33,578 - INFO - Table pipeline_logs created
+2025-11-24 22:58:33,578 - INFO - Inserted 1 rows into pipeline_logs
+2025-11-24 22:58:33,578 - INFO - Loaded pipeline_logs to database
+2025-11-24 22:58:33,578 - INFO - 
+============================================================
+2025-11-24 22:58:33,578 - INFO - ============================================================
+2025-11-24 22:58:33,578 - INFO - ============================================================
+2025-11-24 22:58:33,578 - INFO - Starting Analytical Layer Processing
+2025-11-24 22:58:33,578 - INFO - ============================================================
+2025-11-24 22:58:33,580 - INFO - Loaded stock_facts: 92 rows
+2025-11-24 22:58:33,580 - INFO - Loaded macro_facts: 4 rows
+2025-11-24 22:58:33,580 - INFO - Loaded analytics_summary: 93 rows
+2025-11-24 22:58:33,580 - INFO - Loaded sector_lookup: 38 sectors
+2025-11-24 22:58:33,580 - INFO - 
+1. Analyzing Volatility vs GDP Correlation...
+2025-11-24 22:58:33,583 - INFO - Volatility-GDP Correlation: 0.0000
+2025-11-24 22:58:33,583 - INFO - 
+2. Analyzing Inflation Sensitivity by Sector...
+2025-11-24 22:58:33,598 - INFO - Inflation Sensitivity analyzed for 38 sectors
+2025-11-24 22:58:33,598 - INFO - 
+3. Analyzing Currency Exposure...
+2025-11-24 22:58:33,601 - INFO - Currency Exposure analyzed for 93 companies
+2025-11-24 22:58:33,601 - INFO - 
+4. Analyzing Recession Resilience...
+2025-11-24 22:58:33,601 - INFO - Recession Resilience analyzed for 1 sectors
+2025-11-24 22:58:33,601 - INFO - 
+5. Identifying Consistent Performers...
+2025-11-24 22:58:33,627 - INFO - Consistent Performers analyzed: 92 companies
+2025-11-24 22:58:33,627 - INFO - 
+6. Analyzing Macro Impact Timeline...
+2025-11-24 22:58:33,631 - INFO - Macro Impact Timeline analyzed with 4 lag periods
+2025-11-24 22:58:33,631 - INFO - 
+7. Analyzing Forecast Accuracy...
+2025-11-24 22:58:33,642 - ERROR - Failed to analyze forecast accuracy: 'mean_absolute_percentage_error'
+2025-11-24 22:58:33,642 - INFO - 
+8. Generating Executive Summary...
+2025-11-24 22:58:33,643 - INFO - Executive Summary generated with 7 key metrics
+2025-11-24 22:58:33,643 - INFO - 
+============================================================
+2025-11-24 22:58:33,643 - INFO - Analytical Layer Processing Completed Successfully
+2025-11-24 22:58:33,643 - INFO - ============================================================
+2025-11-24 22:58:33,643 - INFO - 
+Generated Reports:
+2025-11-24 22:58:33,643 - INFO - 1. report_volatility_gdp_correlation.csv
+2025-11-24 22:58:33,643 - INFO - 2. report_inflation_sensitivity.csv
+2025-11-24 22:58:33,643 - INFO - 3. report_currency_exposure.csv
+2025-11-24 22:58:33,643 - INFO - 4. report_recession_resilience.csv
+2025-11-24 22:58:33,643 - INFO - 5. report_consistent_performers.csv
+2025-11-24 22:58:33,643 - INFO - 6. report_macro_impact_timeline.csv
+2025-11-24 22:58:33,643 - INFO - 7. report_forecast_accuracy.csv
+2025-11-24 22:58:33,643 - INFO - 8. report_executive_summary.csv
+2025-11-24 22:58:33,643 - INFO - ============================================================
+2025-11-24 22:58:33,643 - INFO - Advanced analytics completed successfully
+2025-11-24 22:58:33,643 - INFO - Generated 7 analytical reports
+2025-11-24 22:58:33,643 - INFO - ============================================================
+2025-11-24 22:58:33,643 - INFO - Starting report generation from database
+2025-11-24 22:58:33,643 - INFO - ============================================================
+2025-11-24 22:58:33,643 - INFO - Generating Annual Market Intelligence Report...
+2025-11-24 22:58:33,652 - INFO - Annual report saved: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/annual_market_intel_20251124.pdf
+2025-11-24 22:58:33,652 - INFO - Generating Sector Stability & Volatility Report...
+2025-11-24 22:58:33,657 - WARNING - Resilience scores are 0, attempting alternate calculation
+2025-11-24 22:58:33,704 - INFO - Excel report saved: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/sector_stability_20251124.xlsx
+2025-11-24 22:58:33,707 - INFO - PDF report saved: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/sector_stability_20251124.pdf
+2025-11-24 22:58:33,707 - INFO - Generating Cross Market Analysis Report...
+2025-11-24 22:58:33,715 - INFO - Cross market report saved: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/cross_market_20251124.pdf
+2025-11-24 22:58:33,715 - INFO - Generating Forecasting & Prediction Summary...
+2025-11-24 22:58:33,721 - INFO - Forecasting report saved: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/forecasting_summary_20251124.pdf
+2025-11-24 22:58:33,721 - INFO - Generating Operational Pipeline Summary...
+2025-11-24 22:58:33,728 - INFO - Pipeline report saved: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/pipeline_summary_20251124.pdf
+2025-11-24 22:58:33,728 - INFO - ============================================================
+2025-11-24 22:58:33,728 - INFO - Report generation completed
+2025-11-24 22:58:33,728 - INFO - Reports saved in: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports
+2025-11-24 22:58:33,728 - INFO - ============================================================
+2025-11-24 22:58:33,728 - INFO - Report generation completed successfully
+2025-11-24 22:58:33,728 - INFO -   - annual: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/annual_market_intel_20251124.pdf
+2025-11-24 22:58:33,728 - INFO -   - sector: ('/Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/sector_stability_20251124.pdf', '/Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/sector_stability_20251124.xlsx')
+2025-11-24 22:58:33,728 - INFO -   - cross_market: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/cross_market_20251124.pdf
+2025-11-24 22:58:33,728 - INFO -   - forecasting: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/forecasting_summary_20251124.pdf
+2025-11-24 22:58:33,728 - INFO -   - pipeline: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33/reports/pipeline_summary_20251124.pdf
+2025-11-24 22:58:33,728 - INFO - 
+============================================================
+2025-11-24 22:58:33,728 - INFO - PIPELINE EXECUTION SUMMARY
+2025-11-24 22:58:33,728 - INFO - ============================================================
+2025-11-24 22:58:33,728 - INFO - Base table: stocks_raw (92 records, 92 tickers)
+2025-11-24 22:58:33,728 - INFO - Dependent: company_metadata - Available
+2025-11-24 22:58:33,728 - INFO - Independent: exchange_rates - Available
+2025-11-24 22:58:33,728 - INFO - Independent: macro_raw - Available
+2025-11-24 22:58:33,728 - INFO - Dependent: sentiment - Available
+2025-11-24 22:58:33,728 - INFO - ============================================================
+2025-11-24 22:58:33,728 - INFO - Merge process completed successfully
+2025-11-24 22:58:33,728 - INFO - All outputs saved in: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_22:58:33
+2025-11-24 22:58:33,728 - INFO - ============================================================

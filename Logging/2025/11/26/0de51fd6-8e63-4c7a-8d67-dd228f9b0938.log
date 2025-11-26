@@ -1,0 +1,1050 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-26 06:50:08,923 - INFO - ===== started running the process ======
+2025-11-26 06:50:08,989 - INFO - ============================================================
+2025-11-26 06:50:08,989 - INFO - HISTORICAL PROCESSING FROM CONFIG
+2025-11-26 06:50:08,989 - INFO - Range: 1996-01-01 to 2025-11-25
+2025-11-26 06:50:08,989 - INFO - ============================================================
+2025-11-26 06:50:08,989 - INFO - 
+============================================================
+2025-11-26 06:50:08,989 - INFO - Fetching HISTORICAL data for 1996
+2025-11-26 06:50:08,989 - INFO - Period: 1996-01-01 to 1996-12-31
+2025-11-26 06:50:08,991 - INFO - total companies with tickers: 69
+2025-11-26 06:50:08,996 - INFO - found 261 days already saved
+2025-11-26 06:50:08,996 - INFO - 
+[1] ->  General Motors Corporation (GM)
+2025-11-26 06:50:09,952 - INFO - No data available
+2025-11-26 06:50:09,952 - INFO - 
+[2] ->  Ford Motor Company (F)
+2025-11-26 06:50:10,103 - INFO - Got 253 days of data
+2025-11-26 06:50:10,115 - INFO - 
+[3] ->  Exxon Corporation (XOM)
+2025-11-26 06:50:10,289 - INFO - Got 253 days of data
+2025-11-26 06:50:10,302 - INFO - 
+[4] ->  Wal-Mart Stores, Inc. (WMT)
+2025-11-26 06:50:10,473 - INFO - Got 253 days of data
+2025-11-26 06:50:10,486 - INFO - 
+[5] ->  AT&T Corp. (ATT.L)
+2025-11-26 06:50:10,580 - INFO - Got 261 days of data
+2025-11-26 06:50:10,592 - INFO - 
+[6] ->  International Business Machines Corporation (IBM)
+2025-11-26 06:50:10,749 - INFO - Got 253 days of data
+2025-11-26 06:50:10,762 - INFO - 
+[7] ->  General Electric Company (GE)
+2025-11-26 06:50:10,959 - INFO - Got 253 days of data
+2025-11-26 06:50:10,972 - INFO - 
+[8] ->  Mobil Corporation (MBLY)
+2025-11-26 06:50:11,496 - INFO - No data available
+2025-11-26 06:50:11,496 - INFO - 
+[10] ->  Philip Morris Companies (TABAK.PR)
+2025-11-26 06:50:11,898 - INFO - No data available
+2025-11-26 06:50:11,898 - INFO - 
+[11] ->  Prudential Insurance Company of America (PRU)
+2025-11-26 06:50:12,354 - INFO - No data available
+2025-11-26 06:50:12,355 - INFO - 
+[12] ->  State Farm Group (SFG.AX)
+2025-11-26 06:50:12,439 - INFO - Got 261 days of data
+2025-11-26 06:50:12,451 - INFO - 
+[14] ->  Texaco, Inc. (TEXC.NS)
+2025-11-26 06:50:13,649 - INFO - No data available
+2025-11-26 06:50:13,649 - INFO - 
+[17] ->  The Procter & Gamble Company (TPG)
+2025-11-26 06:50:14,059 - INFO - No data available
+2025-11-26 06:50:14,059 - INFO - 
+[18] ->  Chevron Corporation (CVX)
+2025-11-26 06:50:14,205 - INFO - Got 253 days of data
+2025-11-26 06:50:14,217 - INFO - 
+[21] ->  PepsiCo, Inc. (PEP)
+2025-11-26 06:50:14,354 - INFO - Got 253 days of data
+2025-11-26 06:50:14,367 - INFO - 
+[22] ->  Metropolitan Life Insurance Co. (MTLA.JK)
+2025-11-26 06:50:14,806 - INFO - No data available
+2025-11-26 06:50:14,806 - INFO - 
+[24] ->  Motorola, Inc. (MSI)
+2025-11-26 06:50:14,959 - INFO - Got 253 days of data
+2025-11-26 06:50:14,971 - INFO - 
+[25] ->  American International Group,Inc. (AIG)
+2025-11-26 06:50:15,174 - INFO - Got 253 days of data
+2025-11-26 06:50:15,187 - INFO - 
+[26] ->  ConAgra, Inc. (CAG)
+2025-11-26 06:50:15,385 - INFO - Got 253 days of data
+2025-11-26 06:50:15,398 - INFO - 
+[27] ->  The Kroger Company (KR)
+2025-11-26 06:50:15,591 - INFO - Got 253 days of data
+2025-11-26 06:50:15,603 - INFO - 
+[28] ->  Dayton Hudson Corporation (7228.T)
+2025-11-26 06:50:16,231 - INFO - No data available
+2025-11-26 06:50:16,232 - INFO - 
+[29] ->  Lockheed Martin Corporation (LMT)
+2025-11-26 06:50:16,449 - INFO - Got 253 days of data
+2025-11-26 06:50:16,462 - INFO - 
+[31] ->  The Allstate Corporation (ALL)
+2025-11-26 06:50:16,623 - INFO - Got 253 days of data
+2025-11-26 06:50:16,636 - INFO - 
+[32] ->  Federal National Mortgage Association (FNMA)
+2025-11-26 06:50:16,795 - INFO - Got 253 days of data
+2025-11-26 06:50:16,808 - INFO - 
+[33] ->  Merrill Lynch & Company, Inc. (DE000SLA1M99.SG)
+2025-11-26 06:50:16,994 - INFO - No data available
+2025-11-26 06:50:16,995 - INFO - 
+[35] ->  United Parcel Service of America, Inc. (UPS)
+2025-11-26 06:50:17,979 - INFO - No data available
+2025-11-26 06:50:17,980 - INFO - 
+[36] ->  The Dow Chemical Company (TDC)
+2025-11-26 06:50:18,456 - INFO - No data available
+2025-11-26 06:50:18,456 - INFO - 
+[38] ->  GTE Corporation (GTE)
+2025-11-26 06:50:18,991 - INFO - No data available
+2025-11-26 06:50:18,991 - INFO - 
+[39] ->  International Paper Company (IP)
+2025-11-26 06:50:19,169 - INFO - Got 253 days of data
+2025-11-26 06:50:19,182 - INFO - 
+[40] ->  The Boeing Company (BA)
+2025-11-26 06:50:19,350 - INFO - Got 253 days of data
+2025-11-26 06:50:19,363 - INFO - 
+[41] ->  Xerox Corporation (XRX)
+2025-11-26 06:50:19,521 - INFO - Got 253 days of data
+2025-11-26 06:50:19,534 - INFO - 
+[42] ->  Cigna Corporation (CI)
+2025-11-26 06:50:19,651 - INFO - Got 253 days of data
+2025-11-26 06:50:19,663 - INFO - 
+[43] ->  Johnson & Johnson (JNJ)
+2025-11-26 06:50:19,814 - INFO - Got 253 days of data
+2025-11-26 06:50:19,827 - INFO - 
+[44] ->  Loews Corporation (L)
+2025-11-26 06:50:20,438 - INFO - Got 253 days of data
+2025-11-26 06:50:20,450 - INFO - 
+[45] ->  American Stores Company (AXP)
+2025-11-26 06:50:20,596 - INFO - Got 253 days of data
+2025-11-26 06:50:20,609 - INFO - 
+[47] ->  USX Corporation (USXF)
+2025-11-26 06:50:21,011 - INFO - No data available
+2025-11-26 06:50:21,011 - INFO - 
+[49] ->  BellSouth Corporation (KTBA)
+2025-11-26 06:50:21,561 - INFO - No data available
+2025-11-26 06:50:21,562 - INFO - 
+[52] ->  Fleming Companies, Inc. (FLMNG.SL)
+2025-11-26 06:50:22,955 - INFO - No data available
+2025-11-26 06:50:22,955 - INFO - 
+[53] ->  AMR Corporation (AMR)
+2025-11-26 06:50:23,470 - INFO - No data available
+2025-11-26 06:50:23,470 - INFO - 
+[55] ->  Merck & Co., Inc. (MRK)
+2025-11-26 06:50:23,639 - INFO - Got 253 days of data
+2025-11-26 06:50:23,652 - INFO - 
+[56] ->  The Travelers Group (TTG)
+2025-11-26 06:50:24,188 - INFO - No data available
+2025-11-26 06:50:24,189 - INFO - 
+[58] ->  Safeway, Inc. (301559.SZ)
+2025-11-26 06:50:24,595 - INFO - No data available
+2025-11-26 06:50:24,595 - INFO - 
+[60] ->  Intel Corporation (INTC)
+2025-11-26 06:50:24,714 - INFO - Got 253 days of data
+2025-11-26 06:50:24,726 - INFO - 
+[61] ->  New York Life Insurance Company (601336.SS)
+2025-11-26 06:50:25,209 - INFO - No data available
+2025-11-26 06:50:25,210 - INFO - 
+[62] ->  Minnesota Mining & Manufacturing Company (MMM)
+2025-11-26 06:50:25,386 - INFO - Got 253 days of data
+2025-11-26 06:50:25,399 - INFO - 
+[63] ->  Caterpillar, Inc. (CAT)
+2025-11-26 06:50:25,587 - INFO - Got 253 days of data
+2025-11-26 06:50:25,600 - INFO - 
+[64] ->  RJR Nabisco Holdings Corporation (BURCA)
+2025-11-26 06:50:26,039 - INFO - No data available
+2025-11-26 06:50:26,040 - INFO - 
+[65] ->  American Express Company (AXP)
+2025-11-26 06:50:26,053 - INFO - Got 253 days of data
+2025-11-26 06:50:26,066 - INFO - 
+[66] ->  The Home Depot, Inc. (THD)
+2025-11-26 06:50:26,565 - INFO - No data available
+2025-11-26 06:50:26,566 - INFO - 
+[67] ->  Eastman Kodak Company (KODK)
+2025-11-26 06:50:27,055 - INFO - No data available
+2025-11-26 06:50:27,055 - INFO - 
+[69] ->  morg (MORG.OL)
+2025-11-26 06:50:27,639 - INFO - No data available
+2025-11-26 06:50:27,639 - INFO - 
+[70] ->  UAL Corporation (UAL)
+2025-11-26 06:50:28,104 - INFO - No data available
+2025-11-26 06:50:28,104 - INFO - 
+[76] ->  J.P. Morgan & Co. Inc. (JPM)
+2025-11-26 06:50:28,263 - INFO - Got 253 days of data
+2025-11-26 06:50:28,276 - INFO - 
+[77] ->  Digital Equipment Corporation (GEN)
+2025-11-26 06:50:28,378 - INFO - Got 253 days of data
+2025-11-26 06:50:28,390 - INFO - 
+[80] ->  Sprint Corporation (SPRINT.ST)
+2025-11-26 06:50:28,984 - INFO - No data available
+2025-11-26 06:50:28,985 - INFO - 
+[81] ->  Phillips Petroleum Company (PSX)
+2025-11-26 06:50:29,420 - INFO - No data available
+2025-11-26 06:50:29,420 - INFO - 
+[82] ->  Lehman Brothers Holdings, Inc. (LEHNQ)
+2025-11-26 06:50:30,072 - INFO - No data available
+2025-11-26 06:50:30,073 - INFO - 
+[86] ->  American Home Products Corporation (AMH)
+2025-11-26 06:50:30,540 - INFO - No data available
+2025-11-26 06:50:30,540 - INFO - 
+[87] ->  McKesson Corporation (MCK)
+2025-11-26 06:50:30,668 - INFO - Got 253 days of data
+2025-11-26 06:50:30,681 - INFO - 
+[88] ->  The Goodyear Tire & Rubber Company (TGT)
+2025-11-26 06:50:30,800 - INFO - Got 253 days of data
+2025-11-26 06:50:30,812 - INFO - 
+[89] ->  Texas Instruments, Inc. (TXN)
+2025-11-26 06:50:30,965 - INFO - Got 253 days of data
+2025-11-26 06:50:30,977 - INFO - 
+[90] ->  Rockwell International Corporation (ROK)
+2025-11-26 06:50:31,097 - INFO - Got 253 days of data
+2025-11-26 06:50:31,110 - INFO - 
+[92] ->  Archer Daniels Midland Company (ADM)
+2025-11-26 06:50:31,234 - INFO - Got 253 days of data
+2025-11-26 06:50:31,247 - INFO - 
+[93] ->  IBP, Inc. (IBP)
+2025-11-26 06:50:31,767 - INFO - No data available
+2025-11-26 06:50:31,767 - INFO - 
+[94] ->  Alcoa (AA)
+2025-11-26 06:50:31,936 - INFO - Got 253 days of data
+2025-11-26 06:50:31,949 - INFO - 
+[95] ->  SBC Communications Inc. (SBC)
+2025-11-26 06:50:32,354 - INFO - No data available
+2025-11-26 06:50:32,355 - INFO - 
+[97] ->  Delta Air Lines, Inc. (DAL)
+2025-11-26 06:50:32,794 - INFO - No data available
+2025-11-26 06:50:32,794 - INFO - 
+[99] ->  ITT Hartford Group, Inc. (ITT)
+2025-11-26 06:50:32,967 - INFO - Got 253 days of data
+2025-11-26 06:50:32,980 - INFO - 
+[100] ->  SYSCO Corporation (SYY)
+2025-11-26 06:50:33,112 - INFO - Got 253 days of data
+2025-11-26 06:50:33,125 - INFO - Historic stocks data collected
+2025-11-26 06:50:33,125 - INFO - 
+============================================================
+2025-11-26 06:50:33,125 - INFO - Fetching HISTORICAL data for 1997
+2025-11-26 06:50:33,125 - INFO - Period: 1997-01-01 to 1997-12-31
+2025-11-26 06:50:33,129 - INFO - total companies with tickers: 66
+2025-11-26 06:50:33,140 - INFO - found 260 days already saved
+2025-11-26 06:50:33,140 - INFO - 
+[1] ->  General Motors Corporation (GM)
+2025-11-26 06:50:33,608 - INFO - No data available
+2025-11-26 06:50:33,609 - INFO - 
+[2] ->  Ford Motor Company (F)
+2025-11-26 06:50:33,746 - INFO - Got 252 days of data
+2025-11-26 06:50:33,759 - INFO - 
+[3] ->  Exxon Corporation (XOM)
+2025-11-26 06:50:33,951 - INFO - Got 252 days of data
+2025-11-26 06:50:33,964 - INFO - 
+[4] ->  Wal-Mart Stores, Inc. (WMT)
+2025-11-26 06:50:34,145 - INFO - Got 252 days of data
+2025-11-26 06:50:34,157 - INFO - 
+[5] ->  General Electric Company (GE)
+2025-11-26 06:50:34,360 - INFO - Got 252 days of data
+2025-11-26 06:50:34,373 - INFO - 
+[6] ->  International Business Machines Corporation (IBM)
+2025-11-26 06:50:34,677 - INFO - Got 252 days of data
+2025-11-26 06:50:34,690 - INFO - 
+[7] ->  AT&T Corp. (ATT.L)
+2025-11-26 06:50:34,782 - INFO - Got 260 days of data
+2025-11-26 06:50:34,795 - INFO - 
+[8] ->  Mobil Corporation (MBLY)
+2025-11-26 06:50:35,474 - INFO - No data available
+2025-11-26 06:50:35,474 - INFO - 
+[10] ->  Philip Morris Companies Inc. (TABAK.PR)
+2025-11-26 06:50:35,980 - INFO - No data available
+2025-11-26 06:50:35,980 - INFO - 
+[11] ->  Texaco Inc. (TEXC.NS)
+2025-11-26 06:50:36,403 - INFO - No data available
+2025-11-26 06:50:36,403 - INFO - 
+[13] ->  Prudential Insurance Company of America (PRU)
+2025-11-26 06:50:36,882 - INFO - No data available
+2025-11-26 06:50:36,882 - INFO - 
+[15] ->  Chevron Corporation (CVX)
+2025-11-26 06:50:37,061 - INFO - Got 252 days of data
+2025-11-26 06:50:37,074 - INFO - 
+[18] ->  The Procter & Gamble Company (TPG)
+2025-11-26 06:50:37,701 - INFO - No data available
+2025-11-26 06:50:37,701 - INFO - 
+[21] ->  PepsiCo, Inc. (PEP)
+2025-11-26 06:50:37,859 - INFO - Got 252 days of data
+2025-11-26 06:50:37,870 - INFO - 
+[23] ->  American International Group,Inc. (AIG)
+2025-11-26 06:50:38,009 - INFO - Got 252 days of data
+2025-11-26 06:50:38,021 - INFO - 
+[24] ->  Motorola, Inc. (MSI)
+2025-11-26 06:50:38,182 - INFO - Got 252 days of data
+2025-11-26 06:50:38,195 - INFO - 
+[26] ->  Lockheed Martin Corporation (LMT)
+2025-11-26 06:50:38,358 - INFO - Got 252 days of data
+2025-11-26 06:50:38,371 - INFO - 
+[27] ->  Dayton Hudson Corporation (7228.T)
+2025-11-26 06:50:38,834 - INFO - No data available
+2025-11-26 06:50:38,835 - INFO - 
+[28] ->  The Kroger Company (KR)
+2025-11-26 06:50:38,986 - INFO - Got 252 days of data
+2025-11-26 06:50:38,999 - INFO - 
+[29] ->  Fannie Mae (FNMA)
+2025-11-26 06:50:39,120 - INFO - Got 252 days of data
+2025-11-26 06:50:39,131 - INFO - 
+[30] ->  Merrill Lynch & Co., Inc. (DE000SLA1M99.SG)
+2025-11-26 06:50:39,214 - INFO - No data available
+2025-11-26 06:50:39,214 - INFO - 
+[31] ->  ConAgra, Inc. (CAG)
+2025-11-26 06:50:39,351 - INFO - Got 252 days of data
+2025-11-26 06:50:39,364 - INFO - 
+[32] ->  The Allstate Corporation (ALL)
+2025-11-26 06:50:39,501 - INFO - Got 252 days of data
+2025-11-26 06:50:39,514 - INFO - 
+[35] ->  Metropolitan Life Insurance Co. (MTLA.JK)
+2025-11-26 06:50:39,925 - INFO - No data available
+2025-11-26 06:50:39,925 - INFO - 
+[36] ->  The Boeing Company (BA)
+2025-11-26 06:50:40,087 - INFO - Got 252 days of data
+2025-11-26 06:50:40,100 - INFO - 
+[37] ->  United Parcel Service of America, Inc. (UPS)
+2025-11-26 06:50:40,565 - INFO - No data available
+2025-11-26 06:50:40,565 - INFO - 
+[39] ->  Johnson & Johnson (JNJ)
+2025-11-26 06:50:40,736 - INFO - Got 252 days of data
+2025-11-26 06:50:40,749 - INFO - 
+[40] ->  Travelers Group Inc. (TRV)
+2025-11-26 06:50:40,884 - INFO - Got 252 days of data
+2025-11-26 06:50:40,897 - INFO - 
+[41] ->  GTE Corporation (GTE)
+2025-11-26 06:50:41,317 - INFO - No data available
+2025-11-26 06:50:41,317 - INFO - 
+[42] ->  USX Corporation (USXF)
+2025-11-26 06:50:41,815 - INFO - No data available
+2025-11-26 06:50:41,815 - INFO - 
+[43] ->  Intel Corporation (INTC)
+2025-11-26 06:50:41,951 - INFO - Got 252 days of data
+2025-11-26 06:50:41,964 - INFO - 
+[44] ->  International Paper Company (IP)
+2025-11-26 06:50:42,140 - INFO - Got 252 days of data
+2025-11-26 06:50:42,153 - INFO - 
+[45] ->  The Dow Chemical Company (TDC)
+2025-11-26 06:50:42,622 - INFO - No data available
+2025-11-26 06:50:42,622 - INFO - 
+[46] ->  Loews Corporation (L)
+2025-11-26 06:50:42,861 - INFO - Got 252 days of data
+2025-11-26 06:50:42,873 - INFO - 
+[48] ->  Merck & Co., Inc. (MRK)
+2025-11-26 06:50:43,057 - INFO - Got 252 days of data
+2025-11-26 06:50:43,070 - INFO - 
+[50] ->  The Home Depot, Inc. (THD)
+2025-11-26 06:50:43,641 - INFO - No data available
+2025-11-26 06:50:43,641 - INFO - 
+[51] ->  Xerox Corporation (XRX)
+2025-11-26 06:50:43,824 - INFO - Got 252 days of data
+2025-11-26 06:50:43,837 - INFO - 
+[53] ->  BellSouth Corporation (KTBA)
+2025-11-26 06:50:44,252 - INFO - No data available
+2025-11-26 06:50:44,252 - INFO - 
+[54] ->  CIGNA Corporation (CI)
+2025-11-26 06:50:44,371 - INFO - Got 252 days of data
+2025-11-26 06:50:44,384 - INFO - 
+[55] ->  The Walt Disney Company (DIS)
+2025-11-26 06:50:44,573 - INFO - Got 252 days of data
+2025-11-26 06:50:44,586 - INFO - 
+[56] ->  American Stores Company (AXP)
+2025-11-26 06:50:44,787 - INFO - Got 252 days of data
+2025-11-26 06:50:44,798 - INFO - 
+[61] ->  AMR Corporation (AMR)
+2025-11-26 06:50:45,293 - INFO - No data available
+2025-11-26 06:50:45,293 - INFO - 
+[63] ->  New York Life Insurance Company (601336.SS)
+2025-11-26 06:50:45,743 - INFO - No data available
+2025-11-26 06:50:45,743 - INFO - 
+[64] ->  American Express Company (AXP)
+2025-11-26 06:50:45,748 - INFO - Got 252 days of data
+2025-11-26 06:50:45,761 - INFO - 
+[65] ->  Safeway Inc. (301559.SZ)
+2025-11-26 06:50:46,167 - INFO - No data available
+2025-11-26 06:50:46,168 - INFO - 
+[66] ->  RJR Nabisco Holdings Corporation (BURCA)
+2025-11-26 06:50:46,583 - INFO - No data available
+2025-11-26 06:50:46,583 - INFO - 
+[68] ->  Caterpillar, Inc. (CAT)
+2025-11-26 06:50:46,734 - INFO - Got 252 days of data
+2025-11-26 06:50:46,747 - INFO - 
+[69] ->  Fleming Companies, Inc. (FLMNG.SL)
+2025-11-26 06:50:47,109 - INFO - No data available
+2025-11-26 06:50:47,109 - INFO - 
+[71] ->  UAL Corporation (UAL)
+2025-11-26 06:50:47,801 - INFO - No data available
+2025-11-26 06:50:47,801 - INFO - 
+[72] ->  Eastman Kodak Company (KODK)
+2025-11-26 06:50:48,274 - INFO - No data available
+2025-11-26 06:50:48,274 - INFO - 
+[73] ->  J.P. Morgan & Co. Incorporated (JPM)
+2025-11-26 06:50:48,395 - INFO - Got 252 days of data
+2025-11-26 06:50:48,408 - INFO - 
+[74] ->  Phillips Petroleum Company (PSX)
+2025-11-26 06:50:48,869 - INFO - No data available
+2025-11-26 06:50:48,869 - INFO - 
+[75] ->  Federated Department Stores, Inc. (FHI)
+2025-11-26 06:50:49,279 - INFO - No data available
+2025-11-26 06:50:49,279 - INFO - 
+[78] ->  Digital Equipment Corporation (GEN)
+2025-11-26 06:50:49,384 - INFO - Got 252 days of data
+2025-11-26 06:50:49,395 - INFO - 
+[79] ->  Rockwell International Corporation (ROK)
+2025-11-26 06:50:49,538 - INFO - Got 252 days of data
+2025-11-26 06:50:49,550 - INFO - 
+[80] ->  Lehman Brothers Holdings, Inc. (LEHNQ)
+2025-11-26 06:50:49,987 - INFO - No data available
+2025-11-26 06:50:49,988 - INFO - 
+[81] ->  Minnesota Mining & Manufacturing Company (MMM)
+2025-11-26 06:50:50,137 - INFO - Got 252 days of data
+2025-11-26 06:50:50,150 - INFO - 
+[82] ->  Sprint Corporation (SPRINT.ST)
+2025-11-26 06:50:50,811 - INFO - No data available
+2025-11-26 06:50:50,812 - INFO - 
+[83] ->  American Home Products Corporation (AMH)
+2025-11-26 06:50:51,427 - INFO - No data available
+2025-11-26 06:50:51,427 - INFO - 
+[84] ->  SBC Communications Inc. (SBC)
+2025-11-26 06:50:51,840 - INFO - No data available
+2025-11-26 06:50:51,840 - INFO - 
+[89] ->  McKesson Corporation (MCK)
+2025-11-26 06:50:51,956 - INFO - Got 252 days of data
+2025-11-26 06:50:51,969 - INFO - 
+[91] ->  SYSCO Corporation (SYY)
+2025-11-26 06:50:52,104 - INFO - Got 252 days of data
+2025-11-26 06:50:52,116 - INFO - 
+[92] ->  Archer Daniels Midland Company (ADM)
+2025-11-26 06:50:52,249 - INFO - Got 252 days of data
+2025-11-26 06:50:52,262 - INFO - 
+[95] ->  Morgan Stanley Group (MS)
+2025-11-26 06:50:52,421 - INFO - Got 252 days of data
+2025-11-26 06:50:52,434 - INFO - 
+[96] ->  Alcoa (AA)
+2025-11-26 06:50:52,664 - INFO - Got 252 days of data
+2025-11-26 06:50:52,677 - INFO - 
+[97] ->  The Goodyear Tire & Rubber Company (TGT)
+2025-11-26 06:50:52,807 - INFO - Got 252 days of data
+2025-11-26 06:50:52,820 - INFO - Historic stocks data collected
+2025-11-26 06:50:52,820 - INFO - 
+============================================================
+2025-11-26 06:50:52,820 - INFO - Fetching HISTORICAL data for 1998
+2025-11-26 06:50:52,820 - INFO - Period: 1998-01-01 to 1998-12-31
+2025-11-26 06:50:52,823 - INFO - total companies with tickers: 71
+2025-11-26 06:50:52,834 - INFO - found 260 days already saved
+2025-11-26 06:50:52,834 - INFO - 
+[1] ->  General Motors Corporation (GM)
+2025-11-26 06:50:53,471 - INFO - No data available
+2025-11-26 06:50:53,471 - INFO - 
+[2] ->  Ford Motor Company (F)
+2025-11-26 06:50:53,605 - INFO - Got 251 days of data
+2025-11-26 06:50:53,617 - INFO - 
+[3] ->  Exxon Corporation (XOM)
+2025-11-26 06:50:53,776 - INFO - Got 251 days of data
+2025-11-26 06:50:53,789 - INFO - 
+[4] ->  Wal-Mart Stores, Inc. (WMT)
+2025-11-26 06:50:53,937 - INFO - Got 251 days of data
+2025-11-26 06:50:53,949 - INFO - 
+[5] ->  General Electric Company (GE)
+2025-11-26 06:50:54,109 - INFO - Got 251 days of data
+2025-11-26 06:50:54,122 - INFO - 
+[6] ->  International Business Machines Corporation (IBM)
+2025-11-26 06:50:54,279 - INFO - Got 251 days of data
+2025-11-26 06:50:54,290 - INFO - 
+[8] ->  Mobil Corporation (MBLY)
+2025-11-26 06:50:55,010 - INFO - No data available
+2025-11-26 06:50:55,010 - INFO - 
+[9] ->  Philip Morris Companies Inc. (TABAK.PR)
+2025-11-26 06:50:55,523 - INFO - No data available
+2025-11-26 06:50:55,524 - INFO - 
+[10] ->  AT&T Corp. (ATT.L)
+2025-11-26 06:50:55,612 - INFO - Got 260 days of data
+2025-11-26 06:50:55,622 - INFO - 
+[11] ->  The Boeing Company (BA)
+2025-11-26 06:50:55,814 - INFO - Got 251 days of data
+2025-11-26 06:50:55,827 - INFO - 
+[12] ->  Texaco Inc. (TEXC.NS)
+2025-11-26 06:50:56,255 - INFO - No data available
+2025-11-26 06:50:56,255 - INFO - 
+[16] ->  Sears, Roebuck and Co. (SSRAP)
+2025-11-26 06:50:56,727 - INFO - No data available
+2025-11-26 06:50:56,727 - INFO - 
+[17] ->  Travelers Group Inc. (TRV)
+2025-11-26 06:50:56,935 - INFO - Got 251 days of data
+2025-11-26 06:50:56,948 - INFO - 
+[18] ->  Prudential Insurance Company of America (PRU)
+2025-11-26 06:50:57,776 - INFO - No data available
+2025-11-26 06:50:57,777 - INFO - 
+[19] ->  Chevron Corporation (CVX)
+2025-11-26 06:50:57,926 - INFO - Got 251 days of data
+2025-11-26 06:50:57,938 - INFO - 
+[20] ->  The Procter & Gamble Company (TPG)
+2025-11-26 06:50:58,386 - INFO - No data available
+2025-11-26 06:50:58,387 - INFO - 
+[24] ->  Merrill Lynch & Co., Inc. (DE000SLA1M99.SG)
+2025-11-26 06:50:58,455 - INFO - No data available
+2025-11-26 06:50:58,455 - INFO - 
+[26] ->  American International Group,Inc. (AIG)
+2025-11-26 06:50:58,578 - INFO - Got 251 days of data
+2025-11-26 06:50:58,591 - INFO - 
+[29] ->  Motorola, Inc. (MSI)
+2025-11-26 06:50:58,778 - INFO - Got 251 days of data
+2025-11-26 06:50:58,791 - INFO - 
+[31] ->  PepsiCo, Inc. (PEP)
+2025-11-26 06:50:58,948 - INFO - Got 251 days of data
+2025-11-26 06:50:58,961 - INFO - 
+[32] ->  Lockheed Martin Corporation (LMT)
+2025-11-26 06:50:59,131 - INFO - Got 251 days of data
+2025-11-26 06:50:59,144 - INFO - 
+[33] ->  Fannie Mae (FNMA)
+2025-11-26 06:50:59,267 - INFO - Got 251 days of data
+2025-11-26 06:50:59,278 - INFO - 
+[34] ->  Morgan Stanley, Dean Witter, Discover & Co. (MSD)
+2025-11-26 06:50:59,388 - INFO - Got 251 days of data
+2025-11-26 06:50:59,400 - INFO - 
+[35] ->  The Kroger Company (KR)
+2025-11-26 06:50:59,557 - INFO - Got 251 days of data
+2025-11-26 06:50:59,568 - INFO - 
+[37] ->  Intel Corporation (INTC)
+2025-11-26 06:50:59,725 - INFO - Got 251 days of data
+2025-11-26 06:50:59,738 - INFO - 
+[38] ->  The Allstate Corporation (ALL)
+2025-11-26 06:50:59,861 - INFO - Got 251 days of data
+2025-11-26 06:50:59,874 - INFO - 
+[39] ->  SBC Communications, Inc. (SBC)
+2025-11-26 06:51:00,345 - INFO - No data available
+2025-11-26 06:51:00,345 - INFO - 
+[42] ->  Metropolitan Life Insurance Co. (MTLA.JK)
+2025-11-26 06:51:01,156 - INFO - No data available
+2025-11-26 06:51:01,156 - INFO - 
+[43] ->  The Home Depot, Inc. (THD)
+2025-11-26 06:51:01,680 - INFO - No data available
+2025-11-26 06:51:01,680 - INFO - 
+[44] ->  ConAgra, Inc. (CAG)
+2025-11-26 06:51:01,813 - INFO - Got 251 days of data
+2025-11-26 06:51:01,826 - INFO - 
+[45] ->  Merck & Co., Inc. (MRK)
+2025-11-26 06:51:01,995 - INFO - Got 251 days of data
+2025-11-26 06:51:02,008 - INFO - 
+[47] ->  GTE Corporation (GTE)
+2025-11-26 06:51:02,484 - INFO - No data available
+2025-11-26 06:51:02,484 - INFO - 
+[48] ->  Johnson & Johnson (JNJ)
+2025-11-26 06:51:02,660 - INFO - Got 251 days of data
+2025-11-26 06:51:02,671 - INFO - 
+[49] ->  Safeway Inc. (301559.SZ)
+2025-11-26 06:51:03,199 - INFO - No data available
+2025-11-26 06:51:03,199 - INFO - 
+[50] ->  The Walt Disney Company (DIS)
+2025-11-26 06:51:03,367 - INFO - Got 251 days of data
+2025-11-26 06:51:03,380 - INFO - 
+[51] ->  United Parcel Service of America, Inc. (UPS)
+2025-11-26 06:51:03,932 - INFO - No data available
+2025-11-26 06:51:03,933 - INFO - 
+[54] ->  USX Corporation (USXF)
+2025-11-26 06:51:04,749 - INFO - No data available
+2025-11-26 06:51:04,749 - INFO - 
+[55] ->  BellSouth Corporation (KTBA)
+2025-11-26 06:51:05,355 - INFO - No data available
+2025-11-26 06:51:05,355 - INFO - 
+[57] ->  CIGNA Corporation (CI)
+2025-11-26 06:51:05,495 - INFO - Got 251 days of data
+2025-11-26 06:51:05,508 - INFO - 
+[58] ->  The Dow Chemical Company (TDC)
+2025-11-26 06:51:05,983 - INFO - No data available
+2025-11-26 06:51:05,984 - INFO - 
+[61] ->  Loews Corporation (L)
+2025-11-26 06:51:06,125 - INFO - Got 251 days of data
+2025-11-26 06:51:06,138 - INFO - 
+[63] ->  American Stores Company (AXP)
+2025-11-26 06:51:06,279 - INFO - Got 251 days of data
+2025-11-26 06:51:06,292 - INFO - 
+[64] ->  Caterpillar, Inc. (CAT)
+2025-11-26 06:51:06,456 - INFO - Got 251 days of data
+2025-11-26 06:51:06,469 - INFO - 
+[65] ->  New York Life Insurance Company (601336.SS)
+2025-11-26 06:51:07,095 - INFO - No data available
+2025-11-26 06:51:07,095 - INFO - 
+[68] ->  AMR Corporation (AMR)
+2025-11-26 06:51:07,498 - INFO - No data available
+2025-11-26 06:51:07,498 - INFO - 
+[70] ->  Xerox Corporation (XRX)
+2025-11-26 06:51:07,650 - INFO - Got 251 days of data
+2025-11-26 06:51:07,663 - INFO - 
+[71] ->  American Express Company (AXP)
+2025-11-26 06:51:07,667 - INFO - Got 251 days of data
+2025-11-26 06:51:07,678 - INFO - 
+[72] ->  J.P. Morgan & Co. Incorporated (JPM)
+2025-11-26 06:51:07,816 - INFO - Got 251 days of data
+2025-11-26 06:51:07,827 - INFO - 
+[73] ->  UAL Corporation (UAL)
+2025-11-26 06:51:08,319 - INFO - No data available
+2025-11-26 06:51:08,320 - INFO - 
+[74] ->  RJR Nabisco Holdings Corporation (BURCA)
+2025-11-26 06:51:09,058 - INFO - No data available
+2025-11-26 06:51:09,059 - INFO - 
+[75] ->  Lehman Brothers Holdings, Inc. (LEHNQ)
+2025-11-26 06:51:09,557 - INFO - No data available
+2025-11-26 06:51:09,558 - INFO - 
+[77] ->  Ingram Micro, Inc. (INGM)
+2025-11-26 06:51:09,972 - INFO - No data available
+2025-11-26 06:51:09,972 - INFO - 
+[79] ->  Duke Energy Corporation (DUK)
+2025-11-26 06:51:10,109 - INFO - Got 251 days of data
+2025-11-26 06:51:10,122 - INFO - 
+[81] ->  Federated Department Stores, Inc. (FHI)
+2025-11-26 06:51:10,225 - INFO - Got 160 days of data
+2025-11-26 06:51:10,237 - INFO - 
+[82] ->  PG&E Corporation (PGE.V)
+2025-11-26 06:51:11,120 - INFO - No data available
+2025-11-26 06:51:11,120 - INFO - 
+[83] ->  Fleming Companies, Inc. (FLMNG.SL)
+2025-11-26 06:51:11,490 - INFO - No data available
+2025-11-26 06:51:11,490 - INFO - 
+[84] ->  U S WEST, Inc. (USWE.ST)
+2025-11-26 06:51:12,001 - INFO - No data available
+2025-11-26 06:51:12,001 - INFO - 
+[85] ->  Electronic Data Systems Corporation (EA)
+2025-11-26 06:51:12,116 - INFO - Got 251 days of data
+2025-11-26 06:51:12,129 - INFO - 
+[86] ->  Minnesota Mining and Manufacturing Company (MMa)
+2025-11-26 06:51:12,545 - INFO - No data available
+2025-11-26 06:51:12,545 - INFO - 
+[87] ->  Sprint Corporation (SPRINT.ST)
+2025-11-26 06:51:13,060 - INFO - No data available
+2025-11-26 06:51:13,060 - INFO - 
+[88] ->  Eastman Kodak Company (KODK)
+2025-11-26 06:51:13,547 - INFO - No data available
+2025-11-26 06:51:13,547 - INFO - 
+[89] ->  Phillips Petroleum Company (PSX)
+2025-11-26 06:51:13,969 - INFO - No data available
+2025-11-26 06:51:13,970 - INFO - 
+[92] ->  Sysco Corporation (SYY)
+2025-11-26 06:51:14,135 - INFO - Got 251 days of data
+2025-11-26 06:51:14,148 - INFO - 
+[93] ->  Federal Home Loan Mortgage Corp. (FMCC)
+2025-11-26 06:51:14,266 - INFO - Got 251 days of data
+2025-11-26 06:51:14,277 - INFO - 
+[94] ->  First Union Corporation (FHN)
+2025-11-26 06:51:14,399 - INFO - Got 251 days of data
+2025-11-26 06:51:14,411 - INFO - 
+[95] ->  Fluor Corporation (FLR)
+2025-11-26 06:51:14,780 - INFO - No data available
+2025-11-26 06:51:14,780 - INFO - 
+[96] ->  American Home Products Corporation (AMH)
+2025-11-26 06:51:15,285 - INFO - No data available
+2025-11-26 06:51:15,286 - INFO - 
+[97] ->  Archer Daniels Midland Company (ADM)
+2025-11-26 06:51:15,406 - INFO - Got 251 days of data
+2025-11-26 06:51:15,418 - INFO - 
+[98] ->  Raytheon Company (^RTX)
+2025-11-26 06:51:15,891 - INFO - No data available
+2025-11-26 06:51:15,891 - INFO - 
+[99] ->  Delta Air Lines, Inc. (DAL)
+2025-11-26 06:51:16,301 - INFO - No data available
+2025-11-26 06:51:16,302 - INFO - 
+[100] ->  Ashland Inc. (ASH)
+2025-11-26 06:51:16,502 - INFO - Got 251 days of data
+2025-11-26 06:51:16,514 - INFO - Historic stocks data collected
+2025-11-26 06:51:16,515 - INFO - 
+============================================================
+2025-11-26 06:51:16,515 - INFO - Fetching HISTORICAL data for 1999
+2025-11-26 06:51:16,515 - INFO - Period: 1999-01-01 to 1999-12-31
+2025-11-26 06:51:16,518 - INFO - total companies with tickers: 75
+2025-11-26 06:51:16,528 - INFO - found 260 days already saved
+2025-11-26 06:51:16,528 - INFO - 
+[1] ->  General Motors Corporation (GM)
+2025-11-26 06:51:17,029 - INFO - No data available
+2025-11-26 06:51:17,030 - INFO - 
+[2] ->  Ford Motor Company (F)
+2025-11-26 06:51:17,193 - INFO - Got 251 days of data
+2025-11-26 06:51:17,206 - INFO - 
+[3] ->  Wal-Mart Stores, Inc. (WMT)
+2025-11-26 06:51:17,370 - INFO - Got 251 days of data
+2025-11-26 06:51:17,383 - INFO - 
+[4] ->  Exxon Corporation (XOM)
+2025-11-26 06:51:17,617 - INFO - Got 251 days of data
+2025-11-26 06:51:17,630 - INFO - 
+[5] ->  General Electric Company (GE)
+2025-11-26 06:51:17,868 - INFO - Got 251 days of data
+2025-11-26 06:51:17,881 - INFO - 
+[6] ->  International Business Machines Corporation (IBM)
+2025-11-26 06:51:18,053 - INFO - Got 251 days of data
+2025-11-26 06:51:18,066 - INFO - 
+[7] ->  Citigroup, Inc. (C)
+2025-11-26 06:51:18,222 - INFO - Got 251 days of data
+2025-11-26 06:51:18,235 - INFO - 
+[8] ->  Philip Morris Companies Inc. (TABAK.PR)
+2025-11-26 06:51:20,642 - INFO - No data available
+2025-11-26 06:51:20,642 - INFO - 
+[9] ->  The Boeing Company (BA)
+2025-11-26 06:51:20,921 - INFO - Got 251 days of data
+2025-11-26 06:51:20,934 - INFO - 
+[10] ->  AT&T Corp. (ATT.L)
+2025-11-26 06:51:21,039 - INFO - Got 260 days of data
+2025-11-26 06:51:21,052 - INFO - 
+[12] ->  Mobil Corporation (MBLY)
+2025-11-26 06:51:21,836 - INFO - No data available
+2025-11-26 06:51:21,837 - INFO - 
+[15] ->  Sears, Roebuck and Co. (SSRAP)
+2025-11-26 06:51:22,749 - INFO - No data available
+2025-11-26 06:51:22,750 - INFO - 
+[17] ->  The Procter & Gamble Company (TPG)
+2025-11-26 06:51:23,143 - INFO - No data available
+2025-11-26 06:51:23,143 - INFO - 
+[19] ->  Merrill Lynch & Co., Inc. (DE000SLA1M99.SG)
+2025-11-26 06:51:23,286 - INFO - No data available
+2025-11-26 06:51:23,287 - INFO - 
+[20] ->  Prudential Insurance Company of America (PRU)
+2025-11-26 06:51:24,098 - INFO - No data available
+2025-11-26 06:51:24,099 - INFO - 
+[22] ->  American International Group,Inc. (AIG)
+2025-11-26 06:51:24,243 - INFO - Got 251 days of data
+2025-11-26 06:51:24,256 - INFO - 
+[24] ->  Texaco Inc. (TEXC.NS)
+2025-11-26 06:51:24,696 - INFO - No data available
+2025-11-26 06:51:24,697 - INFO - 
+[26] ->  Fannie Mae (FNMA)
+2025-11-26 06:51:24,821 - INFO - Got 251 days of data
+2025-11-26 06:51:24,834 - INFO - 
+[29] ->  Morgan Stanley Dean Witter & Co. (MS)
+2025-11-26 06:51:24,994 - INFO - Got 251 days of data
+2025-11-26 06:51:25,007 - INFO - 
+[30] ->  Dayton Hudson Corporation (7228.T)
+2025-11-26 06:51:25,529 - INFO - No data available
+2025-11-26 06:51:25,529 - INFO - 
+[32] ->  The Home Depot, Inc. (THD)
+2025-11-26 06:51:26,374 - INFO - No data available
+2025-11-26 06:51:26,375 - INFO - 
+[34] ->  Motorola, Inc. (MSI)
+2025-11-26 06:51:26,578 - INFO - Got 251 days of data
+2025-11-26 06:51:26,591 - INFO - 
+[35] ->  SBC Communications, Inc. (SBC)
+2025-11-26 06:51:27,063 - INFO - No data available
+2025-11-26 06:51:27,063 - INFO - 
+[36] ->  The Kroger Company (KR)
+2025-11-26 06:51:27,295 - INFO - Got 251 days of data
+2025-11-26 06:51:27,308 - INFO - 
+[37] ->  Merck & Co., Inc. (MRK)
+2025-11-26 06:51:27,488 - INFO - Got 251 days of data
+2025-11-26 06:51:27,500 - INFO - 
+[38] ->  Chevron Corporation (CVX)
+2025-11-26 06:51:27,656 - INFO - Got 251 days of data
+2025-11-26 06:51:27,669 - INFO - 
+[39] ->  Metropolitan Life Insurance Co. (MTLA.JK)
+2025-11-26 06:51:28,079 - INFO - No data available
+2025-11-26 06:51:28,080 - INFO - 
+[40] ->  Intel Corporation (INTC)
+2025-11-26 06:51:28,196 - INFO - Got 251 days of data
+2025-11-26 06:51:28,208 - INFO - 
+[41] ->  Lockheed Martin Corporation (LMT)
+2025-11-26 06:51:28,400 - INFO - Got 251 days of data
+2025-11-26 06:51:28,413 - INFO - 
+[42] ->  The Allstate Corporation (ALL)
+2025-11-26 06:51:28,537 - INFO - Got 251 days of data
+2025-11-26 06:51:28,550 - INFO - 
+[44] ->  Bank One Corporation (BANK.NE)
+2025-11-26 06:51:28,617 - INFO - No data available
+2025-11-26 06:51:28,618 - INFO - 
+[45] ->  GTE Corporation (GTE)
+2025-11-26 06:51:29,026 - INFO - No data available
+2025-11-26 06:51:29,026 - INFO - 
+[46] ->  United Parcel Service of America, Inc. (UPS)
+2025-11-26 06:51:29,133 - INFO - Got 35 days of data
+2025-11-26 06:51:29,146 - INFO - 
+[47] ->  USX Corporation (USXF)
+2025-11-26 06:51:29,516 - INFO - No data available
+2025-11-26 06:51:29,517 - INFO - 
+[48] ->  Safeway Inc. (301559.SZ)
+2025-11-26 06:51:30,036 - INFO - No data available
+2025-11-26 06:51:30,036 - INFO - 
+[50] ->  ConAgra, Inc. (CAG)
+2025-11-26 06:51:30,176 - INFO - Got 251 days of data
+2025-11-26 06:51:30,189 - INFO - 
+[51] ->  Johnson & Johnson (JNJ)
+2025-11-26 06:51:30,371 - INFO - Got 251 days of data
+2025-11-26 06:51:30,384 - INFO - 
+[52] ->  BellSouth Corporation (KTBA)
+2025-11-26 06:51:30,773 - INFO - No data available
+2025-11-26 06:51:30,774 - INFO - 
+[53] ->  The Walt Disney Company (DIS)
+2025-11-26 06:51:30,942 - INFO - Got 251 days of data
+2025-11-26 06:51:30,954 - INFO - 
+[54] ->  PepsiCo, Inc. (PEP)
+2025-11-26 06:51:31,087 - INFO - Got 251 days of data
+2025-11-26 06:51:31,100 - INFO - 
+[55] ->  Ingram Micro, Inc. (INGM)
+2025-11-26 06:51:31,544 - INFO - No data available
+2025-11-26 06:51:31,545 - INFO - 
+[56] ->  First Union Corporation (FHN)
+2025-11-26 06:51:31,675 - INFO - Got 251 days of data
+2025-11-26 06:51:31,688 - INFO - 
+[57] ->  CIGNA Corporation (CI)
+2025-11-26 06:51:32,021 - INFO - Got 251 days of data
+2025-11-26 06:51:32,034 - INFO - 
+[58] ->  Caterpillar, Inc. (CAT)
+2025-11-26 06:51:32,188 - INFO - Got 251 days of data
+2025-11-26 06:51:32,201 - INFO - 
+[59] ->  McKesson HBOC Inc. (MCK)
+2025-11-26 06:51:32,320 - INFO - Got 251 days of data
+2025-11-26 06:51:32,333 - INFO - 
+[60] ->  Loews Corporation (L)
+2025-11-26 06:51:32,485 - INFO - Got 251 days of data
+2025-11-26 06:51:32,498 - INFO - 
+[62] ->  Wells Fargo & Co. (WFC)
+2025-11-26 06:51:32,651 - INFO - Got 251 days of data
+2025-11-26 06:51:32,663 - INFO - 
+[63] ->  Xerox Corporation (XRX)
+2025-11-26 06:51:32,851 - INFO - Got 251 days of data
+2025-11-26 06:51:32,864 - INFO - 
+[65] ->  PG&E Corporation (PGE.V)
+2025-11-26 06:51:33,324 - INFO - No data available
+2025-11-26 06:51:33,324 - INFO - 
+[66] ->  Lehman Brothers Holdings, Inc. (LEHNQ)
+2025-11-26 06:51:33,836 - INFO - No data available
+2025-11-26 06:51:33,837 - INFO - 
+[67] ->  American Stores Company (AXP)
+2025-11-26 06:51:34,015 - INFO - Got 251 days of data
+2025-11-26 06:51:34,028 - INFO - 
+[68] ->  New York Life Insurance Company (601336.SS)
+2025-11-26 06:51:34,519 - INFO - No data available
+2025-11-26 06:51:34,519 - INFO - 
+[70] ->  Raytheon Company (^RTX)
+2025-11-26 06:51:35,004 - INFO - No data available
+2025-11-26 06:51:35,005 - INFO - 
+[71] ->  International Paper Company (IP)
+2025-11-26 06:51:35,192 - INFO - Got 251 days of data
+2025-11-26 06:51:35,204 - INFO - 
+[72] ->  AMR Corporation (AMR)
+2025-11-26 06:51:35,632 - INFO - No data available
+2025-11-26 06:51:35,633 - INFO - 
+[73] ->  American Express Company (AXP)
+2025-11-26 06:51:35,646 - INFO - Got 251 days of data
+2025-11-26 06:51:35,659 - INFO - 
+[75] ->  The Dow Chemical Company (TDC)
+2025-11-26 06:51:36,187 - INFO - No data available
+2025-11-26 06:51:36,187 - INFO - 
+[76] ->  J.P. Morgan & Co. Incorporated (JPM)
+2025-11-26 06:51:36,318 - INFO - Got 251 days of data
+2025-11-26 06:51:36,331 - INFO - 
+[78] ->  Dell Computer Corporation (Dell)
+2025-11-26 06:51:36,718 - INFO - No data available
+2025-11-26 06:51:36,719 - INFO - 
+[79] ->  Freddie Mac (FMCC)
+2025-11-26 06:51:36,823 - INFO - Got 251 days of data
+2025-11-26 06:51:36,836 - INFO - 
+[81] ->  Duke Energy Corporation (DUK)
+2025-11-26 06:51:36,966 - INFO - Got 251 days of data
+2025-11-26 06:51:36,979 - INFO - 
+[82] ->  UAL Corporation (UAL)
+2025-11-26 06:51:37,497 - INFO - No data available
+2025-11-26 06:51:37,497 - INFO - 
+[83] ->  AutoNation, Inc. (AN)
+2025-11-26 06:51:37,586 - INFO - Got 251 days of data
+2025-11-26 06:51:37,599 - INFO - 
+[84] ->  United Health Care Corporation (UNH)
+2025-11-26 06:51:37,740 - INFO - Got 251 days of data
+2025-11-26 06:51:37,752 - INFO - 
+[85] ->  Halliburton Company (HAL)
+2025-11-26 06:51:37,906 - INFO - Got 251 days of data
+2025-11-26 06:51:37,918 - INFO - 
+[88] ->  Sprint Corporation (SPRINT.ST)
+2025-11-26 06:51:38,315 - INFO - No data available
+2025-11-26 06:51:38,316 - INFO - 
+[89] ->  RJR Nabisco Holdings Corporation (BURCA)
+2025-11-26 06:51:38,730 - INFO - No data available
+2025-11-26 06:51:38,731 - INFO - 
+[90] ->  Electronic Data Systems Corporation (EA)
+2025-11-26 06:51:38,827 - INFO - Got 251 days of data
+2025-11-26 06:51:38,840 - INFO - 
+[91] ->  Archer Daniels Midland Company (ADM)
+2025-11-26 06:51:38,978 - INFO - Got 251 days of data
+2025-11-26 06:51:38,991 - INFO - 
+[93] ->  Cardinal Health, Inc. (CAH)
+2025-11-26 06:51:39,131 - INFO - Got 251 days of data
+2025-11-26 06:51:39,144 - INFO - 
+[94] ->  FDX Corporation (FDX)
+2025-11-26 06:51:39,244 - INFO - Got 251 days of data
+2025-11-26 06:51:39,257 - INFO - 
+[95] ->  Federated Department Stores, Inc. (FHI)
+2025-11-26 06:51:39,368 - INFO - Got 251 days of data
+2025-11-26 06:51:39,381 - INFO - 
+[96] ->  Alcoa, Inc. (AA)
+2025-11-26 06:51:39,525 - INFO - Got 251 days of data
+2025-11-26 06:51:39,538 - INFO - 
+[97] ->  Sysco Corporation (SYY)
+2025-11-26 06:51:39,661 - INFO - Got 251 days of data
+2025-11-26 06:51:39,674 - INFO - 
+[99] ->  CVS Corporation (CVS)
+2025-11-26 06:51:39,786 - INFO - Got 251 days of data
+2025-11-26 06:51:39,799 - INFO - Historic stocks data collected
+2025-11-26 06:51:39,799 - INFO - 
+============================================================
+2025-11-26 06:51:39,799 - INFO - Fetching HISTORICAL data for 2000
+2025-11-26 06:51:39,799 - INFO - Period: 2000-01-01 to 2000-12-31
+2025-11-26 06:51:39,802 - INFO - total companies with tickers: 77
+2025-11-26 06:51:39,812 - INFO - found 260 days already saved
+2025-11-26 06:51:39,813 - INFO - 
+[1] ->  General Motors Corporation (GM)
+2025-11-26 06:51:40,262 - INFO - No data available
+2025-11-26 06:51:40,263 - INFO - 
+[2] ->  Wal-Mart Stores, Inc. (WMT)
+2025-11-26 06:51:40,411 - INFO - Got 252 days of data
+2025-11-26 06:51:40,424 - INFO - 
+[3] ->  Exxon Mobil Corporation (XOM)
+2025-11-26 06:51:40,594 - INFO - Got 252 days of data
+2025-11-26 06:51:40,607 - INFO - 
+[4] ->  Ford Motor Company (F)
+2025-11-26 06:51:40,811 - INFO - Got 252 days of data
+2025-11-26 06:51:40,824 - INFO - 
+[5] ->  General Electric Company (GE)
+2025-11-26 06:51:40,987 - INFO - Got 252 days of data
+2025-11-26 06:51:41,000 - INFO - 
+[6] ->  International Business Machines Corporation (IBM)
+2025-11-26 06:51:41,158 - INFO - Got 252 days of data
+2025-11-26 06:51:41,171 - INFO - 
+[7] ->  Citigroup, Inc. (C)
+2025-11-26 06:51:41,334 - INFO - Got 252 days of data
+2025-11-26 06:51:41,347 - INFO - 
+[8] ->  AT&T Corp. (ATT.L)
+2025-11-26 06:51:41,430 - INFO - Got 260 days of data
+2025-11-26 06:51:41,443 - INFO - 
+[9] ->  Philip Morris Companies Inc. (TABAK.PR)
+2025-11-26 06:51:41,562 - INFO - Got 258 days of data
+2025-11-26 06:51:41,575 - INFO - 
+[10] ->  The Boeing Company (BA)
+2025-11-26 06:51:41,724 - INFO - Got 252 days of data
+2025-11-26 06:51:41,737 - INFO - 
+[11] ->  Bank of America Corporation (BAC)
+2025-11-26 06:51:41,862 - INFO - Got 252 days of data
+2025-11-26 06:51:41,875 - INFO - 
+[12] ->  SBC Communications, Inc. (SBC)
+2025-11-26 06:51:42,318 - INFO - No data available
+2025-11-26 06:51:42,318 - INFO - 
+[13] ->  The Kroger Company (KR)
+2025-11-26 06:51:42,505 - INFO - Got 252 days of data
+2025-11-26 06:51:42,516 - INFO - 
+[15] ->  Sears, Roebuck and Co. (SSRAP)
+2025-11-26 06:51:42,906 - INFO - No data available
+2025-11-26 06:51:42,907 - INFO - 
+[16] ->  American International Group,Inc. (AIG)
+2025-11-26 06:51:43,066 - INFO - Got 252 days of data
+2025-11-26 06:51:43,079 - INFO - 
+[20] ->  The Home Depot, Inc. (THD)
+2025-11-26 06:51:43,670 - INFO - No data available
+2025-11-26 06:51:43,670 - INFO - 
+[22] ->  The Procter & Gamble Company (TPG)
+2025-11-26 06:51:44,071 - INFO - No data available
+2025-11-26 06:51:44,072 - INFO - 
+[25] ->  Fannie Mae (FNMA)
+2025-11-26 06:51:44,179 - INFO - Got 252 days of data
+2025-11-26 06:51:44,191 - INFO - 
+[27] ->  Texaco Inc. (TEXC.NS)
+2025-11-26 06:51:44,610 - INFO - No data available
+2025-11-26 06:51:44,610 - INFO - 
+[28] ->  Merrill Lynch & Co., Inc. (DE000SLA1M99.SG)
+2025-11-26 06:51:44,680 - INFO - No data available
+2025-11-26 06:51:44,681 - INFO - 
+[29] ->  Morgan Stanley Dean Witter & Co. (MS)
+2025-11-26 06:51:44,806 - INFO - Got 252 days of data
+2025-11-26 06:51:44,819 - INFO - 
+[31] ->  Target (TGT)
+2025-11-26 06:51:44,960 - INFO - Got 252 days of data
+2025-11-26 06:51:44,973 - INFO - 
+[33] ->  Merck & Co., Inc. (MRK)
+2025-11-26 06:51:45,154 - INFO - Got 252 days of data
+2025-11-26 06:51:45,167 - INFO - 
+[34] ->  Chevron Corporation (CVX)
+2025-11-26 06:51:45,337 - INFO - Got 252 days of data
+2025-11-26 06:51:45,350 - INFO - 
+[36] ->  Motorola, Inc. (MSI)
+2025-11-26 06:51:45,511 - INFO - Got 252 days of data
+2025-11-26 06:51:45,524 - INFO - 
+[37] ->  McKesson HBOC Inc. (MCK)
+2025-11-26 06:51:45,645 - INFO - Got 252 days of data
+2025-11-26 06:51:45,658 - INFO - 
+[38] ->  Intel Corporation (INTC)
+2025-11-26 06:51:45,787 - INFO - Got 252 days of data
+2025-11-26 06:51:45,800 - INFO - 
+[39] ->  Safeway Inc. (301559.SZ)
+2025-11-26 06:51:46,223 - INFO - No data available
+2025-11-26 06:51:46,223 - INFO - 
+[40] ->  Ingram Micro, Inc. (INGM)
+2025-11-26 06:51:46,699 - INFO - No data available
+2025-11-26 06:51:46,700 - INFO - 
+[42] ->  Johnson & Johnson (JNJ)
+2025-11-26 06:51:46,927 - INFO - Got 252 days of data
+2025-11-26 06:51:46,940 - INFO - 
+[43] ->  Costco Wholesale Corporation (COST)
+2025-11-26 06:51:47,041 - INFO - Got 252 days of data
+2025-11-26 06:51:47,054 - INFO - 
+[44] ->  Time Warner Inc. (T)
+2025-11-26 06:51:47,186 - INFO - Got 252 days of data
+2025-11-26 06:51:47,199 - INFO - 
+[45] ->  United Parcel Service of America, Inc. (UPS)
+2025-11-26 06:51:47,314 - INFO - Got 252 days of data
+2025-11-26 06:51:47,327 - INFO - 
+[46] ->  The Allstate Corporation (ALL)
+2025-11-26 06:51:47,532 - INFO - Got 252 days of data
+2025-11-26 06:51:47,544 - INFO - 
+[47] ->  Prudential Insurance Company of America (PRU)
+2025-11-26 06:51:47,944 - INFO - No data available
+2025-11-26 06:51:47,944 - INFO - 
+[49] ->  Bank One Corporation (BANK.NE)
+2025-11-26 06:51:48,027 - INFO - No data available
+2025-11-26 06:51:48,027 - INFO - 
+[50] ->  USX Corporation (USXF)
+2025-11-26 06:51:48,557 - INFO - No data available
+2025-11-26 06:51:48,557 - INFO - 
+[51] ->  Lockheed Martin Corporation (LMT)
+2025-11-26 06:51:48,734 - INFO - Got 252 days of data
+2025-11-26 06:51:48,745 - INFO - 
+[52] ->  Metropolitan Life Insurance Co. (MTLA.JK)
+2025-11-26 06:51:49,176 - INFO - No data available
+2025-11-26 06:51:49,177 - INFO - 
+[53] ->  Goldman Sachs Group, Inc. (GS)
+2025-11-26 06:51:49,297 - INFO - Got 252 days of data
+2025-11-26 06:51:49,310 - INFO - 
+[54] ->  GTE Corporation (GTE)
+2025-11-26 06:51:49,784 - INFO - No data available
+2025-11-26 06:51:49,784 - INFO - 
+[55] ->  Dell Computer Corporation (Dell)
+2025-11-26 06:51:50,176 - INFO - No data available
+2025-11-26 06:51:50,176 - INFO - 
+[57] ->  BellSouth Corporation (KTBA)
+2025-11-26 06:51:50,918 - INFO - No data available
+2025-11-26 06:51:50,919 - INFO - 
+[58] ->  Cardinal Health, Inc. (CAH)
+2025-11-26 06:51:51,085 - INFO - Got 252 days of data
+2025-11-26 06:51:51,098 - INFO - 
+[59] ->  ConAgra (CAG)
+2025-11-26 06:51:51,222 - INFO - Got 252 days of data
+2025-11-26 06:51:51,235 - INFO - 
+[60] ->  International Paper Company (IP)
+2025-11-26 06:51:51,579 - INFO - Got 252 days of data
+2025-11-26 06:51:51,592 - INFO - 
+[61] ->  Freddie Mac (FMCC)
+2025-11-26 06:51:51,686 - INFO - Got 252 days of data
+2025-11-26 06:51:51,698 - INFO - 
+[62] ->  AutoNation, Inc. (AN)
+2025-11-26 06:51:51,785 - INFO - Got 252 days of data
+2025-11-26 06:51:51,796 - INFO - 
+[63] ->  Berkshire Hathaway Inc. (BRK.A)
+2025-11-26 06:51:52,247 - INFO - No data available
+2025-11-26 06:51:52,248 - INFO - 
+[64] ->  Honeywell International Inc. (HON)
+2025-11-26 06:51:52,427 - INFO - Got 252 days of data
+2025-11-26 06:51:52,439 - INFO - 
+[65] ->  The Walt Disney Company (DIS)
+2025-11-26 06:51:52,594 - INFO - Got 252 days of data
+2025-11-26 06:51:52,607 - INFO - 
+[66] ->  First Union Corporation (FHN)
+2025-11-26 06:51:52,744 - INFO - Got 252 days of data
+2025-11-26 06:51:52,757 - INFO - 
+[67] ->  Wells Fargo & Co. (WFC)
+2025-11-26 06:51:52,917 - INFO - Got 252 days of data
+2025-11-26 06:51:52,930 - INFO - 
+[68] ->  Duke Energy Corporation (DUK)

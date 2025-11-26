@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,General Motors Corporation,Motor Vehicles & Parts,189058.0,,,2000,,GM
+2,"Wal-Mart Stores, Inc.",General Merchandisers,166809.0,,,2000,,WMT
+3,Exxon Mobil Corporation,Petroleum Refining,163881.0,,,2000,,XOM
+4,Ford Motor Company,Motor Vehicles & Parts,162558.0,,,2000,,F
+5,General Electric Company,Diversified Financials,111630.0,,,2000,,GE
+6,International Business Machines Corporation,"Computers, Office Equipment",87548.0,,,2000,,IBM
+7,"Citigroup, Inc.",Diversified Financials,82005.0,,,2000,,C
+8,AT&T Corp.,Telecommunications,62391.0,,,2000,,ATT.L
+9,Philip Morris Companies Inc.,Tobacco,61751.0,,,2000,,TABAK.PR
+10,The Boeing Company,Aerospace & Defense,57993.0,,,2000,,BA
+11,Bank of America Corporation,Commercial Banks,51392.0,,,2000,,BAC
+12,"SBC Communications, Inc.",Telecommunications,49489.0,,,2000,,SBC
+14,The Kroger Company,Food & Drug Stores,45351.6,,,2000,,KR
+15,State Farm Insurance Companies,Insurance: Property and Casualty (Mutual),44637.2,,,2000,,
+16,"Sears, Roebuck and Co.",General Merchandisers,41071.0,,,2000,,SSRAP
+17,"American International Group,Inc.",Insurance: Property and Casualty (Stock),40656.1,,,2000,,AIG
+18,Enron,Pipelines,40112.0,,,2000,,
+19,Teachers Insurance and Annuity Association College Retiremen,"Insurance: Life, Health (Mutual)",39410.2,,,2000,,
+20,Compaq Computer Corporation,"Computers, Office Equipment",38525.0,,,2000,,
+21,"The Home Depot, Inc.",Specialty Retailers,38434.0,,,2000,,THD
+22,Lucent Technologies,Network Communications,38303.0,,,2000,,
+23,The Procter & Gamble Company,"Soaps, Cosmetics",38125.0,,,2000,,TPG
+24,Hewlett-Packard Company,Food & Drug Stores,37478.1,,,2000,,
+25,"MCI WorldCom, Inc.",Telecommunications,37120.0,,,2000,,
+26,Fannie Mae,Diversified Financials,36968.6,,,2000,,FNMA
+27,Kmart Corporation,General Merchandisers,35925.0,,,2000,,
+28,Texaco Inc.,Petroleum Refining,35690.0,,,2000,,TEXC.NS
+29,"Merrill Lynch & Co., Inc.",Securities,34879.0,,,2000,,DE000SLA1M99.SG
+30,Morgan Stanley Dean Witter & Co.,Securities,33928.0,,,2000,,MS
+31,Chase Manhattan Corp,Commercial Banks,33710.0,,,2000,,
+32,Target,General Merchandisers,33702.0,,,2000,,TGT
+33,Bell Atlantic Corporation,Telecommunications,33174.0,,,2000,,
+34,"Merck & Co., Inc.",Pharmaceuticals,32714.0,,,2000,,MRK
+35,Chevron Corporation,Petroleum Refining,32676.0,,,2000,,CVX
+36,"J.C. Penney Company, Inc.",General Merchandisers,32510.0,,,2000,,
+37,"Motorola, Inc.","Electronics, Electrical Equipment",30931.0,,,2000,,MSI
+38,McKesson HBOC Inc.,Wholesalers,30382.3,,,2000,,MCK
+39,Intel Corporation,Semiconductors,29389.0,,,2000,,INTC
+40,Safeway Inc.,Food & Drug Stores,28859.9,,,2000,,301559.SZ
+41,"Ingram Micro, Inc.",Wholesalers,28068.6,,,2000,,INGM
+42,"E.I. du Pont de Nemours and Company, Inc.",Chemicals,27892.0,,,2000,,
+43,Johnson & Johnson,Pharmaceuticals,27471.0,,,2000,,JNJ
+44,Costco Wholesale Corporation,Specialty Retailers,27456.0,,,2000,,COST
+45,Time Warner Inc.,Entertainment,27333.0,,,2000,,T
+46,"United Parcel Service of America, Inc.","Mail, Package, and Freight Delivery",27052.0,,,2000,,UPS
+47,The Allstate Corporation,Insurance: Property and Casualty (Stock),26959.0,,,2000,,ALL
+48,Prudential Insurance Company of America,"Insurance: Life, Health (Stock)",26618.0,,,2000,,PRU
+49,"Aetna, Inc.",Health Care,26452.7,,,2000,,
+50,Bank One Corporation,Commercial Banks,25986.0,,,2000,,BANK.NE
+51,USX Corporation,Petroleum Refining,25610.0,,,2000,,USXF
+52,Lockheed Martin Corporation,Aerospace & Defense,25530.0,,,2000,,LMT
+53,Metropolitan Life Insurance Co.,"Insurance: Life, Health (Stock)",25426.0,,,2000,,MTLA.JK
+54,"Goldman Sachs Group, Inc.",Securities,25363.0,,,2000,,GS
+55,GTE Corporation,Telecommunications,25336.2,,,2000,,GTE
+56,Dell Computer Corporation,"Computers, Office Equipment",25265.0,,,2000,,Dell
+57,United Technologies Corporation,Aerospace & Defense,25242.0,,,2000,,
+58,BellSouth Corporation,Telecommunications,25224.0,,,2000,,KTBA
+59,"Cardinal Health, Inc.",Wholesalers,25033.6,,,2000,,CAH
+60,ConAgra,Food,24594.3,,,2000,,CAG
+61,International Paper Company,Forest and Paper Products,24573.0,,,2000,,IP
+62,Freddie Mac,Diversified Financials,24268.0,,,2000,,FMCC
+63,"AutoNation, Inc.","Automotive Retailing, Services",24206.6,,,2000,,AN
+64,Berkshire Hathaway Inc.,Insurance: Property and Casualty (Stock),24028.0,,,2000,,BRK.A
+65,Honeywell International Inc.,Aerospace & Defense,23735.0,,,2000,,HON
+66,The Walt Disney Company,Entertainment,23402.0,,,2000,,DIS
+67,First Union Corporation,Commercial Banks,22084.0,,,2000,,FHN
+68,Wells Fargo & Co.,Commercial Banks,21795.0,,,2000,,WFC
+69,Duke Energy Corporation,Utilities: Gas and Electric,21742.0,,,2000,,DUK
+70,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",21679.3,,,2000,,601336.SS
+71,American Express Company,Diversified Financials,21278.0,,,2000,,AXP
+72,Loews Corporation,Insurance: Property and Casualty (Stock),20952.6,,,2000,,L
+73,PG&E Corporation,Utilities: Gas and Electric,20820.0,,,2000,,PGE.V
+74,Conoco,Petroleum Refining,20817.0,,,2000,,COP
+75,CIGNA Corporation,Health Care,20644.0,,,2000,,CI
+76,"PepsiCo, Inc.",Beverages,20367.0,,,2000,,PEP
+77,AMR Corporation,Airlines,20262.0,,,2000,,AMR
+78,Bristol-Myers Squibb Company,Pharmaceuticals,20222.0,,,2000,,
+79,Sara Lee Corporation,Food,20012.0,,,2000,,
+80,FleetBoston Financial,Commercial Banks,20000.0,,,2000,,
+81,Sprint Corporation,Telecommunications,19930.0,,,2000,,SPRINT.ST
+82,Raytheon Company,Aerospace & Defense,19841.0,,,2000,,^RTX
+83,The Coca-Cola Company,Beverages,19805.0,,,2000,,
+84,Microsoft Corporation,Computer Software,19747.0,,,2000,,MSFT
+85,"Caterpillar, Inc.",Industrial and Farm Equipment,19702.0,,,2000,,CAT
+86,"UnitedHealth Group, Incorporated",Health Care,19562.0,,,2000,,UNH
+87,Xerox Corporation,"Computers, Office Equipment",19228.0,,,2000,,XRX
+88,"Lehman Brothers Holdings, Inc.",Securities,18989.0,,,2000,,LEHNQ
+89,The Dow Chemical Company,Chemicals,18929.0,,,2000,,TDC
+90,UtiliCorp United Inc.,Utilities: Gas and Electric,18621.5,,,2000,,
+91,Electronic Data Systems Corporation,Computer And Data Services,18534.2,,,2000,,EA
+92,J.P. Morgan & Co. Incorporated,Commercial Banks,18110.0,,,2000,,JPM
+93,CVS Corporation,Food & Drug Stores,18098.3,,,2000,,CVS
+94,UAL Corporation,Airlines,18027.0,,,2000,,UAL
+95,Walgreen Co.,Food & Drug Stores,17838.8,,,2000,,
+96,Georgia-Pacific Corporation,Forest and Paper Products,17796.0,,,2000,,
+97,"Federated Department Stores, Inc.",General Merchandisers,17716.0,,,2000,,FHI
+98,Sysco Corporation,Wholesalers,17422.8,,,2000,,SYY
+99,Supervalu Inc.,Wholesalers,17420.5,,,2000,,
+100,Bergen Brunswig Corporation,Wholesalers,17244.9,,,2000,,
+102,Tech Data Corporation,Wholesalers,16991.8,,,2000,,TECH.OL

@@ -1,0 +1,38 @@
+ticker,company,date,sentiment_score,article_count,bullish,bearish,neutral
+WMT,Walmart,2025-11-26,0.0,10,1,1,8
+AMZN,Amazon,2025-11-26,0.1111,9,3,2,4
+APLE,Apple,2025-11-26,0.1,10,3,2,5
+GOOGL,Alphabet,2025-11-26,0.5,4,2,0,2
+MSFT,Microsoft,2025-11-26,0.4,10,5,1,4
+BAC,Bank of America,2025-11-26,-1.0,1,0,1,0
+CITI.NE,Citi,2025-11-26,0.0,1,0,0,1
+META,Meta,2025-11-26,-0.2,10,0,2,8
+CNC,Centene,2025-11-26,0.0,1,0,0,1
+HD,Home Depot,2025-11-26,0.0,2,1,1,0
+VZ,Verizon,2025-11-26,0.0,1,0,0,1
+NVDA,Nvidia,2025-11-26,-0.2,10,0,2,8
+GSBD,Goldman Sachs,2025-11-26,0.5,2,1,0,1
+WFC,Wells Fargo,2025-11-26,-1.0,1,0,1,0
+ALL,State Farm,2025-11-26,0.0,1,0,0,1
+ATT.L,AT&T,2025-11-26,-0.1111,9,0,1,8
+MS,Morgan Stanley,2025-11-26,0.5,2,1,0,1
+TGT,Target,2025-11-26,0.0,10,3,3,4
+SNEX,StoneX,2025-11-26,1.0,1,1,0,0
+TSLA,Tesla,2025-11-26,0.0,5,0,0,5
+PEP,PepsiCo,2025-11-26,1.0,1,1,0,0
+UPS,UPS,2025-11-26,0.1429,7,1,0,6
+JNJ,Johnson & Johnson,2025-11-26,0.2222,9,4,2,3
+ET,Energy Transfer,2025-11-26,0.1667,6,1,0,5
+RTX,RTX,2025-11-26,-0.5,2,0,1,1
+PGR,Progressive,2025-11-26,0.1429,7,1,0,6
+AXP,American Express,2025-11-26,-1.0,1,0,1,0
+BA,Boeing,2025-11-26,0.0,1,0,0,1
+MRK,Merck,2025-11-26,0.0,1,0,0,1
+PFIZER.NS,Pfizer,2025-11-26,0.0,1,0,0,1
+IBM,IBM,2025-11-26,-0.1333,5,1,1,3
+PFGC,Performance Food,2025-11-26,0.2,10,2,0,8
+HP,HP,2025-11-26,0.0,3,0,0,3
+INTC,Intel,2025-11-26,-0.5,2,0,1,1
+ORCL,Oracle,2025-11-26,1.0,1,1,0,0
+NKE,Nike,2025-11-26,-0.5,2,0,1,1
+GD,General Dynamics,2025-11-26,-0.5,2,0,1,1

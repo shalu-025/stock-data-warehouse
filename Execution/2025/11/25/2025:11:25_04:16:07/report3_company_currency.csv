@@ -1,0 +1,21 @@
+Ticker,Company,Sector,CurrencyCorrelation,AvgReturn
+601336.SS,New York Life Insurance,Insurance,0.0,0.27314674854278564
+AAL,American Airlines Group,Metals & Mining,0.0,0.7084213495254517
+AAPL,Apple,"Computers, Office Equipment",0.0,0.31618085503578186
+ABBV,Abbvie,Pharmaceutical,0.0,-0.3309227526187897
+ACI,Albertsons,Food & Drug Stores,0.0,0.13645704090595245
+ADM,Archer Daniels Midland,Food Production,0.0,-0.18233686685562134
+AIG,Aig,Insurance,0.0,-0.08714483678340912
+ALL,Allstate,Insurance,0.0,0.13168548047542572
+AMZN,Amazon,Financial Services,0.0,0.29598769545555115
+ATT.L,At&T,Telecommunications,0.0,0.3327797055244446
+AXP,American Express,Diversified Financials,0.0,0.23201672732830048
+BA,Boeing,"Aerospace, Defense",0.0,0.35009217262268066
+BAC,Bank Of America,Commercial Banks,0.0,0.15364669263362885
+BBY,Best Buy,Specialty Retailers,0.0,-0.09807254374027252
+C,Citigroup,Commercial Banks,0.0,0.2861056923866272
+CAH,Cardinal Health,Wholesalers,0.0,0.04881955310702324
+CAT,Caterpillar,Construction And Farm Machinery,0.0,-0.09381472319364548
+CHS.V,Chs,Food Production,0.0,-5.0
+CHTR,Charter Communications,Telecommunications,0.0,-0.13405071198940277
+CI,Cigna,Health Care,0.0,-0.31312400102615356

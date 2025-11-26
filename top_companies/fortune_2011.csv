@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,421849.0,,,2011,,WMT
+2,Exxon Mobil Corporation,Petroleum Refining,354674.0,,,2011,,XOM
+3,Chevron Corporation,Petroleum Refining,196337.0,,,2011,,CVX
+4,ConocoPhillips,Petroleum Refining,184966.0,,,2011,,COP
+5,Fannie Mae,Diversified Financials,153825.0,,,2011,,FNMA
+6,General Electric Company,Diversified Financials,151628.0,,,2011,,GE
+7,Berkshire Hathaway Inc.,Insurance: Property and Casualty (Stock),136185.0,,,2011,,BRK.A
+8,General Motors Corporation,Motor Vehicles & Parts,135592.0,,,2011,,GM
+9,Bank of America Corporation,Commercial Banks,134194.0,,,2011,,BAC
+10,Ford Motor Company,Motor Vehicles & Parts,128954.0,,,2011,,F
+11,Hewlett-Packard Company,"Computers, Office Equipment",126033.0,,,2011,,
+12,AT&T Inc.,Telecommunications,124629.0,,,2011,,ATT.L
+13,J.P. Morgan Chase & Co.,Commercial Banks,115475.0,,,2011,,JPM
+14,"Citigroup, Inc.",Commercial Banks,111055.0,,,2011,,C
+15,McKesson Corporation,Wholesalers: Health Care,108702.0,,,2011,,MCK
+16,Verizon Communications Inc.,Telecommunications,106565.0,,,2011,,VZ
+17,"American International Group,Inc.",Insurance: Property and Casualty (Stock),104417.0,,,2011,,AIG
+18,International Business Machines Corporation,Information Technology Services,99870.0,,,2011,,IBM
+19,"Cardinal Health, Inc.",Wholesalers: Health Care,98601.9,,,2011,,CAH
+20,Freddie Mac,Diversified Financials,98368.0,,,2011,,FMCC
+21,CVS Caremark Corporation,Food & Drug Stores,96413.0,,,2011,,CVS
+22,UnitedHealth Group Incorporated,Health Care: Insurance and Managed Care,94155.0,,,2011,,UNH
+23,Wells Fargo & Company,Commercial Banks,93249.0,,,2011,,WFC
+24,Valero Energy Corporation,Petroleum Refining,86034.0,,,2011,,VLO
+25,The Kroger Company,Food & Drug Stores,82189.4,,,2011,,KR
+26,The Procter & Gamble Company,Household and Personal Products,79689.0,,,2011,,TPG
+27,AmerisourceBergen Corp.,Wholesalers: Health Care,77954.0,,,2011,,ABC.VI
+28,Costco Wholesale Corporation,Specialty Retailers: Other,77946.0,,,2011,,COST
+29,Marathon Oil Corporation,Petroleum Refining,68413.0,,,2011,,MRO
+30,"The Home Depot, Inc.",Specialty Retailers: Other,67997.0,,,2011,,THD
+31,Pfizer Inc.,Pharmaceuticals,67809.0,,,2011,,PFIZER.NS
+32,Walgreen Co.,Food & Drug Stores,67420.0,,,2011,,
+33,Target Corporation,General Merchandisers,67390.0,,,2011,,TGT
+34,"Medco Health Solutions, Inc.",Health Care: Pharmacy and Other Services,65968.3,,,2011,,MED.PM
+35,"Apple, Inc.","Computers, Office Equipment",65225.0,,,2011,,APLE
+36,The Boeing Company,Aerospace & Defense,64306.0,,,2011,,BA
+37,State Farm Insurance Cos.,Insurance: Property and Casualty (Mutual),63176.7,,,2011,,
+38,Microsoft Corporation,Computer Software,62484.0,,,2011,,MSFT
+39,Archer-Daniels-Midland Company,Food Production,61682.0,,,2011,,
+40,Johnson & Johnson,Pharmaceuticals,61587.0,,,2011,,JNJ
+41,Dell Inc.,"Computers, Office Equipment",61494.0,,,2011,,DELL
+42,"WellPoint, Inc.",Health Care: Insurance and Managed Care,58801.8,,,2011,,
+43,"PepsiCo, Inc.",Food Consumer Products,57838.0,,,2011,,PEP
+44,United Technologies Corporation,Aerospace & Defense,54326.0,,,2011,,
+45,The Dow Chemical Company,Chemicals,53674.0,,,2011,,TDC
+46,"MetLife, Inc.","Insurance: Life, Health (Stock)",52717.0,,,2011,,MET
+47,Best Buy Co. Inc.,Specialty Retailers: Other,49694.0,,,2011,,BBY
+48,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",49545.0,,,2011,,UPS
+49,Kraft Foods Inc.,Food Consumer Products,49542.0,,,2011,,1959.T
+50,"Lowe's Companies, Inc.",Specialty Retailers: Other,48815.0,,,2011,,LOW
+51,INTL FCStone Inc.,Diversified Financials,46940.3,,,2011,,INTL.WA
+52,Lockheed Martin Corporation,Aerospace & Defense,46890.0,,,2011,,LMT
+53,"Merck & Co., Inc.",Pharmaceuticals,45987.0,,,2011,,MRK
+54,"The Goldman Sachs Group, Inc.",Commercial Banks,45967.0,,,2011,,TGS
+55,"Express Scripts, Inc.",Health Care: Pharmacy and Other Services,44989.7,,,2011,,
+56,Intel Corporation,Semiconductors and Other Electronic Components,43623.0,,,2011,,INTC
+57,Sears Holdings Corporation,General Merchandisers,43326.0,,,2011,,SRSCQ
+58,Caterpillar Inc.,Construction and Farm Machinery,42588.0,,,2011,,CAT
+59,Chrysler Group LLC,Motor Vehicles & Parts,41946.0,,,2011,,CG
+60,Safeway Inc.,Food & Drug Stores,41050.0,,,2011,,301559.SZ
+61,Supervalu Inc.,Food & Drug Stores,40597.0,,,2011,,
+62,"Cisco Systems, Inc.",Network and Other Communications Equipment,40040.0,,,2011,,CSCO
+63,Morgan Stanley,Commercial Banks,39320.0,,,2011,,MS
+64,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",38414.0,,,2011,,PRU
+65,The Walt Disney Company,Entertainment,38063.0,,,2011,,DIS
+66,Comcast Corporation,Telecommunications,37937.0,,,2011,,CMCSA
+67,Sysco Corporation,Wholesalers: Food and Grocery,37243.5,,,2011,,SYY
+68,"Sunoco, Inc.",Petroleum Refining,35453.0,,,2011,,SUN
+69,Abbott Laboratories,Pharmaceuticals,35166.7,,,2011,,ABT
+70,The Coca-Cola Company,Beverages,35119.0,,,2011,,
+71,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",34947.2,,,2011,,601336.SS
+72,Northrop Grumman Corporation,Aerospace & Defense,34757.0,,,2011,,NOC
+73,FedEx Corporation,"Mail, Package, and Freight Delivery",34734.0,,,2011,,FDX
+74,Hess Corporation,Petroleum Refining,34613.0,,,2011,,HES
+75,Ingram Micro Inc.,Wholesalers: Electronics and Office Equipment,34589.0,,,2011,,INGM
+76,"Johnson Controls, Inc.",Motor Vehicles & Parts,34305.0,,,2011,,JCI
+77,Aetna Inc.,Health Care: Insurance and Managed Care,34246.0,,,2011,,
+78,Amazon.com Inc.,Internet Services and Retailing,34204.0,,,2011,,
+79,Humana Inc.,Health Care: Insurance and Managed Care,33868.2,,,2011,,HUM.ST
+80,"Enterprise Products Partners, L.P.",Pipelines,33739.3,,,2011,,EPD
+81,Honeywell International Inc.,Aerospace & Defense,33370.0,,,2011,,HON
+82,Liberty Mutual Holding Company Inc.,Insurance: Property and Casualty (Stock),33193.0,,,2011,,LBTYA
+83,News Corporation,Entertainment,32778.0,,,2011,,NWSA
+84,E.I. du Pont de Nemours and Company,Chemicals,32733.0,,,2011,,
+85,Sprint Nextel Corporation,Telecommunications,32563.0,,,2011,,SIX.AX
+86,General Dynamics Corporation,Aerospace & Defense,32466.0,,,2011,,GD
+87,Teachers Insurance and Annuity Association College Retiremen,"Insurance: Life, Health (Mutual)",32224.9,,,2011,,
+88,"Delta Air Lines, Inc.",Airlines,31755.0,,,2011,,DAL
+89,The Allstate Corporation,Insurance: Property and Casualty (Stock),31400.0,,,2011,,ALL
+90,"HCA Holdings, Inc.",Health Care: Medical Facilities,30683.0,,,2011,,HH.AD
+91,American Express Company,Commercial Banks,30242.0,,,2011,,AXP
+92,Google Inc.,Internet Services and Retailing,29321.0,,,2011,,^VXGOG
+93,"Tyson Foods, Inc.",Food Production,28430.0,,,2011,,TSN
+94,Philip Morris International Inc.,Tobacco,27208.0,,,2011,,PM
+95,Time Warner Inc.,Entertainment,26888.0,,,2011,,T
+96,Oracle Corporation,Computer Software,26820.0,,,2011,,ORCL
+97,3M Company,zMiscellaneous,26662.0,,,2011,,MMM
+98,Deere & Company,Construction and Farm Machinery,26004.6,,,2011,,DE
+99,"Plains All American Pipeline, L.P.",Pipelines,25893.0,,,2011,,PAA
+100,Rite Aid Corporation,Food & Drug Stores,25669.1,,,2011,,RADCQ

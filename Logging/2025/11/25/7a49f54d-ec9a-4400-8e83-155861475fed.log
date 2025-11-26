@@ -1,0 +1,510 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 00:58:05,804 - INFO - ===== started running the process ======
+2025-11-25 00:58:05,876 - INFO - 
+============================================================
+2025-11-25 00:58:05,876 - INFO - Fetching LIVE data for 2025
+2025-11-25 00:58:05,876 - INFO - Date: 2025-11-25
+2025-11-25 00:58:05,876 - INFO - ============================================================
+2025-11-25 00:58:05,879 - INFO - Total companies with tickers: 96
+2025-11-25 00:58:05,879 - INFO - 
+[1/96] Walmart (WMT)
+2025-11-25 00:58:06,594 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:06,700 - INFO - 
+[2/96] Amazon (AMZN)
+2025-11-25 00:58:06,772 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:06,882 - INFO - 
+[3/96] UnitedHealth (UNH)
+2025-11-25 00:58:07,015 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:07,121 - INFO - 
+[4/96] Apple (APLE)
+2025-11-25 00:58:07,228 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:07,334 - INFO - 
+[5/96] CVS Health (CVS)
+2025-11-25 00:58:07,470 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:07,575 - INFO - 
+[6/96] Berkshire Hathaway (BRK.A)
+2025-11-25 00:58:08,722 - INFO -   No data available
+2025-11-25 00:58:08,722 - INFO - 
+[7/96] Alphabet (GOOGL)
+2025-11-25 00:58:08,803 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:08,909 - INFO - 
+[8/96] Exxon Mobil (XOM)
+2025-11-25 00:58:09,068 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:09,182 - INFO - 
+[9/96] McKesson (MCK)
+2025-11-25 00:58:09,309 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:09,413 - INFO - 
+[10/96] Cencora (COR)
+2025-11-25 00:58:09,531 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:09,637 - INFO - 
+[11/96] JPMorgan Chase (JPM)
+2025-11-25 00:58:09,775 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:09,882 - INFO - 
+[12/96] Costco (COST)
+2025-11-25 00:58:10,001 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:10,107 - INFO - 
+[13/96] Cigna (CI)
+2025-11-25 00:58:10,245 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:10,348 - INFO - 
+[14/96] Microsoft (MSFT)
+2025-11-25 00:58:10,453 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:10,556 - INFO - 
+[15/96] Cardinal Health (CAH)
+2025-11-25 00:58:10,680 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:10,786 - INFO - 
+[16/96] Chevron (CVX)
+2025-11-25 00:58:10,941 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:11,047 - INFO - 
+[17/96] Bank of America (BAC)
+2025-11-25 00:58:11,184 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:11,289 - INFO - 
+[18/96] General Motors (GM)
+2025-11-25 00:58:11,389 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:11,494 - INFO - 
+[19/96] Ford Motor (F)
+2025-11-25 00:58:11,664 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:11,770 - INFO - 
+[20/96] Elevance Health (ELV)
+2025-11-25 00:58:11,879 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:11,984 - INFO - 
+[21/96] Citi (CITI.NE)
+2025-11-25 00:58:12,064 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:12,170 - INFO - 
+[22/96] Meta (META)
+2025-11-25 00:58:12,251 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:12,355 - INFO - 
+[23/96] Centene (CNC)
+2025-11-25 00:58:12,434 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:12,540 - INFO - 
+[24/96] Home Depot (HD)
+2025-11-25 00:58:12,661 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:12,768 - INFO - 
+[25/96] Fannie Mae (FNMA)
+2025-11-25 00:58:12,872 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:12,978 - INFO - 
+[27/96] Kroger (KR)
+2025-11-25 00:58:13,137 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:13,242 - INFO - 
+[28/96] Phillips 66 (PSX)
+2025-11-25 00:58:13,342 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:13,449 - INFO - 
+[29/96] Marathon Petroleum (MPC)
+2025-11-25 00:58:13,545 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:13,650 - INFO - 
+[30/96] Verizon (VZ)
+2025-11-25 00:58:13,782 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:13,892 - INFO - 
+[31/96] Nvidia (NVDA)
+2025-11-25 00:58:13,987 - INFO -   Got data for 2025-11-21
+2025-11-25 00:58:14,093 - INFO - 
+[32/96] Goldman Sachs (GSBD)
+2025-11-25 00:58:14,187 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:14,293 - INFO - 
+[33/96] Wells Fargo (WFC)
+2025-11-25 00:58:14,427 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:14,533 - INFO - 
+[34/96] Valero Energy (VLO)
+2025-11-25 00:58:14,677 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:14,783 - INFO - 
+[35/96] Comcast (CMCSA)
+2025-11-25 00:58:14,909 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:15,015 - INFO - 
+[36/96] State Farm (ALL)
+2025-11-25 00:58:15,138 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:15,246 - INFO - 
+[37/96] AT&T (ATT.L)
+2025-11-25 00:58:15,335 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:15,441 - INFO - 
+[38/96] Freddie Mac (FMCC)
+2025-11-25 00:58:15,564 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:15,670 - INFO - 
+[39/96] Humana (HUM.ST)
+2025-11-25 00:58:15,774 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:15,884 - INFO - 
+[40/96] Morgan Stanley (MS)
+2025-11-25 00:58:15,999 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:16,105 - INFO - 
+[41/96] Target (TGT)
+2025-11-25 00:58:16,255 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:16,360 - INFO - 
+[42/96] StoneX (SNEX)
+2025-11-25 00:58:16,434 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:16,540 - INFO - 
+[43/96] Tesla (TSLA)
+2025-11-25 00:58:16,615 - INFO -   Got data for 2025-11-21
+2025-11-25 00:58:16,721 - INFO - 
+[44/96] Dell Technologies (DELL)
+2025-11-25 00:58:16,802 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:16,908 - INFO - 
+[45/96] PepsiCo (PEP)
+2025-11-25 00:58:17,063 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:17,169 - INFO - 
+[46/96] Walt Disney (DIS)
+2025-11-25 00:58:17,310 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:17,416 - INFO - 
+[47/96] UPS (UPS)
+2025-11-25 00:58:17,518 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:17,624 - INFO - 
+[48/96] Johnson & Johnson (JNJ)
+2025-11-25 00:58:17,768 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:17,874 - INFO - 
+[49/96] FedEx (FDX)
+2025-11-25 00:58:17,973 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:18,079 - INFO - 
+[50/96] Archer Daniels Midland (ADM)
+2025-11-25 00:58:18,247 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:18,353 - INFO - 
+[51/96] Procter & Gamble (PG)
+2025-11-25 00:58:18,536 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:18,642 - INFO - 
+[52/96] Lowe's (X1G.PA)
+2025-11-25 00:58:18,735 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:18,841 - INFO - 
+[53/96] Energy Transfer (ET)
+2025-11-25 00:58:18,940 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:19,041 - INFO - 
+[54/96] RTX (RTX)
+2025-11-25 00:58:19,209 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:19,315 - INFO - 
+[55/96] Albertsons (ACI)
+2025-11-25 00:58:19,399 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:19,505 - INFO - 
+[56/96] Sysco (SYY)
+2025-11-25 00:58:19,638 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:19,744 - INFO - 
+[57/96] Progressive (PGR)
+2025-11-25 00:58:19,867 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:19,973 - INFO - 
+[58/96] American Express (AXP)
+2025-11-25 00:58:20,109 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:20,215 - INFO - 
+[59/96] Lockheed Martin (LMT)
+2025-11-25 00:58:20,367 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:20,473 - INFO - 
+[60/96] MetLife (MET)
+2025-11-25 00:58:20,597 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:20,703 - INFO - 
+[61/96] HCA Healthcare (HCA)
+2025-11-25 00:58:20,801 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:20,906 - INFO - 
+[62/96] Prudential Financial (PRU)
+2025-11-25 00:58:21,022 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:21,127 - INFO - 
+[63/96] Boeing (BA)
+2025-11-25 00:58:21,268 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:21,374 - INFO - 
+[64/96] Caterpillar (CAT)
+2025-11-25 00:58:21,563 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:21,669 - INFO - 
+[65/96] Merck (MRK)
+2025-11-25 00:58:21,849 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:21,955 - INFO - 
+[66/96] Allstate (ALL)
+2025-11-25 00:58:21,988 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:22,094 - INFO - 
+[67/96] Pfizer (PFIZER.NS)
+2025-11-25 00:58:22,202 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:22,308 - INFO - 
+[68/96] IBM (IBM)
+2025-11-25 00:58:22,478 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:22,584 - INFO - 
+[69/96] New York Life Insurance (601336.SS)
+2025-11-25 00:58:22,694 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:22,795 - INFO - 
+[70/96] Delta Airlines (DAL)
+2025-11-25 00:58:22,878 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:22,979 - INFO - 
+[72/96] Nationwide (NATWIDE.KL)
+2025-11-25 00:58:24,048 - INFO -   No data available
+2025-11-25 00:58:24,049 - INFO - 
+[73/96] TD Synnex (SNX)
+2025-11-25 00:58:24,150 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:24,258 - INFO - 
+[74/96] United Airlines (UAL)
+2025-11-25 00:58:24,342 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:24,448 - INFO - 
+[75/96] ConocoPhillips (COP)
+2025-11-25 00:58:24,606 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:24,711 - INFO - 
+[76/96] TJX (TJX)
+2025-11-25 00:58:24,855 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:24,961 - INFO - 
+[77/96] AbbVie (ABBV)
+2025-11-25 00:58:25,051 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:25,157 - INFO - 
+[78/96] Enterprise Products Partners (EPD)
+2025-11-25 00:58:25,267 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:25,373 - INFO - 
+[79/96] Charter Communications (CHTR)
+2025-11-25 00:58:25,449 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:25,555 - INFO - 
+[80/96] Performance Food (PFGC)
+2025-11-25 00:58:25,635 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:25,741 - INFO - 
+[81/96] American Airlines (AAL)
+2025-11-25 00:58:25,825 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:25,930 - INFO - 
+[82/96] Capital One (VALC.TA)
+2025-11-25 00:58:26,768 - INFO -   No data available
+2025-11-25 00:58:26,768 - INFO - 
+[83/96] Cisco Systems (CSCO)
+2025-11-25 00:58:26,856 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:26,962 - INFO - 
+[84/96] HP (HP)
+2025-11-25 00:58:27,110 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:27,216 - INFO - 
+[85/96] Tyson Foods (TSN)
+2025-11-25 00:58:27,344 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:27,450 - INFO - 
+[86/96] Intel (INTC)
+2025-11-25 00:58:27,595 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:27,702 - INFO - 
+[87/96] Oracle (ORCL)
+2025-11-25 00:58:27,815 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:27,921 - INFO - 
+[88/96] Broadcom (AVGO)
+2025-11-25 00:58:28,022 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:28,129 - INFO - 
+[89/96] Deere (DE)
+2025-11-25 00:58:28,300 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:28,405 - INFO - 
+[90/96] Nike (NKE)
+2025-11-25 00:58:28,557 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:28,664 - INFO - 
+[92/96] Plains GP (PAGP)
+2025-11-25 00:58:28,768 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:28,874 - INFO - 
+[93/96] USAA (UIPMX)
+2025-11-25 00:58:28,976 - INFO -   Got data for 2025-11-21
+2025-11-25 00:58:29,083 - INFO - 
+[95/96] Ingram Micro (INGM)
+2025-11-25 00:58:29,174 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:29,279 - INFO - 
+[96/96] General Dynamics (GD)
+2025-11-25 00:58:29,440 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:29,545 - INFO - 
+[97/96] Coca-Cola (COLA.WA)
+2025-11-25 00:58:29,630 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:29,731 - INFO - 
+[98/96] TIAA (TILIX)
+2025-11-25 00:58:29,824 - INFO -   Got data for 2025-11-21
+2025-11-25 00:58:29,929 - INFO - 
+[99/96] Travelers (TRV)
+2025-11-25 00:58:30,080 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:30,186 - INFO - 
+[100/96] Eli Lilly (LLY)
+2025-11-25 00:58:30,320 - INFO -   Got data for 2025-11-24
+2025-11-25 00:58:30,439 - INFO - Saved: stocks_data/2025/11/25/stocks.csv (93 companies)
+2025-11-25 00:58:30,439 - INFO - 
+============================================================
+2025-11-25 00:58:30,439 - INFO - Creating LIVE company metadata for 2025
+2025-11-25 00:58:30,439 - INFO - ============================================================
+2025-11-25 00:58:30,440 - INFO - Metadata already exists — skipping
+2025-11-25 00:58:30,440 - INFO - 
+============================================================
+2025-11-25 00:58:30,440 - INFO - Creating LIVE macro data for 2025
+2025-11-25 00:58:30,440 - INFO - ============================================================
+2025-11-25 00:58:30,440 - INFO - Current year data already exists — skipping
+2025-11-25 00:58:30,440 - INFO - 
+Fetching sentiment for 2025-11-25...
+2025-11-25 00:58:30,441 - INFO - [1/93] Walmart (WMT)
+2025-11-25 00:58:30,876 - INFO - No news
+2025-11-25 00:58:30,877 - INFO - [2/93] Amazon (AMZN)
+2025-11-25 00:58:31,283 - INFO - No news
+2025-11-25 00:58:31,284 - INFO - [3/93] UnitedHealth (UNH)
+2025-11-25 00:58:31,641 - INFO - No news
+2025-11-25 00:58:31,642 - INFO - [4/93] Apple (APLE)
+2025-11-25 00:58:31,981 - INFO - No news
+2025-11-25 00:58:31,981 - INFO - [5/93] CVS Health (CVS)
+2025-11-25 00:58:32,428 - INFO - No news
+2025-11-25 00:58:32,428 - INFO - [6/93] Alphabet (GOOGL)
+2025-11-25 00:58:32,819 - INFO - No news
+2025-11-25 00:58:32,820 - INFO - [7/93] Exxon Mobil (XOM)
+2025-11-25 00:58:33,157 - INFO - No news
+2025-11-25 00:58:33,157 - INFO - [8/93] McKesson (MCK)
+2025-11-25 00:58:33,545 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=McKesson&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:33,546 - INFO - [9/93] Cencora (COR)
+2025-11-25 00:58:33,885 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Cencora&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:33,886 - INFO - [10/93] JPMorgan Chase (JPM)
+2025-11-25 00:58:34,199 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=JPMorgan+Chase&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:34,200 - INFO - [11/93] Costco (COST)
+2025-11-25 00:58:34,560 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Costco&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:34,561 - INFO - [12/93] Cigna (CI)
+2025-11-25 00:58:34,967 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Cigna&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:34,967 - INFO - [13/93] Microsoft (MSFT)
+2025-11-25 00:58:35,376 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Microsoft&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:35,376 - INFO - [14/93] Cardinal Health (CAH)
+2025-11-25 00:58:35,792 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Cardinal+Health&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:35,793 - INFO - [15/93] Chevron (CVX)
+2025-11-25 00:58:36,130 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Chevron&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:36,131 - INFO - [16/93] Bank of America (BAC)
+2025-11-25 00:58:36,474 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Bank+of+America&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:36,475 - INFO - [17/93] General Motors (GM)
+2025-11-25 00:58:36,808 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=General+Motors&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:36,810 - INFO - [18/93] Ford Motor (F)
+2025-11-25 00:58:37,222 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Ford+Motor&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:37,223 - INFO - [19/93] Elevance Health (ELV)
+2025-11-25 00:58:37,642 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Elevance+Health&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:37,643 - INFO - [20/93] Citi (CITI.NE)
+2025-11-25 00:58:38,040 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Citi&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:38,041 - INFO - [21/93] Meta (META)
+2025-11-25 00:58:38,450 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Meta&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:38,451 - INFO - [22/93] Centene (CNC)
+2025-11-25 00:58:38,862 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Centene&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:38,864 - INFO - [23/93] Home Depot (HD)
+2025-11-25 00:58:39,216 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Home+Depot&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:39,217 - INFO - [24/93] Fannie Mae (FNMA)
+2025-11-25 00:58:39,585 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Fannie+Mae&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:39,586 - INFO - [25/93] Kroger (KR)
+2025-11-25 00:58:39,994 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Kroger&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:39,995 - INFO - [26/93] Phillips 66 (PSX)
+2025-11-25 00:58:40,312 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Phillips+66&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:40,313 - INFO - [27/93] Marathon Petroleum (MPC)
+2025-11-25 00:58:40,705 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Marathon+Petroleum&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:40,706 - INFO - [28/93] Verizon (VZ)
+2025-11-25 00:58:41,113 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Verizon&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:41,114 - INFO - [29/93] Nvidia (NVDA)
+2025-11-25 00:58:41,523 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Nvidia&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:41,525 - INFO - [30/93] Goldman Sachs (GSBD)
+2025-11-25 00:58:41,933 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Goldman+Sachs&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:41,934 - INFO - [31/93] Wells Fargo (WFC)
+2025-11-25 00:58:42,347 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Wells+Fargo&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:42,348 - INFO - [32/93] Valero Energy (VLO)
+2025-11-25 00:58:42,753 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Valero+Energy&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:42,754 - INFO - [33/93] Comcast (CMCSA)
+2025-11-25 00:58:43,165 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Comcast&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:43,166 - INFO - [34/93] State Farm (ALL)
+2025-11-25 00:58:43,574 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=State+Farm&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:43,575 - INFO - [35/93] AT&T (ATT.L)
+2025-11-25 00:58:43,987 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=AT%26T&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:43,988 - INFO - [36/93] Freddie Mac (FMCC)
+2025-11-25 00:58:44,393 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Freddie+Mac&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:44,394 - INFO - [37/93] Humana (HUM.ST)
+2025-11-25 00:58:44,797 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Humana&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:44,797 - INFO - [38/93] Morgan Stanley (MS)
+2025-11-25 00:58:45,210 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Morgan+Stanley&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:45,210 - INFO - [39/93] Target (TGT)
+2025-11-25 00:58:45,618 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Target&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:45,620 - INFO - [40/93] StoneX (SNEX)
+2025-11-25 00:58:46,026 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=StoneX&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:46,026 - INFO - [41/93] Tesla (TSLA)
+2025-11-25 00:58:46,436 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Tesla&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:46,436 - INFO - [42/93] Dell Technologies (DELL)
+2025-11-25 00:58:46,768 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Dell+Technologies&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:46,768 - INFO - [43/93] PepsiCo (PEP)
+2025-11-25 00:58:47,157 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=PepsiCo&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:47,158 - INFO - [44/93] Walt Disney (DIS)
+2025-11-25 00:58:47,566 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Walt+Disney&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:47,567 - INFO - [45/93] UPS (UPS)
+2025-11-25 00:58:47,974 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=UPS&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:47,975 - INFO - [46/93] Johnson & Johnson (JNJ)
+2025-11-25 00:58:48,381 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Johnson+%26+Johnson&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:48,381 - INFO - [47/93] FedEx (FDX)
+2025-11-25 00:58:48,797 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=FedEx&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:48,798 - INFO - [48/93] Archer Daniels Midland (ADM)
+2025-11-25 00:58:49,201 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Archer+Daniels+Midland&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:49,201 - INFO - [49/93] Procter & Gamble (PG)
+2025-11-25 00:58:49,614 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Procter+%26+Gamble&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:49,615 - INFO - [50/93] Lowe's (X1G.PA)
+2025-11-25 00:58:49,951 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Lowe%27s&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:49,953 - INFO - [51/93] Energy Transfer (ET)
+2025-11-25 00:58:50,329 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Energy+Transfer&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:50,330 - INFO - [52/93] RTX (RTX)
+2025-11-25 00:58:50,736 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=RTX&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:50,737 - INFO - [53/93] Albertsons (ACI)
+2025-11-25 00:58:51,150 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Albertsons&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:51,151 - INFO - [54/93] Sysco (SYY)
+2025-11-25 00:58:51,559 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Sysco&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:51,561 - INFO - [55/93] Progressive (PGR)
+2025-11-25 00:58:51,978 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Progressive&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:51,979 - INFO - [56/93] American Express (AXP)
+2025-11-25 00:58:52,376 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=American+Express&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:52,377 - INFO - [57/93] Lockheed Martin (LMT)
+2025-11-25 00:58:52,797 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Lockheed+Martin&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:52,797 - INFO - [58/93] MetLife (MET)
+2025-11-25 00:58:53,198 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=MetLife&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:53,199 - INFO - [59/93] HCA Healthcare (HCA)
+2025-11-25 00:58:53,538 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=HCA+Healthcare&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:53,539 - INFO - [60/93] Prudential Financial (PRU)
+2025-11-25 00:58:53,917 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Prudential+Financial&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:53,918 - INFO - [61/93] Boeing (BA)
+2025-11-25 00:58:54,263 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Boeing&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:54,264 - INFO - [62/93] Caterpillar (CAT)
+2025-11-25 00:58:54,579 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Caterpillar&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:54,580 - INFO - [63/93] Merck (MRK)
+2025-11-25 00:58:54,938 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Merck&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:54,938 - INFO - [64/93] Allstate (ALL)
+2025-11-25 00:58:55,349 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Allstate&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:55,350 - INFO - [65/93] Pfizer (PFIZER.NS)
+2025-11-25 00:58:55,665 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Pfizer&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:55,666 - INFO - [66/93] IBM (IBM)
+2025-11-25 00:58:55,992 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=IBM&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:55,992 - INFO - [67/93] New York Life Insurance (601336.SS)
+2025-11-25 00:58:56,375 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=New+York+Life+Insurance&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:56,375 - INFO - [68/93] Delta Airlines (DAL)
+2025-11-25 00:58:56,689 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Delta+Airlines&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:56,690 - INFO - [69/93] TD Synnex (SNX)
+2025-11-25 00:58:57,087 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=TD+Synnex&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:57,088 - INFO - [70/93] United Airlines (UAL)
+2025-11-25 00:58:57,498 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=United+Airlines&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:57,499 - INFO - [71/93] ConocoPhillips (COP)
+2025-11-25 00:58:57,908 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=ConocoPhillips&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:57,908 - INFO - [72/93] TJX (TJX)
+2025-11-25 00:58:58,314 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=TJX&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:58,314 - INFO - [73/93] AbbVie (ABBV)
+2025-11-25 00:58:58,650 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=AbbVie&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:58,651 - INFO - [74/93] Enterprise Products Partners (EPD)
+2025-11-25 00:58:59,037 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Enterprise+Products+Partners&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:59,038 - INFO - [75/93] Charter Communications (CHTR)
+2025-11-25 00:58:59,444 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Charter+Communications&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:59,446 - INFO - [76/93] Performance Food (PFGC)
+2025-11-25 00:58:59,754 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Performance+Food&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:58:59,755 - INFO - [77/93] American Airlines (AAL)
+2025-11-25 00:59:00,066 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=American+Airlines&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:00,067 - INFO - [78/93] Cisco Systems (CSCO)
+2025-11-25 00:59:00,474 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Cisco+Systems&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:00,475 - INFO - [79/93] HP (HP)
+2025-11-25 00:59:00,833 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=HP&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:00,834 - INFO - [80/93] Tyson Foods (TSN)
+2025-11-25 00:59:01,183 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Tyson+Foods&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:01,184 - INFO - [81/93] Intel (INTC)
+2025-11-25 00:59:01,593 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Intel&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:01,595 - INFO - [82/93] Oracle (ORCL)
+2025-11-25 00:59:02,000 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Oracle&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:02,000 - INFO - [83/93] Broadcom (AVGO)
+2025-11-25 00:59:02,413 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Broadcom&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:02,413 - INFO - [84/93] Deere (DE)
+2025-11-25 00:59:02,736 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Deere&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:02,737 - INFO - [85/93] Nike (NKE)
+2025-11-25 00:59:03,132 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Nike&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:03,133 - INFO - [86/93] Plains GP (PAGP)
+2025-11-25 00:59:03,542 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Plains+GP&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:03,543 - INFO - [87/93] USAA (UIPMX)
+2025-11-25 00:59:03,947 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=USAA&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:03,948 - INFO - [88/93] Ingram Micro (INGM)
+2025-11-25 00:59:04,361 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Ingram+Micro&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:04,361 - INFO - [89/93] General Dynamics (GD)
+2025-11-25 00:59:04,764 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=General+Dynamics&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:04,765 - INFO - [90/93] Coca-Cola (COLA.WA)
+2025-11-25 00:59:05,080 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Coca-Cola&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:05,081 - INFO - [91/93] TIAA (TILIX)
+2025-11-25 00:59:05,487 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=TIAA&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:05,488 - INFO - [92/93] Travelers (TRV)
+2025-11-25 00:59:05,895 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Travelers&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:05,896 - INFO - [93/93] Eli Lilly (LLY)
+2025-11-25 00:59:06,308 - INFO - Error: 429 Client Error: Too Many Requests for url: https://newsapi.org/v2/everything?apiKey=e4ddb799366a45f4a9ff5d27b3e53fab&q=Eli+Lilly&from=2025-11-24&language=en&sortBy=relevancy&pageSize=10
+2025-11-25 00:59:06,309 - INFO - 
+No sentiment data
+2025-11-25 00:59:06,312 - INFO - 
+============================================================
+2025-11-25 00:59:06,312 - INFO - Fetching LIVE exchange rates (USD-INR) from FRED for 2025
+2025-11-25 00:59:06,313 - INFO - ============================================================
+2025-11-25 00:59:06,313 - INFO - Current year data already exists — skipping
+
+********** END OF LOG FILE **********

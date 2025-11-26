@@ -1,0 +1,151 @@
+{
+  "sched_time":"06:55",
+  "tables": {
+    "stocks_raw": {
+      "company": {
+        "type": "string",
+        "rules": ["not_null"]
+      },
+      "ticker": {
+        "type": "string",
+        "rules": ["not_null","uppercase_trim","pattern:^(?:[A-Z0-9\\.\\-]+)$","referential_target:company_metadata.ticker,sentiment.ticker"]
+      },
+      "date": {
+        "type": "date",
+        "rules": ["not_null","iso_date"]
+      },
+      "open": {
+        "type": "float",
+        "rules": ["not_null","non_negative"]
+      },
+      "high": {
+        "type": "float",
+        "rules": ["not_null","non_negative"]
+      },
+      "low": {
+        "type": "float",
+        "rules": ["not_null","non_negative"]
+      },
+      "close": {
+        "type": "float",
+        "rules": ["not_null","non_negative"]
+      },
+      "volume": {
+        "type": "integer",
+        "rules": ["not_null","non_negative"]
+      }
+    },
+
+    "company_metadata": {
+      "rank": {
+        "type": "integer",
+        "rules": ["not_null","positive"]
+      },
+      "company": {
+        "type": "string",
+        "rules": ["not_null"]
+      },
+      "industry": {
+        "type": "string",
+        "rules": ["nullable"]
+      },
+      "revenue": {
+        "type": "string",
+        "rules": ["nullable"]
+      },
+      "employees": {
+        "type": "string",
+        "rules": ["nullable"]
+      },
+      "ticker": {
+        "type": "string",
+        "rules": ["nullable","uppercase_trim","pattern:^(?:[A-Z0-9\\.\\-]+)$","referential:stocks_raw.ticker"]
+      }
+    },
+
+    "exchange_rates": {
+      "date": {
+        "type": "date",
+        "rules": ["not_null","iso_date","unique"]
+      },
+      "usd_inr_rate": {
+        "type": "float",
+        "rules": ["not_null","positive"]
+      }
+    },
+
+    "macro_raw": {
+      "quarter": {
+        "type": "string",
+        "rules": ["not_null","unique","pattern:^(?:\\d{4}-Q[1-4]|Q[1-4])$"]
+      },
+      "GDP": {
+        "type": "float",
+        "rules": ["nullable","non_negative"]
+      },
+      "inflation": {
+        "type": "float",
+        "rules": ["nullable","in_range:-50:500"]
+      },
+      "unemployment": {
+        "type": "float",
+        "rules": ["nullable","in_range:0:100"]
+      },
+      "interest_rate": {
+        "type": "float",
+        "rules": ["nullable","in_range:-20:100"]
+      },
+      "consumer_spending": {
+        "type": "float",
+        "rules": ["nullable","non_negative"]
+      },
+      "industrial_production": {
+        "type": "float",
+        "rules": ["nullable","non_negative"]
+      },
+      "housing_starts": {
+        "type": "float",
+        "rules": ["nullable","non_negative"]
+      },
+      "retail_sales": {
+        "type": "float",
+        "rules": ["nullable","non_negative"]
+      }
+    },
+
+    "sentiment": {
+      "ticker": {
+        "type": "string",
+        "rules": ["not_null","uppercase_trim","referential:stocks_raw.ticker"]
+      },
+      "company": {
+        "type": "string",
+        "rules": ["not_null"]
+      },
+      "date": {
+        "type": "date",
+        "rules": ["not_null","iso_date"]
+      },
+      "sentiment_score": {
+        "type": "float",
+        "rules": ["not_null","in_range:-1:1"]
+      },
+      "article_count": {
+        "type": "integer",
+        "rules": ["not_null","non_negative"]
+      },
+      "bullish": {
+        "type": "integer",
+        "rules": ["not_null","non_negative"]
+      },
+      "bearish": {
+        "type": "integer",
+        "rules": ["not_null","non_negative"]
+      },
+      "neutral": {
+        "type": "integer",
+        "rules": ["not_null","non_negative"]
+      }
+    }
+  }
+}

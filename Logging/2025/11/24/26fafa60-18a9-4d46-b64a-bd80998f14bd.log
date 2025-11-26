@@ -1,0 +1,202 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 19:01:09,703 - INFO - -> started running the process <-
+2025-11-24 19:01:10,658 - INFO - 
+============================================================
+2025-11-24 19:01:10,658 - INFO - Fetching LIVE data for 2025
+2025-11-24 19:01:10,658 - INFO - Date: 2025-11-24
+2025-11-24 19:01:10,658 - INFO - ============================================================
+2025-11-24 19:01:10,662 - INFO - Total companies with tickers: 96
+2025-11-24 19:01:10,662 - INFO - Today's data already exists — skipping
+2025-11-24 19:01:10,662 - INFO - 
+============================================================
+2025-11-24 19:01:10,662 - INFO - Creating LIVE company metadata for 2025
+2025-11-24 19:01:10,662 - INFO - ============================================================
+2025-11-24 19:01:10,662 - INFO - Metadata already exists — skipping
+2025-11-24 19:01:10,662 - INFO - 
+============================================================
+2025-11-24 19:01:10,662 - INFO - Creating LIVE macro data for 2025
+2025-11-24 19:01:10,662 - INFO - ============================================================
+2025-11-24 19:01:10,662 - INFO - Current year data already exists — skipping
+2025-11-24 19:01:10,662 - INFO - Sentiment already exists — skipping
+2025-11-24 19:01:10,662 - INFO - 
+============================================================
+2025-11-24 19:01:10,662 - INFO - Fetching LIVE exchange rates (USD-INR) from FRED for 2025
+2025-11-24 19:01:10,662 - INFO - ============================================================
+2025-11-24 19:01:10,662 - INFO - Current year data already exists — skipping
+2025-11-24 19:01:10,662 - INFO - ============================================================
+2025-11-24 19:01:10,662 - INFO - Starting merge process
+2025-11-24 19:01:10,662 - INFO - Mode: Live
+2025-11-24 19:01:10,663 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_19:01:10
+2025-11-24 19:01:10,663 - INFO - ============================================================
+2025-11-24 19:01:10,663 - INFO - 
+============================================================
+2025-11-24 19:01:10,663 - INFO - STEP 1: Processing BASE TABLE (stocks_raw)
+2025-11-24 19:01:10,663 - INFO - ============================================================
+2025-11-24 19:01:10,663 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-24 19:01:10,663 - INFO - Read 93 rows from stocks_raw
+2025-11-24 19:01:10,687 - INFO - Validation complete for stocks_raw: valid=93, invalid=0
+2025-11-24 19:01:10,691 - WARNING - Removed 1 duplicate records based on ticker-date
+2025-11-24 19:01:10,692 - INFO - Valid: 92, Invalid: 0
+2025-11-24 19:01:10,716 - INFO - Table stocks_raw created
+2025-11-24 19:01:10,737 - INFO - Inserted 92 rows into stocks_raw
+2025-11-24 19:01:10,737 - INFO - Loaded 92 rows to stocks_raw
+2025-11-24 19:01:10,737 - INFO - Base table established with 92 records
+2025-11-24 19:01:10,737 - INFO - Found 92 unique tickers: 601336.SS, AAL, ABBV, ACI, ADM, ALL, AMZN, APLE, ATT.L, AVGO, AXP, BA, BAC, CAH, CAT, CHTR, CI, CITI.NE, CMCSA, CNC, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, ELV, EPD, ET, F, FDX, FMCC, FNMA, GD, GM, GOOGL, GSBD, HCA, HD, HP, HUM.ST, IBM, INGM, INTC, JNJ, JPM, KR, LLY, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TRV, TSLA, TSN, UAL, UIPMX, UNH, UPS, VLO, VZ, WFC, WMT, X1G.PA, XOM
+2025-11-24 19:01:10,737 - INFO - 
+============================================================
+2025-11-24 19:01:10,737 - INFO - STEP 2: Processing DEPENDENT TABLES
+2025-11-24 19:01:10,737 - INFO - ============================================================
+2025-11-24 19:01:10,737 - INFO - Processing company_metadata
+2025-11-24 19:01:10,738 - INFO - Read 93 rows from company_metadata
+2025-11-24 19:01:10,742 - INFO - Validation complete for company_metadata: valid=93, invalid=0
+2025-11-24 19:01:10,744 - INFO - Valid: 93, Invalid: 0
+2025-11-24 19:01:10,749 - ERROR - Failed to load company_metadata: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank INT PRIMARY KEY,
+            company VARCHAR(255) NOT NULL UNIQUE,
+        ' at line 2
+2025-11-24 19:01:10,749 - INFO - Loaded 93 rows to company_metadata
+2025-11-24 19:01:10,749 - INFO - company_metadata processed and linked to stocks_raw
+2025-11-24 19:01:10,749 - INFO - 
+============================================================
+2025-11-24 19:01:10,749 - INFO - STEP 3: Processing INDEPENDENT TABLES
+2025-11-24 19:01:10,749 - INFO - ============================================================
+2025-11-24 19:01:10,749 - INFO - Processing exchange_rates
+2025-11-24 19:01:10,750 - INFO - Read 219 rows from exchange_rates
+2025-11-24 19:01:10,777 - INFO - Validation complete for exchange_rates: valid=219, invalid=0
+2025-11-24 19:01:10,780 - INFO - Valid: 219, Invalid: 0
+2025-11-24 19:01:10,787 - INFO - Table exchange_rates created
+2025-11-24 19:01:10,816 - INFO - Inserted 219 rows into exchange_rates
+2025-11-24 19:01:10,816 - INFO - Loaded 219 rows to exchange_rates
+2025-11-24 19:01:10,816 - INFO - exchange_rates processed
+2025-11-24 19:01:10,816 - INFO - Processing macro_raw
+2025-11-24 19:01:10,817 - INFO - Read 4 rows from macro_raw
+2025-11-24 19:01:10,817 - INFO - Validation complete for macro_raw: valid=4, invalid=0
+2025-11-24 19:01:10,818 - INFO - Valid: 4, Invalid: 0
+2025-11-24 19:01:10,820 - INFO - Table macro_raw created
+2025-11-24 19:01:10,823 - INFO - Inserted 4 rows into macro_raw
+2025-11-24 19:01:10,823 - INFO - Loaded 4 rows to macro_raw
+2025-11-24 19:01:10,823 - INFO - macro_raw processed
+2025-11-24 19:01:10,823 - INFO - 
+============================================================
+2025-11-24 19:01:10,823 - INFO - STEP 4: Processing SENTIMENT DATA
+2025-11-24 19:01:10,823 - INFO - ============================================================
+2025-11-24 19:01:10,823 - INFO - Processing sentiment
+2025-11-24 19:01:10,824 - INFO - Read 45 rows from sentiment
+2025-11-24 19:01:10,830 - INFO - Validation complete for sentiment: valid=45, invalid=0
+2025-11-24 19:01:10,831 - WARNING - Removed 1 duplicate records based on ticker-date
+2025-11-24 19:01:10,832 - INFO - Valid: 44, Invalid: 0
+2025-11-24 19:01:10,834 - INFO - Table sentiment created
+2025-11-24 19:01:10,842 - INFO - Inserted 44 rows into sentiment
+2025-11-24 19:01:10,842 - INFO - Loaded 44 rows to sentiment
+2025-11-24 19:01:10,842 - INFO - sentiment processed and linked to stocks_raw
+2025-11-24 19:01:10,842 - INFO - 
+============================================================
+2025-11-24 19:01:10,842 - INFO - STEP 5: KPI CALCULATIONS AND FACT TABLE GENERATION
+2025-11-24 19:01:10,842 - INFO - ============================================================
+2025-11-24 19:01:10,842 - INFO - ============================================================
+2025-11-24 19:01:10,842 - INFO - Starting KPI calculations
+2025-11-24 19:01:10,842 - INFO - ============================================================
+2025-11-24 19:01:10,844 - INFO - Loaded stocks_raw: 92 rows
+2025-11-24 19:01:10,844 - INFO - Loaded macro_raw: 4 rows
+2025-11-24 19:01:10,844 - INFO - Loaded company_metadata: 93 rows
+2025-11-24 19:01:10,844 - INFO - Loaded exchange_rates: 219 rows
+2025-11-24 19:01:10,845 - INFO - Calculating stock_facts metrics...
+2025-11-24 19:01:10,865 - INFO - Stock facts calculated: 92 rows
+2025-11-24 19:01:10,866 - INFO - Calculating macro_facts metrics...
+2025-11-24 19:01:10,870 - INFO - Macro facts calculated: 4 rows
+2025-11-24 19:01:10,870 - INFO - Creating sector_lookup...
+2025-11-24 19:01:10,871 - INFO - Sector lookup created: 38 sectors
+2025-11-24 19:01:10,871 - INFO - Calculating analytics_summary metrics...
+2025-11-24 19:01:10,947 - INFO - Analytics summary calculated: 93 rows
+2025-11-24 19:01:10,948 - INFO - Creating pipeline log entry...
+2025-11-24 19:01:10,948 - INFO - Pipeline log created
+2025-11-24 19:01:10,948 - INFO - 
+============================================================
+2025-11-24 19:01:10,948 - INFO - KPI calculations completed successfully
+2025-11-24 19:01:10,948 - INFO - Generated files: stock_facts.csv, macro_facts.csv, sector_lookup.csv, analytics_summary.csv, pipeline_logs.csv
+2025-11-24 19:01:10,948 - INFO - ============================================================
+2025-11-24 19:01:10,948 - INFO - KPI calculations completed successfully
+2025-11-24 19:01:10,957 - INFO - Table stock_facts created
+2025-11-24 19:01:10,983 - INFO - Inserted 92 rows into stock_facts
+2025-11-24 19:01:10,983 - INFO - Loaded stock_facts to database
+2025-11-24 19:01:10,986 - INFO - Table macro_facts created
+2025-11-24 19:01:10,989 - INFO - Inserted 4 rows into macro_facts
+2025-11-24 19:01:10,989 - INFO - Loaded macro_facts to database
+2025-11-24 19:01:10,992 - INFO - Table sector_lookup created
+2025-11-24 19:01:10,998 - INFO - Inserted 38 rows into sector_lookup
+2025-11-24 19:01:10,998 - INFO - Loaded sector_lookup to database
+2025-11-24 19:01:11,000 - INFO - Table analytics_summary created
+2025-11-24 19:01:11,013 - INFO - Inserted 93 rows into analytics_summary
+2025-11-24 19:01:11,014 - INFO - Loaded analytics_summary to database
+2025-11-24 19:01:11,016 - INFO - Table pipeline_logs created
+2025-11-24 19:01:11,016 - INFO - Inserted 1 rows into pipeline_logs
+2025-11-24 19:01:11,016 - INFO - Loaded pipeline_logs to database
+2025-11-24 19:01:11,016 - INFO - 
+============================================================
+2025-11-24 19:01:11,016 - INFO - ============================================================
+2025-11-24 19:01:11,016 - INFO - ============================================================
+2025-11-24 19:01:11,016 - INFO - Starting Analytical Layer Processing
+2025-11-24 19:01:11,016 - INFO - ============================================================
+2025-11-24 19:01:11,018 - INFO - Loaded stock_facts: 92 rows
+2025-11-24 19:01:11,018 - INFO - Loaded macro_facts: 4 rows
+2025-11-24 19:01:11,018 - INFO - Loaded analytics_summary: 93 rows
+2025-11-24 19:01:11,018 - INFO - Loaded sector_lookup: 38 sectors
+2025-11-24 19:01:11,019 - INFO - 
+1. Analyzing Volatility vs GDP Correlation...
+2025-11-24 19:01:11,021 - INFO - Volatility-GDP Correlation: 0.0000
+2025-11-24 19:01:11,021 - INFO - 
+2. Analyzing Inflation Sensitivity by Sector...
+2025-11-24 19:01:11,035 - INFO - Inflation Sensitivity analyzed for 38 sectors
+2025-11-24 19:01:11,035 - INFO - 
+3. Analyzing Currency Exposure...
+2025-11-24 19:01:11,038 - INFO - Currency Exposure analyzed for 93 companies
+2025-11-24 19:01:11,038 - INFO - 
+4. Analyzing Recession Resilience...
+2025-11-24 19:01:11,038 - INFO - Recession Resilience analyzed for 1 sectors
+2025-11-24 19:01:11,038 - INFO - 
+5. Identifying Consistent Performers...
+2025-11-24 19:01:11,063 - INFO - Consistent Performers analyzed: 92 companies
+2025-11-24 19:01:11,063 - INFO - 
+6. Analyzing Macro Impact Timeline...
+2025-11-24 19:01:11,066 - INFO - Macro Impact Timeline analyzed with 4 lag periods
+2025-11-24 19:01:11,066 - INFO - 
+7. Analyzing Forecast Accuracy...
+2025-11-24 19:01:11,077 - ERROR - Failed to analyze forecast accuracy: 'mean_absolute_percentage_error'
+2025-11-24 19:01:11,077 - INFO - 
+8. Generating Executive Summary...
+2025-11-24 19:01:11,078 - INFO - Executive Summary generated with 7 key metrics
+2025-11-24 19:01:11,078 - INFO - 
+============================================================
+2025-11-24 19:01:11,078 - INFO - Analytical Layer Processing Completed Successfully
+2025-11-24 19:01:11,078 - INFO - ============================================================
+2025-11-24 19:01:11,078 - INFO - 
+Generated Reports:
+2025-11-24 19:01:11,078 - INFO - 1. report_volatility_gdp_correlation.csv
+2025-11-24 19:01:11,078 - INFO - 2. report_inflation_sensitivity.csv
+2025-11-24 19:01:11,078 - INFO - 3. report_currency_exposure.csv
+2025-11-24 19:01:11,078 - INFO - 4. report_recession_resilience.csv
+2025-11-24 19:01:11,078 - INFO - 5. report_consistent_performers.csv
+2025-11-24 19:01:11,078 - INFO - 6. report_macro_impact_timeline.csv
+2025-11-24 19:01:11,078 - INFO - 7. report_forecast_accuracy.csv
+2025-11-24 19:01:11,078 - INFO - 8. report_executive_summary.csv
+2025-11-24 19:01:11,078 - INFO - ============================================================
+2025-11-24 19:01:11,079 - INFO - Advanced analytics completed successfully
+2025-11-24 19:01:11,079 - INFO - Generated 7 analytical reports
+2025-11-24 19:01:11,080 - INFO - 
+============================================================
+2025-11-24 19:01:11,080 - INFO - PIPELINE EXECUTION SUMMARY
+2025-11-24 19:01:11,080 - INFO - ============================================================
+2025-11-24 19:01:11,080 - INFO - Base table: stocks_raw (92 records, 92 tickers)
+2025-11-24 19:01:11,080 - INFO - Dependent: company_metadata - Available
+2025-11-24 19:01:11,080 - INFO - Independent: exchange_rates - Available
+2025-11-24 19:01:11,080 - INFO - Independent: macro_raw - Available
+2025-11-24 19:01:11,080 - INFO - Dependent: sentiment - Available
+2025-11-24 19:01:11,080 - INFO - ============================================================
+2025-11-24 19:01:11,080 - INFO - Merge process completed successfully
+2025-11-24 19:01:11,080 - INFO - All outputs saved in: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_19:01:10
+2025-11-24 19:01:11,080 - INFO - ============================================================

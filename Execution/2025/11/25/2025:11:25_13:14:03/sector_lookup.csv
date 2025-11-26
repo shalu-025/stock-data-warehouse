@@ -1,0 +1,47 @@
+sector_id,sector_name,sector_code
+1,General Merchandisers,GENE
+2,Financial Services,FINA
+3,"Computers, Office Equipment",COMP
+4,Health Care,HEAL
+5,Petroleum Refining,PETR
+6,Internet Services And Retailing,INTE
+7,Wholesalers,WHOL
+8,Computer Software,COMP
+9,Motor Vehicles & Parts,MOTO
+10,Commercial Banks,COMM
+11,Food & Drug Stores,FOOD
+12,Diversified Financials,DIVE
+13,Telecommunications,TELE
+14,Pharmaceutical,PHAR
+15,Food Production,FOOD
+16,Food Consumer Products,FOOD
+17,"Mail, Package, And Freight Delivery",MAIL
+18,Entertainment,ENTE
+19,Household And Personal Products,HOUS
+20,Pipelines,PIPE
+21,"Aerospace, Defense",AERO
+22,Industrial Machinery,INDU
+23,Insurance,INSU
+24,Health Care: Medical Facilities,HEAL
+25,"Mining, Crude-Oil Production",MINI
+26,Semiconductor And Electronics,SEMI
+27,Specialty Retailers,SPEC
+28,Airlines,AIRL
+29,Metals & Mining,META
+30,Apparel,APPA
+31,Energy,ENER
+32,Beverage,BEVE
+33,Health Care: Insurance and Managed Care,HEAL
+34,Health Care: Pharmacy and Other Services,HEAL
+35,Wholesalers: Health Care,WHOL
+36,"Mail, Package, and Freight Delivery",MAIL
+37,Specialty Retailers: Other,SPEC
+38,"Insurance: Life, Health (Stock)",INSU
+39,Wholesalers: Electronics and Office Equipment,WHOL
+40,Information Technology Services,INFO
+41,Pharmaceuticals,PHAR
+42,Insurance: Property and Casualty (Stock),INSU
+43,Specialty Retailers: Apparel,SPEC
+44,"Scientific, Photographic and Control Equipment",SCIE
+45,Semiconductors and Other Electronic Components,SEMI
+46,Medical Products and Equipment,MEDI

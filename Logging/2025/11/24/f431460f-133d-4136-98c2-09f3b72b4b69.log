@@ -1,0 +1,245 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 12:04:16,064 - INFO - -> started running the process <-
+2025-11-24 12:04:16,076 - INFO - 
+============================================================
+2025-11-24 12:04:16,076 - INFO - Fetching LIVE data for 2025
+2025-11-24 12:04:16,076 - INFO - Date: 2025-11-24
+2025-11-24 12:04:16,076 - INFO - ============================================================
+2025-11-24 12:04:16,077 - INFO - Total companies with tickers: 96
+2025-11-24 12:04:16,078 - INFO - Today's data already exists — skipping
+2025-11-24 12:04:16,078 - INFO - 
+============================================================
+2025-11-24 12:04:16,078 - INFO - Creating LIVE company metadata for 2025
+2025-11-24 12:04:16,078 - INFO - ============================================================
+2025-11-24 12:04:16,078 - INFO - Metadata already exists — skipping
+2025-11-24 12:04:16,078 - INFO - 
+============================================================
+2025-11-24 12:04:16,078 - INFO - Creating LIVE macro data for 2025
+2025-11-24 12:04:16,078 - INFO - ============================================================
+2025-11-24 12:04:16,078 - INFO - Current year data already exists — skipping
+2025-11-24 12:04:16,078 - INFO - Sentiment already exists — skipping
+2025-11-24 12:04:16,078 - INFO - 
+============================================================
+2025-11-24 12:04:16,078 - INFO - Fetching LIVE exchange rates (USD-INR) from FRED for 2025
+2025-11-24 12:04:16,078 - INFO - ============================================================
+2025-11-24 12:04:16,078 - INFO - Current year data already exists — skipping
+2025-11-24 12:04:16,078 - INFO - ============================================================
+2025-11-24 12:04:16,078 - INFO - Starting merge process
+2025-11-24 12:04:16,078 - INFO - Mode: Live
+2025-11-24 12:04:16,078 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/20251124_120416
+2025-11-24 12:04:16,078 - INFO - ============================================================
+2025-11-24 12:04:16,078 - INFO - Processing company_metadata
+2025-11-24 12:04:16,079 - INFO - Read 93 rows from company_metadata
+2025-11-24 12:04:16,079 - ERROR - Row 0 col revenue: type conversion failed for $681,000,000,000
+2025-11-24 12:04:16,079 - ERROR - Row 0 col employees: type conversion failed for 2,100,000
+2025-11-24 12:04:16,079 - ERROR - Row 1 col revenue: type conversion failed for $638,000,000,000
+2025-11-24 12:04:16,079 - ERROR - Row 1 col employees: type conversion failed for 1,556,000
+2025-11-24 12:04:16,079 - ERROR - Row 2 col revenue: type conversion failed for $400,300,000,000
+2025-11-24 12:04:16,079 - ERROR - Row 2 col employees: type conversion failed for 400,000
+2025-11-24 12:04:16,079 - ERROR - Row 3 col revenue: type conversion failed for $391,000,000,000
+2025-11-24 12:04:16,079 - ERROR - Row 3 col employees: type conversion failed for 164,000
+2025-11-24 12:04:16,079 - ERROR - Row 4 col revenue: type conversion failed for $372,800,000,000
+2025-11-24 12:04:16,079 - ERROR - Row 4 col employees: type conversion failed for 259,500
+2025-11-24 12:04:16,080 - ERROR - Row 5 col revenue: type conversion failed for $350,000,000,000
+2025-11-24 12:04:16,080 - ERROR - Row 5 col employees: type conversion failed for 183,300
+2025-11-24 12:04:16,080 - ERROR - Row 6 col revenue: type conversion failed for $349,600,000,000
+2025-11-24 12:04:16,080 - ERROR - Row 6 col employees: type conversion failed for 60,900
+2025-11-24 12:04:16,080 - ERROR - Row 7 col revenue: type conversion failed for $309,000,000,000
+2025-11-24 12:04:16,080 - ERROR - Row 7 col employees: type conversion failed for 48,000
+2025-11-24 12:04:16,080 - ERROR - Row 8 col revenue: type conversion failed for $294,000,000,000
+2025-11-24 12:04:16,080 - ERROR - Row 8 col employees: type conversion failed for 44,000
+2025-11-24 12:04:16,080 - ERROR - Row 9 col revenue: type conversion failed for $278,900,000,000
+2025-11-24 12:04:16,080 - ERROR - Row 9 col employees: type conversion failed for 317,200
+2025-11-24 12:04:16,080 - ERROR - Row 10 col revenue: type conversion failed for $254,500,000,000
+2025-11-24 12:04:16,080 - ERROR - Row 10 col employees: type conversion failed for 333,000
+2025-11-24 12:04:16,080 - ERROR - Row 11 col revenue: type conversion failed for $247,100,000,000
+2025-11-24 12:04:16,080 - ERROR - Row 11 col employees: type conversion failed for 72,400
+2025-11-24 12:04:16,080 - ERROR - Row 12 col revenue: type conversion failed for $245,100,000,000
+2025-11-24 12:04:16,080 - ERROR - Row 12 col employees: type conversion failed for 228,000
+2025-11-24 12:04:16,081 - ERROR - Row 13 col revenue: type conversion failed for $226,800,000,000
+2025-11-24 12:04:16,081 - ERROR - Row 13 col employees: type conversion failed for 48,400
+2025-11-24 12:04:16,081 - ERROR - Row 14 col revenue: type conversion failed for $202,800,000,000
+2025-11-24 12:04:16,081 - ERROR - Row 14 col employees: type conversion failed for 45,300
+2025-11-24 12:04:16,081 - ERROR - Row 15 col revenue: type conversion failed for $192,400,000,000
+2025-11-24 12:04:16,081 - ERROR - Row 15 col employees: type conversion failed for 213,200
+2025-11-24 12:04:16,081 - ERROR - Row 16 col revenue: type conversion failed for $187,400,000,000
+2025-11-24 12:04:16,081 - ERROR - Row 16 col employees: type conversion failed for 162,000
+2025-11-24 12:04:16,081 - ERROR - Row 17 col revenue: type conversion failed for $185,000,000,000
+2025-11-24 12:04:16,081 - ERROR - Row 17 col employees: type conversion failed for 171,000
+2025-11-24 12:04:16,081 - ERROR - Row 18 col revenue: type conversion failed for $177,000,000,000
+2025-11-24 12:04:16,081 - ERROR - Row 18 col employees: type conversion failed for 103,700
+2025-11-24 12:04:16,081 - ERROR - Row 19 col revenue: type conversion failed for $170,800,000,000
+2025-11-24 12:04:16,081 - ERROR - Row 19 col employees: type conversion failed for 227,900
+2025-11-24 12:04:16,081 - ERROR - Row 20 col revenue: type conversion failed for $164,500,000,000
+2025-11-24 12:04:16,081 - ERROR - Row 20 col employees: type conversion failed for 74,100
+2025-11-24 12:04:16,081 - ERROR - Row 21 col revenue: type conversion failed for $163,100,000,000
+2025-11-24 12:04:16,081 - ERROR - Row 21 col employees: type conversion failed for 60,500
+2025-11-24 12:04:16,081 - ERROR - Row 22 col revenue: type conversion failed for $159,500,000,000
+2025-11-24 12:04:16,081 - ERROR - Row 22 col employees: type conversion failed for 470,100
+2025-11-24 12:04:16,082 - ERROR - Row 23 col revenue: type conversion failed for $152,700,000,000
+2025-11-24 12:04:16,082 - ERROR - Row 23 col employees: type conversion failed for 8,200
+2025-11-24 12:04:16,082 - ERROR - Row 24 col revenue: type conversion failed for $147,100,000,000
+2025-11-24 12:04:16,082 - ERROR - Row 24 col employees: type conversion failed for 409,000
+2025-11-24 12:04:16,082 - ERROR - Row 25 col revenue: type conversion failed for $145,500,000,000
+2025-11-24 12:04:16,082 - ERROR - Row 25 col employees: type conversion failed for 13,200
+2025-11-24 12:04:16,082 - ERROR - Row 26 col revenue: type conversion failed for $140,400,000,000
+2025-11-24 12:04:16,082 - ERROR - Row 26 col employees: type conversion failed for 18,300
+2025-11-24 12:04:16,082 - ERROR - Row 27 col revenue: type conversion failed for $134,800,000,000
+2025-11-24 12:04:16,082 - ERROR - Row 27 col employees: type conversion failed for 99,600
+2025-11-24 12:04:16,082 - ERROR - Row 28 col revenue: type conversion failed for $130,500,000,000
+2025-11-24 12:04:16,082 - ERROR - Row 28 col employees: type conversion failed for 36,000
+2025-11-24 12:04:16,082 - ERROR - Row 29 col revenue: type conversion failed for $126,900,000,000
+2025-11-24 12:04:16,082 - ERROR - Row 29 col employees: type conversion failed for 46,500
+2025-11-24 12:04:16,082 - ERROR - Row 30 col revenue: type conversion failed for $125,400,000,000
+2025-11-24 12:04:16,082 - ERROR - Row 30 col employees: type conversion failed for 217,500
+2025-11-24 12:04:16,082 - ERROR - Row 31 col revenue: type conversion failed for $124,000,000,000
+2025-11-24 12:04:16,082 - ERROR - Row 31 col employees: type conversion failed for 9,900
+2025-11-24 12:04:16,082 - ERROR - Row 32 col revenue: type conversion failed for $123,700,000,000
+2025-11-24 12:04:16,082 - ERROR - Row 32 col employees: type conversion failed for 182,000
+2025-11-24 12:04:16,082 - ERROR - Row 33 col revenue: type conversion failed for $123,000,000,000
+2025-11-24 12:04:16,082 - ERROR - Row 33 col employees: type conversion failed for 67,400
+2025-11-24 12:04:16,082 - ERROR - Row 34 col revenue: type conversion failed for $122,300,000,000
+2025-11-24 12:04:16,083 - ERROR - Row 34 col employees: type conversion failed for 141,000
+2025-11-24 12:04:16,083 - ERROR - Row 35 col revenue: type conversion failed for $122,100,000,000
+2025-11-24 12:04:16,083 - ERROR - Row 35 col employees: type conversion failed for 8,100
+2025-11-24 12:04:16,083 - ERROR - Row 36 col revenue: type conversion failed for $117,800,000,000
+2025-11-24 12:04:16,083 - ERROR - Row 36 col employees: type conversion failed for 65,700
+2025-11-24 12:04:16,083 - ERROR - Row 37 col revenue: type conversion failed for $107,300,000,000
+2025-11-24 12:04:16,083 - ERROR - Row 37 col employees: type conversion failed for 80,500
+2025-11-24 12:04:16,083 - ERROR - Row 38 col revenue: type conversion failed for $106,600,000,000
+2025-11-24 12:04:16,083 - ERROR - Row 38 col employees: type conversion failed for 440,000
+2025-11-24 12:04:16,083 - ERROR - Row 39 col revenue: type conversion failed for $99,900,000,000
+2025-11-24 12:04:16,083 - ERROR - Row 39 col employees: type conversion failed for 4,500
+2025-11-24 12:04:16,083 - ERROR - Row 40 col revenue: type conversion failed for $97,700,000,000
+2025-11-24 12:04:16,083 - ERROR - Row 40 col employees: type conversion failed for 125,700
+2025-11-24 12:04:16,083 - ERROR - Row 41 col revenue: type conversion failed for $95,600,000,000
+2025-11-24 12:04:16,083 - ERROR - Row 41 col employees: type conversion failed for 108,000
+2025-11-24 12:04:16,083 - ERROR - Row 42 col revenue: type conversion failed for $91,900,000,000
+2025-11-24 12:04:16,083 - ERROR - Row 42 col employees: type conversion failed for 319,000
+2025-11-24 12:04:16,083 - ERROR - Row 43 col revenue: type conversion failed for $91,400,000,000
+2025-11-24 12:04:16,083 - ERROR - Row 43 col employees: type conversion failed for 205,000
+2025-11-24 12:04:16,084 - ERROR - Row 44 col revenue: type conversion failed for $91,100,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 44 col employees: type conversion failed for 372,200
+2025-11-24 12:04:16,084 - ERROR - Row 45 col revenue: type conversion failed for $88,800,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 45 col employees: type conversion failed for 138,100
+2025-11-24 12:04:16,084 - ERROR - Row 46 col revenue: type conversion failed for $87,700,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 46 col employees: type conversion failed for 422,100
+2025-11-24 12:04:16,084 - ERROR - Row 47 col revenue: type conversion failed for $85,500,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 47 col employees: type conversion failed for 43,200
+2025-11-24 12:04:16,084 - ERROR - Row 48 col revenue: type conversion failed for $84,000,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 48 col employees: type conversion failed for 108,000
+2025-11-24 12:04:16,084 - ERROR - Row 49 col revenue: type conversion failed for $83,700,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 49 col employees: type conversion failed for 215,500
+2025-11-24 12:04:16,084 - ERROR - Row 50 col revenue: type conversion failed for $82,700,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 50 col employees: type conversion failed for 16,200
+2025-11-24 12:04:16,084 - ERROR - Row 51 col revenue: type conversion failed for $80,700,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 51 col employees: type conversion failed for 186,000
+2025-11-24 12:04:16,084 - ERROR - Row 52 col revenue: type conversion failed for $79,200,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 52 col employees: type conversion failed for 196,600
+2025-11-24 12:04:16,084 - ERROR - Row 53 col revenue: type conversion failed for $78,800,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 53 col employees: type conversion failed for 76,000
+2025-11-24 12:04:16,084 - ERROR - Row 54 col revenue: type conversion failed for $75,400,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 54 col employees: type conversion failed for 66,300
+2025-11-24 12:04:16,084 - ERROR - Row 55 col revenue: type conversion failed for $74,200,000,000
+2025-11-24 12:04:16,084 - ERROR - Row 55 col employees: type conversion failed for 75,100
+2025-11-24 12:04:16,085 - ERROR - Row 56 col revenue: type conversion failed for $71,000,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 56 col employees: type conversion failed for 121,000
+2025-11-24 12:04:16,085 - ERROR - Row 57 col revenue: type conversion failed for $71,000,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 57 col employees: type conversion failed for 45,000
+2025-11-24 12:04:16,085 - ERROR - Row 58 col revenue: type conversion failed for $70,600,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 58 col employees: type conversion failed for 271,000
+2025-11-24 12:04:16,085 - ERROR - Row 59 col revenue: type conversion failed for $70,400,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 59 col employees: type conversion failed for 37,900
+2025-11-24 12:04:16,085 - ERROR - Row 60 col revenue: type conversion failed for $66,500,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 60 col employees: type conversion failed for 172,000
+2025-11-24 12:04:16,085 - ERROR - Row 61 col revenue: type conversion failed for $64,800,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 61 col employees: type conversion failed for 112,900
+2025-11-24 12:04:16,085 - ERROR - Row 62 col revenue: type conversion failed for $64,200,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 62 col employees: type conversion failed for 74,000
+2025-11-24 12:04:16,085 - ERROR - Row 63 col revenue: type conversion failed for $64,100,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 63 col employees: type conversion failed for 55,200
+2025-11-24 12:04:16,085 - ERROR - Row 64 col revenue: type conversion failed for $63,600,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 64 col employees: type conversion failed for 81,000
+2025-11-24 12:04:16,085 - ERROR - Row 65 col revenue: type conversion failed for $62,800,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 65 col employees: type conversion failed for 284,500
+2025-11-24 12:04:16,085 - ERROR - Row 66 col revenue: type conversion failed for $62,600,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 66 col employees: type conversion failed for 15,100
+2025-11-24 12:04:16,085 - ERROR - Row 67 col revenue: type conversion failed for $61,600,000,000
+2025-11-24 12:04:16,085 - ERROR - Row 67 col employees: type conversion failed for 103,000
+2025-11-24 12:04:16,086 - ERROR - Row 68 col revenue: type conversion failed for $58,500,000,000
+2025-11-24 12:04:16,086 - ERROR - Row 68 col employees: type conversion failed for 25,800
+2025-11-24 12:04:16,086 - ERROR - Row 69 col revenue: type conversion failed for $57,100,000,000
+2025-11-24 12:04:16,086 - ERROR - Row 69 col employees: type conversion failed for 107,300
+2025-11-24 12:04:16,086 - ERROR - Row 70 col revenue: type conversion failed for $57,000,000,000
+2025-11-24 12:04:16,086 - ERROR - Row 70 col employees: type conversion failed for 11,800
+2025-11-24 12:04:16,086 - ERROR - Row 71 col revenue: type conversion failed for $56,400,000,000
+2025-11-24 12:04:16,086 - ERROR - Row 71 col employees: type conversion failed for 364,000
+2025-11-24 12:04:16,086 - ERROR - Row 72 col revenue: type conversion failed for $56,300,000,000
+2025-11-24 12:04:16,086 - ERROR - Row 72 col employees: type conversion failed for 55,000
+2025-11-24 12:04:16,086 - ERROR - Row 73 col revenue: type conversion failed for $56,200,000,000
+2025-11-24 12:04:16,086 - ERROR - Row 73 col employees: type conversion failed for 7,800
+2025-11-24 12:04:16,086 - ERROR - Row 74 col revenue: type conversion failed for $55,100,000,000
+2025-11-24 12:04:16,086 - ERROR - Row 74 col employees: type conversion failed for 94,500
+2025-11-24 12:04:16,086 - ERROR - Row 75 col revenue: type conversion failed for $54,700,000,000
+2025-11-24 12:04:16,086 - ERROR - Row 75 col employees: type conversion failed for 36,800
+2025-11-24 12:04:16,086 - ERROR - Row 76 col revenue: type conversion failed for $54,200,000,000
+2025-11-24 12:04:16,086 - ERROR - Row 76 col employees: type conversion failed for 133,300
+2025-11-24 12:04:16,086 - ERROR - Row 77 col revenue: type conversion failed for $53,800,000,000
+2025-11-24 12:04:16,086 - ERROR - Row 77 col employees: type conversion failed for 90,400
+2025-11-24 12:04:16,086 - ERROR - Row 78 col revenue: type conversion failed for $53,600,000,000
+2025-11-24 12:04:16,086 - ERROR - Row 78 col employees: type conversion failed for 58,000
+2025-11-24 12:04:16,087 - ERROR - Row 79 col revenue: type conversion failed for $53,300,000,000
+2025-11-24 12:04:16,087 - ERROR - Row 79 col employees: type conversion failed for 138,000
+2025-11-24 12:04:16,087 - ERROR - Row 80 col revenue: type conversion failed for $53,100,000,000
+2025-11-24 12:04:16,087 - ERROR - Row 80 col employees: type conversion failed for 108,900
+2025-11-24 12:04:16,087 - ERROR - Row 81 col revenue: type conversion failed for $53,000,000,000
+2025-11-24 12:04:16,087 - ERROR - Row 81 col employees: type conversion failed for 159,000
+2025-11-24 12:04:16,087 - ERROR - Row 82 col revenue: type conversion failed for $52,400,000,000
+2025-11-24 12:04:16,087 - ERROR - Row 82 col employees: type conversion failed for 37,000
+2025-11-24 12:04:16,087 - ERROR - Row 83 col revenue: type conversion failed for $51,700,000,000
+2025-11-24 12:04:16,087 - ERROR - Row 83 col employees: type conversion failed for 55,500
+2025-11-24 12:04:16,087 - ERROR - Row 84 col revenue: type conversion failed for $51,400,000,000
+2025-11-24 12:04:16,087 - ERROR - Row 84 col employees: type conversion failed for 79,400
+2025-11-24 12:04:16,087 - ERROR - Row 85 col revenue: type conversion failed for $50,100,000,000
+2025-11-24 12:04:16,087 - ERROR - Row 85 col employees: type conversion failed for 4,200
+2025-11-24 12:04:16,087 - ERROR - Row 86 col revenue: type conversion failed for $48,600,000,000
+2025-11-24 12:04:16,087 - ERROR - Row 86 col employees: type conversion failed for 38,000
+2025-11-24 12:04:16,087 - ERROR - Row 87 col revenue: type conversion failed for $48,000,000,000
+2025-11-24 12:04:16,087 - ERROR - Row 87 col employees: type conversion failed for 26,100
+2025-11-24 12:04:16,087 - ERROR - Row 88 col revenue: type conversion failed for $47,700,000,000
+2025-11-24 12:04:16,087 - ERROR - Row 88 col employees: type conversion failed for 117,000
+2025-11-24 12:04:16,087 - ERROR - Row 89 col revenue: type conversion failed for $47,100,000,000
+2025-11-24 12:04:16,087 - ERROR - Row 89 col employees: type conversion failed for 69,700
+2025-11-24 12:04:16,087 - ERROR - Row 90 col revenue: type conversion failed for $46,900,000,000
+2025-11-24 12:04:16,088 - ERROR - Row 90 col employees: type conversion failed for 15,600
+2025-11-24 12:04:16,088 - ERROR - Row 91 col revenue: type conversion failed for $46,400,000,000
+2025-11-24 12:04:16,088 - ERROR - Row 91 col employees: type conversion failed for 34,000
+2025-11-24 12:04:16,088 - ERROR - Row 92 col revenue: type conversion failed for $45,000,000,000
+2025-11-24 12:04:16,088 - ERROR - Row 92 col employees: type conversion failed for 47,000
+2025-11-24 12:04:16,088 - INFO - Validation complete for company_metadata: valid=0, invalid=93
+2025-11-24 12:04:16,091 - INFO - Valid: 0, Invalid: 93
+2025-11-24 12:04:16,092 - INFO - Processing exchange_rates
+2025-11-24 12:04:16,092 - INFO - Read 219 rows from exchange_rates
+2025-11-24 12:04:16,119 - INFO - Validation complete for exchange_rates: valid=219, invalid=0
+2025-11-24 12:04:16,121 - INFO - Valid: 219, Invalid: 0
+2025-11-24 12:04:16,140 - ERROR - Error connecting to MySQL: 1049 (42000): Unknown database 'stocks'
+2025-11-24 12:04:16,140 - INFO - Loaded 219 rows to exchange_rates
+2025-11-24 12:04:16,140 - INFO - Processing macro_raw
+2025-11-24 12:04:16,141 - INFO - Read 4 rows from macro_raw
+2025-11-24 12:04:16,141 - ERROR - Row 0 col quarter: pattern mismatch (Q1)
+2025-11-24 12:04:16,141 - ERROR - Row 0 col inflation: out of range (319.492)
+2025-11-24 12:04:16,141 - ERROR - Row 1 col quarter: pattern mismatch (Q2)
+2025-11-24 12:04:16,141 - ERROR - Row 1 col inflation: out of range (320.8003)
+2025-11-24 12:04:16,141 - ERROR - Row 2 col quarter: pattern mismatch (Q3)
+2025-11-24 12:04:16,141 - ERROR - Row 2 col inflation: out of range (323.288)
+2025-11-24 12:04:16,141 - ERROR - Row 3 col quarter: pattern mismatch (Q4)
+2025-11-24 12:04:16,141 - INFO - Validation complete for macro_raw: valid=0, invalid=4
+2025-11-24 12:04:16,142 - INFO - Valid: 0, Invalid: 4
+2025-11-24 12:04:16,142 - INFO - Processing stocks_raw
+2025-11-24 12:04:16,142 - INFO - Read 93 rows from stocks_raw

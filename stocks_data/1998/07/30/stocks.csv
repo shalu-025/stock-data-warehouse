@@ -1,0 +1,37 @@
+company,ticker,date,open,high,low,close,volume
+Ford Motor Company,F,1998-07-30,12.17,12.83,12.16,12.78,8443174
+Exxon Corporation,XOM,1998-07-30,15.12,15.4,15.08,15.37,6466400
+"Wal-Mart Stores, Inc.",WMT,1998-07-30,6.53,6.82,6.46,6.74,24865800
+General Electric Company,GE,1998-07-30,76.59,78.02,76.43,77.49,2632898
+International Business Machines Corporation,IBM,1998-07-30,31.58,32.84,31.53,32.75,11457256
+AT&T Corp.,ATT.L,1998-07-30,12.4,12.4,12.4,12.4,0
+The Boeing Company,BA,1998-07-30,24.67,24.95,24.67,24.75,5497700
+Travelers Group Inc.,TRV,1998-07-30,18.04,18.6,18.04,18.45,1379700
+Chevron Corporation,CVX,1998-07-30,15.59,15.7,15.43,15.52,2848800
+"American International Group,Inc.",AIG,1998-07-30,627.54,641.96,627.54,634.09,130852
+"Motorola, Inc.",MSI,1998-07-30,42.01,43.37,41.74,43.31,1522787
+"PepsiCo, Inc.",PEP,1998-07-30,19.7,19.89,19.51,19.83,3898600
+Lockheed Martin Corporation,LMT,1998-07-30,24.7,25.4,24.7,25.34,1321400
+Fannie Mae,FNMA,1998-07-30,50.7,51.9,50.6,51.6,1524300
+"Morgan Stanley, Dean Witter, Discover & Co.",MSD,1998-07-30,1.12,1.12,1.11,1.11,14000
+The Kroger Company,KR,1998-07-30,8.4,8.43,8.27,8.38,2468000
+Intel Corporation,INTC,1998-07-30,12.14,12.43,12.04,12.41,58014400
+The Allstate Corporation,ALL,1998-07-30,21.97,22.19,21.77,22.1,4148500
+"ConAgra, Inc.",CAG,1998-07-30,7.85,7.86,7.75,7.81,826127
+"Merck & Co., Inc.",MRK,1998-07-30,22.6,23.18,22.6,23.18,4296800
+Johnson & Johnson,JNJ,1998-07-30,19.76,19.92,19.66,19.92,4183000
+The Walt Disney Company,DIS,1998-07-30,26.58,26.67,25.55,26.53,5600000
+CIGNA Corporation,CI,1998-07-30,18.04,18.11,17.39,17.7,3003000
+Loews Corporation,L,1998-07-30,11.08,11.29,11.08,11.2,1792200
+American Express Company,AXP,1998-07-30,23.13,23.36,22.99,23.16,2626414
+"Caterpillar, Inc.",CAT,1998-07-30,12.37,12.62,12.37,12.57,2305400
+Xerox Corporation,XRX,1998-07-30,59.47,60.17,59.33,59.85,879985
+J.P. Morgan & Co. Incorporated,JPM,1998-07-30,22.5,23.0,22.43,22.89,3697500
+Duke Energy Corporation,DUK,1998-07-30,14.63,14.7,14.59,14.67,708427
+"Federated Department Stores, Inc.",FHI,1998-07-30,3.85,3.96,3.83,3.93,341850
+Electronic Data Systems Corporation,EA,1998-07-30,12.41,12.56,12.26,12.53,3069600
+Sysco Corporation,SYY,1998-07-30,6.16,6.24,6.11,6.21,1327200
+Federal Home Loan Mortgage Corp.,FMCC,1998-07-30,39.05,39.86,39.0,39.76,552200
+First Union Corporation,FHN,1998-07-30,14.29,14.68,14.18,14.62,275776
+Archer Daniels Midland Company,ADM,1998-07-30,7.6,7.85,7.6,7.82,1666824
+Ashland Inc.,ASH,1998-07-30,12.03,12.2,12.03,12.14,260080

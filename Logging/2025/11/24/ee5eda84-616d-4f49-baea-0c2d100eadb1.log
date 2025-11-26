@@ -1,0 +1,350 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 16:34:07,665 - INFO - -> started running the process <-
+2025-11-24 16:34:07,678 - INFO - 
+============================================================
+2025-11-24 16:34:07,678 - INFO - Fetching HISTORICAL data for 2024
+2025-11-24 16:34:07,678 - INFO - Period: 2024-12-31 to 2024-12-31
+2025-11-24 16:34:07,678 - INFO - ============================================================
+2025-11-24 16:34:07,679 - INFO - Total companies with tickers: 95
+2025-11-24 16:34:07,684 - INFO - Found 261 days already saved
+2025-11-24 16:34:07,684 - INFO - 
+[1/95] Walmart (WMT)
+2025-11-24 16:34:09,691 - INFO -   No data available
+2025-11-24 16:34:09,692 - INFO - 
+[2/95] Amazon (AMZN)
+2025-11-24 16:34:09,994 - INFO -   No data available
+2025-11-24 16:34:09,995 - INFO - 
+[3/95] Apple (AAPL)
+2025-11-24 16:34:10,334 - INFO -   No data available
+2025-11-24 16:34:10,335 - INFO - 
+[4/95] Unitedhealth Group (UNH)
+2025-11-24 16:34:10,664 - INFO -   No data available
+2025-11-24 16:34:10,664 - INFO - 
+[5/95] Berkshire Hathaway (BRK.A)
+2025-11-24 16:34:12,463 - INFO -   No data available
+2025-11-24 16:34:12,463 - INFO - 
+[6/95] Cvs (CVS)
+2025-11-24 16:34:12,837 - INFO -   No data available
+2025-11-24 16:34:12,838 - INFO - 
+[7/95] Exxon Mobil (XOM)
+2025-11-24 16:34:13,229 - INFO -   No data available
+2025-11-24 16:34:13,230 - INFO - 
+[8/95] Alphabet (GOOGL)
+2025-11-24 16:34:13,568 - INFO -   No data available
+2025-11-24 16:34:13,569 - INFO - 
+[9/95] Mckesson (MCK)
+2025-11-24 16:34:13,973 - INFO -   No data available
+2025-11-24 16:34:13,974 - INFO - 
+[10/95] Cencora (COR)
+2025-11-24 16:34:14,300 - INFO -   No data available
+2025-11-24 16:34:14,301 - INFO - 
+[11/95] Costco (COST)
+2025-11-24 16:34:14,688 - INFO -   No data available
+2025-11-24 16:34:14,688 - INFO - 
+[12/95] Jp Morgan Chase (JPM)
+2025-11-24 16:34:15,039 - INFO -   No data available
+2025-11-24 16:34:15,040 - INFO - 
+[13/95] Microsoft (MSFT)
+2025-11-24 16:34:15,361 - INFO -   No data available
+2025-11-24 16:34:15,361 - INFO - 
+[14/95] Cardinal Health (CAH)
+2025-11-24 16:34:15,723 - INFO -   No data available
+2025-11-24 16:34:15,723 - INFO - 
+[15/95] Chevron (CVX)
+2025-11-24 16:34:16,091 - INFO -   No data available
+2025-11-24 16:34:16,092 - INFO - 
+[16/95] Cigna (CI)
+2025-11-24 16:34:16,471 - INFO -   No data available
+2025-11-24 16:34:16,471 - INFO - 
+[17/95] Ford Motor (F)
+2025-11-24 16:34:16,850 - INFO -   No data available
+2025-11-24 16:34:16,851 - INFO - 
+[18/95] Bank Of America (BAC)
+2025-11-24 16:34:17,210 - INFO -   No data available
+2025-11-24 16:34:17,211 - INFO - 
+[19/95] General Motors (GM)
+2025-11-24 16:34:17,513 - INFO -   No data available
+2025-11-24 16:34:17,513 - INFO - 
+[20/95] Elevance Health (ELV)
+2025-11-24 16:34:17,869 - INFO -   No data available
+2025-11-24 16:34:17,869 - INFO - 
+[21/95] Citigroup (C)
+2025-11-24 16:34:18,216 - INFO -   No data available
+2025-11-24 16:34:18,216 - INFO - 
+[22/95] Centene (CNC)
+2025-11-24 16:34:18,594 - INFO -   No data available
+2025-11-24 16:34:18,594 - INFO - 
+[23/95] Home Depot (HD)
+2025-11-24 16:34:18,935 - INFO -   No data available
+2025-11-24 16:34:18,936 - INFO - 
+[24/95] Marathon Petroleum (MPC)
+2025-11-24 16:34:19,264 - INFO -   No data available
+2025-11-24 16:34:19,265 - INFO - 
+[25/95] Kroger (KR)
+2025-11-24 16:34:19,646 - INFO -   No data available
+2025-11-24 16:34:19,646 - INFO - 
+[26/95] Phillips 66 (PSX)
+2025-11-24 16:34:20,016 - INFO -   No data available
+2025-11-24 16:34:20,016 - INFO - 
+[27/95] Fannie Mae (FNMA)
+2025-11-24 16:34:20,390 - INFO -   No data available
+2025-11-24 16:34:20,390 - INFO - 
+[29/95] Valero Energy (VLO)
+2025-11-24 16:34:20,774 - INFO -   No data available
+2025-11-24 16:34:20,775 - INFO - 
+[30/95] Meta Platforms (META)
+2025-11-24 16:34:21,068 - INFO -   No data available
+2025-11-24 16:34:21,068 - INFO - 
+[31/95] Verizon Communications (VZ)
+2025-11-24 16:34:21,414 - INFO -   No data available
+2025-11-24 16:34:21,415 - INFO - 
+[32/95] At&T (ATT.L)
+2025-11-24 16:34:21,705 - INFO -   No data available
+2025-11-24 16:34:21,706 - INFO - 
+[33/95] Comcast (CMCSA)
+2025-11-24 16:34:22,106 - INFO -   No data available
+2025-11-24 16:34:22,107 - INFO - 
+[34/95] Wells Fargo (WFC)
+2025-11-24 16:34:22,726 - INFO -   No data available
+2025-11-24 16:34:22,727 - INFO - 
+[35/95] Goldman Sachs Group (GS)
+2025-11-24 16:34:23,116 - INFO -   No data available
+2025-11-24 16:34:23,116 - INFO - 
+[36/95] Freddie Mac (FMCC)
+2025-11-24 16:34:23,450 - INFO -   No data available
+2025-11-24 16:34:23,451 - INFO - 
+[37/95] Target (TGT)
+2025-11-24 16:34:23,788 - INFO -   No data available
+2025-11-24 16:34:23,788 - INFO - 
+[38/95] Humana (HUM.ST)
+2025-11-24 16:34:24,418 - INFO -   No data available
+2025-11-24 16:34:24,418 - INFO - 
+[40/95] Tesla (TSLA)
+2025-11-24 16:34:24,809 - INFO -   No data available
+2025-11-24 16:34:24,809 - INFO - 
+[41/95] Morgan Stanley (MS)
+2025-11-24 16:34:25,144 - INFO -   No data available
+2025-11-24 16:34:25,145 - INFO - 
+[42/95] Johnson & Johnson (JNJ)
+2025-11-24 16:34:25,810 - INFO -   No data available
+2025-11-24 16:34:25,810 - INFO - 
+[43/95] Archer Daniels Midland (ADM)
+2025-11-24 16:34:26,263 - INFO -   No data available
+2025-11-24 16:34:26,264 - INFO - 
+[44/95] Pepsico (PEP)
+2025-11-24 16:34:26,656 - INFO -   No data available
+2025-11-24 16:34:26,656 - INFO - 
+[45/95] United Parcel Service (UPS)
+2025-11-24 16:34:27,164 - INFO -   No data available
+2025-11-24 16:34:27,164 - INFO - 
+[46/95] Fedex (FDX)
+2025-11-24 16:34:27,543 - INFO -   No data available
+2025-11-24 16:34:27,543 - INFO - 
+[47/95] Walt Disney (DIS)
+2025-11-24 16:34:28,068 - INFO -   No data available
+2025-11-24 16:34:28,068 - INFO - 
+[48/95] Dell Technologies (DELL)
+2025-11-24 16:34:28,420 - INFO -   No data available
+2025-11-24 16:34:28,421 - INFO - 
+[49/95] Lowe'S (X1G.PA)
+2025-11-24 16:34:28,825 - INFO -   No data available
+2025-11-24 16:34:28,825 - INFO - 
+[50/95] Procter & Gamble (PG)
+2025-11-24 16:34:29,243 - INFO -   No data available
+2025-11-24 16:34:29,244 - INFO - 
+[51/95] Energy Transfer (ET)
+2025-11-24 16:34:29,574 - INFO -   No data available
+2025-11-24 16:34:29,574 - INFO - 
+[52/95] Boeing (BA)
+2025-11-24 16:34:29,953 - INFO -   No data available
+2025-11-24 16:34:29,953 - INFO - 
+[53/95] Albertsons (ACI)
+2025-11-24 16:34:30,266 - INFO -   No data available
+2025-11-24 16:34:30,266 - INFO - 
+[54/95] Sysco (SYY)
+2025-11-24 16:34:30,622 - INFO -   No data available
+2025-11-24 16:34:30,622 - INFO - 
+[55/95] Rtx (RTX)
+2025-11-24 16:34:31,000 - INFO -   No data available
+2025-11-24 16:34:31,000 - INFO - 
+[56/95] General Electric (GE)
+2025-11-24 16:34:31,405 - INFO -   No data available
+2025-11-24 16:34:31,406 - INFO - 
+[57/95] Lockheed Martin (LMT)
+2025-11-24 16:34:31,789 - INFO -   No data available
+2025-11-24 16:34:31,789 - INFO - 
+[58/95] American Express (AXP)
+2025-11-24 16:34:32,125 - INFO -   No data available
+2025-11-24 16:34:32,126 - INFO - 
+[59/95] Caterpillar (CAT)
+2025-11-24 16:34:32,489 - INFO -   No data available
+2025-11-24 16:34:32,489 - INFO - 
+[60/95] Metlife (MET)
+2025-11-24 16:34:32,804 - INFO -   No data available
+2025-11-24 16:34:32,805 - INFO - 
+[61/95] Hca Healthcare (HCA)
+2025-11-24 16:34:33,105 - INFO -   No data available
+2025-11-24 16:34:33,106 - INFO - 
+[62/95] Progressive (PGR)
+2025-11-24 16:34:33,472 - INFO -   No data available
+2025-11-24 16:34:33,473 - INFO - 
+[63/95] Ibm (IBM)
+2025-11-24 16:34:33,872 - INFO -   No data available
+2025-11-24 16:34:33,873 - INFO - 
+[64/95] Deere (DE)
+2025-11-24 16:34:34,249 - INFO -   No data available
+2025-11-24 16:34:34,249 - INFO - 
+[65/95] Nvidia (NVDA)
+2025-11-24 16:34:34,566 - INFO -   No data available
+2025-11-24 16:34:34,567 - INFO - 
+[66/95] Stonex Group (SNEX)
+2025-11-24 16:34:34,879 - INFO -   No data available
+2025-11-24 16:34:34,879 - INFO - 
+[67/95] Merck (MRK)
+2025-11-24 16:34:35,293 - INFO -   No data available
+2025-11-24 16:34:35,293 - INFO - 
+[68/95] Conocophillips (COP)
+2025-11-24 16:34:35,640 - INFO -   No data available
+2025-11-24 16:34:35,641 - INFO - 
+[69/95] Pfizer (PFIZER.NS)
+2025-11-24 16:34:35,961 - INFO -   No data available
+2025-11-24 16:34:35,961 - INFO - 
+[70/95] Delta Air Lines (DAL)
+2025-11-24 16:34:36,268 - INFO -   No data available
+2025-11-24 16:34:36,269 - INFO - 
+[71/95] Td Synnex (SNX)
+2025-11-24 16:34:36,561 - INFO -   No data available
+2025-11-24 16:34:36,562 - INFO - 
+[73/95] Allstate (ALL)
+2025-11-24 16:34:36,890 - INFO -   No data available
+2025-11-24 16:34:36,890 - INFO - 
+[74/95] Cisco Systems (CSCO)
+2025-11-24 16:34:37,208 - INFO -   No data available
+2025-11-24 16:34:37,208 - INFO - 
+[75/95] Nationwide (NATWIDE.KL)
+2025-11-24 16:34:39,214 - INFO -   No data available
+2025-11-24 16:34:39,214 - INFO - 
+[76/95] Charter Communications (CHTR)
+2025-11-24 16:34:39,583 - INFO -   No data available
+2025-11-24 16:34:39,584 - INFO - 
+[77/95] Abbvie (ABBV)
+2025-11-24 16:34:39,992 - INFO -   No data available
+2025-11-24 16:34:39,993 - INFO - 
+[78/95] New York Life Insurance (601336.SS)
+2025-11-24 16:34:40,396 - INFO -   No data available
+2025-11-24 16:34:40,396 - INFO - 
+[79/95] Intel (INTC)
+2025-11-24 16:34:40,807 - INFO -   No data available
+2025-11-24 16:34:40,808 - INFO - 
+[80/95] Tjx (TJX)
+2025-11-24 16:34:41,160 - INFO -   No data available
+2025-11-24 16:34:41,160 - INFO - 
+[81/95] Prudential Financial (PRU)
+2025-11-24 16:34:41,481 - INFO -   No data available
+2025-11-24 16:34:41,482 - INFO - 
+[83/95] United Airlines Holdings (UAL)
+2025-11-24 16:34:41,768 - INFO -   No data available
+2025-11-24 16:34:41,768 - INFO - 
+[84/95] Performance Food Group (PFGC)
+2025-11-24 16:34:42,086 - INFO -   No data available
+2025-11-24 16:34:42,086 - INFO - 
+[85/95] Tyson Foods (TSN)
+2025-11-24 16:34:42,432 - INFO -   No data available
+2025-11-24 16:34:42,433 - INFO - 
+[86/95] American Airlines Group (AAL)
+2025-11-24 16:34:42,741 - INFO -   No data available
+2025-11-24 16:34:42,742 - INFO - 
+[87/95] Liberty Mutual Insurance Group (LFG.AX)
+2025-11-24 16:34:43,045 - INFO -   No data available
+2025-11-24 16:34:43,045 - INFO - 
+[88/95] Nike (NKE)
+2025-11-24 16:34:43,379 - INFO -   No data available
+2025-11-24 16:34:43,379 - INFO - 
+[89/95] Oracle (ORCL)
+2025-11-24 16:34:43,699 - INFO -   No data available
+2025-11-24 16:34:43,699 - INFO - 
+[90/95] Enterprise Products Partners (EPD)
+2025-11-24 16:34:44,086 - INFO -   No data available
+2025-11-24 16:34:44,086 - INFO - 
+[91/95] Capital One Financial (COF)
+2025-11-24 16:34:44,431 - INFO -   No data available
+2025-11-24 16:34:44,432 - INFO - 
+[92/95] Plains Gp Holdings (PAGP)
+2025-11-24 16:34:44,800 - INFO -   No data available
+2025-11-24 16:34:44,801 - INFO - 
+[93/95] World Kinect (WKC)
+2025-11-24 16:34:45,143 - INFO -   No data available
+2025-11-24 16:34:45,144 - INFO - 
+[94/95] Aig (AIG)
+2025-11-24 16:34:45,490 - INFO -   No data available
+2025-11-24 16:34:45,490 - INFO - 
+[95/95] Coca-Cola (COLA.WA)
+2025-11-24 16:34:45,771 - INFO -   No data available
+2025-11-24 16:34:45,771 - INFO - 
+[96/95] Tiaa (TILIX)
+2025-11-24 16:34:46,079 - INFO -   No data available
+2025-11-24 16:34:46,079 - INFO - 
+[97/95] Chs (CHS.V)
+2025-11-24 16:34:46,374 - INFO -   No data available
+2025-11-24 16:34:46,375 - INFO - 
+[99/95] Dow (DOW)
+2025-11-24 16:34:46,756 - INFO -   No data available
+2025-11-24 16:34:46,757 - INFO - 
+[100/95] Best Buy (BBY)
+2025-11-24 16:34:47,106 - INFO -   No data available
+2025-11-24 16:34:47,106 - INFO - 
+============================================================
+2025-11-24 16:34:47,106 - INFO - Organizing data by date...
+2025-11-24 16:34:47,106 - INFO - ============================================================
+2025-11-24 16:34:47,106 - INFO - 
+Total files saved: 0
+2025-11-24 16:34:47,107 - INFO - Total files skipped: 0
+2025-11-24 16:34:47,107 - INFO - 
+============================================================
+2025-11-24 16:34:47,107 - INFO - Creating HISTORICAL company metadata
+2025-11-24 16:34:47,107 - INFO - Years: 2024 to 2024
+2025-11-24 16:34:47,107 - INFO - ============================================================
+2025-11-24 16:34:47,108 - INFO - 
+2024: Metadata already exists — skipping
+2025-11-24 16:34:47,108 - INFO - 
+Metadata creation complete
+2025-11-24 16:34:47,108 - INFO - 
+============================================================
+2025-11-24 16:34:47,108 - INFO - Creating HISTORICAL macro data
+2025-11-24 16:34:47,108 - INFO - Years: 2024 to 2024
+2025-11-24 16:34:47,108 - INFO - ============================================================
+2025-11-24 16:34:47,108 - INFO - 
+2024: Already exists — skipping
+2025-11-24 16:34:47,108 - INFO - 
+Macro data creation complete
+2025-11-24 16:34:47,108 - INFO - 
+============================================================
+2025-11-24 16:34:47,108 - INFO - Fetching HISTORICAL exchange rates (USD-INR) from FRED
+2025-11-24 16:34:47,109 - INFO - Years: 2024 to 2024
+2025-11-24 16:34:47,109 - INFO - ============================================================
+2025-11-24 16:34:47,109 - INFO - 
+2024: Already exists — skipping
+2025-11-24 16:34:47,109 - INFO - 
+Exchange rate data complete
+2025-11-24 16:34:47,110 - INFO - ============================================================
+2025-11-24 16:34:47,110 - INFO - Starting merge process
+2025-11-24 16:34:47,110 - INFO - Mode: Historical
+2025-11-24 16:34:47,110 - INFO - Date range: 2024-12-31 to 2024-12-31
+2025-11-24 16:34:47,110 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/2025:11:24_16:34:47
+2025-11-24 16:34:47,110 - INFO - ============================================================
+2025-11-24 16:34:47,110 - INFO - 
+============================================================
+2025-11-24 16:34:47,110 - INFO - STEP 1: Processing BASE TABLE (stocks_raw)
+2025-11-24 16:34:47,110 - INFO - ============================================================
+2025-11-24 16:34:47,110 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-24 16:34:47,111 - ERROR - No data found for stocks_raw - CRITICAL: Base table has no data
+2025-11-24 16:34:47,111 - ERROR - ============================================================
+2025-11-24 16:34:47,111 - ERROR - CRITICAL ERROR: Base table stocks_raw failed to process
+2025-11-24 16:34:47,111 - ERROR - Cannot continue without base table - terminating pipeline
+2025-11-24 16:34:47,111 - ERROR - ============================================================

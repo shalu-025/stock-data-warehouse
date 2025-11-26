@@ -1,0 +1,13 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 19:13:44,161 - INFO - -> started running the process <-
+2025-11-24 19:13:44,208 - INFO - 
+============================================================
+2025-11-24 19:13:44,208 - INFO - Fetching LIVE data for 2025
+2025-11-24 19:13:44,208 - INFO - Date: 2025-11-24
+2025-11-24 19:13:44,208 - INFO - ============================================================

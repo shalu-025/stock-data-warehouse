@@ -1,0 +1,38 @@
+company,ticker,date,open,high,low,close,volume
+Ford Motor Company,F,1997-02-28,4.34,4.41,4.29,4.34,7920756
+Exxon Corporation,XOM,1997-02-28,10.31,10.47,10.3,10.34,8335200
+"Wal-Mart Stores, Inc.",WMT,1997-02-28,2.82,2.82,2.76,2.76,21207000
+General Electric Company,GE,1997-02-28,43.33,43.61,42.55,42.6,3649124
+International Business Machines Corporation,IBM,1997-02-28,17.39,17.71,17.09,17.47,12826470
+AT&T Corp.,ATT.L,1997-02-28,10.65,10.65,10.65,10.65,0
+Chevron Corporation,CVX,1997-02-28,11.56,11.6,11.28,11.3,2768800
+"PepsiCo, Inc.",PEP,1997-02-28,15.14,15.42,15.08,15.14,4453800
+"American International Group,Inc.",AIG,1997-02-28,337.14,340.97,336.09,337.14,141391
+"Motorola, Inc.",MSI,1997-02-28,45.88,46.92,45.47,46.3,3348307
+Lockheed Martin Corporation,LMT,1997-02-28,21.35,21.75,21.35,21.69,946600
+The Kroger Company,KR,1997-02-28,4.61,4.7,4.55,4.66,3377600
+Fannie Mae,FNMA,1997-02-28,32.22,32.52,31.15,31.15,2606100
+"ConAgra, Inc.",CAG,1997-02-28,7.62,7.63,7.54,7.6,1021575
+The Allstate Corporation,ALL,1997-02-28,16.55,16.55,16.32,16.32,2700600
+The Boeing Company,BA,1997-02-28,31.73,32.24,31.54,31.73,3482600
+Johnson & Johnson,JNJ,1997-02-28,14.12,14.4,13.96,14.18,4997200
+Travelers Group Inc.,TRV,1997-02-28,16.76,16.76,16.42,16.42,516400
+Intel Corporation,INTC,1997-02-28,9.86,10.23,9.69,10.03,149775200
+International Paper Company,IP,1997-02-28,15.01,15.23,14.78,14.83,1841534
+Loews Corporation,L,1997-02-28,13.81,14.16,13.76,13.76,1141200
+"Merck & Co., Inc.",MRK,1997-02-28,16.51,16.68,16.28,16.48,8489219
+Xerox Corporation,XRX,1997-02-28,33.45,33.99,33.11,33.86,1422518
+CIGNA Corporation,CI,1997-02-28,13.6,13.78,13.54,13.55,2422800
+The Walt Disney Company,DIS,1997-02-28,18.67,18.67,18.43,18.43,3165433
+American Express Company,AXP,1997-02-28,12.61,13.31,12.61,13.13,5851251
+"Caterpillar, Inc.",CAT,1997-02-28,9.7,9.7,9.55,9.55,1650800
+J.P. Morgan & Co. Incorporated,JPM,1997-02-28,14.82,15.01,14.75,14.84,6648000
+Digital Equipment Corporation,GEN,1997-02-28,0.69,0.72,0.69,0.7,6426400
+Rockwell International Corporation,ROK,1997-02-28,9.3,9.49,9.3,9.33,365700
+Minnesota Mining & Manufacturing Company,MMM,1997-02-28,17.54,17.69,17.52,17.61,3572213
+McKesson Corporation,MCK,1997-02-28,26.73,26.88,26.58,26.58,215400
+SYSCO Corporation,SYY,1997-02-28,4.29,4.35,4.26,4.35,1372800
+Archer Daniels Midland Company,ADM,1997-02-28,7.71,7.76,7.6,7.6,1492611
+Morgan Stanley Group,MS,1997-02-28,8.99,9.26,8.96,9.05,2420000
+Alcoa,AA,1997-02-28,29.08,29.44,29.08,29.18,1137245
+The Goodyear Tire & Rubber Company,TGT,1997-02-28,5.87,6.1,5.87,6.05,1787600

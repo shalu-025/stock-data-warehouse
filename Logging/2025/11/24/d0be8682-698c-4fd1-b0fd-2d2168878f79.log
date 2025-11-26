@@ -1,0 +1,51 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 15:03:53,326 - INFO - -> started running the process <-
+2025-11-24 15:03:53,338 - INFO - 
+============================================================
+2025-11-24 15:03:53,338 - INFO - Fetching LIVE data for 2025
+2025-11-24 15:03:53,338 - INFO - Date: 2025-11-24
+2025-11-24 15:03:53,338 - INFO - ============================================================
+2025-11-24 15:03:53,340 - INFO - Total companies with tickers: 96
+2025-11-24 15:03:53,340 - INFO - Today's data already exists — skipping
+2025-11-24 15:03:53,340 - INFO - 
+============================================================
+2025-11-24 15:03:53,340 - INFO - Creating LIVE company metadata for 2025
+2025-11-24 15:03:53,340 - INFO - ============================================================
+2025-11-24 15:03:53,340 - INFO - Metadata already exists — skipping
+2025-11-24 15:03:53,340 - INFO - 
+============================================================
+2025-11-24 15:03:53,340 - INFO - Creating LIVE macro data for 2025
+2025-11-24 15:03:53,340 - INFO - ============================================================
+2025-11-24 15:03:53,340 - INFO - Current year data already exists — skipping
+2025-11-24 15:03:53,340 - INFO - Sentiment already exists — skipping
+2025-11-24 15:03:53,340 - INFO - 
+============================================================
+2025-11-24 15:03:53,340 - INFO - Fetching LIVE exchange rates (USD-INR) from FRED for 2025
+2025-11-24 15:03:53,340 - INFO - ============================================================
+2025-11-24 15:03:53,340 - INFO - Current year data already exists — skipping
+2025-11-24 15:03:53,340 - INFO - ============================================================
+2025-11-24 15:03:53,340 - INFO - Starting merge process
+2025-11-24 15:03:53,340 - INFO - Mode: Live
+2025-11-24 15:03:53,340 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/24/20251124_150353
+2025-11-24 15:03:53,340 - INFO - ============================================================
+2025-11-24 15:03:53,340 - INFO - 
+============================================================
+2025-11-24 15:03:53,340 - INFO - STEP 1: Processing BASE TABLE (stocks_raw)
+2025-11-24 15:03:53,340 - INFO - ============================================================
+2025-11-24 15:03:53,340 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-24 15:03:53,341 - INFO - Read 93 rows from stocks_raw
+2025-11-24 15:03:53,357 - INFO - Validation complete for stocks_raw: valid=93, invalid=0
+2025-11-24 15:03:53,359 - INFO - Valid: 93, Invalid: 0
+2025-11-24 15:03:53,380 - INFO - Table stocks_raw created
+2025-11-24 15:03:53,397 - ERROR - Failed to load stocks_raw: 1062 (23000): Duplicate entry 'ALL-2025-11-21' for key 'stocks_raw.unique_stock'
+2025-11-24 15:03:53,397 - ERROR - Failed to load stocks_raw: 1062 (23000): Duplicate entry 'ALL-2025-11-21' for key 'stocks_raw.unique_stock'
+2025-11-24 15:03:53,397 - ERROR - ============================================================
+2025-11-24 15:03:53,397 - ERROR - CRITICAL ERROR: Base table stocks_raw failed to process
+2025-11-24 15:03:53,397 - ERROR - Cannot continue without base table - terminating pipeline
+2025-11-24 15:03:53,397 - ERROR - ============================================================

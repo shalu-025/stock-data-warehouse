@@ -1,0 +1,140 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 18:16:20,707 - INFO - ===== started running the process ======
+2025-11-25 18:16:20,791 - INFO - Starting merge process
+2025-11-25 18:16:20,791 - INFO - Mode: Historical
+2025-11-25 18:16:20,791 - INFO - Date range: 2024-11-01 to 2024-12-31
+2025-11-25 18:16:20,791 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_18:16:20
+2025-11-25 18:16:20,791 - INFO - 
+============================================================
+2025-11-25 18:16:20,791 - INFO - Processing BASE TABLE (stocks_raw)
+2025-11-25 18:16:20,791 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-25 18:16:20,794 - INFO - Read 92 rows from 2024/11/04/stocks.csv
+2025-11-25 18:16:20,794 - INFO - Read 92 rows from 2024/11/05/stocks.csv
+2025-11-25 18:16:20,795 - INFO - Read 91 rows from 2024/11/20/stocks.csv
+2025-11-25 18:16:20,795 - INFO - Read 92 rows from 2024/11/18/stocks.csv
+2025-11-25 18:16:20,796 - INFO - Read 92 rows from 2024/11/27/stocks.csv
+2025-11-25 18:16:20,796 - INFO - Read 92 rows from 2024/11/11/stocks.csv
+2025-11-25 18:16:20,797 - INFO - Read 92 rows from 2024/11/29/stocks.csv
+2025-11-25 18:16:20,797 - INFO - Read 7 rows from 2024/11/28/stocks.csv
+2025-11-25 18:16:20,798 - INFO - Read 92 rows from 2024/11/19/stocks.csv
+2025-11-25 18:16:20,798 - INFO - Read 92 rows from 2024/11/26/stocks.csv
+2025-11-25 18:16:20,799 - INFO - Read 92 rows from 2024/11/21/stocks.csv
+2025-11-25 18:16:20,799 - INFO - Read 92 rows from 2024/11/07/stocks.csv
+2025-11-25 18:16:20,800 - INFO - Read 92 rows from 2024/11/08/stocks.csv
+2025-11-25 18:16:20,800 - INFO - Read 92 rows from 2024/11/01/stocks.csv
+2025-11-25 18:16:20,801 - INFO - Read 92 rows from 2024/11/06/stocks.csv
+2025-11-25 18:16:20,801 - INFO - Read 91 rows from 2024/11/15/stocks.csv
+2025-11-25 18:16:20,802 - INFO - Read 92 rows from 2024/11/12/stocks.csv
+2025-11-25 18:16:20,802 - INFO - Read 92 rows from 2024/11/13/stocks.csv
+2025-11-25 18:16:20,802 - INFO - Read 92 rows from 2024/11/14/stocks.csv
+2025-11-25 18:16:20,803 - INFO - Read 92 rows from 2024/11/22/stocks.csv
+2025-11-25 18:16:20,803 - INFO - Read 92 rows from 2024/11/25/stocks.csv
+2025-11-25 18:16:20,803 - INFO - Read 93 rows from 2024/12/03/stocks.csv
+2025-11-25 18:16:20,804 - INFO - Read 93 rows from 2024/12/04/stocks.csv
+2025-11-25 18:16:20,804 - INFO - Read 93 rows from 2024/12/05/stocks.csv
+2025-11-25 18:16:20,805 - INFO - Read 92 rows from 2024/12/02/stocks.csv
+2025-11-25 18:16:20,805 - INFO - Read 92 rows from 2024/12/20/stocks.csv
+2025-11-25 18:16:20,806 - INFO - Read 93 rows from 2024/12/18/stocks.csv
+2025-11-25 18:16:20,806 - INFO - Read 93 rows from 2024/12/27/stocks.csv
+2025-11-25 18:16:20,806 - INFO - Read 92 rows from 2024/12/11/stocks.csv
+2025-11-25 18:16:20,807 - INFO - Read 93 rows from 2024/12/16/stocks.csv
+2025-11-25 18:16:20,807 - INFO - Read 93 rows from 2024/12/17/stocks.csv
+2025-11-25 18:16:20,808 - INFO - Read 93 rows from 2024/12/10/stocks.csv
+2025-11-25 18:16:20,808 - INFO - Read 93 rows from 2024/12/19/stocks.csv
+2025-11-25 18:16:20,808 - INFO - Read 87 rows from 2024/12/26/stocks.csv
+2025-11-25 18:16:20,809 - INFO - Read 93 rows from 2024/12/09/stocks.csv
+2025-11-25 18:16:20,809 - INFO - Read 93 rows from 2024/12/30/stocks.csv
+2025-11-25 18:16:20,809 - INFO - Read 93 rows from 2024/12/06/stocks.csv
+2025-11-25 18:16:20,810 - INFO - Read 91 rows from 2024/12/24/stocks.csv
+2025-11-25 18:16:20,810 - INFO - Read 93 rows from 2024/12/23/stocks.csv
+2025-11-25 18:16:20,810 - INFO - Read 93 rows from 2024/12/12/stocks.csv
+2025-11-25 18:16:20,811 - INFO - Read 93 rows from 2024/12/13/stocks.csv
+2025-11-25 18:16:20,811 - INFO - Read 1 rows from 2024/12/25/stocks.csv
+2025-11-25 18:16:20,819 - INFO - Merged 3695 rows for stocks_raw
+2025-11-25 18:16:21,342 - INFO - Validation complete for stocks_raw: valid=3695, invalid=0
+2025-11-25 18:16:21,378 - INFO - Valid: 3695, Invalid: 0
+2025-11-25 18:16:21,401 - INFO - Table stocks_raw created
+2025-11-25 18:16:21,674 - INFO - Inserted 3695 rows into stocks_raw
+2025-11-25 18:16:21,674 - INFO - Loaded 3695 rows to stocks_raw
+2025-11-25 18:16:21,675 - INFO - Base table established with 3695 records
+2025-11-25 18:16:21,675 - INFO - Found 93 unique tickers: 601336.SS, AAL, AAPL, ABBV, ACI, ADM, AIG, ALL, AMZN, ATT.L, AXP, BA, BAC, BBY, C, CAH, CAT, CHS.V, CHTR, CI, CMCSA, CNC, COF, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, DOW, ELV, EPD, ET, F, FDX, FMCC, FNMA, GE, GM, GOOGL, GS, HCA, HD, HUM.ST, IBM, INTC, JNJ, JPM, KR, LFG.AX, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TSLA, TSN, UAL, UNH, UPS, VLO, VZ, WFC, WKC, WMT, X1G.PA, XOM
+2025-11-25 18:16:21,675 - INFO - 
+============================================================
+2025-11-25 18:16:21,675 - INFO - Processing DEPENDENT TABLES
+2025-11-25 18:16:21,675 - INFO - Processing company_metadata
+2025-11-25 18:16:21,676 - INFO - Read 93 rows from 2024/company_details.csv
+2025-11-25 18:16:21,676 - INFO - Merged 93 rows for company_metadata
+2025-11-25 18:16:21,681 - INFO - Validation complete for company_metadata: valid=93, invalid=0
+2025-11-25 18:16:21,682 - INFO - Valid: 93, Invalid: 0
+2025-11-25 18:16:21,685 - INFO - Table company_metadata created successfully
+2025-11-25 18:16:21,690 - INFO - Successfully inserted 93/93 rows into company_metadata
+2025-11-25 18:16:21,690 - INFO - Loaded 93 rows to company_metadata
+2025-11-25 18:16:21,690 - INFO - company_metadata processed and linked to stocks_raw
+2025-11-25 18:16:21,690 - INFO - 
+============================================================
+2025-11-25 18:16:21,690 - INFO - Processing INDEPENDENT TABLES
+2025-11-25 18:16:21,690 - INFO - Processing exchange_rates
+2025-11-25 18:16:21,691 - INFO - Read 251 rows from 2024.csv
+2025-11-25 18:16:21,692 - INFO - Merged 251 rows for exchange_rates
+2025-11-25 18:16:21,722 - INFO - Validation complete for exchange_rates: valid=251, invalid=0
+2025-11-25 18:16:21,724 - INFO - Valid: 251, Invalid: 0
+2025-11-25 18:16:21,727 - INFO - Table exchange_rates created
+2025-11-25 18:16:21,740 - INFO - Inserted 251 rows into exchange_rates
+2025-11-25 18:16:21,740 - INFO - Loaded 251 rows to exchange_rates
+2025-11-25 18:16:21,740 - INFO - exchange_rates processed
+2025-11-25 18:16:21,740 - INFO - Processing macro_raw
+2025-11-25 18:16:21,742 - INFO - Read 4 rows from 2024.csv
+2025-11-25 18:16:21,743 - INFO - Merged 1 rows for macro_raw from Q4 2024 to Q4 2024
+2025-11-25 18:16:21,743 - INFO - Years included: [np.int64(2024)]
+2025-11-25 18:16:21,743 - INFO - Quarters included: ['2024-Q4']
+2025-11-25 18:16:21,743 - INFO - Validation complete for macro_raw: valid=1, invalid=0
+2025-11-25 18:16:21,744 - INFO - Valid: 1, Invalid: 0
+2025-11-25 18:16:21,746 - INFO - Table macro_raw created
+2025-11-25 18:16:21,746 - INFO - Inserted 1 rows into macro_raw
+2025-11-25 18:16:21,746 - INFO - Loaded 1 rows to macro_raw
+2025-11-25 18:16:21,746 - INFO - macro_raw processed
+2025-11-25 18:16:21,746 - INFO - 
+============================================================
+2025-11-25 18:16:21,746 - INFO - Processing SENTIMENT DATA
+2025-11-25 18:16:21,746 - INFO - Processing sentiment
+2025-11-25 18:16:21,746 - WARNING - No historical data available for sentiment - only live data exists
+2025-11-25 18:16:21,746 - WARNING - sentiment not available
+2025-11-25 18:16:21,746 - INFO - 
+============================================================
+2025-11-25 18:16:21,747 - INFO - KPI CALCULATIONS AND FACT TABLE GENERATION
+2025-11-25 18:16:21,747 - INFO - Starting KPI calculations
+2025-11-25 18:16:21,749 - INFO - Loaded stocks_raw: 3695 rows
+2025-11-25 18:16:21,749 - INFO - Loaded macro_raw: 1 rows
+2025-11-25 18:16:21,749 - INFO - Loaded company_metadata: 93 rows
+2025-11-25 18:16:21,749 - INFO - Loaded exchange_rates: 251 rows
+2025-11-25 18:16:21,750 - INFO - Calculating stock_facts metrics...
+2025-11-25 18:16:21,786 - INFO - Stock facts calculated: 3695 rows
+2025-11-25 18:16:21,786 - INFO - Calculating macro_facts metrics...
+2025-11-25 18:16:21,791 - INFO - Macro facts calculated: 1 rows
+2025-11-25 18:16:21,791 - INFO - Creating sector_lookup...
+2025-11-25 18:16:21,791 - INFO - Sector lookup created: 36 sectors
+2025-11-25 18:16:21,791 - INFO - Calculating analytics_summary metrics...
+2025-11-25 18:16:21,932 - INFO - Analytics summary calculated: 93 rows
+2025-11-25 18:16:21,932 - INFO - 
+============================================================
+2025-11-25 18:16:21,932 - INFO - KPI calculations completed successfully
+2025-11-25 18:16:21,932 - INFO - Generated files: stock_facts.csv, macro_facts.csv, sector_lookup.csv, analytics_summary.csv, pipeline_logs.csv
+2025-11-25 18:16:21,932 - INFO - KPI calculations completed successfully
+2025-11-25 18:16:21,938 - INFO - Table stock_facts created
+2025-11-25 18:16:22,285 - INFO - Inserted 3695 rows into stock_facts
+2025-11-25 18:16:22,285 - INFO - Loaded stock_facts to database
+2025-11-25 18:16:22,288 - INFO - Table macro_facts created
+2025-11-25 18:16:22,288 - INFO - Inserted 1 rows into macro_facts
+2025-11-25 18:16:22,288 - INFO - Loaded macro_facts to database
+2025-11-25 18:16:22,290 - INFO - Table sector_lookup created
+2025-11-25 18:16:22,293 - INFO - Inserted 36 rows into sector_lookup
+2025-11-25 18:16:22,293 - INFO - Loaded sector_lookup to database
+2025-11-25 18:16:22,295 - INFO - Table analytics_summary created
+2025-11-25 18:16:22,305 - INFO - Inserted 93 rows into analytics_summary
+2025-11-25 18:16:22,305 - INFO - Loaded analytics_summary to database

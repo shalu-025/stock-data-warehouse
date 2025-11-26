@@ -1,0 +1,5 @@
+company,ticker,date,open,high,low,close,volume
+AT&T Inc.,ATT.L,2009-11-26,24.2,24.6,24.2,24.4,88520
+Pfizer Inc.,PFIZER.NS,2009-11-26,600.08,604.96,581.49,596.6,8030
+Kraft Foods Inc.,1959.T,2009-11-26,349.19,354.65,348.5,353.97,125000
+Sprint Nextel Corporation,SIX.AX,2009-11-26,2.09,2.17,2.09,2.17,19347

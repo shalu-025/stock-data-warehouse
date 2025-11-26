@@ -1,0 +1,7 @@
+company,ticker,date,open,high,low,close,volume
+AT&T,ATT.L,2016-09-05,74.0,75.5,74.0,74.25,213160
+Express Scripts Holding,ESH.BE,2016-09-05,7.77,7.77,7.77,7.77,31
+Lowe's,X1G.PA,2016-09-05,234.53,234.53,234.53,234.53,0
+Humana,HUM.ST,2016-09-05,71.86,71.86,71.14,71.62,25076
+New York Life Insurance,601336.SS,2016-09-05,33.55,33.79,33.34,33.45,7055478
+World Fuel Services,WFK.BE,2016-09-05,34.27,34.32,34.25,34.26,0

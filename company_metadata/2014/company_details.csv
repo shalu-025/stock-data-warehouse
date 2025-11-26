@@ -1,0 +1,74 @@
+rank,company,industry,revenue,employees,ticker
+1,Wal-Mart Stores,General Merchandisers,476294.0,,WMT
+2,Exxon Mobil,Petroleum Refining,407666.0,,XOM
+3,Chevron,Petroleum Refining,220356.0,,CVX
+6,Phillips 66,Petroleum Refining,161175.0,,PSX
+7,General Motors,Motor Vehicles & Parts,155427.0,,GM
+8,Ford Motor,Motor Vehicles & Parts,146917.0,,F
+9,General Electric,Diversified Financials,146231.0,,GE
+10,Valero Energy,Petroleum Refining,137758.0,,VLO
+11,AT&T,Telecommunications,128752.0,,ATT.L
+12,CVS Caremark,Food & Drug Stores,126761.0,,CVS
+13,Fannie Mae,Diversified Financials,125696.0,,FNMA
+14,UnitedHealth Group,Health Care: Insurance and Managed Care,122489.0,,UNH
+15,McKesson,Wholesalers: Health Care,122455.0,,MCK
+16,Verizon Communications,Telecommunications,120550.0,,VZ
+18,J.P. Morgan Chase & Co.,Commercial Banks,106283.0,,JPM
+19,Costco Wholesale,Specialty Retailers: Other,105156.0,,COST
+20,Express Scripts Holding,Health Care: Pharmacy and Other Services,104620.0,,ESH.BE
+21,Bank of America,Commercial Banks,101697.0,,BAC
+22,Cardinal Health,Wholesalers: Health Care,101093.0,,CAH
+23,International Business Machines,Information Technology Services,99751.0,,IBM
+24,Kroger,Food & Drug Stores,98375.0,,KR
+25,Marathon Petroleum,Petroleum Refining,93991.0,,MPC
+26,Citigroup,Commercial Banks,93629.0,,C
+27,Archer Daniels Midland,Food Production,89804.0,,ADM
+29,Wells Fargo,Commercial Banks,88069.0,,WFC
+30,Boeing,Aerospace & Defense,86623.0,,BA
+31,Procter & Gamble,Household and Personal Products,84167.0,,PG
+32,Freddie Mac,Diversified Financials,81221.0,,FMCC
+33,Home Depot,Specialty Retailers: Other,78812.0,,HD
+34,Microsoft,Computer Software,77849.0,,MSFT
+36,Target,General Merchandisers,72596.0,,TGT
+39,Johnson & Johnson,Pharmaceuticals,71312.0,,JNJ
+40,American International Group,Insurance: Property and Casualty (Stock),68678.0,,AIG
+42,MetLife,"Insurance: Life, Health (Stock)",68202.0,,MET
+43,PepsiCo,Food Consumer Products,66415.0,,PEP
+44,Comcast,Telecommunications,64657.0,,CMCSA
+47,ConocoPhillips,"Mining, Crude-Oil Production",59433.0,,COP
+49,Caterpillar,Construction and Farm Machinery,55656.0,,CAT
+50,United Parcel Service,"Mail, Package, and Freight Delivery",55438.0,,UPS
+51,Pfizer,Pharmaceuticals,53785.0,,PFIZER.NS
+52,Lowe's Companies,Specialty Retailers: Other,53417.0,,LOW
+53,Intel Corporation,Semiconductors and Other Electronic Components,52708.0,,INTC
+54,"Energy Transfer Equity, L.P.",Pipelines,48750.0,,ET
+55,"Cisco Systems, Inc.",Network and Other Communications Equipment,48607.0,,CSCO
+56,Enterprise Products Partners L.P.,Pipelines,47727.0,,EPD
+59,Lockheed Martin Corporation,Aerospace & Defense,45358.0,,LMT
+60,"Best Buy Co., Inc.",Specialty Retailers: Other,45225.0,,BBY
+61,The Walt Disney Company,Entertainment,45041.0,,DIS
+63,Sysco Corporation,Wholesalers: Food and Grocery,44411.0,,SYY
+64,FedEx Corporation,"Mail, Package, and Freight Delivery",44287.0,,FDX
+65,"Merck & Co., Inc.",Pharmaceuticals,44033.0,,MRK
+68,"Johnson Controls, Inc.",Motor Vehicles & Parts,42730.0,,JCI
+70,"Plains GP Holdings, L.P.",Pipelines,42249.0,,PAGP
+71,World Fuel Services Corporation,Wholesalers: Diversified,41562.0,,WFK.BE
+72,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",41471.0,,PRU
+74,"The Goldman Sachs Group, Inc.",Commercial Banks,40874.0,,TGS
+76,Liberty Mutual Holding Company Inc.,Insurance: Property and Casualty (Stock),39133.0,,LBTYA
+77,Honeywell International Inc.,"Electronics, Electrical Equipment",39055.0,,HON
+78,"United Continental Holdings, Inc.",Airlines,38279.0,,UAL
+80,Deere & Company,Construction and Farm Machinery,37795.0,,DE
+81,"Delta Air Lines, Inc.",Airlines,37773.0,,DAL
+82,Oracle Corporation,Computer Software,37180.0,,ORCL
+83,Morgan Stanley,Commercial Banks,36848.0,,MS
+87,Sears Holdings Corporation,General Merchandisers,36188.0,,SRSCQ
+88,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",36026.0,,601336.SS
+89,"Mondelez International, Inc.",Food Consumer Products,35299.0,,MDLZ
+90,American Express Company,Commercial Banks,34932.0,,AXP
+91,Nationwide Mutual Insurance Co.,Insurance: Property and Casualty (Mutual),34542.0,,NBS.L
+92,The Allstate Corporation,Insurance: Property and Casualty (Stock),34507.0,,ALL
+93,"Tyson Foods, Inc.",Food Production,34482.0,,TSN
+97,CIGNA Corporation,Health Care: Insurance and Managed Care,32380.0,,CI
+99,General Dynamics Corporation,Aerospace & Defense,31218.0,,GD
+100,Philip Morris International Inc.,Tobacco,31217.0,,PM

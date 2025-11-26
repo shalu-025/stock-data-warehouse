@@ -1,0 +1,101 @@
+rank,company,industry,revenue,profit,profit %,year,employees,ticker
+1,"Wal-Mart Stores, Inc.",General Merchandisers,408214.0,,,2010,,WMT
+2,Exxon Mobil Corporation,Petroleum Refining,284650.0,,,2010,,XOM
+3,Chevron Corporation,Petroleum Refining,163527.0,,,2010,,CVX
+4,General Electric Company,Diversified Financials,156779.0,,,2010,,GE
+5,Bank of America Corporation,Commercial Banks,150450.0,,,2010,,BAC
+6,ConocoPhillips,Petroleum Refining,139515.0,,,2010,,COP
+7,AT&T Inc.,Telecommunications,123018.0,,,2010,,ATT.L
+8,Ford Motor Company,Motor Vehicles & Parts,118308.0,,,2010,,F
+9,J.P. Morgan Chase & Co.,Commercial Banks,115632.0,,,2010,,JPM
+10,Hewlett-Packard Company,"Computers, Office Equipment",114552.0,,,2010,,
+11,Berkshire Hathaway Inc.,Insurance: Property and Casualty (Stock),112493.0,,,2010,,BRK.A
+12,"Citigroup, Inc.",Commercial Banks,108785.0,,,2010,,C
+13,Verizon Communications Inc.,Telecommunications,107808.0,,,2010,,VZ
+14,McKesson Corporation,Wholesalers: Health Care,106632.0,,,2010,,MCK
+15,General Motors Corporation,Motor Vehicles & Parts,104589.0,,,2010,,GM
+16,"American International Group,Inc.",Insurance: Property and Casualty (Stock),103189.0,,,2010,,AIG
+17,"Cardinal Health, Inc.",Wholesalers: Health Care,99612.9,,,2010,,CAH
+18,CVS Caremark Corporation,Food & Drug Stores,98729.0,,,2010,,CVS
+19,Wells Fargo & Company,Commercial Banks,98636.0,,,2010,,WFC
+20,International Business Machines Corporation,Information Technology Services,95758.0,,,2010,,IBM
+21,UnitedHealth Group Incorporated,Health Care: Insurance and Managed Care,87138.0,,,2010,,UNH
+22,The Procter & Gamble Company,Household and Personal Products,79697.0,,,2010,,TPG
+23,The Kroger Company,Food & Drug Stores,76733.2,,,2010,,KR
+24,AmerisourceBergen Corp.,Wholesalers: Health Care,71789.0,,,2010,,ABC.VI
+25,Costco Wholesale Corporation,Specialty Retailers,71422.0,,,2010,,COST
+26,Valero Energy Corporation,Petroleum Refining,70035.0,,,2010,,VLO
+27,Archer-Daniels-Midland Company,Food Production,69207.0,,,2010,,
+28,The Boeing Company,Aerospace & Defense,68281.0,,,2010,,BA
+29,"The Home Depot, Inc.",Specialty Retailers,66176.0,,,2010,,THD
+30,Target Corporation,General Merchandisers,65357.0,,,2010,,TGT
+31,"WellPoint, Inc.",Health Care: Insurance and Managed Care,65028.1,,,2010,,
+32,Walgreen Co.,Food & Drug Stores,63335.0,,,2010,,
+33,Johnson & Johnson,Pharmaceuticals,61897.0,,,2010,,JNJ
+34,State Farm Insurance Cos.,Insurance: Property and Casualty (Mutual),61479.6,,,2010,,
+35,"Medco Health Solutions, Inc.",Health Care: Pharmacy and Other Services,59804.2,,,2010,,MED.PM
+36,Microsoft Corporation,Computer Software,58437.0,,,2010,,MSFT
+37,United Technologies Corporation,Aerospace & Defense,52920.0,,,2010,,
+38,Dell Inc.,"Computers, Office Equipment",52902.0,,,2010,,DELL
+39,"The Goldman Sachs Group, Inc.",Commercial Banks,51673.0,,,2010,,TGS
+40,Pfizer Inc.,Pharmaceuticals,50009.0,,,2010,,PFIZER.NS
+41,Marathon Oil Corporation,Petroleum Refining,49403.0,,,2010,,MRO
+42,"Lowe's Companies, Inc.",Specialty Retailers,47220.0,,,2010,,LOW
+43,"United Parcel Service, Inc.","Mail, Package, and Freight Delivery",45297.0,,,2010,,UPS
+44,Lockheed Martin Corporation,Aerospace & Defense,45189.0,,,2010,,LMT
+45,Best Buy Co. Inc.,Specialty Retailers,45015.0,,,2010,,BBY
+46,The Dow Chemical Company,Chemicals,44945.0,,,2010,,TDC
+47,Supervalu Inc.,Food & Drug Stores,44564.0,,,2010,,
+48,Sears Holdings Corporation,General Merchandisers,44043.0,,,2010,,SRSCQ
+49,International Assets Holding Corporation,Diversified Financials,43604.4,,,2010,,IHC.AD
+50,"PepsiCo, Inc.",Food Consumer Products,43232.0,,,2010,,PEP
+51,"MetLife, Inc.","Insurance: Life, Health (Stock)",41098.0,,,2010,,MET
+52,Safeway Inc.,Food & Drug Stores,40850.7,,,2010,,301559.SZ
+53,Kraft Foods Inc.,Food Consumer Products,40386.0,,,2010,,1959.T
+54,Freddie Mac,Diversified Financials,37614.0,,,2010,,FMCC
+55,Sysco Corporation,Wholesalers: Food and Grocery,36853.3,,,2010,,SYY
+56,"Apple , Inc.","Computers, Office Equipment",36537.0,,,2010,,APLE
+57,The Walt Disney Company,Entertainment,36149.0,,,2010,,DIS
+58,"Cisco Systems, Inc.",Network and Other Communications Equipment,36117.0,,,2010,,CSCO
+59,Comcast Corporation,Telecommunications,35756.0,,,2010,,CMCSA
+60,FedEx Corporation,"Mail, Package, and Freight Delivery",35497.0,,,2010,,FDX
+61,Northrop Grumman Corporation,Aerospace & Defense,35291.0,,,2010,,NOC
+62,Intel Corporation,Semiconductors and Other Electronic Components,35127.0,,,2010,,INTC
+63,Aetna Inc.,Health Care: Insurance and Managed Care,34764.1,,,2010,,
+64,New York Life Insurance Company,"Insurance: Life, Health (Mutual)",34014.3,,,2010,,601336.SS
+65,"Prudential Financial, Inc.","Insurance: Life, Health (Stock)",32688.0,,,2010,,PRU
+66,Caterpillar Inc.,Construction and Farm Machinery,32396.0,,,2010,,CAT
+67,Sprint Nextel Corporation,Telecommunications,32260.0,,,2010,,SIX.AX
+68,The Allstate Corporation,Insurance: Property and Casualty (Stock),32013.0,,,2010,,ALL
+69,General Dynamics Corporation,Aerospace & Defense,31981.0,,,2010,,GD
+70,Morgan Stanley,Commercial Banks,31515.0,,,2010,,MS
+71,Liberty Mutual Holding Company Inc.,Insurance: Property and Casualty (Stock),31094.0,,,2010,,LBTYA
+72,The Coca-Cola Company,Beverages,30990.0,,,2010,,
+73,Humana Inc.,Health Care: Insurance and Managed Care,30960.4,,,2010,,HUM.ST
+74,Honeywell International Inc.,Aerospace & Defense,30908.0,,,2010,,HON
+75,Abbott Laboratories,Pharmaceuticals,30764.7,,,2010,,ABT
+76,News Corporation,Entertainment,30423.0,,,2010,,NWSA
+77,HCA Inc,Health Care: Pharmacy and Other Services,30052.0,,,2010,,HCA
+78,"Sunoco, Inc.",Petroleum Refining,29630.0,,,2010,,SUN
+79,Hess Corporation,Petroleum Refining,29569.0,,,2010,,HES
+80,Ingram Micro Inc.,Wholesalers: Electronics and Office Equipment,29515.4,,,2010,,INGM
+81,Fannie Mae,Diversified Financials,29065.0,,,2010,,FNMA
+82,Time Warner Inc.,Entertainment,28842.0,,,2010,,T
+83,"Johnson Controls, Inc.",Motor Vehicles & Parts,28497.0,,,2010,,JCI
+84,"Delta Air Lines, Inc.",Airlines,28063.0,,,2010,,DAL
+85,"Merck & Co., Inc.",Pharmaceuticals,27428.3,,,2010,,MRK
+86,E.I. du Pont de Nemours and Company,Chemicals,27328.0,,,2010,,
+87,"Tyson Foods, Inc.",Food Production,27165.0,,,2010,,TSN
+88,American Express Company,Commercial Banks,26730.0,,,2010,,AXP
+89,Rite Aid Corporation,Food & Drug Stores,26289.5,,,2010,,RADCQ
+90,Teachers Insurance and Annuity Association College Retiremen,"Insurance: Life, Health (Mutual)",26278.0,,,2010,,
+91,CHS Inc.,Wholesalers: Food and Grocery,25729.9,,,2010,,CHS.V
+92,"Enterprise GP Holdings, L.P.",Pipelines,25510.9,,,2010,,392.HK
+93,Massachusetts Financial Group,"Insurance: Life, Health (Mutual)",25423.6,,,2010,,MFG.AX
+94,Philip Morris International Inc.,Tobacco,25035.0,,,2010,,PM
+95,Raytheon Company,Aerospace & Defense,24881.0,,,2010,,^RTX
+96,"Express Scripts, Inc.",Health Care: Pharmacy and Other Services,24748.9,,,2010,,
+97,The Hartford Financial Services Group Inc.,Insurance: Property and Casualty (Stock),24701.0,,,2010,,HFF.BE
+98,"The Travelers Companies, Inc.",Insurance: Property and Casualty (Stock),24680.0,,,2010,,TTC
+99,"Publix Super Markets, Inc.",Food & Drug Stores,24515.0,,,2010,,
+100,Amazon.com Inc.,Internet Services and Retailing,24509.0,,,2010,,

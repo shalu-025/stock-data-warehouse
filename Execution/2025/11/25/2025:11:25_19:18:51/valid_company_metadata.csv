@@ -1,0 +1,94 @@
+rank,company,industry,revenue,employees,ticker
+1,Walmart,General Merchandisers,681000000000,2100000,WMT
+2,Amazon,Internet Services and Retailing,638000000000,1556000,AMZN
+3,UnitedHealth,Health Care: Insurance and Managed Care,400300000000,400000,UNH
+4,Apple,"Computers, Office Equipment",391000000000,164000,APLE
+5,CVS Health,Health Care: Pharmacy and Other Services,372800000000,259500,CVS
+7,Alphabet,Internet Services and Retailing,350000000000,183300,GOOGL
+8,Exxon Mobil,Petroleum Refining,349600000000,60900,XOM
+9,McKesson,Wholesalers: Health Care,309000000000,48000,MCK
+10,Cencora,Wholesalers: Health Care,294000000000,44000,COR
+11,JPMorgan Chase,Commercial Banks,278900000000,317200,JPM
+12,Costco,General Merchandisers,254500000000,333000,COST
+13,Cigna,Health Care: Pharmacy and Other Services,247100000000,72400,CI
+14,Microsoft,Computer Software,245100000000,228000,MSFT
+15,Cardinal Health,Wholesalers: Health Care,226800000000,48400,CAH
+16,Chevron,Petroleum Refining,202800000000,45300,CVX
+17,Bank of America,Commercial Banks,192400000000,213200,BAC
+18,General Motors,Motor Vehicles & Parts,187400000000,162000,GM
+19,Ford Motor,Motor Vehicles & Parts,185000000000,171000,F
+20,Elevance Health,Health Care: Insurance and Managed Care,177000000000,103700,ELV
+21,Citi,Commercial Banks,170800000000,227900,CITI.NE
+22,Meta,Internet Services and Retailing,164500000000,74100,META
+23,Centene,Health Care: Insurance and Managed Care,163100000000,60500,CNC
+24,Home Depot,Specialty Retailers: Other,159500000000,470100,HD
+25,Fannie Mae,Diversified Financials,152700000000,8200,FNMA
+27,Kroger,Food & Drug Stores,147100000000,409000,KR
+28,Phillips 66,Petroleum Refining,145500000000,13200,PSX
+29,Marathon Petroleum,Petroleum Refining,140400000000,18300,MPC
+30,Verizon,Telecommunications,134800000000,99600,VZ
+31,Nvidia,Semiconductors and Other Electronic Components,130500000000,36000,NVDA
+32,Goldman Sachs,Commercial Banks,126900000000,46500,GSBD
+33,Wells Fargo,Commercial Banks,125400000000,217500,WFC
+34,Valero Energy,Petroleum Refining,124000000000,9900,VLO
+35,Comcast,Telecommunications,123700000000,182000,CMCSA
+36,State Farm,Insurance: Property and Casualty (Mutual),123000000000,67400,ALL
+37,AT&T,Telecommunications,122300000000,141000,ATT.L
+38,Freddie Mac,Diversified Financials,122100000000,8100,FMCC
+39,Humana,Health Care: Insurance and Managed Care,117800000000,65700,HUM.ST
+40,Morgan Stanley,Commercial Banks,107300000000,80500,MS
+41,Target,General Merchandisers,106600000000,440000,TGT
+42,StoneX,Diversified Financials,99900000000,4500,SNEX
+43,Tesla,Motor Vehicles & Parts,97700000000,125700,TSLA
+44,Dell Technologies,"Computers, Office Equipment",95600000000,108000,DELL
+45,PepsiCo,Food Consumer Products,91900000000,319000,PEP
+46,Walt Disney,Entertainment,91400000000,205000,DIS
+47,UPS,"Mail, Package and Freight Delivery",91100000000,372200,UPS
+48,Johnson & Johnson,Pharmaceuticals,88800000000,138100,JNJ
+49,FedEx,"Mail, Package and Freight Delivery",87700000000,422100,FDX
+50,Archer Daniels Midland,Food Production,85500000000,43200,ADM
+51,Procter & Gamble,Household and Personal Products,84000000000,108000,PG
+52,Lowe's,Specialty Retailers: Other,83700000000,215500,X1G.PA
+53,Energy Transfer,Pipelines,82700000000,16200,ET
+54,RTX,Aerospace & Defense,80700000000,186000,RTX
+55,Albertsons,Food & Drug Stores,79200000000,196600,ACI
+56,Sysco,Wholesalers: Food and Grocery,78800000000,76000,SYY
+57,Progressive,Insurance: Property and Casualty (Stock),75400000000,66300,PGR
+58,American Express,Diversified Financials,74200000000,75100,AXP
+59,Lockheed Martin,Aerospace & Defense,71000000000,121000,LMT
+60,MetLife,"Insurance: Life, Health (Stock)",71000000000,45000,MET
+61,HCA Healthcare,Health Care: Medical Facilities,70600000000,271000,HCA
+62,Prudential Financial,"Insurance: Life, Health (Stock)",70400000000,37900,PRU
+63,Boeing,Aerospace & Defense,66500000000,172000,BA
+64,Caterpillar,Construction and Farm Machinery,64800000000,112900,CAT
+65,Merck,Pharmaceuticals,64200000000,74000,MRK
+66,Allstate,Insurance: Property and Casualty (Stock),64100000000,55200,ALL
+67,Pfizer,Pharmaceuticals,63600000000,81000,PFIZER.NS
+68,IBM,Information Technology Services,62800000000,284500,IBM
+69,New York Life Insurance,"Insurance: Life, Health (Mutual)",62600000000,15100,601336.SS
+70,Delta Airlines,Airlines,61600000000,103000,DAL
+73,TD Synnex,Wholesalers: Electronics and Office Equipment,58500000000,25800,SNX
+74,United Airlines,Airlines,57100000000,107300,UAL
+75,ConocoPhillips,"Mining, Crude-Oil Production",57000000000,11800,COP
+76,TJX,Specialty Retailers: Apparel,56400000000,364000,TJX
+77,AbbVie,Pharmaceuticals,56300000000,55000,ABBV
+78,Enterprise Products Partners,Pipelines,56200000000,7800,EPD
+79,Charter Communications,Telecommunications,55100000000,94500,CHTR
+80,Performance Food,Wholesalers: Food and Grocery,54700000000,36800,PFGC
+81,American Airlines,Airlines,54200000000,133300,AAL
+83,Cisco Systems,Network and Other Communications Equipment,53800000000,90400,CSCO
+84,HP,"Computers, Office Equipment",53600000000,58000,HP
+85,Tyson Foods,Food Production,53300000000,138000,TSN
+86,Intel,Semiconductors and Other Electronic Components,53100000000,108900,INTC
+87,Oracle,Computer Software,53000000000,159000,ORCL
+88,Broadcom,Semiconductors and Other Electronic Components,52400000000,37000,AVGO
+89,Deere,Construction and Farm Machinery,51700000000,55500,DE
+90,Nike,Apparel,51400000000,79400,NKE
+92,Plains GP,Pipelines,50100000000,4200,PAGP
+93,USAA,Insurance: Property and Casualty (Stock),48600000000,38000,UIPMX
+95,Ingram Micro,Wholesalers: Electronics and Office Equipment,48000000000,26100,INGM
+96,General Dynamics,Aerospace & Defense,47700000000,117000,GD
+97,Coca-Cola,Beverages,47100000000,69700,COLA.WA
+98,TIAA,"Insurance: Life, Health (Mutual)",46900000000,15600,TILIX
+99,Travelers,Insurance: Property and Casualty (Stock),46400000000,34000,TRV
+100,Eli Lilly,Pharmaceuticals,45000000000,47000,LLY

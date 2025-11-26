@@ -1,0 +1,5 @@
+company,ticker,date,open,high,low,close,volume
+Express Scripts Holding,ESH.BE,2017-01-02,7.08,7.08,7.08,7.08,22
+Lowe's,X1G.PA,2017-01-02,228.29,228.29,228.29,228.29,0
+Humana,HUM.ST,2017-01-02,69.95,69.95,68.75,69.47,12011
+Pfizer,PFIZER.NS,2017-01-02,1578.46,1587.33,1551.41,1559.86,5080

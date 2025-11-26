@@ -1,0 +1,352 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 18:32:21,042 - INFO - ===== started running the process ======
+2025-11-25 18:32:21,093 - INFO - ============================================================
+2025-11-25 18:32:21,093 - INFO - HISTORICAL PROCESSING FROM CONFIG
+2025-11-25 18:32:21,093 - INFO - Range: 2025-11-20 to 2025-11-22
+2025-11-25 18:32:21,093 - INFO - ============================================================
+2025-11-25 18:32:21,093 - INFO - 
+============================================================
+2025-11-25 18:32:21,093 - INFO - Fetching HISTORICAL data for 2025
+2025-11-25 18:32:21,093 - INFO - Period: 2025-11-20 to 2025-11-22
+2025-11-25 18:32:21,094 - INFO - total companies with tickers: 96
+2025-11-25 18:32:21,099 - INFO - found 237 days already saved
+2025-11-25 18:32:21,099 - INFO - 
+[1] ->  Walmart (WMT)
+2025-11-25 18:32:21,727 - INFO - Got 2 days of data
+2025-11-25 18:32:21,740 - INFO - 
+[2] ->  Amazon (AMZN)
+2025-11-25 18:32:21,763 - INFO - Got 2 days of data
+2025-11-25 18:32:21,776 - INFO - 
+[3] ->  UnitedHealth (UNH)
+2025-11-25 18:32:21,902 - INFO - Got 2 days of data
+2025-11-25 18:32:21,915 - INFO - 
+[4] ->  Apple (APLE)
+2025-11-25 18:32:21,988 - INFO - Got 2 days of data
+2025-11-25 18:32:22,001 - INFO - 
+[5] ->  CVS Health (CVS)
+2025-11-25 18:32:22,116 - INFO - Got 2 days of data
+2025-11-25 18:32:22,129 - INFO - 
+[6] ->  Berkshire Hathaway (BRK.A)
+2025-11-25 18:32:22,936 - INFO - No data available
+2025-11-25 18:32:22,936 - INFO - 
+[7] ->  Alphabet (GOOGL)
+2025-11-25 18:32:22,962 - INFO - Got 2 days of data
+2025-11-25 18:32:22,974 - INFO - 
+[8] ->  Exxon Mobil (XOM)
+2025-11-25 18:32:23,045 - INFO - Got 2 days of data
+2025-11-25 18:32:23,057 - INFO - 
+[9] ->  McKesson (MCK)
+2025-11-25 18:32:23,180 - INFO - Got 2 days of data
+2025-11-25 18:32:23,192 - INFO - 
+[10] ->  Cencora (COR)
+2025-11-25 18:32:23,271 - INFO - Got 2 days of data
+2025-11-25 18:32:23,284 - INFO - 
+[11] ->  JPMorgan Chase (JPM)
+2025-11-25 18:32:23,359 - INFO - Got 2 days of data
+2025-11-25 18:32:23,371 - INFO - 
+[12] ->  Costco (COST)
+2025-11-25 18:32:23,603 - INFO - Got 2 days of data
+2025-11-25 18:32:23,615 - INFO - 
+[13] ->  Cigna (CI)
+2025-11-25 18:32:23,695 - INFO - Got 2 days of data
+2025-11-25 18:32:23,708 - INFO - 
+[14] ->  Microsoft (MSFT)
+2025-11-25 18:32:23,783 - INFO - Got 2 days of data
+2025-11-25 18:32:23,796 - INFO - 
+[15] ->  Cardinal Health (CAH)
+2025-11-25 18:32:24,014 - INFO - Got 2 days of data
+2025-11-25 18:32:24,027 - INFO - 
+[16] ->  Chevron (CVX)
+2025-11-25 18:32:24,109 - INFO - Got 2 days of data
+2025-11-25 18:32:24,121 - INFO - 
+[17] ->  Bank of America (BAC)
+2025-11-25 18:32:24,249 - INFO - Got 2 days of data
+2025-11-25 18:32:24,261 - INFO - 
+[18] ->  General Motors (GM)
+2025-11-25 18:32:24,339 - INFO - Got 2 days of data
+2025-11-25 18:32:24,352 - INFO - 
+[19] ->  Ford Motor (F)
+2025-11-25 18:32:24,577 - INFO - Got 2 days of data
+2025-11-25 18:32:24,590 - INFO - 
+[20] ->  Elevance Health (ELV)
+2025-11-25 18:32:24,621 - INFO - Got 2 days of data
+2025-11-25 18:32:24,633 - INFO - 
+[21] ->  Citi (CITI.NE)
+2025-11-25 18:32:24,715 - INFO - Got 2 days of data
+2025-11-25 18:32:24,728 - INFO - 
+[22] ->  Meta (META)
+2025-11-25 18:32:24,799 - INFO - Got 2 days of data
+2025-11-25 18:32:24,812 - INFO - 
+[23] ->  Centene (CNC)
+2025-11-25 18:32:24,879 - INFO - Got 2 days of data
+2025-11-25 18:32:24,892 - INFO - 
+[24] ->  Home Depot (HD)
+2025-11-25 18:32:25,022 - INFO - Got 2 days of data
+2025-11-25 18:32:25,035 - INFO - 
+[25] ->  Fannie Mae (FNMA)
+2025-11-25 18:32:25,153 - INFO - Got 2 days of data
+2025-11-25 18:32:25,165 - INFO - 
+[27] ->  Kroger (KR)
+2025-11-25 18:32:25,287 - INFO - Got 2 days of data
+2025-11-25 18:32:25,300 - INFO - 
+[28] ->  Phillips 66 (PSX)
+2025-11-25 18:32:25,424 - INFO - Got 2 days of data
+2025-11-25 18:32:25,437 - INFO - 
+[29] ->  Marathon Petroleum (MPC)
+2025-11-25 18:32:25,510 - INFO - Got 2 days of data
+2025-11-25 18:32:25,523 - INFO - 
+[30] ->  Verizon (VZ)
+2025-11-25 18:32:25,650 - INFO - Got 2 days of data
+2025-11-25 18:32:25,663 - INFO - 
+[31] ->  Nvidia (NVDA)
+2025-11-25 18:32:25,895 - INFO - Got 2 days of data
+2025-11-25 18:32:25,908 - INFO - 
+[32] ->  Goldman Sachs (GSBD)
+2025-11-25 18:32:25,931 - INFO - Got 2 days of data
+2025-11-25 18:32:25,944 - INFO - 
+[33] ->  Wells Fargo (WFC)
+2025-11-25 18:32:26,175 - INFO - Got 2 days of data
+2025-11-25 18:32:26,188 - INFO - 
+[34] ->  Valero Energy (VLO)
+2025-11-25 18:32:26,260 - INFO - Got 2 days of data
+2025-11-25 18:32:26,272 - INFO - 
+[35] ->  Comcast (CMCSA)
+2025-11-25 18:32:26,507 - INFO - Got 2 days of data
+2025-11-25 18:32:26,520 - INFO - 
+[36] ->  State Farm (ALL)
+2025-11-25 18:32:26,599 - INFO - Got 2 days of data
+2025-11-25 18:32:26,612 - INFO - 
+[37] ->  AT&T (ATT.L)
+2025-11-25 18:32:26,693 - INFO - Got 2 days of data
+2025-11-25 18:32:26,706 - INFO - 
+[38] ->  Freddie Mac (FMCC)
+2025-11-25 18:32:26,835 - INFO - Got 2 days of data
+2025-11-25 18:32:26,848 - INFO - 
+[39] ->  Humana (HUM.ST)
+2025-11-25 18:32:26,923 - INFO - Got 2 days of data
+2025-11-25 18:32:26,936 - INFO - 
+[40] ->  Morgan Stanley (MS)
+2025-11-25 18:32:27,153 - INFO - Got 2 days of data
+2025-11-25 18:32:27,165 - INFO - 
+[41] ->  Target (TGT)
+2025-11-25 18:32:27,235 - INFO - Got 2 days of data
+2025-11-25 18:32:27,247 - INFO - 
+[42] ->  StoneX (SNEX)
+2025-11-25 18:32:27,322 - INFO - Got 2 days of data
+2025-11-25 18:32:27,335 - INFO - 
+[43] ->  Tesla (TSLA)
+2025-11-25 18:32:27,407 - INFO - Got 2 days of data
+2025-11-25 18:32:27,418 - INFO - 
+[44] ->  Dell Technologies (DELL)
+2025-11-25 18:32:27,491 - INFO - Got 2 days of data
+2025-11-25 18:32:27,504 - INFO - 
+[45] ->  PepsiCo (PEP)
+2025-11-25 18:32:27,739 - INFO - Got 2 days of data
+2025-11-25 18:32:27,753 - INFO - 
+[46] ->  Walt Disney (DIS)
+2025-11-25 18:32:27,890 - INFO - Got 2 days of data
+2025-11-25 18:32:27,901 - INFO - 
+[47] ->  UPS (UPS)
+2025-11-25 18:32:28,119 - INFO - Got 2 days of data
+2025-11-25 18:32:28,132 - INFO - 
+[48] ->  Johnson & Johnson (JNJ)
+2025-11-25 18:32:28,247 - INFO - Got 2 days of data
+2025-11-25 18:32:28,260 - INFO - 
+[49] ->  FedEx (FDX)
+2025-11-25 18:32:28,382 - INFO - Got 2 days of data
+2025-11-25 18:32:28,395 - INFO - 
+[50] ->  Archer Daniels Midland (ADM)
+2025-11-25 18:32:28,521 - INFO - Got 2 days of data
+2025-11-25 18:32:28,533 - INFO - 
+[51] ->  Procter & Gamble (PG)
+2025-11-25 18:32:28,750 - INFO - Got 2 days of data
+2025-11-25 18:32:28,762 - INFO - 
+[52] ->  Lowe's (X1G.PA)
+2025-11-25 18:32:28,784 - INFO - Got 2 days of data
+2025-11-25 18:32:28,797 - INFO - 
+[53] ->  Energy Transfer (ET)
+2025-11-25 18:32:29,022 - INFO - Got 2 days of data
+2025-11-25 18:32:29,034 - INFO - 
+[54] ->  RTX (RTX)
+2025-11-25 18:32:29,154 - INFO - Got 2 days of data
+2025-11-25 18:32:29,167 - INFO - 
+[55] ->  Albertsons (ACI)
+2025-11-25 18:32:29,234 - INFO - Got 2 days of data
+2025-11-25 18:32:29,246 - INFO - 
+[56] ->  Sysco (SYY)
+2025-11-25 18:32:29,363 - INFO - Got 2 days of data
+2025-11-25 18:32:29,375 - INFO - 
+[57] ->  Progressive (PGR)
+2025-11-25 18:32:29,495 - INFO - Got 2 days of data
+2025-11-25 18:32:29,508 - INFO - 
+[58] ->  American Express (AXP)
+2025-11-25 18:32:29,737 - INFO - Got 2 days of data
+2025-11-25 18:32:29,749 - INFO - 
+[59] ->  Lockheed Martin (LMT)
+2025-11-25 18:32:29,872 - INFO - Got 2 days of data
+2025-11-25 18:32:29,884 - INFO - 
+[60] ->  MetLife (MET)
+2025-11-25 18:32:30,007 - INFO - Got 2 days of data
+2025-11-25 18:32:30,020 - INFO - 
+[61] ->  HCA Healthcare (HCA)
+2025-11-25 18:32:30,100 - INFO - Got 2 days of data
+2025-11-25 18:32:30,112 - INFO - 
+[62] ->  Prudential Financial (PRU)
+2025-11-25 18:32:30,245 - INFO - Got 2 days of data
+2025-11-25 18:32:30,257 - INFO - 
+[63] ->  Boeing (BA)
+2025-11-25 18:32:30,474 - INFO - Got 2 days of data
+2025-11-25 18:32:30,487 - INFO - 
+[64] ->  Caterpillar (CAT)
+2025-11-25 18:32:30,563 - INFO - Got 2 days of data
+2025-11-25 18:32:30,576 - INFO - 
+[65] ->  Merck (MRK)
+2025-11-25 18:32:30,800 - INFO - Got 2 days of data
+2025-11-25 18:32:30,813 - INFO - 
+[66] ->  Allstate (ALL)
+2025-11-25 18:32:30,819 - INFO - Got 2 days of data
+2025-11-25 18:32:30,832 - INFO - 
+[67] ->  Pfizer (PFIZER.NS)
+2025-11-25 18:32:30,910 - INFO - Got 2 days of data
+2025-11-25 18:32:30,923 - INFO - 
+[68] ->  IBM (IBM)
+2025-11-25 18:32:31,140 - INFO - Got 2 days of data
+2025-11-25 18:32:31,153 - INFO - 
+[69] ->  New York Life Insurance (601336.SS)
+2025-11-25 18:32:31,390 - INFO - Got 2 days of data
+2025-11-25 18:32:31,403 - INFO - 
+[70] ->  Delta Airlines (DAL)
+2025-11-25 18:32:31,486 - INFO - Got 2 days of data
+2025-11-25 18:32:31,498 - INFO - 
+[72] ->  Nationwide (NATWIDE.KL)
+2025-11-25 18:32:32,175 - INFO - No data available
+2025-11-25 18:32:32,175 - INFO - 
+[73] ->  TD Synnex (SNX)
+2025-11-25 18:32:32,255 - INFO - Got 2 days of data
+2025-11-25 18:32:32,267 - INFO - 
+[74] ->  United Airlines (UAL)
+2025-11-25 18:32:32,347 - INFO - Got 2 days of data
+2025-11-25 18:32:32,360 - INFO - 
+[75] ->  ConocoPhillips (COP)
+2025-11-25 18:32:32,509 - INFO - Got 2 days of data
+2025-11-25 18:32:32,522 - INFO - 
+[76] ->  TJX (TJX)
+2025-11-25 18:32:32,712 - INFO - Got 2 days of data
+2025-11-25 18:32:32,724 - INFO - 
+[77] ->  AbbVie (ABBV)
+2025-11-25 18:32:32,814 - INFO - Got 2 days of data
+2025-11-25 18:32:32,827 - INFO - 
+[78] ->  Enterprise Products Partners (EPD)
+2025-11-25 18:32:33,020 - INFO - Got 2 days of data
+2025-11-25 18:32:33,032 - INFO - 
+[79] ->  Charter Communications (CHTR)
+2025-11-25 18:32:33,110 - INFO - Got 2 days of data
+2025-11-25 18:32:33,123 - INFO - 
+[80] ->  Performance Food (PFGC)
+2025-11-25 18:32:33,206 - INFO - Got 2 days of data
+2025-11-25 18:32:33,219 - INFO - 
+[81] ->  American Airlines (AAL)
+2025-11-25 18:32:33,300 - INFO - Got 2 days of data
+2025-11-25 18:32:33,313 - INFO - 
+[82] ->  Capital One (VALC.TA)
+2025-11-25 18:32:33,954 - INFO - No data available
+2025-11-25 18:32:33,954 - INFO - 
+[83] ->  Cisco Systems (CSCO)
+2025-11-25 18:32:33,979 - INFO - Got 2 days of data
+2025-11-25 18:32:33,991 - INFO - 
+[84] ->  HP (HP)
+2025-11-25 18:32:34,108 - INFO - Got 2 days of data
+2025-11-25 18:32:34,121 - INFO - 
+[85] ->  Tyson Foods (TSN)
+2025-11-25 18:32:34,250 - INFO - Got 2 days of data
+2025-11-25 18:32:34,262 - INFO - 
+[86] ->  Intel (INTC)
+2025-11-25 18:32:34,389 - INFO - Got 2 days of data
+2025-11-25 18:32:34,402 - INFO - 
+[87] ->  Oracle (ORCL)
+2025-11-25 18:32:34,480 - INFO - Got 2 days of data
+2025-11-25 18:32:34,493 - INFO - 
+[88] ->  Broadcom (AVGO)
+2025-11-25 18:32:34,569 - INFO - Got 2 days of data
+2025-11-25 18:32:34,582 - INFO - 
+[89] ->  Deere (DE)
+2025-11-25 18:32:34,921 - INFO - Got 2 days of data
+2025-11-25 18:32:34,934 - INFO - 
+[90] ->  Nike (NKE)
+2025-11-25 18:32:35,015 - INFO - Got 2 days of data
+2025-11-25 18:32:35,028 - INFO - 
+[92] ->  Plains GP (PAGP)
+2025-11-25 18:32:35,150 - INFO - Got 2 days of data
+2025-11-25 18:32:35,163 - INFO - 
+[93] ->  USAA (UIPMX)
+2025-11-25 18:32:35,285 - INFO - Got 2 days of data
+2025-11-25 18:32:35,298 - INFO - 
+[95] ->  Ingram Micro (INGM)
+2025-11-25 18:32:35,375 - INFO - Got 2 days of data
+2025-11-25 18:32:35,388 - INFO - 
+[96] ->  General Dynamics (GD)
+2025-11-25 18:32:35,524 - INFO - Got 2 days of data
+2025-11-25 18:32:35,537 - INFO - 
+[97] ->  Coca-Cola (COLA.WA)
+2025-11-25 18:32:35,618 - INFO - Got 2 days of data
+2025-11-25 18:32:35,630 - INFO - 
+[98] ->  TIAA (TILIX)
+2025-11-25 18:32:35,753 - INFO - Got 2 days of data
+2025-11-25 18:32:35,766 - INFO - 
+[99] ->  Travelers (TRV)
+2025-11-25 18:32:35,995 - INFO - Got 2 days of data
+2025-11-25 18:32:36,008 - INFO - 
+[100] ->  Eli Lilly (LLY)
+2025-11-25 18:32:36,085 - INFO - Got 2 days of data
+2025-11-25 18:32:36,098 - INFO - Historic stocks data collected
+2025-11-25 18:32:36,098 - INFO - 
+============================================================
+2025-11-25 18:32:36,098 - INFO - Creating HISTORICAL company metadata
+2025-11-25 18:32:36,098 - INFO - Years: 2025 to 2025
+2025-11-25 18:32:36,098 - INFO - 
+2025: Metadata already exists — skipping
+2025-11-25 18:32:36,099 - INFO - 
+Metadata creation completed
+2025-11-25 18:32:36,099 - INFO - 
+============================================================
+2025-11-25 18:32:36,099 - INFO - Creating HISTORICAL macro data
+2025-11-25 18:32:36,099 - INFO - Years: 2025 to 2025
+2025-11-25 18:32:36,099 - INFO - 
+2025: already exists — skipping
+2025-11-25 18:32:36,099 - INFO - 
+Macro data creation complete
+2025-11-25 18:32:36,099 - INFO - 
+============================================================
+2025-11-25 18:32:36,099 - INFO - Fetching HISTORICAL exchange rates (USD-INR) from FRED
+2025-11-25 18:32:36,099 - INFO - Years: 2025 to 2025
+2025-11-25 18:32:36,099 - INFO - 
+2025: Already exists — skipping
+2025-11-25 18:32:36,099 - INFO - 
+Exchange rate data complete
+2025-11-25 18:32:36,099 - INFO - Starting merge process
+2025-11-25 18:32:36,099 - INFO - Mode: Historical
+2025-11-25 18:32:36,099 - INFO - Date range: 2025-11-20 to 2025-11-22
+2025-11-25 18:32:36,099 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_18:32:36
+2025-11-25 18:32:36,099 - INFO - 
+============================================================
+2025-11-25 18:32:36,099 - INFO - Processing BASE TABLE (stocks_raw)
+2025-11-25 18:32:36,099 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-25 18:32:36,100 - INFO - Read 92 rows from 2025/11/20/stocks.csv
+2025-11-25 18:32:36,101 - INFO - Read 92 rows from 2025/11/21/stocks.csv
+2025-11-25 18:32:36,102 - INFO - Merged 184 rows for stocks_raw
+2025-11-25 18:32:36,139 - INFO - Validation complete for stocks_raw: valid=184, invalid=0
+2025-11-25 18:32:36,142 - INFO - Valid: 184, Invalid: 0
+2025-11-25 18:32:36,152 - INFO - Table stocks_raw created
+2025-11-25 18:32:36,172 - ERROR - Failed to load stocks_raw: 1213 (40001): Deadlock found when trying to get lock; try restarting transaction
+2025-11-25 18:32:36,173 - ERROR - Failed to load stocks_raw: 1213 (40001): Deadlock found when trying to get lock; try restarting transaction
+2025-11-25 18:32:36,173 - ERROR - ============================================================
+2025-11-25 18:32:36,173 - ERROR - Base table stocks_raw failed to process
+2025-11-25 18:32:36,173 - ERROR - Cannot continue without base table - terminating pipeline
+
+********** END OF LOG FILE **********

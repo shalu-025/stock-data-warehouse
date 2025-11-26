@@ -1,0 +1,383 @@
+
+********** Local Data Warehouse and Analytical Reporting System **********
+Filename: Stock Market and Macroeconomic Intelligence
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/stocks/watcher.py
+********** Stock Market and Macroeconomic Intelligence **********
+2025-11-25 04:26:33,956 - INFO - ===== started running the process ======
+2025-11-25 04:26:34,050 - INFO - ============================================================
+2025-11-25 04:26:34,050 - INFO - Starting merge process
+2025-11-25 04:26:34,050 - INFO - Mode: Historical
+2025-11-25 04:26:34,050 - INFO - Date range: 2024-11-01 to 2024-12-31
+2025-11-25 04:26:34,050 - INFO - Execution dir: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34
+2025-11-25 04:26:34,050 - INFO - 
+============================================================
+2025-11-25 04:26:34,050 - INFO - Processing BASE TABLE (stocks_raw)
+2025-11-25 04:26:34,050 - INFO - Processing stocks_raw (BASE TABLE)
+2025-11-25 04:26:34,054 - INFO - Read 92 rows from 2024/11/04/stocks.csv
+2025-11-25 04:26:34,055 - INFO - Read 92 rows from 2024/11/05/stocks.csv
+2025-11-25 04:26:34,055 - INFO - Read 91 rows from 2024/11/20/stocks.csv
+2025-11-25 04:26:34,056 - INFO - Read 92 rows from 2024/11/18/stocks.csv
+2025-11-25 04:26:34,057 - INFO - Read 92 rows from 2024/11/27/stocks.csv
+2025-11-25 04:26:34,057 - INFO - Read 92 rows from 2024/11/11/stocks.csv
+2025-11-25 04:26:34,058 - INFO - Read 92 rows from 2024/11/29/stocks.csv
+2025-11-25 04:26:34,059 - INFO - Read 7 rows from 2024/11/28/stocks.csv
+2025-11-25 04:26:34,059 - INFO - Read 92 rows from 2024/11/19/stocks.csv
+2025-11-25 04:26:34,059 - INFO - Read 92 rows from 2024/11/26/stocks.csv
+2025-11-25 04:26:34,060 - INFO - Read 92 rows from 2024/11/21/stocks.csv
+2025-11-25 04:26:34,060 - INFO - Read 92 rows from 2024/11/07/stocks.csv
+2025-11-25 04:26:34,061 - INFO - Read 92 rows from 2024/11/08/stocks.csv
+2025-11-25 04:26:34,061 - INFO - Read 92 rows from 2024/11/01/stocks.csv
+2025-11-25 04:26:34,061 - INFO - Read 92 rows from 2024/11/06/stocks.csv
+2025-11-25 04:26:34,062 - INFO - Read 91 rows from 2024/11/15/stocks.csv
+2025-11-25 04:26:34,062 - INFO - Read 92 rows from 2024/11/12/stocks.csv
+2025-11-25 04:26:34,062 - INFO - Read 92 rows from 2024/11/13/stocks.csv
+2025-11-25 04:26:34,063 - INFO - Read 92 rows from 2024/11/14/stocks.csv
+2025-11-25 04:26:34,063 - INFO - Read 92 rows from 2024/11/22/stocks.csv
+2025-11-25 04:26:34,063 - INFO - Read 92 rows from 2024/11/25/stocks.csv
+2025-11-25 04:26:34,064 - INFO - Read 93 rows from 2024/12/03/stocks.csv
+2025-11-25 04:26:34,064 - INFO - Read 93 rows from 2024/12/04/stocks.csv
+2025-11-25 04:26:34,064 - INFO - Read 93 rows from 2024/12/05/stocks.csv
+2025-11-25 04:26:34,064 - INFO - Read 92 rows from 2024/12/02/stocks.csv
+2025-11-25 04:26:34,065 - INFO - Read 92 rows from 2024/12/20/stocks.csv
+2025-11-25 04:26:34,066 - INFO - Read 93 rows from 2024/12/18/stocks.csv
+2025-11-25 04:26:34,066 - INFO - Read 93 rows from 2024/12/27/stocks.csv
+2025-11-25 04:26:34,066 - INFO - Read 92 rows from 2024/12/11/stocks.csv
+2025-11-25 04:26:34,067 - INFO - Read 93 rows from 2024/12/16/stocks.csv
+2025-11-25 04:26:34,067 - INFO - Read 93 rows from 2024/12/17/stocks.csv
+2025-11-25 04:26:34,067 - INFO - Read 93 rows from 2024/12/10/stocks.csv
+2025-11-25 04:26:34,068 - INFO - Read 93 rows from 2024/12/19/stocks.csv
+2025-11-25 04:26:34,068 - INFO - Read 87 rows from 2024/12/26/stocks.csv
+2025-11-25 04:26:34,068 - INFO - Read 93 rows from 2024/12/09/stocks.csv
+2025-11-25 04:26:34,069 - INFO - Read 93 rows from 2024/12/30/stocks.csv
+2025-11-25 04:26:34,069 - INFO - Read 93 rows from 2024/12/06/stocks.csv
+2025-11-25 04:26:34,069 - INFO - Read 91 rows from 2024/12/24/stocks.csv
+2025-11-25 04:26:34,070 - INFO - Read 93 rows from 2024/12/23/stocks.csv
+2025-11-25 04:26:34,070 - INFO - Read 93 rows from 2024/12/12/stocks.csv
+2025-11-25 04:26:34,070 - INFO - Read 93 rows from 2024/12/13/stocks.csv
+2025-11-25 04:26:34,071 - INFO - Read 1 rows from 2024/12/25/stocks.csv
+2025-11-25 04:26:34,079 - INFO - Merged 3695 rows for stocks_raw
+2025-11-25 04:26:34,597 - INFO - Validation complete for stocks_raw: valid=3695, invalid=0
+2025-11-25 04:26:34,631 - INFO - Valid: 3695, Invalid: 0
+2025-11-25 04:26:34,658 - INFO - Table stocks_raw created
+2025-11-25 04:26:34,920 - INFO - Inserted 3695 rows into stocks_raw
+2025-11-25 04:26:34,921 - INFO - Loaded 3695 rows to stocks_raw
+2025-11-25 04:26:34,921 - INFO - Base table established with 3695 records
+2025-11-25 04:26:34,921 - INFO - Found 93 unique tickers: 601336.SS, AAL, AAPL, ABBV, ACI, ADM, AIG, ALL, AMZN, ATT.L, AXP, BA, BAC, BBY, C, CAH, CAT, CHS.V, CHTR, CI, CMCSA, CNC, COF, COLA.WA, COP, COR, COST, CSCO, CVS, CVX, DAL, DE, DELL, DIS, DOW, ELV, EPD, ET, F, FDX, FMCC, FNMA, GE, GM, GOOGL, GS, HCA, HD, HUM.ST, IBM, INTC, JNJ, JPM, KR, LFG.AX, LMT, MCK, MET, META, MPC, MRK, MS, MSFT, NKE, NVDA, ORCL, PAGP, PEP, PFGC, PFIZER.NS, PG, PGR, PRU, PSX, RTX, SNEX, SNX, SYY, TGT, TILIX, TJX, TSLA, TSN, UAL, UNH, UPS, VLO, VZ, WFC, WKC, WMT, X1G.PA, XOM
+2025-11-25 04:26:34,921 - INFO - 
+============================================================
+2025-11-25 04:26:34,921 - INFO - Processing DEPENDENT TABLES
+2025-11-25 04:26:34,921 - INFO - Processing company_metadata
+2025-11-25 04:26:34,922 - INFO - Read 93 rows from 2024/company_details.csv
+2025-11-25 04:26:34,923 - INFO - Merged 93 rows for company_metadata
+2025-11-25 04:26:34,928 - INFO - Validation complete for company_metadata: valid=93, invalid=0
+2025-11-25 04:26:34,930 - INFO - Valid: 93, Invalid: 0
+2025-11-25 04:26:34,934 - INFO - Table company_metadata created successfully
+2025-11-25 04:26:34,936 - INFO - Table company_metadata truncated
+2025-11-25 04:26:34,936 - ERROR - Failed to insert row 0: {'rank': 1, 'company': 'Walmart', 'industry': 'General Merchandisers', 'revenue': '648125.0', 'employees': '2100000.0', 'ticker': 'WMT'}
+2025-11-25 04:26:34,937 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,937 - ERROR - Failed to insert row 1: {'rank': 2, 'company': 'Amazon', 'industry': 'Financial Services', 'revenue': '574785.0', 'employees': '1525000.0', 'ticker': 'AMZN'}
+2025-11-25 04:26:34,937 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,937 - ERROR - Failed to insert row 2: {'rank': 3, 'company': 'Apple', 'industry': 'Computers, Office Equipment', 'revenue': '383285.0', 'employees': '161000.0', 'ticker': 'AAPL'}
+2025-11-25 04:26:34,937 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,937 - ERROR - Failed to insert row 3: {'rank': 4, 'company': 'Unitedhealth Group', 'industry': 'Health Care', 'revenue': '371622.0', 'employees': '440000.0', 'ticker': 'UNH'}
+2025-11-25 04:26:34,937 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,937 - ERROR - Failed to insert row 4: {'rank': 6, 'company': 'Cvs', 'industry': 'Health Care', 'revenue': '357776.0', 'employees': '259500.0', 'ticker': 'CVS'}
+2025-11-25 04:26:34,937 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,938 - ERROR - Failed to insert row 5: {'rank': 7, 'company': 'Exxon Mobil', 'industry': 'Petroleum Refining', 'revenue': '344582.0', 'employees': '61500.0', 'ticker': 'XOM'}
+2025-11-25 04:26:34,938 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,938 - ERROR - Failed to insert row 6: {'rank': 8, 'company': 'Alphabet', 'industry': 'Internet Services And Retailing', 'revenue': '307394.0', 'employees': '182502.0', 'ticker': 'GOOGL'}
+2025-11-25 04:26:34,938 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,938 - ERROR - Failed to insert row 7: {'rank': 9, 'company': 'Mckesson', 'industry': 'Wholesalers', 'revenue': '276711.0', 'employees': '48000.0', 'ticker': 'MCK'}
+2025-11-25 04:26:34,938 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,938 - ERROR - Failed to insert row 8: {'rank': 10, 'company': 'Cencora', 'industry': 'Wholesalers', 'revenue': '262173.4', 'employees': '44000.0', 'ticker': 'COR'}
+2025-11-25 04:26:34,938 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,938 - ERROR - Failed to insert row 9: {'rank': 11, 'company': 'Costco', 'industry': 'General Merchandisers', 'revenue': '242290.0', 'employees': '316000.0', 'ticker': 'COST'}
+2025-11-25 04:26:34,938 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,938 - ERROR - Failed to insert row 10: {'rank': 12, 'company': 'Jp Morgan Chase', 'industry': 'Commercial Banks', 'revenue': '239425.0', 'employees': '309926.0', 'ticker': 'JPM'}
+2025-11-25 04:26:34,938 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,938 - ERROR - Failed to insert row 11: {'rank': 13, 'company': 'Microsoft', 'industry': 'Computer Software', 'revenue': '211915.0', 'employees': '221000.0', 'ticker': 'MSFT'}
+2025-11-25 04:26:34,938 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,938 - ERROR - Failed to insert row 12: {'rank': 14, 'company': 'Cardinal Health', 'industry': 'Wholesalers', 'revenue': '205012.0', 'employees': '47520.0', 'ticker': 'CAH'}
+2025-11-25 04:26:34,939 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,939 - ERROR - Failed to insert row 13: {'rank': 15, 'company': 'Chevron', 'industry': 'Petroleum Refining', 'revenue': '200949.0', 'employees': '45600.0', 'ticker': 'CVX'}
+2025-11-25 04:26:34,939 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,939 - ERROR - Failed to insert row 14: {'rank': 16, 'company': 'Cigna', 'industry': 'Health Care', 'revenue': '195265.0', 'employees': '71413.0', 'ticker': 'CI'}
+2025-11-25 04:26:34,939 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,939 - ERROR - Failed to insert row 15: {'rank': 17, 'company': 'Ford Motor', 'industry': 'Motor Vehicles & Parts', 'revenue': '176191.0', 'employees': '177000.0', 'ticker': 'F'}
+2025-11-25 04:26:34,939 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,939 - ERROR - Failed to insert row 16: {'rank': 18, 'company': 'Bank Of America', 'industry': 'Commercial Banks', 'revenue': '171912.0', 'employees': '212985.0', 'ticker': 'BAC'}
+2025-11-25 04:26:34,939 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,939 - ERROR - Failed to insert row 17: {'rank': 19, 'company': 'General Motors', 'industry': 'Motor Vehicles & Parts', 'revenue': '171842.0', 'employees': '163000.0', 'ticker': 'GM'}
+2025-11-25 04:26:34,939 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,939 - ERROR - Failed to insert row 18: {'rank': 20, 'company': 'Elevance Health', 'industry': 'Health Care', 'revenue': '171340.0', 'employees': '104900.0', 'ticker': 'ELV'}
+2025-11-25 04:26:34,939 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,939 - ERROR - Failed to insert row 19: {'rank': 21, 'company': 'Citigroup', 'industry': 'Commercial Banks', 'revenue': '156820.0', 'employees': '237925.0', 'ticker': 'C'}
+2025-11-25 04:26:34,939 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,939 - ERROR - Failed to insert row 20: {'rank': 22, 'company': 'Centene', 'industry': 'Health Care', 'revenue': '153999.0', 'employees': '67700.0', 'ticker': 'CNC'}
+2025-11-25 04:26:34,939 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,940 - ERROR - Failed to insert row 21: {'rank': 23, 'company': 'Home Depot', 'industry': 'Specialty Retailers', 'revenue': '152669.0', 'employees': '463100.0', 'ticker': 'HD'}
+2025-11-25 04:26:34,940 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,940 - ERROR - Failed to insert row 22: {'rank': 24, 'company': 'Marathon Petroleum', 'industry': 'Petroleum Refining', 'revenue': '150307.0', 'employees': '18200.0', 'ticker': 'MPC'}
+2025-11-25 04:26:34,940 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,940 - ERROR - Failed to insert row 23: {'rank': 25, 'company': 'Kroger', 'industry': 'Food & Drug Stores', 'revenue': '150039.0', 'employees': '414000.0', 'ticker': 'KR'}
+2025-11-25 04:26:34,940 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,940 - ERROR - Failed to insert row 24: {'rank': 26, 'company': 'Phillips 66', 'industry': 'Petroleum Refining', 'revenue': '149890.0', 'employees': '14000.0', 'ticker': 'PSX'}
+2025-11-25 04:26:34,940 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,940 - ERROR - Failed to insert row 25: {'rank': 27, 'company': 'Fannie Mae', 'industry': 'Diversified Financials', 'revenue': '141240.0', 'employees': '8100.0', 'ticker': 'FNMA'}
+2025-11-25 04:26:34,940 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,940 - ERROR - Failed to insert row 26: {'rank': 29, 'company': 'Valero Energy', 'industry': 'Petroleum Refining', 'revenue': '139001.0', 'employees': '9987.0', 'ticker': 'VLO'}
+2025-11-25 04:26:34,940 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,940 - ERROR - Failed to insert row 27: {'rank': 30, 'company': 'Meta Platforms', 'industry': 'Internet Services And Retailing', 'revenue': '134902.0', 'employees': '67317.0', 'ticker': 'META'}
+2025-11-25 04:26:34,940 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,940 - ERROR - Failed to insert row 28: {'rank': 31, 'company': 'Verizon Communications', 'industry': 'Telecommunications', 'revenue': '133974.0', 'employees': '105400.0', 'ticker': 'VZ'}
+2025-11-25 04:26:34,940 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,940 - ERROR - Failed to insert row 29: {'rank': 32, 'company': 'At&T', 'industry': 'Telecommunications', 'revenue': '122428.0', 'employees': '150470.0', 'ticker': 'ATT.L'}
+2025-11-25 04:26:34,940 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,941 - ERROR - Failed to insert row 30: {'rank': 33, 'company': 'Comcast', 'industry': 'Telecommunications', 'revenue': '121572.0', 'employees': '186000.0', 'ticker': 'CMCSA'}
+2025-11-25 04:26:34,941 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,941 - ERROR - Failed to insert row 31: {'rank': 34, 'company': 'Wells Fargo', 'industry': 'Commercial Banks', 'revenue': '115340.0', 'employees': '226000.0', 'ticker': 'WFC'}
+2025-11-25 04:26:34,941 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,941 - ERROR - Failed to insert row 32: {'rank': 35, 'company': 'Goldman Sachs Group', 'industry': 'Commercial Banks', 'revenue': '108418.0', 'employees': '45300.0', 'ticker': 'GS'}
+2025-11-25 04:26:34,941 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,941 - ERROR - Failed to insert row 33: {'rank': 36, 'company': 'Freddie Mac', 'industry': 'Diversified Financials', 'revenue': '108050.0', 'employees': '8020.0', 'ticker': 'FMCC'}
+2025-11-25 04:26:34,941 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,941 - ERROR - Failed to insert row 34: {'rank': 37, 'company': 'Target', 'industry': 'General Merchandisers', 'revenue': '107412.0', 'employees': '415000.0', 'ticker': 'TGT'}
+2025-11-25 04:26:34,941 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,941 - ERROR - Failed to insert row 35: {'rank': 38, 'company': 'Humana', 'industry': 'Health Care', 'revenue': '106374.0', 'employees': '67600.0', 'ticker': 'HUM.ST'}
+2025-11-25 04:26:34,941 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,941 - ERROR - Failed to insert row 36: {'rank': 40, 'company': 'Tesla', 'industry': 'Motor Vehicles & Parts', 'revenue': '96773.0', 'employees': '140473.0', 'ticker': 'TSLA'}
+2025-11-25 04:26:34,941 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,941 - ERROR - Failed to insert row 37: {'rank': 41, 'company': 'Morgan Stanley', 'industry': 'Commercial Banks', 'revenue': '96194.0', 'employees': '80006.0', 'ticker': 'MS'}
+2025-11-25 04:26:34,941 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,941 - ERROR - Failed to insert row 38: {'rank': 42, 'company': 'Johnson & Johnson', 'industry': 'Pharmaceutical', 'revenue': '95195.0', 'employees': '131900.0', 'ticker': 'JNJ'}
+2025-11-25 04:26:34,941 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,941 - ERROR - Failed to insert row 39: {'rank': 43, 'company': 'Archer Daniels Midland', 'industry': 'Food Production', 'revenue': '93935.0', 'employees': '41008.0', 'ticker': 'ADM'}
+2025-11-25 04:26:34,941 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,941 - ERROR - Failed to insert row 40: {'rank': 44, 'company': 'Pepsico', 'industry': 'Food Consumer Products', 'revenue': '91471.0', 'employees': '318000.0', 'ticker': 'PEP'}
+2025-11-25 04:26:34,942 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,942 - ERROR - Failed to insert row 41: {'rank': 45, 'company': 'United Parcel Service', 'industry': 'Mail, Package, And Freight Delivery', 'revenue': '90958.0', 'employees': '382550.0', 'ticker': 'UPS'}
+2025-11-25 04:26:34,942 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,942 - ERROR - Failed to insert row 42: {'rank': 46, 'company': 'Fedex', 'industry': 'Mail, Package, And Freight Delivery', 'revenue': '90155.0', 'employees': '446400.0', 'ticker': 'FDX'}
+2025-11-25 04:26:34,942 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,942 - ERROR - Failed to insert row 43: {'rank': 47, 'company': 'Walt Disney', 'industry': 'Entertainment', 'revenue': '88898.0', 'employees': '199125.0', 'ticker': 'DIS'}
+2025-11-25 04:26:34,942 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,942 - ERROR - Failed to insert row 44: {'rank': 48, 'company': 'Dell Technologies', 'industry': 'Computers, Office Equipment', 'revenue': '88425.0', 'employees': '120000.0', 'ticker': 'DELL'}
+2025-11-25 04:26:34,942 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,942 - ERROR - Failed to insert row 45: {'rank': 49, 'company': "Lowe'S", 'industry': 'Specialty Retailers', 'revenue': '86377.0', 'employees': '226000.0', 'ticker': 'X1G.PA'}
+2025-11-25 04:26:34,942 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,942 - ERROR - Failed to insert row 46: {'rank': 50, 'company': 'Procter & Gamble', 'industry': 'Household And Personal Products', 'revenue': '82006.0', 'employees': '107000.0', 'ticker': 'PG'}
+2025-11-25 04:26:34,942 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,942 - ERROR - Failed to insert row 47: {'rank': 51, 'company': 'Energy Transfer', 'industry': 'Pipelines', 'revenue': '78586.0', 'employees': '13786.0', 'ticker': 'ET'}
+2025-11-25 04:26:34,942 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,942 - ERROR - Failed to insert row 48: {'rank': 52, 'company': 'Boeing', 'industry': 'Aerospace, Defense', 'revenue': '77794.0', 'employees': '171000.0', 'ticker': 'BA'}
+2025-11-25 04:26:34,942 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,942 - ERROR - Failed to insert row 49: {'rank': 53, 'company': 'Albertsons', 'industry': 'Food & Drug Stores', 'revenue': '77649.7', 'employees': '198650.0', 'ticker': 'ACI'}
+2025-11-25 04:26:34,942 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,942 - ERROR - Failed to insert row 50: {'rank': 54, 'company': 'Sysco', 'industry': 'Wholesalers', 'revenue': '76324.7', 'employees': '71750.0', 'ticker': 'SYY'}
+2025-11-25 04:26:34,942 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,943 - ERROR - Failed to insert row 51: {'rank': 55, 'company': 'Rtx', 'industry': 'Aerospace, Defense', 'revenue': '68920.0', 'employees': '185000.0', 'ticker': 'RTX'}
+2025-11-25 04:26:34,943 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,943 - ERROR - Failed to insert row 52: {'rank': 56, 'company': 'General Electric', 'industry': 'Industrial Machinery', 'revenue': '67954.0', 'employees': '125000.0', 'ticker': 'GE'}
+2025-11-25 04:26:34,943 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,943 - ERROR - Failed to insert row 53: {'rank': 57, 'company': 'Lockheed Martin', 'industry': 'Aerospace, Defense', 'revenue': '67571.0', 'employees': '122000.0', 'ticker': 'LMT'}
+2025-11-25 04:26:34,943 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,943 - ERROR - Failed to insert row 54: {'rank': 58, 'company': 'American Express', 'industry': 'Diversified Financials', 'revenue': '67364.0', 'employees': '74600.0', 'ticker': 'AXP'}
+2025-11-25 04:26:34,943 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,943 - ERROR - Failed to insert row 55: {'rank': 59, 'company': 'Caterpillar', 'industry': 'Construction And Farm Machinery', 'revenue': '67060.0', 'employees': '113200.0', 'ticker': 'CAT'}
+2025-11-25 04:26:34,943 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,943 - ERROR - Failed to insert row 56: {'rank': 60, 'company': 'Metlife', 'industry': 'Insurance', 'revenue': '66905.0', 'employees': '45000.0', 'ticker': 'MET'}
+2025-11-25 04:26:34,943 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,943 - ERROR - Failed to insert row 57: {'rank': 61, 'company': 'Hca Healthcare', 'industry': 'Health Care: Medical Facilities', 'revenue': '64968.0', 'employees': '265000.0', 'ticker': 'HCA'}
+2025-11-25 04:26:34,943 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,943 - ERROR - Failed to insert row 58: {'rank': 62, 'company': 'Progressive', 'industry': 'Insurance', 'revenue': '62108.5', 'employees': '61432.0', 'ticker': 'PGR'}
+2025-11-25 04:26:34,943 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,943 - ERROR - Failed to insert row 59: {'rank': 63, 'company': 'Ibm', 'industry': 'Information Technology Services', 'revenue': '61860.0', 'employees': '296600.0', 'ticker': 'IBM'}
+2025-11-25 04:26:34,943 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,943 - ERROR - Failed to insert row 60: {'rank': 64, 'company': 'Deere', 'industry': 'Construction And Farm Machinery', 'revenue': '61251.0', 'employees': '82956.0', 'ticker': 'DE'}
+2025-11-25 04:26:34,943 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,944 - ERROR - Failed to insert row 61: {'rank': 65, 'company': 'Nvidia', 'industry': 'Semiconductor And Electronics', 'revenue': '60922.0', 'employees': '29600.0', 'ticker': 'NVDA'}
+2025-11-25 04:26:34,944 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,944 - ERROR - Failed to insert row 62: {'rank': 66, 'company': 'Stonex Group', 'industry': 'Diversified Financials', 'revenue': '60856.1', 'employees': '4137.0', 'ticker': 'SNEX'}
+2025-11-25 04:26:34,944 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,944 - ERROR - Failed to insert row 63: {'rank': 67, 'company': 'Merck', 'industry': 'Pharmaceutical', 'revenue': '60115.0', 'employees': '71000.0', 'ticker': 'MRK'}
+2025-11-25 04:26:34,944 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,944 - ERROR - Failed to insert row 64: {'rank': 68, 'company': 'Conocophillips', 'industry': 'Mining, Crude-Oil Production', 'revenue': '58574.0', 'employees': '9900.0', 'ticker': 'COP'}
+2025-11-25 04:26:34,944 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,944 - ERROR - Failed to insert row 65: {'rank': 69, 'company': 'Pfizer', 'industry': 'Pharmaceutical', 'revenue': '58496.0', 'employees': '88000.0', 'ticker': 'PFIZER.NS'}
+2025-11-25 04:26:34,944 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,944 - ERROR - Failed to insert row 66: {'rank': 70, 'company': 'Delta Air Lines', 'industry': 'Airlines', 'revenue': '58048.0', 'employees': '103000.0', 'ticker': 'DAL'}
+2025-11-25 04:26:34,944 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,944 - ERROR - Failed to insert row 67: {'rank': 71, 'company': 'Td Synnex', 'industry': 'Wholesalers', 'revenue': '57555.4', 'employees': '28000.0', 'ticker': 'SNX'}
+2025-11-25 04:26:34,944 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,944 - ERROR - Failed to insert row 68: {'rank': 73, 'company': 'Allstate', 'industry': 'Insurance', 'revenue': '57094.0', 'employees': '53200.0', 'ticker': 'ALL'}
+2025-11-25 04:26:34,944 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,945 - ERROR - Failed to insert row 69: {'rank': 74, 'company': 'Cisco Systems', 'industry': 'Network And Other Communications Equipment', 'revenue': '56998.0', 'employees': '84900.0', 'ticker': 'CSCO'}
+2025-11-25 04:26:34,945 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,945 - ERROR - Failed to insert row 70: {'rank': 76, 'company': 'Charter Communications', 'industry': 'Telecommunications', 'revenue': '54607.0', 'employees': '101100.0', 'ticker': 'CHTR'}
+2025-11-25 04:26:34,945 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,945 - ERROR - Failed to insert row 71: {'rank': 77, 'company': 'Abbvie', 'industry': 'Pharmaceutical', 'revenue': '54318.0', 'employees': '50000.0', 'ticker': 'ABBV'}
+2025-11-25 04:26:34,945 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,945 - ERROR - Failed to insert row 72: {'rank': 78, 'company': 'New York Life Insurance', 'industry': 'Insurance', 'revenue': '54317.2', 'employees': '15384.0', 'ticker': '601336.SS'}
+2025-11-25 04:26:34,945 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,945 - ERROR - Failed to insert row 73: {'rank': 79, 'company': 'Intel', 'industry': 'Semiconductor And Electronics', 'revenue': '54228.0', 'employees': '124800.0', 'ticker': 'INTC'}
+2025-11-25 04:26:34,945 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,945 - ERROR - Failed to insert row 74: {'rank': 80, 'company': 'Tjx', 'industry': 'Specialty Retailers', 'revenue': '54217.0', 'employees': '329000.0', 'ticker': 'TJX'}
+2025-11-25 04:26:34,945 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,945 - ERROR - Failed to insert row 75: {'rank': 81, 'company': 'Prudential Financial', 'industry': 'Insurance', 'revenue': '53979.0', 'employees': '40366.0', 'ticker': 'PRU'}
+2025-11-25 04:26:34,945 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,945 - ERROR - Failed to insert row 76: {'rank': 83, 'company': 'United Airlines Holdings', 'industry': 'Airlines', 'revenue': '53717.0', 'employees': '103300.0', 'ticker': 'UAL'}
+2025-11-25 04:26:34,945 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,946 - ERROR - Failed to insert row 77: {'rank': 84, 'company': 'Performance Food Group', 'industry': 'Wholesalers', 'revenue': '53354.7', 'employees': '34825.0', 'ticker': 'PFGC'}
+2025-11-25 04:26:34,946 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,946 - ERROR - Failed to insert row 78: {'rank': 85, 'company': 'Tyson Foods', 'industry': 'Food Production', 'revenue': '52881.0', 'employees': '139000.0', 'ticker': 'TSN'}
+2025-11-25 04:26:34,946 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,946 - ERROR - Failed to insert row 79: {'rank': 86, 'company': 'American Airlines Group', 'industry': 'Metals & Mining', 'revenue': '52788.0', 'employees': '132100.0', 'ticker': 'AAL'}
+2025-11-25 04:26:34,946 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,946 - ERROR - Failed to insert row 80: {'rank': 87, 'company': 'Liberty Mutual Insurance Group', 'industry': 'Insurance', 'revenue': '52612.0', 'employees': '45000.0', 'ticker': 'LFG.AX'}
+2025-11-25 04:26:34,946 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,946 - ERROR - Failed to insert row 81: {'rank': 88, 'company': 'Nike', 'industry': 'Apparel', 'revenue': '51217.0', 'employees': '83700.0', 'ticker': 'NKE'}
+2025-11-25 04:26:34,946 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,946 - ERROR - Failed to insert row 82: {'rank': 89, 'company': 'Oracle', 'industry': 'Computer Software', 'revenue': '49954.0', 'employees': '164000.0', 'ticker': 'ORCL'}
+2025-11-25 04:26:34,946 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,946 - ERROR - Failed to insert row 83: {'rank': 90, 'company': 'Enterprise Products Partners', 'industry': 'Pipelines', 'revenue': '49715.0', 'employees': '7500.0', 'ticker': 'EPD'}
+2025-11-25 04:26:34,946 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,946 - ERROR - Failed to insert row 84: {'rank': 91, 'company': 'Capital One Financial', 'industry': 'Commercial Banks', 'revenue': '49484.0', 'employees': '51987.0', 'ticker': 'COF'}
+2025-11-25 04:26:34,946 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,946 - ERROR - Failed to insert row 85: {'rank': 92, 'company': 'Plains Gp Holdings', 'industry': 'Pipelines', 'revenue': '48712.0', 'employees': '4200.0', 'ticker': 'PAGP'}
+2025-11-25 04:26:34,946 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,946 - ERROR - Failed to insert row 86: {'rank': 93, 'company': 'World Kinect', 'industry': 'Energy', 'revenue': '47710.6', 'employees': '5289.0', 'ticker': 'WKC'}
+2025-11-25 04:26:34,946 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,947 - ERROR - Failed to insert row 87: {'rank': 94, 'company': 'Aig', 'industry': 'Insurance', 'revenue': '46802.0', 'employees': '25200.0', 'ticker': 'AIG'}
+2025-11-25 04:26:34,947 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,947 - ERROR - Failed to insert row 88: {'rank': 95, 'company': 'Coca-Cola', 'industry': 'Beverage', 'revenue': '45754.0', 'employees': '79100.0', 'ticker': 'COLA.WA'}
+2025-11-25 04:26:34,947 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,947 - ERROR - Failed to insert row 89: {'rank': 96, 'company': 'Tiaa', 'industry': 'Insurance', 'revenue': '45734.8', 'employees': '16023.0', 'ticker': 'TILIX'}
+2025-11-25 04:26:34,947 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,947 - ERROR - Failed to insert row 90: {'rank': 97, 'company': 'Chs', 'industry': 'Food Production', 'revenue': '45590.0', 'employees': '10609.0', 'ticker': 'CHS.V'}
+2025-11-25 04:26:34,947 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,947 - ERROR - Failed to insert row 91: {'rank': 99, 'company': 'Dow', 'industry': 'Chemicals', 'revenue': '44622.0', 'employees': '35900.0', 'ticker': 'DOW'}
+2025-11-25 04:26:34,947 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,947 - ERROR - Failed to insert row 92: {'rank': 100, 'company': 'Best Buy', 'industry': 'Specialty Retailers', 'revenue': '43452.0', 'employees': '85000.0', 'ticker': 'BBY'}
+2025-11-25 04:26:34,947 - ERROR - Error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, company, industry, revenue, employees, ticker, created_by, updated_by, las' at line 1
+2025-11-25 04:26:34,947 - INFO - Successfully inserted 0/93 rows into company_metadata
+2025-11-25 04:26:34,947 - INFO - Loaded 93 rows to company_metadata
+2025-11-25 04:26:34,947 - INFO - company_metadata processed and linked to stocks_raw
+2025-11-25 04:26:34,947 - INFO - 
+============================================================
+2025-11-25 04:26:34,947 - INFO - Processing INDEPENDENT TABLES
+2025-11-25 04:26:34,947 - INFO - Processing exchange_rates
+2025-11-25 04:26:34,948 - INFO - Read 251 rows from 2024.csv
+2025-11-25 04:26:34,949 - INFO - Merged 251 rows for exchange_rates
+2025-11-25 04:26:34,981 - INFO - Validation complete for exchange_rates: valid=251, invalid=0
+2025-11-25 04:26:34,984 - INFO - Valid: 251, Invalid: 0
+2025-11-25 04:26:34,992 - INFO - Table exchange_rates created
+2025-11-25 04:26:35,011 - INFO - Inserted 251 rows into exchange_rates
+2025-11-25 04:26:35,011 - INFO - Loaded 251 rows to exchange_rates
+2025-11-25 04:26:35,011 - INFO - exchange_rates processed
+2025-11-25 04:26:35,011 - INFO - Processing macro_raw
+2025-11-25 04:26:35,012 - INFO - Read 4 rows from 2024.csv
+2025-11-25 04:26:35,012 - INFO - Merged 4 rows for macro_raw
+2025-11-25 04:26:35,013 - INFO - Validation complete for macro_raw: valid=4, invalid=0
+2025-11-25 04:26:35,014 - INFO - Valid: 4, Invalid: 0
+2025-11-25 04:26:35,021 - INFO - Table macro_raw created
+2025-11-25 04:26:35,024 - INFO - Inserted 4 rows into macro_raw
+2025-11-25 04:26:35,024 - INFO - Loaded 4 rows to macro_raw
+2025-11-25 04:26:35,024 - INFO - macro_raw processed
+2025-11-25 04:26:35,024 - INFO - 
+============================================================
+2025-11-25 04:26:35,024 - INFO - Processing SENTIMENT DATA
+2025-11-25 04:26:35,024 - INFO - Processing sentiment
+2025-11-25 04:26:35,024 - WARNING - No historical data available for sentiment - only live data exists
+2025-11-25 04:26:35,024 - WARNING - sentiment not available
+2025-11-25 04:26:35,024 - INFO - 
+============================================================
+2025-11-25 04:26:35,024 - INFO - KPI CALCULATIONS AND FACT TABLE GENERATION
+2025-11-25 04:26:35,024 - INFO - ============================================================
+2025-11-25 04:26:35,024 - INFO - Starting KPI calculations
+2025-11-25 04:26:35,027 - INFO - Loaded stocks_raw: 3695 rows
+2025-11-25 04:26:35,027 - INFO - Loaded macro_raw: 4 rows
+2025-11-25 04:26:35,027 - INFO - Loaded company_metadata: 93 rows
+2025-11-25 04:26:35,027 - INFO - Loaded exchange_rates: 251 rows
+2025-11-25 04:26:35,029 - INFO - Calculating stock_facts metrics...
+2025-11-25 04:26:35,070 - INFO - Stock facts calculated: 3695 rows
+2025-11-25 04:26:35,070 - INFO - Calculating macro_facts metrics...
+2025-11-25 04:26:35,076 - INFO - Macro facts calculated: 4 rows
+2025-11-25 04:26:35,076 - INFO - Creating sector_lookup...
+2025-11-25 04:26:35,076 - INFO - Sector lookup created: 36 sectors
+2025-11-25 04:26:35,076 - INFO - Calculating analytics_summary metrics...
+2025-11-25 04:26:35,231 - INFO - Analytics summary calculated: 93 rows
+2025-11-25 04:26:35,231 - INFO - 
+============================================================
+2025-11-25 04:26:35,231 - INFO - KPI calculations completed successfully
+2025-11-25 04:26:35,231 - INFO - Generated files: stock_facts.csv, macro_facts.csv, sector_lookup.csv, analytics_summary.csv, pipeline_logs.csv
+2025-11-25 04:26:35,231 - INFO - KPI calculations completed successfully
+2025-11-25 04:26:35,236 - INFO - Table stock_facts created
+2025-11-25 04:26:35,611 - INFO - Inserted 3695 rows into stock_facts
+2025-11-25 04:26:35,611 - INFO - Loaded stock_facts to database
+2025-11-25 04:26:35,615 - INFO - Table macro_facts created
+2025-11-25 04:26:35,618 - INFO - Inserted 4 rows into macro_facts
+2025-11-25 04:26:35,618 - INFO - Loaded macro_facts to database
+2025-11-25 04:26:35,620 - INFO - Table sector_lookup created
+2025-11-25 04:26:35,625 - INFO - Inserted 36 rows into sector_lookup
+2025-11-25 04:26:35,625 - INFO - Loaded sector_lookup to database
+2025-11-25 04:26:35,629 - INFO - Table analytics_summary created
+2025-11-25 04:26:35,642 - INFO - Inserted 93 rows into analytics_summary
+2025-11-25 04:26:35,642 - INFO - Loaded analytics_summary to database
+2025-11-25 04:26:35,642 - INFO - 
+============================================================
+2025-11-25 04:26:35,642 - INFO -  ANALYTICS LAYER
+2025-11-25 04:26:35,642 - INFO - 
+================================================================================
+2025-11-25 04:26:35,642 - INFO - REPORT GENERATION STARTED
+2025-11-25 04:26:35,642 - INFO - ================================================================================
+2025-11-25 04:26:35,642 - INFO - ================================================================================
+2025-11-25 04:26:35,643 - INFO - Created directory: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/reports
+2025-11-25 04:26:35,643 - INFO - 
+============================================================
+2025-11-25 04:26:35,643 - INFO - Generating Report 1: Annual Market Intelligence Report
+2025-11-25 04:26:35,643 - INFO - ============================================================
+2025-11-25 04:26:35,652 - INFO - Fetched 1 rows for yearly performance
+2025-11-25 04:26:35,654 - INFO - Fetched 20 rows for company performance
+2025-11-25 04:26:35,655 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report1_yearly_performance.csv
+2025-11-25 04:26:35,655 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report1_company_performance.csv
+2025-11-25 04:26:35,658 - INFO - Report 1 completed: {'csv': ['/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report1_yearly_performance.csv', '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report1_company_performance.csv'], 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/reports/report1_annual_market_intelligence_20251125_042635.pdf'}
+2025-11-25 04:26:35,658 - INFO - 
+============================================================
+2025-11-25 04:26:35,658 - INFO - Generating Report 2: Sector Stability & Volatility Report
+2025-11-25 04:26:35,658 - INFO - ============================================================
+2025-11-25 04:26:35,666 - INFO - Fetched 36 rows for sector metrics
+2025-11-25 04:26:35,667 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report2_sector_stability.csv
+2025-11-25 04:26:35,729 - INFO - Saved Excel: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/reports/report2_sector_stability_20251125_042635.xlsx
+2025-11-25 04:26:35,732 - INFO - Report 2 completed: {'csv': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report2_sector_stability.csv', 'excel': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/reports/report2_sector_stability_20251125_042635.xlsx', 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/reports/report2_sector_stability_20251125_042635.pdf'}
+2025-11-25 04:26:35,732 - INFO - 
+============================================================
+2025-11-25 04:26:35,732 - INFO - Generating Report 3: Cross-Market Analysis Report
+2025-11-25 04:26:35,732 - INFO - ============================================================
+2025-11-25 04:26:35,737 - INFO - Fetched 1 rows for yearly currency data
+2025-11-25 04:26:35,738 - INFO - Fetched 20 rows for company currency data
+2025-11-25 04:26:35,739 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report3_currency_yearly.csv
+2025-11-25 04:26:35,739 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report3_company_currency.csv
+2025-11-25 04:26:35,741 - INFO - Report 3 completed: {'csv': ['/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report3_currency_yearly.csv', '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report3_company_currency.csv'], 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/reports/report3_cross_market_20251125_042635.pdf'}
+2025-11-25 04:26:35,741 - INFO - 
+============================================================
+2025-11-25 04:26:35,741 - INFO - Generating Report 4: Forecasting & Prediction Summary
+2025-11-25 04:26:35,741 - INFO - ============================================================
+2025-11-25 04:26:35,745 - INFO - Fetched 1 rows for quarterly trends
+2025-11-25 04:26:35,746 - INFO - Fetched 36 rows for sector forecast
+2025-11-25 04:26:35,746 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report4_quarterly_trends.csv
+2025-11-25 04:26:35,746 - INFO - Saved intermediate CSV: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report4_sector_forecast.csv
+2025-11-25 04:26:35,749 - INFO - Saved PDF: /Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/reports/report4_forecasting_20251125_042635.pdf
+2025-11-25 04:26:35,749 - INFO - Report 4 completed: {'csv': ['/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report4_quarterly_trends.csv', '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/report4_sector_forecast.csv'], 'pdf': '/Users/shalinitata/Desktop/stocks/Execution/2025/11/25/2025:11:25_04:26:34/reports/report4_forecasting_20251125_042635.pdf'}
+2025-11-25 04:26:35,749 - INFO - 
+================================================================================
+2025-11-25 04:26:35,749 - INFO - REPORT GENERATION COMPLETED SUCCESSFULLY
+2025-11-25 04:26:35,749 - INFO - ================================================================================
+2025-11-25 04:26:35,749 - INFO - 
+Generated Reports:
+2025-11-25 04:26:35,749 - INFO - 1. Annual Market Intelligence Report
+2025-11-25 04:26:35,749 - INFO - 2. Sector Stability & Volatility Report
+2025-11-25 04:26:35,749 - INFO - 3. Cross-Market Analysis Report
+2025-11-25 04:26:35,749 - INFO - 4. Forecasting & Prediction Summary
+2025-11-25 04:26:35,749 - INFO - ================================================================================

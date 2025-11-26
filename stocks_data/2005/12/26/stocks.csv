@@ -1,0 +1,4 @@
+company,ticker,date,open,high,low,close,volume
+Pfizer Inc.,PFIZER.NS,2005-12-26,555.11,588.48,536.02,558.28,40123
+AT&T Corp.,ATT.L,2005-12-26,22.25,22.25,22.25,22.25,0
+The Hartford Financial Services Group Inc.,HFF.BE,2005-12-26,51.02,51.02,51.02,51.02,0

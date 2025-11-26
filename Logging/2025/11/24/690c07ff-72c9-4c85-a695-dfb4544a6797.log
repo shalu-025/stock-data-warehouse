@@ -1,0 +1,14 @@
+
+********** ELT PROCESS **********
+Filename: currency data processor
+User ID: 800338
+Username: Shalini Tata
+File Path: /Users/shalinitata/Desktop/Currency data/watcher.py
+********** currency data processor **********
+2025-11-24 19:15:49,704 - INFO - -> started running the process <-
+2025-11-24 19:15:49,728 - INFO - 
+============================================================
+2025-11-24 19:15:49,728 - INFO - Fetching LIVE data for 2025
+2025-11-24 19:15:49,728 - INFO - Date: 2025-11-24
+2025-11-24 19:15:49,728 - INFO - ============================================================
+2025-11-24 19:15:49,732 - INFO - Total companies with tickers: 96

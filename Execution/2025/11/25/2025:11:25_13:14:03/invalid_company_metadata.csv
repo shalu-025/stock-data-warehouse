@@ -1,0 +1,64 @@
+rank,company,industry,revenue,employees,ticker
+1,Walmart,General Merchandisers,611289.0,2100000.0,WMT
+2,Amazon,Internet Services and Retailing,513983.0,1541000.0,AMZN
+3,Exxon Mobil,Petroleum Refining,413680.0,62000.0,XOM
+4,Apple,"Computers, Office Equipment",394328.0,164000.0,APLE
+8,Alphabet,Internet Services and Retailing,282836.0,190234.0,GOOGL
+10,Chevron,Petroleum Refining,246252.0,43846.0,CVX
+13,Microsoft,Computer Software,198270.0,221000.0,MSFT
+14,Cardinal Health,Wholesalers: Health Care,181364.0,46035.0,CAH
+15,Cigna,Health Care: Pharmacy and Other Services,180516.0,70231.0,CI
+16,Marathon Petroleum,Petroleum Refining,180012.0,17800.0,MPC
+17,Phillips 66,Petroleum Refining,175702.0,13000.0,PSX
+18,Valero Energy,Petroleum Refining,171189.0,9743.0,VLO
+19,Ford Motor,Motor Vehicles & Parts,158057.0,173000.0,F
+20,Home Depot,Specialty Retailers: Other,157403.0,471600.0,HD
+21,General Motors,Motor Vehicles & Parts,156735.0,167000.0,GM
+22,Elevance Health,Health Care: Insurance and Managed Care,156595.0,102300.0,ELV
+24,Kroger,Food & Drug Stores,148258.0,430000.0,KR
+25,Centene,Health Care: Insurance and Managed Care,144547.0,74300.0,CNC
+26,Verizon Communications,Telecommunications,136835.0,117100.0,VZ
+28,Fannie Mae,Diversified Financials,121596.0,8000.0,FNMA
+29,Comcast,Telecommunications,121427.0,186000.0,CMCSA
+31,Meta Platforms,Internet Services and Retailing,116609.0,86482.0,META
+33,Target,General Merchandisers,109120.0,440000.0,TGT
+34,Dell Technologies,"Computers, Office Equipment",102301.0,133000.0,DELL
+35,Archer Daniels Midland,Food Production,101556.0,41181.0,ADM
+36,Citigroup,Commercial Banks,101078.0,238104.0,C
+38,Pfizer,Pharmaceuticals,100330.0,83000.0,PFIZER.NS
+40,Johnson & Johnson,Pharmaceuticals,94943.0,152700.0,JNJ
+42,Humana,Health Care: Insurance and Managed Care,92870.0,67100.0,HUM.ST
+43,Energy Transfer,Pipelines,89876.0,12565.0,ET
+45,Freddie Mac,Diversified Financials,86717.0,7819.0,FMCC
+47,Wells Fargo,Commercial Banks,82859.0,238000.0,WFC
+48,Walt Disney,Entertainment,82722.0,195800.0,DIS
+50,Tesla,Motor Vehicles & Parts,81462.0,127855.0,TSLA
+51,Procter & Gamble,Household and Personal Products,80187.0,106000.0,PG
+52,General Electric,Industrial Machinery,76555.0,172000.0,GE
+53,Albertsons,Food & Drug Stores,71887.0,195750.0,ACI
+55,Goldman Sachs Group,Commercial Banks,68711.0,48500.0,GS
+56,Sysco,Wholesalers: Food and Grocery,68636.0,70510.0,SYY
+58,Boeing,Aerospace & Defense,66608.0,156000.0,BA
+60,Lockheed Martin,Aerospace & Defense,65984.0,116000.0,LMT
+61,Morgan Stanley,Commercial Banks,65936.0,82427.0,MS
+62,Intel,Semiconductors and Other Electronic Components,63054.0,131900.0,INTC
+67,Prudential Financial,"Insurance: Life, Health (Stock)",60050.0,39583.0,PRU
+68,Caterpillar,Construction and Farm Machinery,59427.0,109100.0,CAT
+69,Merck,Pharmaceuticals,59283.0,68000.0,MRK
+71,New York Life Insurance,"Insurance: Life, Health (Mutual)",58445.0,15050.0,601336.SS
+72,Enterprise Products Partners,Pipelines,58186.0,7300.0,EPD
+75,Dow,Chemicals,56902.0,37800.0,DOW
+77,American Express,Diversified Financials,55625.0,77300.0,AXP
+79,Charter Communications,Telecommunications,54022.0,101700.0,CHTR
+80,Tyson Foods,Food Production,53282.0,142000.0,TSN
+81,Deere,Construction and Farm Machinery,52577.0,82239.0,DE
+82,Cisco Systems,Network and Other Communications Equipment,51557.0,83300.0,CSCO
+84,Allstate,Insurance: Property and Casualty (Stock),51412.0,54250.0,ALL
+85,Delta Air Lines,Airlines,50582.0,95000.0,DAL
+86,Liberty Mutual Insurance Group,Insurance: Property and Casualty (Stock),49956.0,50000.0,LFG.AX
+88,Progressive,Insurance: Property and Casualty (Stock),49611.0,55063.0,PGR
+89,American Airlines Group,Airlines,48971.0,129700.0,AAL
+91,Performance Food Group,Wholesalers: Food and Grocery,47194.0,34825.0,PFGC
+93,Nike,Apparel,46710.0,79100.0,NKE
+94,Best Buy,Specialty Retailers: Other,46298.0,71100.0,BBY
+96,United Airlines Holdings,Airlines,44955.0,92795.0,UAL

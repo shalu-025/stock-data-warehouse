@@ -1,0 +1,4 @@
+company,ticker,date,open,high,low,close,volume
+Pfizer Inc.,PFIZER.NS,2011-12-26,707.04,712.74,702.89,706.62,1708
+Kraft Foods Inc.,1959.T,2011-12-26,329.81,339.05,324.12,324.12,42000
+New York Life Insurance Company,601336.SS,2011-12-26,20.31,20.78,20.14,20.31,7469975

@@ -1,0 +1,4 @@
+company,ticker,date,open,high,low,close,volume
+Pfizer Inc.,PFIZER.NS,2012-01-02,689.34,714.05,689.34,697.98,2365
+Express Scripts Holding Company,ESH.BE,2012-01-02,6.07,6.07,6.07,6.07,0
+World Fuel Services Corporation,WFK.BE,2012-01-02,26.74,26.74,26.66,26.66,0

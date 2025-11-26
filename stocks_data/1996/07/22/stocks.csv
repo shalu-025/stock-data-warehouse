@@ -1,0 +1,38 @@
+company,ticker,date,open,high,low,close,volume
+Ford Motor Company,F,1996-07-22,4.06,4.11,4.04,4.07,5511676
+Exxon Corporation,XOM,1996-07-22,8.55,8.64,8.5,8.58,7565200
+"Wal-Mart Stores, Inc.",WMT,1996-07-22,2.48,2.49,2.43,2.43,12385200
+AT&T Corp.,ATT.L,1996-07-22,10.5,10.5,10.5,10.5,0
+International Business Machines Corporation,IBM,1996-07-22,11.25,11.25,11.07,11.15,7450867
+General Electric Company,GE,1996-07-22,33.46,33.46,33.0,33.16,2538750
+State Farm Group,SFG.AX,1996-07-22,0.35,0.35,0.35,0.35,0
+Chevron Corporation,CVX,1996-07-22,9.93,10.03,9.82,9.84,1661400
+"PepsiCo, Inc.",PEP,1996-07-22,14.79,14.96,14.56,14.96,2015900
+"Motorola, Inc.",MSI,1996-07-22,44.65,44.65,43.62,44.13,2212912
+"American International Group,Inc.",AIG,1996-07-22,258.62,260.01,255.84,256.53,72330
+"ConAgra, Inc.",CAG,1996-07-22,5.96,5.99,5.91,5.92,703923
+The Kroger Company,KR,1996-07-22,3.32,3.34,3.28,3.33,3365600
+Lockheed Martin Corporation,LMT,1996-07-22,19.49,19.52,19.34,19.4,843200
+The Allstate Corporation,ALL,1996-07-22,10.63,10.88,10.53,10.85,1577600
+Federal National Mortgage Association,FNMA,1996-07-22,24.23,24.42,24.04,24.23,1959400
+International Paper Company,IP,1996-07-22,13.6,13.6,13.25,13.39,1266202
+The Boeing Company,BA,1996-07-22,26.86,26.86,26.55,26.7,1303400
+Xerox Corporation,XRX,1996-07-22,26.38,26.45,25.71,25.71,458588
+Cigna Corporation,CI,1996-07-22,9.67,9.67,9.46,9.53,1147500
+Johnson & Johnson,JNJ,1996-07-22,11.9,11.99,11.62,11.93,3103800
+Loews Corporation,L,1996-07-22,10.47,10.68,10.45,10.52,1728600
+American Express Company,AXP,1996-07-22,8.21,8.21,8.06,8.11,2951674
+"Merck & Co., Inc.",MRK,1996-07-22,11.43,11.61,11.43,11.61,6685402
+Intel Corporation,INTC,1996-07-22,5.13,5.14,5.04,5.1,52232000
+Minnesota Mining & Manufacturing Company,MMM,1996-07-22,12.23,12.32,12.14,12.23,2155670
+"Caterpillar, Inc.",CAT,1996-07-22,8.06,8.06,7.92,7.92,4594000
+J.P. Morgan & Co. Inc.,JPM,1996-07-22,10.0,10.08,9.93,9.95,4470000
+Digital Equipment Corporation,GEN,1996-07-22,0.45,0.45,0.43,0.44,3580800
+McKesson Corporation,MCK,1996-07-22,17.66,17.66,17.41,17.51,67400
+The Goodyear Tire & Rubber Company,TGT,1996-07-22,4.3,4.39,4.28,4.32,2890400
+"Texas Instruments, Inc.",TXN,1996-07-22,3.2,3.26,3.15,3.26,7564000
+Rockwell International Corporation,ROK,1996-07-22,7.32,7.41,7.26,7.35,412400
+Archer Daniels Midland Company,ADM,1996-07-22,6.56,6.6,6.51,6.51,1002392
+Alcoa,AA,1996-07-22,22.8,22.85,22.6,22.6,515689
+"ITT Hartford Group, Inc.",ITT,1996-07-22,2.65,2.65,2.59,2.61,2262364
+SYSCO Corporation,SYY,1996-07-22,3.53,3.53,3.49,3.52,1878800

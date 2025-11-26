@@ -1,0 +1,4 @@
+company,ticker,date,open,high,low,close,volume
+Pfizer Inc.,PFIZER.NS,2011-05-30,807.47,807.47,790.2,801.65,2669
+Kraft Foods Inc.,1959.T,2011-05-30,320.34,325.27,316.11,316.82,18000
+Sprint Nextel Corporation,SIX.AX,2011-05-30,0.86,0.86,0.86,0.86,0
